@@ -1,0 +1,4643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_trade_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="npc_trade_list.xsd">
+	<!-- Ajouts Aion Phenix -->
+	<tradelist_template npc_id="216527" name="lupukin">
+        <tradelist id="837"/>
+    </tradelist_template>
+	<tradelist_template npc_id="279020" name="chieninenerk">
+        <tradelist id="232"/>
+        <tradelist id="234"/>
+    </tradelist_template>
+	<tradelist_template npc_id="278012" name="lawusan" sell_price_rate="200">
+		<tradelist id="365"/>
+		<tradelist id="107"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278011" name="bacht" sell_price_rate="200">
+		<tradelist id="366"/>
+		<tradelist id="367"/>
+		<tradelist id="368"/>
+		<tradelist id="369"/>
+		<tradelist id="106"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278010" name="fraiban">
+		<tradelist id="361"/>
+		<tradelist id="362"/>
+		<tradelist id="363"/>
+		<tradelist id="364"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278008" name="koaf" sell_price_rate="200">
+		<tradelist id="373"/>
+		<tradelist id="102"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279025">
+		<tradelist id="432"/>
+		<tradelist id="433"/>
+		<tradelist id="434"/>
+		<tradelist id="435"/>
+ 	</tradelist_template>
+	<tradelist_template npc_id="278007" name="siana" sell_price_rate="200">
+		<tradelist id="371"/>
+		<tradelist id="1483"/>
+		<tradelist id="1506"/>
+		<tradelist id="118"/>
+		<tradelist id="101"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278021" name="bihugud" sell_price_rate="200">
+		<tradelist id="307"/>
+		<tradelist id="100"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278521" name="tenoeril" sell_price_rate="200">
+		<tradelist id="470"/>
+		<tradelist id="70"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278507" name="denegos" sell_price_rate="200">
+		<tradelist id="235"/>
+		<tradelist id="1509"/>
+		<tradelist id="239"/>
+		<tradelist id="71"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278510" name="lucius" sell_price_rate="200">
+		<tradelist id="223"/>
+		<tradelist id="224"/>
+		<tradelist id="225"/>
+		<tradelist id="226"/>
+		<tradelist id="72"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278511" name="minon" sell_price_rate="200">
+		<tradelist id="228"/>
+		<tradelist id="229"/>
+		<tradelist id="230"/>
+		<tradelist id="231"/>
+		<tradelist id="76"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278512" name="flavius" sell_price_rate="200">
+		<tradelist id="227"/>
+		<tradelist id="77"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278554" name="claudia">
+		<tradelist id="236"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278054" name="spyr">
+		<tradelist id="374"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278508" name="zeth">
+		<tradelist id="373"/>
+	</tradelist_template>
+	<!-- Ajouts Quartiers Maîtres des forteresses abyssales -->
+	<tradelist_template npc_id="264766" name="proserpine"> <!-- Soufre Ely -->
+		<tradelist id="70"/>
+	</tradelist_template>
+	<tradelist_template npc_id="264767" name="naun"> <!-- Soufre Asmo -->
+		<tradelist id="100"/>
+	</tradelist_template>
+	<tradelist_template npc_id="263566" name="cachus"> <!-- Ori Ely -->
+		<tradelist id="76"/>
+	</tradelist_template>
+	<tradelist_template npc_id="263567" name="ahsur"> <!-- Ori Asmo -->
+		<tradelist id="106"/>
+	</tradelist_template>
+	<tradelist_template npc_id="263264" name="lote"> <!-- Occi Ely -->
+		<tradelist id="77"/>
+	</tradelist_template>
+	<tradelist_template npc_id="263265" name="kercopes"> <!-- Occi Asmo -->
+		<tradelist id="107"/>
+	</tradelist_template>
+	<tradelist_template npc_id="268049" name="sirapos"> <!-- Krotan Ely -->
+		<tradelist id="73"/>
+	</tradelist_template>
+	<tradelist_template npc_id="268050" name="egir"> <!-- Krotan Asmo -->
+		<tradelist id="103"/>
+	</tradelist_template>
+	<tradelist_template npc_id="269249" name="igistus"> <!-- Kysis Ely -->
+		<tradelist id="75"/>
+	</tradelist_template>
+	<tradelist_template npc_id="269250" name="varna"> <!-- Kysis Asmo -->
+		<tradelist id="105"/>
+	</tradelist_template>
+	<tradelist_template npc_id="270149" name="arketer"> <!-- Miren Ely -->
+		<tradelist id="74"/>
+	</tradelist_template>
+	<tradelist_template npc_id="270150" name="ahnaare"> <!-- Miren Asmo -->
+		<tradelist id="104"/>
+	</tradelist_template>
+	<tradelist_template npc_id="271051" name="pherdix"> <!-- Astéria Ely -->
+		<tradelist id="72"/>
+	</tradelist_template>
+	<tradelist_template npc_id="271052" name="acetral"> <!-- Astéria Asmo -->
+		<tradelist id="102"/>
+	</tradelist_template>
+	<tradelist_template npc_id="260233" name="smintian"> <!-- Divine Ely -->
+		<tradelist id="78"/>
+	</tradelist_template>
+	<tradelist_template npc_id="260234" name="bumkae"> <!-- Divine Asmo -->
+		<tradelist id="108"/>
+	</tradelist_template>
+	<tradelist_template npc_id="266551" name="semelle"> <!-- Roah Ely -->
+		<tradelist id="71"/>
+	</tradelist_template>
+	<tradelist_template npc_id="266552" name="tazze"> <!-- Roah Asmo -->
+		<tradelist id="101"/>
+	</tradelist_template>
+	
+	<tradelist_template npc_id="203060" name="Mune">
+		<tradelist id="129"/>
+		<tradelist id="130"/>
+		<tradelist id="131"/>
+		<tradelist id="450"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203061" name="Uno">
+		<tradelist id="133"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203063" name="Amus">
+		<tradelist id="127"/>
+		<tradelist id="128"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203080" name="Lonia">
+		<tradelist id="132"/>
+		<tradelist id="720"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203081" name="oz">
+		<tradelist id="132"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203082" name="tula">
+		<tradelist id="132"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203087" name="kunandes">
+		<tradelist id="1"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203088" name="gilden">
+		<tradelist id="3"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203089" name="esera">
+		<tradelist id="2"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203090" name="kagas">
+		<tradelist id="4"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203094" name="drasia">
+		<tradelist id="144"/>
+		<tradelist id="69"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203100" name="ivis">
+		<tradelist id="134"/>
+		<tradelist id="135"/>
+		<tradelist id="136"/>
+		<tradelist id="137"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203101" name="nadaelo">
+		<tradelist id="138"/>
+		<tradelist id="139"/>
+		<tradelist id="140"/>
+		<tradelist id="141"/>
+		<tradelist id="451"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203107" name="irian">
+		<tradelist id="395"/>
+		<tradelist id="1509"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203108" name="ispio">
+		<tradelist id="143"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203130" name="eradis">
+		<tradelist id="188"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203131" name="maniparas">
+		<tradelist id="142"/>
+		<tradelist id="1517"/>
+		<tradelist id="143"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203158" name="ibion">
+		<tradelist id="142"/>
+		<tradelist id="1517"/>
+		<tradelist id="143"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203161" name="eninte">
+		<tradelist id="156"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203179" name="Anontrite" npc_type="REWARD">
+		<tradelist id="938"/>
+		<tradelist id="940"/>
+		<tradelist id="942"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203200" name="Arateia1">
+		<tradelist id="240"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203224" name="Arateia2">
+		<tradelist id="241"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203225" name="Arateia3">
+		<tradelist id="242"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203226" name="Marateia1">
+		<tradelist id="331"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203227" name="Marateia2">
+		<tradelist id="332"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203228" name="Marateia3">
+		<tradelist id="333"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203234" name="Arateia4">
+		<tradelist id="119"/>
+		<tradelist id="120"/>
+		<tradelist id="442"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203235" name="Arateia5">
+		<tradelist id="123"/>
+		<tradelist id="125"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203236" name="Marateia4">
+		<tradelist id="121"/>
+		<tradelist id="122"/>
+		<tradelist id="443"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203237" name="Marateia5">
+		<tradelist id="124"/>
+		<tradelist id="126"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203248" name="Matest9">
+		<tradelist id="94"/>
+		<tradelist id="88"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203249" name="Matest10">
+		<tradelist id="95"/>
+		<tradelist id="89"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203250" name="Matest11">
+		<tradelist id="98"/>
+		<tradelist id="92"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203251" name="Matest12">
+		<tradelist id="97"/>
+		<tradelist id="91"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203252" name="Matest13">
+		<tradelist id="96"/>
+		<tradelist id="90"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203253" name="Matest14">
+		<tradelist id="99"/>
+		<tradelist id="93"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203254" name="Store1">
+		<tradelist id="245"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203255" name="Store2">
+		<tradelist id="246"/>
+		<tradelist id="405"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203256" name="Store3">
+		<tradelist id="248"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203257" name="Store4">
+		<tradelist id="249"/>
+		<tradelist id="406"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203258" name="Store5">
+		<tradelist id="250"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203259" name="Store6">
+		<tradelist id="251"/>
+		<tradelist id="407"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203260" name="Store7">
+		<tradelist id="252"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203261" name="Store8">
+		<tradelist id="253"/>
+		<tradelist id="408"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203262" name="Store9">
+		<tradelist id="254"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203263" name="Store10">
+		<tradelist id="255"/>
+		<tradelist id="409"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203264" name="Store11">
+		<tradelist id="247"/>
+<!--	<tradelist id="258"/> -->
+		<tradelist id="414"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203265" name="Store12">
+		<tradelist id="256"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203266" name="Mastore1">
+		<tradelist id="335"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203267" name="Mastore2">
+		<tradelist id="336"/>
+		<tradelist id="405"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203268" name="Mastore3">
+		<tradelist id="338"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203269" name="Mastore4">
+		<tradelist id="339"/>
+		<tradelist id="410"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203270" name="Mastore5">
+		<tradelist id="340"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203271" name="Mastore6">
+		<tradelist id="341"/>
+		<tradelist id="411"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203272" name="Mastore7">
+		<tradelist id="342"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203273" name="Mastore8">
+		<tradelist id="343"/>
+		<tradelist id="412"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203274" name="Mastore9">
+		<tradelist id="344"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203275" name="Mastore10">
+		<tradelist id="345"/>
+		<tradelist id="413"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203276" name="Mastore11">
+		<tradelist id="337"/>
+<!--	<tradelist id="347"/> -->
+		<tradelist id="414"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203277" name="Mastore12">
+		<tradelist id="346"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203288" name="Skill_L1">
+		<tradelist id="21"/>
+		<tradelist id="599"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203289" name="Skill_L2">
+		<tradelist id="22"/>
+		<tradelist id="600"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203290" name="Skill_L3">
+		<tradelist id="23"/>
+		<tradelist id="601"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203291" name="Skill_L4">
+		<tradelist id="24"/>
+		<tradelist id="602"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203292" name="Skill_L5">
+		<tradelist id="27"/>
+		<tradelist id="605"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203293" name="Skill_L6">
+		<tradelist id="28"/>
+		<tradelist id="606"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203294" name="Skill_L7">
+		<tradelist id="25"/>
+		<tradelist id="603"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203295" name="Skill_L8">
+		<tradelist id="26"/>
+		<tradelist id="604"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203296" name="Skill_D1">
+		<tradelist id="49"/>
+		<tradelist id="607"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203297" name="Skill_D2">
+		<tradelist id="50"/>
+		<tradelist id="608"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203298" name="Skill_D3">
+		<tradelist id="51"/>
+		<tradelist id="609"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203299" name="Skill_D4">
+		<tradelist id="52"/>
+		<tradelist id="610"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203300" name="Skill_D5">
+		<tradelist id="55"/>
+		<tradelist id="613"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203301" name="Skill_D6">
+		<tradelist id="56"/>
+		<tradelist id="614"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203302" name="Skill_D7">
+		<tradelist id="53"/>
+		<tradelist id="611"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203303" name="Skill_D8">
+		<tradelist id="54"/>
+		<tradelist id="612"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203304" name="Production_L1">
+		<tradelist id="86"/>
+		<tradelist id="800"/>
+		<tradelist id="87"/>
+		<tradelist id="801"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203305" name="Production_L2">
+		<tradelist id="79"/>
+		<tradelist id="87"/>
+		<tradelist id="801"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203306" name="Production_L3">
+		<tradelist id="80"/>
+		<tradelist id="81"/>
+		<tradelist id="796"/>
+		<tradelist id="87"/>
+		<tradelist id="801"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203307" name="Production_L4">
+		<tradelist id="84"/>
+		<tradelist id="798"/>
+		<tradelist id="87"/>
+		<tradelist id="801"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203308" name="Production_L5">
+		<tradelist id="85"/>
+		<tradelist id="799"/>
+		<tradelist id="87"/>
+		<tradelist id="801"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203309" name="Production_L6">
+		<tradelist id="82"/>
+		<tradelist id="83"/>
+		<tradelist id="797"/>
+		<tradelist id="87"/>
+		<tradelist id="801"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203310" name="Production_D1">
+		<tradelist id="116"/>
+		<tradelist id="806"/>
+		<tradelist id="117"/>
+		<tradelist id="807"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203311" name="Production_D2">
+		<tradelist id="109"/>
+		<tradelist id="117"/>
+		<tradelist id="807"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203312" name="Production_D3">
+		<tradelist id="110"/>
+		<tradelist id="111"/>
+		<tradelist id="802"/>
+		<tradelist id="117"/>
+		<tradelist id="807"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203313" name="Production_D4">
+		<tradelist id="114"/>
+		<tradelist id="804"/>
+		<tradelist id="117"/>
+		<tradelist id="807"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203314" name="Production_D5">
+		<tradelist id="115"/>
+		<tradelist id="805"/>
+		<tradelist id="117"/>
+		<tradelist id="807"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203315" name="Production_D6">
+		<tradelist id="112"/>
+		<tradelist id="113"/>
+		<tradelist id="803"/>
+		<tradelist id="117"/>
+		<tradelist id="807"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203317" name="TEST_Weapon1"  >
+		<tradelist id="896"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203318" name="TEST_Weapon2" npc_type="REWARD">
+		<tradelist id="897"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203330" name="Laskis" npc_type="REWARD">
+		<tradelist id="939"/>
+		<tradelist id="941"/>
+		<tradelist id="943"/>
+		<tradelist id="1148"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203339" name="equip_average_Li_10"  >
+		<tradelist id="415"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203340" name="equip_average_Li_20"  >
+		<tradelist id="416"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203341" name="equip_average_Li_30"  >
+		<tradelist id="417"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203342" name="equip_average_Li_40"  >
+		<tradelist id="418"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203343" name="equip_average_Li_50"  >
+		<tradelist id="419"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203344" name="equip_average_Da_10"  >
+		<tradelist id="420"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203345" name="equip_average_Da_20"  >
+		<tradelist id="421"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203346" name="equip_average_Da_30"  >
+		<tradelist id="422"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203347" name="equip_average_Da_40"  >
+		<tradelist id="423"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203348" name="equip_average_Da_50"  >
+		<tradelist id="424"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203386" name="Aeetes" npc_type="ABYSS">
+		<tradelist id="534"/>
+		<tradelist id="535"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203387" name="Alcyone" npc_type="ABYSS">
+		<tradelist id="536"/>
+		<tradelist id="537"/>
+		<tradelist id="538"/>
+		<tradelist id="539"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203388" name="Ocyrrhoe" npc_type="ABYSS">
+		<tradelist id="501"/>
+		<tradelist id="502"/>
+		<tradelist id="503"/>
+		<tradelist id="504"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203389" name="Telephus" npc_type="ABYSS">
+		<tradelist id="505"/>
+		<tradelist id="506"/>
+		<tradelist id="507"/>
+		<tradelist id="508"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203514" name="hephe">
+		<tradelist id="259"/>
+		<tradelist id="260"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203515" name="dalor">
+		<tradelist id="261"/>
+		<tradelist id="262"/>
+		<tradelist id="263"/>
+		<tradelist id="454"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203526" name="ungfu">
+		<tradelist id="265"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203527" name="minu">
+		<tradelist id="29"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203528" name="wiokan">
+		<tradelist id="31"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203529" name="jurwen">
+		<tradelist id="30"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203530" name="kirhen">
+		<tradelist id="32"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203542" name="denma">
+		<tradelist id="264"/>
+		<tradelist id="721"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203576" name="nirmirn">
+		<tradelist id="275"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203577" name="dortos">
+		<tradelist id="270"/>
+		<tradelist id="271"/>
+		<tradelist id="272"/>
+		<tradelist id="273"/>
+		<tradelist id="455"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203578" name="lunber">
+		<tradelist id="266"/>
+		<tradelist id="267"/>
+		<tradelist id="268"/>
+		<tradelist id="269"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203579" name="donabe">
+		<tradelist id="399"/>
+		<tradelist id="1505"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203605" name="loriniah">
+		<tradelist id="276"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203613" name="gilungk">
+		<tradelist id="348"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203615" name="bergard">
+		<tradelist id="274"/>
+		<tradelist id="1498"/>
+		<tradelist id="275"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203619" name="nornes" sell_price_rate="150">
+		<tradelist id="277"/>
+		<tradelist id="404"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203657" name="sarad">
+		<tradelist id="276"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203659" name="Lateni" npc_type="REWARD">
+		<tradelist id="982"/>
+		<tradelist id="984"/>
+		<tradelist id="986"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203689" name="Lohaban" npc_type="REWARD">
+		<tradelist id="983"/>
+		<tradelist id="985"/>
+		<tradelist id="987"/>
+		<tradelist id="1149"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203704" name="boreas">
+		<tradelist id="13"/>
+		<tradelist id="14"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203705" name="jumentis">
+		<tradelist id="15"/>
+		<tradelist id="16"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203706" name="charna">
+		<tradelist id="19"/>
+		<tradelist id="20"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203707" name="thrasymedes">
+		<tradelist id="17"/>
+		<tradelist id="18"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203708" name="Iocaste" npc_type="ABYSS">
+		<tradelist id="199"/>
+		<tradelist id="200"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203709" name="clymene" sell_price_rate="500">
+		<tradelist id="930"/>
+		<tradelist id="931"/>
+		<tradelist id="932"/>
+		<tradelist id="933"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203710" name="Dairos" npc_type="ABYSS">
+		<tradelist id="201"/>
+		<tradelist id="202"/>
+		<tradelist id="203"/>
+		<tradelist id="204"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203724" name="gwenspena">
+		<tradelist id="357"/>
+		<tradelist id="358"/>
+		<tradelist id="1151"/>
+		<tradelist id="1152"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203727" name="tunotos">
+		<tradelist id="145"/>
+		<tradelist id="146"/>
+		<tradelist id="147"/>
+		<tradelist id="148"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203728" name="evestina">
+		<tradelist id="149"/>
+		<tradelist id="150"/>
+		<tradelist id="151"/>
+		<tradelist id="152"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203732" name="judisina">
+		<tradelist id="157"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203733" name="pulo">
+		<tradelist id="153"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203734" name="brantes">
+		<tradelist id="158"/>
+		<tradelist id="159"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203735" name="himusus">
+		<tradelist id="394"/>
+		<tradelist id="1485"/>
+		<tradelist id="1508"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203736" name="servillia">
+		<tradelist id="155"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203758" name="macus">
+		<tradelist id="5"/>
+		<tradelist id="6"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203759" name="eumelos">
+		<tradelist id="7"/>
+		<tradelist id="8"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203760" name="bellia">
+		<tradelist id="11"/>
+		<tradelist id="12"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203761" name="hygea">
+		<tradelist id="9"/>
+		<tradelist id="10"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203781" name="sabotes">
+		<tradelist id="427"/>
+		<tradelist id="5051"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203783" name="maire">
+		<tradelist id="428"/>
+		<tradelist id="5052"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203785" name="luelas">
+		<tradelist id="68"/>
+		<tradelist id="62"/>
+		<tradelist id="478"/>
+		<tradelist id="1125"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203787" name="darius">
+		<tradelist id="67"/>
+		<tradelist id="61"/>
+		<tradelist id="1136"/>
+		<tradelist id="478"/>
+		<tradelist id="1124"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203789" name="nakia">
+		<tradelist id="63"/>
+		<tradelist id="57"/>
+		<tradelist id="1132"/>
+		<tradelist id="478"/>
+		<tradelist id="1120"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203791" name="menomes">
+		<tradelist id="64"/>
+		<tradelist id="58"/>
+		<tradelist id="1133"/>
+		<tradelist id="478"/>
+		<tradelist id="1121"/>
+		<tradelist id="1216"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203794" name="proserpina">
+		<tradelist id="65"/>
+		<tradelist id="59"/>
+		<tradelist id="1134"/>
+		<tradelist id="478"/>
+		<tradelist id="1122"/>
+		<tradelist id="1218"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203808" name="ophenes">
+		<tradelist id="175"/>
+		<tradelist id="176"/>
+		<tradelist id="474"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203809" name="perena">
+		<tradelist id="162"/>
+		<tradelist id="163"/>
+		<tradelist id="164"/>
+		<tradelist id="474"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203811" name="arcinia">
+		<tradelist id="351"/>
+		<tradelist id="460"/>
+		<tradelist id="472"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203812" name="jooma">
+		<tradelist id="160"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203813" name="esca">
+		<tradelist id="165"/>
+		<tradelist id="166"/>
+		<tradelist id="167"/>
+		<tradelist id="168"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203814" name="euchenor">
+		<tradelist id="165"/>
+		<tradelist id="166"/>
+		<tradelist id="167"/>
+		<tradelist id="168"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203815" name="soana">
+		<tradelist id="169"/>
+		<tradelist id="170"/>
+		<tradelist id="171"/>
+		<tradelist id="172"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203816" name="hesione">
+		<tradelist id="169"/>
+		<tradelist id="170"/>
+		<tradelist id="171"/>
+		<tradelist id="172"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203817" name="aegist">
+		<tradelist id="173"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203819" name="aktus">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203879" name="idomeneus">
+		<tradelist id="425"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203884" name="atifure">
+		<tradelist id="156"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203885" name="tures">
+		<tradelist id="156"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203888" name="tigares">
+		<tradelist id="553"/>
+		<tradelist id="555"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203891" name="karon">
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203892" name="elephenor">
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203896" name="Melicertes" npc_type="ABYSS">
+		<tradelist id="517"/>
+		<tradelist id="402"/>
+		<tradelist id="546"/>
+		<tradelist id="557"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203897" name="Momus" npc_type="ABYSS">
+		<tradelist id="205"/>
+		<tradelist id="206"/>
+		<tradelist id="207"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203922" name="hibrion">
+		<tradelist id="177"/>
+		<tradelist id="178"/>
+		<tradelist id="179"/>
+		<tradelist id="180"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203923" name="krato">
+		<tradelist id="181"/>
+		<tradelist id="182"/>
+		<tradelist id="183"/>
+		<tradelist id="184"/>
+		<tradelist id="452"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203925" name="octavia">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203931" name="Ferenna" npc_type="REWARD">
+		<tradelist id="944"/>
+		<tradelist id="946"/>
+		<tradelist id="948"/>
+	</tradelist_template>
+	<tradelist_template npc_id="203964" name="Agrips" npc_type="REWARD">
+		<tradelist id="950"/>
+		<tradelist id="952"/>
+		<tradelist id="954"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204011" name="Sandinas" npc_type="REWARD">
+		<tradelist id="950"/>
+		<tradelist id="952"/>
+		<tradelist id="954"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204050" name="Tragi" npc_type="ABYSS">
+		<tradelist id="377"/>
+		<tradelist id="378"/>
+		<tradelist id="379"/>
+		<tradelist id="380"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204051" name="vergelmir" sell_price_rate="500">
+		<tradelist id="934"/>
+		<tradelist id="935"/>
+		<tradelist id="936"/>
+		<tradelist id="937"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204056" name="traufnir">
+		<tradelist id="41"/>
+		<tradelist id="42"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204057" name="sigyn">
+		<tradelist id="43"/>
+		<tradelist id="44"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204058" name="sif">
+		<tradelist id="47"/>
+		<tradelist id="48"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204059" name="freyr">
+		<tradelist id="45"/>
+		<tradelist id="46"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204060" name="Genoveva" npc_type="ABYSS">
+		<tradelist id="375"/>
+		<tradelist id="376"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204062" name="groa">
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204080" name="kalsten">
+		<tradelist id="33"/>
+		<tradelist id="34"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204081" name="thialfi">
+		<tradelist id="35"/>
+		<tradelist id="36"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204082" name="ve">
+		<tradelist id="39"/>
+		<tradelist id="40"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204083" name="lyfjaberga">
+		<tradelist id="37"/>
+		<tradelist id="38"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204084" name="vidarini">
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204097" name="vidarini">
+		<tradelist id="429"/>
+		<tradelist id="5053"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204099" name="areke">
+		<tradelist id="430"/>
+		<tradelist id="5054"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204101" name="daraia">
+		<tradelist id="99"/>
+		<tradelist id="93"/>
+		<tradelist id="479"/>
+		<tradelist id="1131"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204103" name="grad">
+		<tradelist id="98"/>
+		<tradelist id="92"/>
+		<tradelist id="1141"/>
+		<tradelist id="479"/>
+		<tradelist id="1130"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204105" name="mima">
+		<tradelist id="94"/>
+		<tradelist id="88"/>
+		<tradelist id="1137"/>
+		<tradelist id="479"/>
+		<tradelist id="1126"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279026" name="Sienrurerk">
+		<tradelist id="437"/>
+		<tradelist id="438"/>
+		<tradelist id="439"/>
+		<tradelist id="440"/>
+ 	</tradelist_template>
+	<tradelist_template npc_id="204107" name="grupaks">
+		<tradelist id="95"/>
+		<tradelist id="89"/>
+		<tradelist id="1138"/>
+		<tradelist id="479"/>
+		<tradelist id="1127"/>
+		<tradelist id="1217"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204111" name="kaiot">
+		<tradelist id="96"/>
+		<tradelist id="90"/>
+		<tradelist id="1139"/>
+		<tradelist id="479"/>
+		<tradelist id="1128"/>
+		<tradelist id="1219"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204117" name="olda">
+		<tradelist id="295"/>
+		<tradelist id="296"/>
+		<tradelist id="297"/>
+		<tradelist id="475"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204118" name="gerad">
+		<tradelist id="308"/>
+		<tradelist id="309"/>
+		<tradelist id="475"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204120" name="lark">
+		<tradelist id="352"/>
+		<tradelist id="462"/>
+		<tradelist id="473"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204121" name="kinot">
+		<tradelist id="160"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204122" name="yuret">
+		<tradelist id="298"/>
+		<tradelist id="299"/>
+		<tradelist id="300"/>
+		<tradelist id="301"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204123" name="kroia">
+		<tradelist id="298"/>
+		<tradelist id="299"/>
+		<tradelist id="300"/>
+		<tradelist id="301"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204124" name="hoki">
+		<tradelist id="302"/>
+		<tradelist id="303"/>
+		<tradelist id="304"/>
+		<tradelist id="305"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204125" name="niz">
+		<tradelist id="302"/>
+		<tradelist id="303"/>
+		<tradelist id="304"/>
+		<tradelist id="305"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204126" name="merar">
+		<tradelist id="306"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204128" name="kitanya">
+		<tradelist id="350"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204129" name="dorein">
+		<tradelist id="350"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204173" name="jeckrow">
+		<tradelist id="349"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204177" name="malfaisante">
+		<tradelist id="349"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204183" name="isdal">
+		<tradelist id="278"/>
+		<tradelist id="279"/>
+		<tradelist id="280"/>
+		<tradelist id="281"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204184" name="igsrun">
+		<tradelist id="282"/>
+		<tradelist id="283"/>
+		<tradelist id="284"/>
+		<tradelist id="285"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204202" name="nekai">
+		<tradelist id="398"/>
+		<tradelist id="1482"/>
+		<tradelist id="1504"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204203" name="njomi">
+		<tradelist id="290"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204204" name="haink">
+		<tradelist id="286"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204205" name="mareke">
+		<tradelist id="291"/>
+		<tradelist id="292"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204262" name="skan">
+		<tradelist id="359"/>
+		<tradelist id="360"/>
+		<tradelist id="1153"/>
+		<tradelist id="1154"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204272" name="Dein" npc_type="ABYSS">
+		<tradelist id="518"/>
+		<tradelist id="403"/>
+		<tradelist id="547"/>
+		<tradelist id="558"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204273" name="Sichel" npc_type="ABYSS">
+		<tradelist id="381"/>
+		<tradelist id="382"/>
+		<tradelist id="383"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204274" name="huron">
+		<tradelist id="426"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204279" name="sjalfi">
+		<tradelist id="554"/>
+		<tradelist id="556"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204287" name="Mannheim" npc_type="ABYSS">
+		<tradelist id="540"/>
+		<tradelist id="541"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204288" name="Riegle" npc_type="ABYSS">
+		<tradelist id="542"/>
+		<tradelist id="543"/>
+		<tradelist id="544"/>
+		<tradelist id="545"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204289" name="Carnap" npc_type="ABYSS">
+		<tradelist id="509"/>
+		<tradelist id="510"/>
+		<tradelist id="511"/>
+		<tradelist id="512"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204290" name="Sinmara" npc_type="ABYSS">
+		<tradelist id="513"/>
+		<tradelist id="514"/>
+		<tradelist id="515"/>
+		<tradelist id="516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204321" name="arnkell">
+		<tradelist id="310"/>
+		<tradelist id="311"/>
+		<tradelist id="312"/>
+		<tradelist id="313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204322" name="verbern">
+		<tradelist id="314"/>
+		<tradelist id="315"/>
+		<tradelist id="316"/>
+		<tradelist id="317"/>
+		<tradelist id="456"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204335" name="aprily">
+		<tradelist id="319"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204359" name="Royaa" npc_type="REWARD">
+		<tradelist id="994"/>
+		<tradelist id="996"/>
+		<tradelist id="998"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204360" name="Nott" npc_type="REWARD">
+		<tradelist id="988"/>
+		<tradelist id="990"/>
+		<tradelist id="992"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204368" name="Fulla" npc_type="REWARD">
+		<tradelist id="988"/>
+		<tradelist id="990"/>
+		<tradelist id="992"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204375" name="otis">
+		<tradelist id="307"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204425" name="Bevna" npc_type="REWARD">
+		<tradelist id="989"/>
+		<tradelist id="991"/>
+		<tradelist id="993"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204426" name="Skataon" npc_type="REWARD">
+		<tradelist id="989"/>
+		<tradelist id="991"/>
+		<tradelist id="993"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204427" name="Sigen" npc_type="REWARD">
+		<tradelist id="995"/>
+		<tradelist id="997"/>
+		<tradelist id="999"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204515" name="Belakade" npc_type="REWARD">
+		<tradelist id="950"/>
+		<tradelist id="952"/>
+		<tradelist id="954"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204523" name="jukabe">
+		<tradelist id="189"/>
+		<tradelist id="190"/>
+		<tradelist id="191"/>
+		<tradelist id="192"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204524" name="kelber">
+		<tradelist id="193"/>
+		<tradelist id="194"/>
+		<tradelist id="195"/>
+		<tradelist id="196"/>
+		<tradelist id="453"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204525" name="resha">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204528" name="orhes">
+		<tradelist id="155"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204534" name="senir">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204535" name="maximus">
+		<tradelist id="197"/>
+		<tradelist id="155"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204548" name="euripia" npc_type="REWARD">
+		<tradelist id="956"/>
+		<tradelist id="958"/>
+		<tradelist id="960"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204571" name="Lomulias" npc_type="REWARD">
+		<tradelist id="950"/>
+		<tradelist id="952"/>
+		<tradelist id="954"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204633" name="roina">
+		<tradelist id="185"/>
+		<tradelist id="155"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204634" name="lepharist revolutionary">
+		<tradelist id="185"/>
+		<tradelist id="155"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204637" name="Keas" npc_type="REWARD">
+		<tradelist id="951"/>
+		<tradelist id="953"/>
+		<tradelist id="955"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204638" name="Tolemos" npc_type="REWARD">
+		<tradelist id="957"/>
+		<tradelist id="959"/>
+		<tradelist id="961"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204639" name="Serdy" npc_type="REWARD">
+		<tradelist id="951"/>
+		<tradelist id="953"/>
+		<tradelist id="955"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204726" name="sturluson">
+		<tradelist id="321"/>
+		<tradelist id="322"/>
+		<tradelist id="323"/>
+		<tradelist id="324"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204727" name="kari">
+		<tradelist id="325"/>
+		<tradelist id="326"/>
+		<tradelist id="327"/>
+		<tradelist id="328"/>
+		<tradelist id="457"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204728" name="lapion">
+		<tradelist id="401"/>
+		<tradelist id="1484"/>
+		<tradelist id="1507"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204730" name="mundilfari">
+		<tradelist id="155"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204731" name="aurvandil">
+		<tradelist id="289"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204737" name="furiga">
+		<tradelist id="289"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204761" name="Cinnia" npc_type="REWARD">
+		<tradelist id="1000"/>
+		<tradelist id="1002"/>
+		<tradelist id="1004"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204762" name="Coventina" npc_type="REWARD">
+		<tradelist id="1001"/>
+		<tradelist id="1003"/>
+		<tradelist id="1005"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204766" name="Maponus" npc_type="REWARD">
+		<tradelist id="1000"/>
+		<tradelist id="1002"/>
+		<tradelist id="1004"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204767" name="Art" npc_type="REWARD">
+		<tradelist id="1001"/>
+		<tradelist id="1003"/>
+		<tradelist id="1005"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204781" name="Govanon" npc_type="REWARD">
+		<tradelist id="994"/>
+		<tradelist id="996"/>
+		<tradelist id="998"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204789" name="Lewin" npc_type="REWARD">
+		<tradelist id="995"/>
+		<tradelist id="997"/>
+		<tradelist id="999"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204791" name="baba kun">
+		<tradelist id="289"/>
+	</tradelist_template>
+	<tradelist_template npc_id="204792" name="baba hun">
+		<tradelist id="329"/>
+		<tradelist id="1479"/>
+		<tradelist id="1500"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205120" name="blume">
+		<tradelist id="318"/>
+		<tradelist id="288"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205121" name="jarnsaxa">
+		<tradelist id="289"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205146" name="banes" sell_price_rate="200">
+		<tradelist id="469"/>
+		<tradelist id="1480"/>
+		<tradelist id="1501"/>
+		<tradelist id="118"/>
+		<tradelist id="104"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205147" name="sandvika" sell_price_rate="200">
+		<tradelist id="471"/>
+		<tradelist id="103"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205160" name="Nagel" npc_type="REWARD">
+		<tradelist id="1006"/>
+		<tradelist id="1010"/>
+		<tradelist id="1014"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205161" name="Hubat" npc_type="REWARD">
+		<tradelist id="1007"/>
+		<tradelist id="1011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205162" name="Bern" npc_type="REWARD">
+		<tradelist id="1009"/>
+		<tradelist id="1013"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205163" name="Rumol" npc_type="REWARD">
+		<tradelist id="1008"/>
+		<tradelist id="1012"/>
+		<tradelist id="1015"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205179" name="bubu lin">
+		<tradelist id="477"/>
+		<tradelist id="1481"/>
+		<tradelist id="1502"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205180" name="bubu paan">
+		<tradelist id="471"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205183" name="Signa" npc_type="REWARD">
+		<tradelist id="1006"/>
+		<tradelist id="1010"/>
+		<tradelist id="1014"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205160" name="Nagel" npc_type="REWARD">
+		<tradelist id="1006"/>
+		<tradelist id="1010"/>
+		<tradelist id="1014"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205184" name="Pogel" npc_type="REWARD">
+		<tradelist id="1007"/>
+		<tradelist id="1011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205161" name="Huvat" npc_type="REWARD">
+		<tradelist id="1007"/>
+		<tradelist id="1011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205185" name="Fluzze" npc_type="REWARD">
+		<tradelist id="1009"/>
+		<tradelist id="1013"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205162" name="Bern" npc_type="REWARD">
+		<tradelist id="1009"/>
+		<tradelist id="1013"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205186" name="Forseti" npc_type="REWARD">
+		<tradelist id="1008"/>
+		<tradelist id="1012"/>
+		<tradelist id="1015"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205163" name="Rumolt" npc_type="REWARD">
+		<tradelist id="1008"/>
+		<tradelist id="1012"/>
+		<tradelist id="1015"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205218" name="jadorunerk">
+		<tradelist id="498"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205220" name="suttung" sell_price_rate="200">
+		<tradelist id="493"/>
+		<tradelist id="494"/>
+		<tradelist id="495"/>
+		<tradelist id="496"/>
+		<tradelist id="105"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205221" name="hjuki" sell_price_rate="200">
+		<tradelist id="489"/>
+		<tradelist id="490"/>
+		<tradelist id="491"/>
+		<tradelist id="492"/>
+		<tradelist id="108"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205224" name="macaronerk">
+		<tradelist id="498"/>
+		<tradelist id="500"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205240" name="mappinerk">
+		<tradelist id="734"/>
+		<tradelist id="735"/>
+		<tradelist id="736"/>
+		<tradelist id="737"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205241" name="takurunerk">
+		<tradelist id="738"/>
+		<tradelist id="739"/>
+		<tradelist id="740"/>
+		<tradelist id="741"/>
+		<tradelist id="733"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205242" name="guunrunerk">
+		<tradelist id="752"/>
+		<tradelist id="753"/>
+		<tradelist id="754"/>
+		<tradelist id="755"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205243" name="kellilinerk">
+		<tradelist id="756"/>
+		<tradelist id="757"/>
+		<tradelist id="758"/>
+		<tradelist id="759"/>
+		<tradelist id="751"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205244" name="jickerunerk">
+		<tradelist id="743"/>
+		<tradelist id="744"/>
+		<tradelist id="745"/>
+		<tradelist id="746"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205245" name="porlainerk">
+		<tradelist id="747"/>
+		<tradelist id="748"/>
+		<tradelist id="749"/>
+		<tradelist id="750"/>
+		<tradelist id="742"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205246" name="gofrunerk">
+		<tradelist id="761"/>
+		<tradelist id="762"/>
+		<tradelist id="763"/>
+		<tradelist id="764"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205247" name="pippiyerk">
+		<tradelist id="765"/>
+		<tradelist id="766"/>
+		<tradelist id="767"/>
+		<tradelist id="768"/>
+		<tradelist id="760"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205279" name="hegemon" sell_price_rate="7200">
+		<tradelist id="5039"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205280" name="rocos" sell_price_rate="7200">
+		<tradelist id="5041"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205281" name="kairos" sell_price_rate="7200">
+		<tradelist id="5045"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205282" name="cabeiri" sell_price_rate="7200">
+		<tradelist id="5047"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205283" name="quirinus" sell_price_rate="7200">
+		<tradelist id="5043"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205284" name="illisos" sell_price_rate="7200">
+		<tradelist id="5049"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205285" name="biflindi" sell_price_rate="7200">
+		<tradelist id="5040"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205286" name="hjalmberi" sell_price_rate="7200">
+		<tradelist id="5042"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205287" name="helblindi" sell_price_rate="7200">
+		<tradelist id="5046"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205288" name="goen" sell_price_rate="7200">
+		<tradelist id="5048"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205289" name="harbarth" sell_price_rate="7200">
+		<tradelist id="5044"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205290" name="sangetal" sell_price_rate="7200">
+		<tradelist id="5050"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205310" name="Howkis" npc_type="REWARD">
+		<tradelist id="1167"/>
+		<tradelist id="1168"/>
+		<tradelist id="1169"/>
+		<tradelist id="1170"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205311" name="Kirhoy" npc_type="REWARD">
+		<tradelist id="1159"/>
+		<tradelist id="1160"/>
+		<tradelist id="1161"/>
+		<tradelist id="1162"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205312" name="Tanato" npc_type="REWARD">
+		<tradelist id="1171"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205313" name="Via" npc_type="REWARD">
+		<tradelist id="1172"/>
+		<tradelist id="1173"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205324" name="Seknard" npc_type="REWARD">
+		<tradelist id="1188"/>
+		<tradelist id="1189"/>
+		<tradelist id="1190"/>
+		<tradelist id="1191"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205325" name="Laxness" npc_type="REWARD">
+		<tradelist id="1180"/>
+		<tradelist id="1181"/>
+		<tradelist id="1182"/>
+		<tradelist id="1183"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205326" name="Ravenna" npc_type="REWARD">
+		<tradelist id="1192"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205327" name="Felder" npc_type="REWARD">
+		<tradelist id="1193"/>
+		<tradelist id="1194"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205444" name="romonia">
+		<tradelist id="1174"/>
+		<tradelist id="1495"/>
+		<tradelist id="1175"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205448" name="duinna">
+		<tradelist id="1195"/>
+		<tradelist id="1496"/>
+		<tradelist id="1196"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205488" name="Jailos" npc_type="REWARD">
+		<tradelist id="1163"/>
+		<tradelist id="1164"/>
+		<tradelist id="1165"/>
+		<tradelist id="1166"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205489" name="Polus" npc_type="REWARD">
+		<tradelist id="1155"/>
+		<tradelist id="1156"/>
+		<tradelist id="1157"/>
+		<tradelist id="1158"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205490" name="Monzn" npc_type="REWARD">
+		<tradelist id="1184"/>
+		<tradelist id="1185"/>
+		<tradelist id="1186"/>
+		<tradelist id="1187"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205491" name="Ruz" npc_type="REWARD">
+		<tradelist id="1176"/>
+		<tradelist id="1177"/>
+		<tradelist id="1178"/>
+		<tradelist id="1179"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205500" name="Nadalius">
+		<tradelist id="163"/>
+		<tradelist id="164"/>
+		<tradelist id="474"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205505" name="TestAiuos">
+		<tradelist id="1174"/>
+		<tradelist id="1175"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205519" name="Garius">
+		<tradelist id="1271"/>
+		<tradelist id="1272"/>
+		<tradelist id="1273"/>
+		<tradelist id="1274"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205520" name="Dariunos">
+		<tradelist id="1275"/>
+		<tradelist id="1276"/>
+		<tradelist id="1277"/>
+		<tradelist id="1278"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205521" name="Qilason">
+		<tradelist id="1279"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205523" name="Iocaste" npc_type="ABYSS">
+		<tradelist id="587"/>
+		<tradelist id="588"/>
+		<tradelist id="589"/>
+		<tradelist id="590"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205524" name="Iocaste" npc_type="ABYSS">
+		<tradelist id="583"/>
+		<tradelist id="584"/>
+		<tradelist id="585"/>
+		<tradelist id="586"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205525" name="Menoetios" npc_type="ABYSS">
+		<tradelist id="1240"/>
+		<tradelist id="1241"/>
+		<tradelist id="1242"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205526" name="Deucalion" npc_type="ABYSS">
+		<tradelist id="1413"/>
+		<tradelist id="546"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205527" name="Quaran" npc_type="ABYSS">
+		<tradelist id="1236"/>
+		<tradelist id="1237"/>
+		<tradelist id="1238"/>
+		<tradelist id="1239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205528" name="Alrope" npc_type="ABYSS">
+		<tradelist id="1469"/>
+		<tradelist id="1470"/>
+		<tradelist id="1471"/>
+		<tradelist id="1472"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205529" name="Trakis" npc_type="ABYSS">
+		<tradelist id="1227"/>
+		<tradelist id="1228"/>
+		<tradelist id="1229"/>
+		<tradelist id="1230"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205530" name="Argos" npc_type="ABYSS">
+		<tradelist id="1231"/>
+		<tradelist id="1232"/>
+		<tradelist id="1233"/>
+		<tradelist id="1234"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205547" name="Ranios" npc_type="REWARD">
+		<tradelist id="1326"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205548" name="Addichi" npc_type="REWARD">
+		<tradelist id="1316"/>
+		<tradelist id="1320"/>
+		<tradelist id="1322"/>
+		<tradelist id="1324"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205549" name="Cinuos" npc_type="REWARD">
+		<tradelist id="1326"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205550" name="Morayos" npc_type="REWARD">
+		<tradelist id="1316"/>
+		<tradelist id="1320"/>
+		<tradelist id="1322"/>
+		<tradelist id="1324"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205557" name="Qilason" sell_price_rate="7200">
+		<tradelist id="5063"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205558" name="Benuz" npc_type="ABYSS">
+		<tradelist id="1235"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205560" name="Cinuos" npc_type="REWARD">
+		<tradelist id="1270"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205566" name="Seraie">
+		<tradelist id="1382"/>
+		<tradelist id="1383"/>
+		<tradelist id="1393"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205567" name="Werenne">
+		<tradelist id="1411"/>
+		<tradelist id="1491"/>
+		<tradelist id="1515"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205568" name="Haborimus">
+		<tradelist id="1294"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205569" name="Gachuia">
+		<tradelist id="1293"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205570" name="Ajalix" sell_price_rate="6000">
+		<tradelist id="5076"/>
+		<tradelist id="5077"/>
+		<tradelist id="5078"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205571" name="Mirdinia">
+		<tradelist id="1220"/>
+		<tradelist id="1221"/>
+		<tradelist id="5081"/>
+		<tradelist id="1384"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205592" name="Iskadar" npc_type="REWARD">
+		<tradelist id="1259"/>
+		<tradelist id="1260"/>
+		<tradelist id="1261"/>
+		<tradelist id="1262"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205593" name="Varisune" npc_type="REWARD">
+		<tradelist id="1263"/>
+		<tradelist id="1264"/>
+		<tradelist id="1265"/>
+		<tradelist id="1266"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205594" name="Denebia" npc_type="REWARD">
+		<tradelist id="1267"/>
+		<tradelist id="1268"/>
+		<tradelist id="1269"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205595" name="Equous" npc_type="REWARD">
+		<tradelist id="1406"/>
+		<tradelist id="1528"/>
+		<tradelist id="1280"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205601" name="Daigud">
+		<tradelist id="1295"/>
+		<tradelist id="1296"/>
+		<tradelist id="1297"/>
+		<tradelist id="1298"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205602" name="Rainark">
+		<tradelist id="1299"/>
+		<tradelist id="1300"/>
+		<tradelist id="1301"/>
+		<tradelist id="1302"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205603" name="Naizenne">
+		<tradelist id="1303"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205605" name="Ralalith" npc_type="ABYSS">
+		<tradelist id="595"/>
+		<tradelist id="596"/>
+		<tradelist id="597"/>
+		<tradelist id="598"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205606" name="Polaeth" npc_type="ABYSS">
+		<tradelist id="591"/>
+		<tradelist id="592"/>
+		<tradelist id="593"/>
+		<tradelist id="594"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205607" name="Berkaki" npc_type="ABYSS">
+		<tradelist id="1256"/>
+		<tradelist id="1257"/>
+		<tradelist id="1258"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205608" name="Disen" npc_type="ABYSS">
+		<tradelist id="1414"/>
+		<tradelist id="547"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205609" name="Vaigud" npc_type="ABYSS">
+		<tradelist id="1252"/>
+		<tradelist id="1253"/>
+		<tradelist id="1254"/>
+		<tradelist id="1255"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205610" name="Kalam" npc_type="ABYSS">
+		<tradelist id="1473"/>
+		<tradelist id="1474"/>
+		<tradelist id="1475"/>
+		<tradelist id="1476"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205611" name="Lanix" npc_type="ABYSS">
+		<tradelist id="1243"/>
+		<tradelist id="1244"/>
+		<tradelist id="1245"/>
+		<tradelist id="1246"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205612" name="Grom" npc_type="ABYSS">
+		<tradelist id="1247"/>
+		<tradelist id="1248"/>
+		<tradelist id="1249"/>
+		<tradelist id="1250"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205638" name="Kainark" sell_price_rate="7200">
+		<tradelist id="5079"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205639" name="Quaqin" npc_type="ABYSS">
+		<tradelist id="1251"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205647" name="Nanakith" npc_type="REWARD">
+		<tradelist id="1327"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205648" name="Bejash" npc_type="REWARD">
+		<tradelist id="1317"/>
+		<tradelist id="1321"/>
+		<tradelist id="1323"/>
+		<tradelist id="1325"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205649" name="Bejakra" npc_type="REWARD">
+		<tradelist id="1327"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205650" name="Nanuz" npc_type="REWARD">
+		<tradelist id="1317"/>
+		<tradelist id="1321"/>
+		<tradelist id="1323"/>
+		<tradelist id="1325"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205695" name="Addiru">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205696" name="Puresion">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205697" name="Ottone">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205698" name="Ledios">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205699" name="Artera">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205700" name="Orea">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205701" name="Alice">
+		<tradelist id="1290"/>
+		<tradelist id="1488"/>
+		<tradelist id="1512"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205702" name="Radatia">
+		<tradelist id="1291"/>
+		<tradelist id="1489"/>
+		<tradelist id="1513"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205802" name="Aughoetia">
+		<tradelist id="1379"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205803" name="Dynytia">
+		<tradelist id="1380"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205809" name="Schokios" npc_type="ABYSS">
+		<tradelist id="1467"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205816" name="Indalon" npc_type="ABYSS">
+		<tradelist id="1468"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205826" name="NPC_Gururu_02">
+		<tradelist id="1291"/>
+		<tradelist id="1489"/>
+		<tradelist id="1513"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205834" name="Hios" npc_type="ABYSS">
+		<tradelist id="1240"/>
+		<tradelist id="1241"/>
+		<tradelist id="1242"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205835" name="nairo" npc_type="ABYSS">
+		<tradelist id="1413"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205836" name="Phrusis" npc_type="ABYSS">
+		<tradelist id="1235"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205837" name="Hella" npc_type="ABYSS">
+		<tradelist id="1236"/>
+		<tradelist id="1237"/>
+		<tradelist id="1238"/>
+		<tradelist id="1239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205838" name="Drea" npc_type="ABYSS">
+		<tradelist id="1227"/>
+		<tradelist id="1228"/>
+		<tradelist id="1229"/>
+		<tradelist id="1230"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205839" name="Bilion" npc_type="ABYSS">
+		<tradelist id="1231"/>
+		<tradelist id="1232"/>
+		<tradelist id="1233"/>
+		<tradelist id="1234"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205848" name="NPC_Gururu_03">
+		<tradelist id="1292"/>
+		<tradelist id="1490"/>
+		<tradelist id="1514"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205856" name="Anz" npc_type="ABYSS">
+		<tradelist id="1256"/>
+		<tradelist id="1257"/>
+		<tradelist id="1258"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205857" name="Lucid" npc_type="ABYSS">
+		<tradelist id="1414"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205858" name="Gereroi" npc_type="ABYSS">
+		<tradelist id="1251"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205859" name="Buresk" npc_type="ABYSS">
+		<tradelist id="1252"/>
+		<tradelist id="1253"/>
+		<tradelist id="1254"/>
+		<tradelist id="1255"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205860" name="Mamek" npc_type="ABYSS">
+		<tradelist id="1243"/>
+		<tradelist id="1244"/>
+		<tradelist id="1245"/>
+		<tradelist id="1246"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205861" name="Dats" npc_type="ABYSS">
+		<tradelist id="1247"/>
+		<tradelist id="1248"/>
+		<tradelist id="1249"/>
+		<tradelist id="1250"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205867" name="Dresten">
+		<tradelist id="1304"/>
+		<tradelist id="1305"/>
+		<tradelist id="1306"/>
+		<tradelist id="1307"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205868" name="Iosis">
+		<tradelist id="1308"/>
+		<tradelist id="1309"/>
+		<tradelist id="1310"/>
+		<tradelist id="1311"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205869" name="Ruaka">
+		<tradelist id="1527"/>
+		<tradelist id="1313"/>
+		<tradelist id="5081"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205870" name="Lilita">
+		<tradelist id="1293"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205871" name="Vof">
+		<tradelist id="1294"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205872" name="Phias" npc_type="REWARD">
+		<tradelist id="1270"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205873" name="Lonay">
+		<tradelist id="1312"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205874" name="NPC_Gururu_04" sell_price_rate="7200">
+		<tradelist id="5064"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205880" name="Heilon" npc_type="REWARD">
+		<tradelist id="1259"/>
+		<tradelist id="1260"/>
+		<tradelist id="1261"/>
+		<tradelist id="1262"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205881" name="Leipzih" npc_type="REWARD">
+		<tradelist id="1263"/>
+		<tradelist id="1264"/>
+		<tradelist id="1265"/>
+		<tradelist id="1266"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205882" name="Lussiel" npc_type="REWARD">
+		<tradelist id="1267"/>
+		<tradelist id="1268"/>
+		<tradelist id="1269"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205883" name="Aena" npc_type="REWARD">
+		<tradelist id="1406"/>
+		<tradelist id="1528"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205905" name="Shugo_LDF4b_11">
+		<tradelist id="1290"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205906" name="Shugo_LDF4b_12">
+		<tradelist id="1290"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205907" name="Shugo_LDF4b_13">
+		<tradelist id="1290"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205908" name="Shugo_LDF4b_14">
+		<tradelist id="1290"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205974" name="Shugo_LDF4b_18">
+		<tradelist id="1290"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="205975" name="Shugo_LDF4b_19">
+		<tradelist id="1290"/>
+		<tradelist id="1313"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207031" name="Sutien" npc_type="REWARD">
+		<tradelist id="1281"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207032" name="Nualia" npc_type="REWARD">
+		<tradelist id="1282"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207045" name="piloti">
+		<tradelist id="1283"/>
+		<tradelist id="1503"/>
+		<tradelist id="1175"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207092" name="poria">
+		<tradelist id="1381"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207093" name="merca">
+		<tradelist id="1381"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207095" name="Aumbos" npc_type="REWARD">
+		<tradelist id="1410"/>
+	</tradelist_template>
+	<tradelist_template npc_id="207096" name="Trium" npc_type="REWARD">
+		<tradelist id="1410"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278023" name="Ozur" npc_type="REWARD">
+		<tradelist id="1000"/>
+		<tradelist id="1002"/>
+		<tradelist id="1004"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278024" name="Spade" npc_type="REWARD">
+		<tradelist id="1001"/>
+		<tradelist id="1003"/>
+		<tradelist id="1005"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278132" name="Steinkel" npc_type="ABYSS">
+		<tradelist id="375"/>
+		<tradelist id="376"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278133" name="Garnteia" npc_type="ABYSS">
+		<tradelist id="377"/>
+		<tradelist id="378"/>
+		<tradelist id="379"/>
+		<tradelist id="380"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278134" name="Lukea" npc_type="ABYSS">
+		<tradelist id="384"/>
+		<tradelist id="403"/>
+		<tradelist id="547"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278135" name="Momi" npc_type="ABYSS">
+		<tradelist id="381"/>
+		<tradelist id="382"/>
+		<tradelist id="383"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278138" name="Ivaldi" npc_type="REWARD">
+		<tradelist id="994"/>
+		<tradelist id="996"/>
+		<tradelist id="998"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278139" name="Kolga" npc_type="REWARD">
+		<tradelist id="995"/>
+		<tradelist id="997"/>
+		<tradelist id="999"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278523" name="Makidna" npc_type="REWARD">
+		<tradelist id="956"/>
+		<tradelist id="958"/>
+		<tradelist id="960"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278524" name="Magnus" npc_type="REWARD">
+		<tradelist id="957"/>
+		<tradelist id="959"/>
+		<tradelist id="961"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278634" name="Glaucos" npc_type="ABYSS">
+		<tradelist id="199"/>
+		<tradelist id="200"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278635" name="Nerites" npc_type="ABYSS">
+		<tradelist id="201"/>
+		<tradelist id="202"/>
+		<tradelist id="203"/>
+		<tradelist id="204"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278636" name="Deucalion" npc_type="ABYSS">
+		<tradelist id="208"/>
+		<tradelist id="402"/>
+		<tradelist id="546"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278637" name="Menoetios" npc_type="ABYSS">
+		<tradelist id="205"/>
+		<tradelist id="206"/>
+		<tradelist id="207"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278638" name="Achelos" npc_type="REWARD">
+		<tradelist id="950"/>
+		<tradelist id="952"/>
+		<tradelist id="954"/>
+	</tradelist_template>
+	<tradelist_template npc_id="278639" name="Melpomene" npc_type="REWARD">
+		<tradelist id="951"/>
+		<tradelist id="953"/>
+		<tradelist id="955"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279033" name="Shugo_AB1_18" npc_type="REWARD">
+		<tradelist id="1096"/>
+		<tradelist id="1097"/>
+		<tradelist id="1098"/>
+		<tradelist id="1099"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279035" name="Shugo_AB1_20" npc_type="REWARD">
+		<tradelist id="1100"/>
+		<tradelist id="1101"/>
+		<tradelist id="1102"/>
+		<tradelist id="1103"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279036" name="Shugo_AB1_21" npc_type="REWARD">
+		<tradelist id="1104"/>
+		<tradelist id="1105"/>
+		<tradelist id="1106"/>
+		<tradelist id="1107"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279037" name="Shugo_AB1_22" npc_type="REWARD">
+		<tradelist id="1108"/>
+		<tradelist id="1109"/>
+		<tradelist id="1110"/>
+		<tradelist id="1111"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279038" name="Shugo_AB1_23" npc_type="REWARD">
+		<tradelist id="1112"/>
+		<tradelist id="1113"/>
+		<tradelist id="1114"/>
+		<tradelist id="1115"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279046" name="Thea" npc_type="ABYSS">
+		<tradelist id="534"/>
+		<tradelist id="535"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279047" name="Kizelmanon" npc_type="ABYSS">
+		<tradelist id="536"/>
+		<tradelist id="537"/>
+		<tradelist id="538"/>
+		<tradelist id="539"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279048" name="Teucer" npc_type="ABYSS">
+		<tradelist id="501"/>
+		<tradelist id="502"/>
+		<tradelist id="503"/>
+		<tradelist id="504"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279049" name="Monitan" npc_type="ABYSS">
+		<tradelist id="505"/>
+		<tradelist id="506"/>
+		<tradelist id="507"/>
+		<tradelist id="508"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279050" name="Hubert" npc_type="ABYSS">
+		<tradelist id="540"/>
+		<tradelist id="541"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279051" name="Fichte" npc_type="ABYSS">
+		<tradelist id="542"/>
+		<tradelist id="543"/>
+		<tradelist id="544"/>
+		<tradelist id="545"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279052" name="Sir" npc_type="ABYSS">
+		<tradelist id="509"/>
+		<tradelist id="510"/>
+		<tradelist id="511"/>
+		<tradelist id="512"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279053" name="Warberg" npc_type="ABYSS">
+		<tradelist id="513"/>
+		<tradelist id="514"/>
+		<tradelist id="515"/>
+		<tradelist id="516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="279061" name="Shugo_AB1_29" npc_type="REWARD">
+		<tradelist id="1116"/>
+		<tradelist id="1117"/>
+		<tradelist id="1118"/>
+		<tradelist id="1119"/>
+	</tradelist_template>
+	<tradelist_template npc_id="790004" name="hannet">
+		<tradelist id="185"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="790011" name="grammati">
+		<tradelist id="319"/>
+		<tradelist id="1478"/>
+		<tradelist id="1499"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="790012" name="valumcus">
+		<tradelist id="307"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798007" name="minalinerk">
+		<tradelist id="132"/>
+		<tradelist id="720"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798008" name="baevrunerk">
+		<tradelist id="132"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798013" name="chiwurinerk">
+		<tradelist id="66"/>
+		<tradelist id="60"/>
+		<tradelist id="1135"/>
+		<tradelist id="478"/>
+		<tradelist id="1123"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798030" name="japayerk">
+		<tradelist id="274"/>
+		<tradelist id="1498"/>
+		<tradelist id="275"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798037" name="bacorerk">
+		<tradelist id="274"/>
+		<tradelist id="275"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798038" name="crizpinerk">
+		<tradelist id="264"/>
+		<tradelist id="721"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798047" name="ramorunerk">
+		<tradelist id="219"/>
+		<tradelist id="444"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798048" name="chicorinerk">
+		<tradelist id="218"/>
+		<tradelist id="445"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798049" name="shaoranyerk">
+		<tradelist id="396"/>
+		<tradelist id="1486"/>
+		<tradelist id="1510"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798050" name="girrinerk">
+		<tradelist id="155"/>
+		<tradelist id="808"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798053" name="gyabrunerk">
+		<tradelist id="185"/>
+		<tradelist id="155"/>
+		<tradelist id="156"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798056" name="paepaerunerk">
+		<tradelist id="354"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798060" name="obirunerk">
+		<tradelist id="97"/>
+		<tradelist id="91"/>
+		<tradelist id="1140"/>
+		<tradelist id="479"/>
+		<tradelist id="1129"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798068" name="maochinicherk">
+		<tradelist id="155"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798071" name="dokurunerk">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798072" name="nagirinerk">
+		<tradelist id="154"/>
+		<tradelist id="155"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798073" name="aririnirerk">
+		<tradelist id="397"/>
+		<tradelist id="1487"/>
+		<tradelist id="1511"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798076" name="shoranarerk">
+		<tradelist id="155"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798080" name="sarinerk">
+		<tradelist id="354"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798081" name="nicoyerk">
+		<tradelist id="400"/>
+		<tradelist id="1483"/>
+		<tradelist id="1506"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798082" name="bicorunerk">
+		<tradelist id="155"/>
+		<tradelist id="808"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798090" name="reyrinirerk">
+		<tradelist id="329"/>
+		<tradelist id="1479"/>
+		<tradelist id="1500"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798094" name="kamochinicherk">
+		<tradelist id="329"/>
+		<tradelist id="1479"/>
+		<tradelist id="1500"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798095" name="cheerinrinerk">
+		<tradelist id="220"/>
+		<tradelist id="445"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798097" name="tabrinerk">
+		<tradelist id="220"/>
+		<tradelist id="444"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798106" name="chicorerk">
+		<tradelist id="354"/>
+		<tradelist id="448"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798107" name="hyuirinerk">
+		<tradelist id="353"/>
+		<tradelist id="449"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798109" name="liurerk">
+		<tradelist id="319"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798110" name="choirinererk">
+		<tradelist id="319"/>
+		<tradelist id="447"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798111" name="Atr" npc_type="REWARD">
+		<tradelist id="945"/>
+		<tradelist id="947"/>
+		<tradelist id="949"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798112" name="Metea" npc_type="REWARD">
+		<tradelist id="951"/>
+		<tradelist id="953"/>
+		<tradelist id="955"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798113" name="Anobi" npc_type="REWARD">
+		<tradelist id="951"/>
+		<tradelist id="953"/>
+		<tradelist id="955"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798123" name="lakurunerk">
+		<tradelist id="274"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798124" name="feimerk">
+		<tradelist id="142"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798125" name="garurunerk">
+		<tradelist id="319"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798126" name="harumonerk">
+		<tradelist id="186"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798127" name="chiyorinrinerk">
+		<tradelist id="186"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798129" name="BoosterD">
+		<tradelist id="186"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798130" name="BoosterD">
+		<tradelist id="186"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798137" name="kuomonerk">
+		<tradelist id="185"/>
+		<tradelist id="155"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798138" name="gojirunerk">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798152" name="ayurinrinerk">
+		<tradelist id="431"/>
+		<tradelist id="436"/>
+		<tradelist id="5018"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798153" name="lyeikunerk">
+		<tradelist id="1197"/>
+		<tradelist id="441"/>
+		<tradelist id="5018"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798168" name="caochenrinerk" sell_price_rate="200">
+		<tradelist id="468"/>
+		<tradelist id="1493"/>
+		<tradelist id="1518"/>
+		<tradelist id="239"/>
+		<tradelist id="74"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798169" name="cheorunerk" sell_price_rate="200">
+		<tradelist id="470"/>
+		<tradelist id="78"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798172" name="Eunomia" npc_type="REWARD">
+		<tradelist id="962"/>
+		<tradelist id="966"/>
+		<tradelist id="970"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798173" name="Euterpe" npc_type="REWARD">
+		<tradelist id="963"/>
+		<tradelist id="967"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798174" name="Guneus" npc_type="REWARD">
+		<tradelist id="965"/>
+		<tradelist id="969"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798175" name="Charites" npc_type="REWARD">
+		<tradelist id="964"/>
+		<tradelist id="968"/>
+		<tradelist id="971"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798185" name="bororinerk">
+		<tradelist id="476"/>
+		<tradelist id="1494"/>
+		<tradelist id="1519"/>
+		<tradelist id="239"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798186" name="tanimonerk">
+		<tradelist id="470"/>
+		<tradelist id="480"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798195" name="Iphigenia" npc_type="REWARD">
+		<tradelist id="962"/>
+		<tradelist id="966"/>
+		<tradelist id="970"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798196" name="Illithyia" npc_type="REWARD">
+		<tradelist id="963"/>
+		<tradelist id="967"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798197" name="Neoptolemos" npc_type="REWARD">
+		<tradelist id="965"/>
+		<tradelist id="969"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798198" name="Calliope" npc_type="REWARD">
+		<tradelist id="964"/>
+		<tradelist id="968"/>
+		<tradelist id="971"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798217" name="boburunerk">
+		<tradelist id="497"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798219" name="terusas" sell_price_rate="200">
+		<tradelist id="481"/>
+		<tradelist id="482"/>
+		<tradelist id="483"/>
+		<tradelist id="484"/>
+		<tradelist id="75"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798220" name="prokinu" sell_price_rate="200">
+		<tradelist id="485"/>
+		<tradelist id="486"/>
+		<tradelist id="487"/>
+		<tradelist id="488"/>
+		<tradelist id="73"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798223" name="mikurinrinerk">
+		<tradelist id="497"/>
+		<tradelist id="499"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798303" name="andreas">
+		<tradelist id="458"/>
+		<tradelist id="1208"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798304" name="seriphim">
+		<tradelist id="459"/>
+		<tradelist id="1209"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798357" name="shoshinerk">
+		<tradelist id="1200"/>
+		<tradelist id="1204"/>
+		<tradelist id="1202"/>
+		<tradelist id="1206"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798358" name="chopirunerk">
+		<tradelist id="1201"/>
+		<tradelist id="1205"/>
+		<tradelist id="1203"/>
+		<tradelist id="1207"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798375" name="sommelikinerk">
+		<tradelist id="549"/>
+		<tradelist id="550"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798376" name="pegureronerk">
+		<tradelist id="548"/>
+		<tradelist id="519"/>
+		<tradelist id="520"/>
+		<tradelist id="521"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798387" name="Test_Seller" npc_type="ABYSS">
+		<tradelist id="559"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798394" name="dianara" npc_type="REWARD">
+		<tradelist id="560"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798395" name="hilara" npc_type="REWARD">
+		<tradelist id="561"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798399" name="marcelo" npc_type="REWARD">
+		<tradelist id="562"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798400" name="storari" npc_type="REWARD">
+		<tradelist id="563"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798404" name="persate">
+		<tradelist id="712"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798405" name="rebbana">
+		<tradelist id="1094"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798406" name="spyridon">
+		<tradelist id="1093"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798407" name="carrin">
+		<tradelist id="711"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798410" name="tieco">
+		<tradelist id="708"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798411" name="margela">
+		<tradelist id="1092"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798412" name="rudran">
+		<tradelist id="709"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798413" name="enira">
+		<tradelist id="1095"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798418" name="nagirunerk">
+		<tradelist id="616"/>
+		<tradelist id="617"/>
+		<tradelist id="618"/>
+		<tradelist id="619"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798419" name="rinurinirerk">
+		<tradelist id="620"/>
+		<tradelist id="621"/>
+		<tradelist id="622"/>
+		<tradelist id="623"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798420" name="kalipyerk">
+		<tradelist id="615"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798421" name="rinlonerk">
+		<tradelist id="625"/>
+		<tradelist id="626"/>
+		<tradelist id="627"/>
+		<tradelist id="628"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798422" name="zingonyerk">
+		<tradelist id="629"/>
+		<tradelist id="630"/>
+		<tradelist id="631"/>
+		<tradelist id="632"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798423" name="onarunerk">
+		<tradelist id="624"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798426" name="abydus" sell_price_rate="6000">
+		<tradelist id="5019"/>
+		<tradelist id="5020"/>
+		<tradelist id="5021"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798427" name="ventum" sell_price_rate="6000">
+		<tradelist id="5022"/>
+		<tradelist id="5023"/>
+		<tradelist id="5024"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798428" name="edita" sell_price_rate="6000">
+		<tradelist id="5025"/>
+		<tradelist id="5026"/>
+		<tradelist id="5027"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798429" name="agren" sell_price_rate="6000">
+		<tradelist id="5028"/>
+		<tradelist id="5029"/>
+		<tradelist id="5030"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798430" name="jairunerk">
+		<tradelist id="770"/>
+		<tradelist id="771"/>
+		<tradelist id="772"/>
+		<tradelist id="773"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798431" name="jairinerk">
+		<tradelist id="774"/>
+		<tradelist id="775"/>
+		<tradelist id="776"/>
+		<tradelist id="777"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798432" name="jaichinerk">
+		<tradelist id="769"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798433" name="huirinerk">
+		<tradelist id="779"/>
+		<tradelist id="780"/>
+		<tradelist id="781"/>
+		<tradelist id="782"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798434" name="huirunerk">
+		<tradelist id="783"/>
+		<tradelist id="784"/>
+		<tradelist id="785"/>
+		<tradelist id="786"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798435" name="huimonerk">
+		<tradelist id="778"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798436" name="tacitus" sell_price_rate="7200">
+		<tradelist id="5037"/>
+<!--	<tradelist id="6000"/>
+		<tradelist id="6001"/> -->
+	</tradelist_template>
+	<tradelist_template npc_id="798437" name="baleyg" sell_price_rate="7200">
+		<tradelist id="5038"/>
+<!--	<tradelist id="6000"/>
+		<tradelist id="6001"/> -->
+	</tradelist_template>
+	<tradelist_template npc_id="798438" name="unos">
+		<tradelist id="1046"/>
+		<tradelist id="1048"/>
+		<tradelist id="1050"/>
+		<tradelist id="1146"/>
+		<tradelist id="1150"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798441" name="katin">
+		<tradelist id="1047"/>
+		<tradelist id="1049"/>
+		<tradelist id="1051"/>
+		<tradelist id="1146"/>
+		<tradelist id="1150"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798444" name="Shulack_LC1" npc_type="REWARD">
+		<tradelist id="1084"/>
+		<tradelist id="1085"/>
+		<tradelist id="1086"/>
+		<tradelist id="1087"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798445" name="Shulack_DC1" npc_type="REWARD">
+		<tradelist id="1088"/>
+		<tradelist id="1089"/>
+		<tradelist id="1090"/>
+		<tradelist id="1091"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798451" name="Lurine">
+		<tradelist id="1210"/>
+		<tradelist id="1212"/>
+		<tradelist id="478"/>
+		<tradelist id="1214"/>
+		<tradelist id="1539"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798453" name="Rayot">
+		<tradelist id="1211"/>
+		<tradelist id="1213"/>
+		<tradelist id="478"/>
+		<tradelist id="1215"/>
+		<tradelist id="1540"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798455" name="Rayot1">
+		<tradelist id="1210"/>
+		<tradelist id="1212"/>
+		<tradelist id="478"/>
+		<tradelist id="1214"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798457" name="Gapion">
+		<tradelist id="1211"/>
+		<tradelist id="1213"/>
+		<tradelist id="478"/>
+		<tradelist id="1215"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798501" name="chatia">
+		<tradelist id="567"/>
+		<tradelist id="568"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798502" name="tanoria">
+		<tradelist id="569"/>
+		<tradelist id="570"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798503" name="pilitas">
+		<tradelist id="573"/>
+		<tradelist id="574"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798504" name="arathias">
+		<tradelist id="571"/>
+		<tradelist id="572"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798505" name="Salvius" npc_type="ABYSS">
+		<tradelist id="724"/>
+		<tradelist id="810"/>
+		<tradelist id="546"/>
+		<tradelist id="1467"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798506" name="Elmaia" npc_type="ABYSS">
+		<tradelist id="714"/>
+		<tradelist id="715"/>
+		<tradelist id="716"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798507" name="Gracus" npc_type="ABYSS">
+		<tradelist id="816"/>
+		<tradelist id="817"/>
+<!--
+		<tradelist id="1419"/>
+		<tradelist id="1521"/>
+		<tradelist id="1522"/>
+		<tradelist id="1523"/>
+-->
+	</tradelist_template>
+	<tradelist_template npc_id="798508" name="Tororite" npc_type="ABYSS">
+		<tradelist id="818"/>
+		<tradelist id="819"/>
+		<tradelist id="820"/>
+		<tradelist id="821"/>
+<!--
+		<tradelist id="1430"/>
+		<tradelist id="1431"/>
+		<tradelist id="1432"/>
+		<tradelist id="1433"/>
+-->
+	</tradelist_template>
+	<tradelist_template npc_id="798509" name="Papinius" npc_type="ABYSS">
+		<tradelist id="583"/>
+		<tradelist id="584"/>
+		<tradelist id="585"/>
+		<tradelist id="586"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798510" name="Ecocia" npc_type="ABYSS">
+		<tradelist id="587"/>
+		<tradelist id="588"/>
+		<tradelist id="589"/>
+		<tradelist id="590"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798602" name="Mercury" npc_type="ABYSS">
+		<tradelist id="675"/>
+		<tradelist id="676"/>
+<!--
+		<tradelist id="1421"/>
+		<tradelist id="1422"/>
+		<tradelist id="1423"/>
+		<tradelist id="1424"/>
+-->
+	</tradelist_template>
+	<tradelist_template npc_id="798603" name="Mopsus" npc_type="ABYSS">
+		<tradelist id="677"/>
+		<tradelist id="678"/>
+		<tradelist id="679"/>
+		<tradelist id="680"/>
+<!--
+		<tradelist id="1426"/>
+		<tradelist id="1427"/>
+		<tradelist id="1428"/>
+		<tradelist id="1429"/>
+-->
+	</tradelist_template>
+	<tradelist_template npc_id="798701" name="garvan">
+		<tradelist id="575"/>
+		<tradelist id="576"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798702" name="hongerverth">
+		<tradelist id="577"/>
+		<tradelist id="578"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798703" name="heszti">
+		<tradelist id="581"/>
+		<tradelist id="582"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798704" name="margel">
+		<tradelist id="579"/>
+		<tradelist id="580"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798705" name="Hodorski" npc_type="ABYSS">
+		<tradelist id="725"/>
+		<tradelist id="811"/>
+		<tradelist id="547"/>
+		<tradelist id="1468"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798706" name="Deltandra" npc_type="ABYSS">
+		<tradelist id="717"/>
+		<tradelist id="718"/>
+		<tradelist id="719"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798707" name="Psyros" npc_type="ABYSS"> <!-- Ancien nom : Schultz avec 1434 1524 1525 1526 -->
+		<tradelist id="822"/>
+		<tradelist id="823"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798708" name="Eldsul" npc_type="ABYSS"> <!-- Ancienne Trade list : 1445 1446 1447 1448 -->
+		<tradelist id="824"/>
+		<tradelist id="825"/>
+		<tradelist id="826"/>
+		<tradelist id="827"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798709" name="Rodrigo" npc_type="ABYSS">
+		<tradelist id="591"/>
+		<tradelist id="592"/>
+		<tradelist id="593"/>
+		<tradelist id="594"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798710" name="Imever" npc_type="ABYSS">
+		<tradelist id="595"/>
+		<tradelist id="596"/>
+		<tradelist id="597"/>
+		<tradelist id="598"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798802" name="Leokev" npc_type="ABYSS"> <!-- Ancien nom : Untyl avec 1436 1437 1438 1439 -->
+		<tradelist id="681"/>
+		<tradelist id="682"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798803" name="Louizze" npc_type="ABYSS"> <!-- Ancien nom : snotra avec 1441 1442 1443 1444 -->
+		<tradelist id="683"/>
+		<tradelist id="684"/>
+		<tradelist id="685"/>
+		<tradelist id="686"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798903" name="drenia">
+		<tradelist id="633"/>
+		<tradelist id="634"/>
+		<tradelist id="635"/>
+		<tradelist id="636"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798904" name="drey">
+		<tradelist id="637"/>
+		<tradelist id="638"/>
+		<tradelist id="639"/>
+		<tradelist id="640"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798905" name="jondas">
+		<tradelist id="729"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+		<tradelist id="792"/>
+		<tradelist id="794"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798906" name="lionel">
+		<tradelist id="671"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798907" name="borriello">
+		<tradelist id="673"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798908" name="ricius">
+		<tradelist id="649"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798914" name="Eduardo" npc_type="REWARD">
+		<tradelist id="972"/>
+		<tradelist id="976"/>
+		<tradelist id="980"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798915" name="Giuseppe" npc_type="REWARD">
+		<tradelist id="973"/>
+		<tradelist id="977"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798916" name="Silva" npc_type="REWARD">
+		<tradelist id="975"/>
+		<tradelist id="979"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798917" name="Amauri" npc_type="REWARD">
+		<tradelist id="974"/>
+		<tradelist id="978"/>
+		<tradelist id="981"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798918" name="Pilipides" npc_type="ABYSS">
+		<tradelist id="675"/>
+		<tradelist id="676"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798919" name="Marcia" npc_type="ABYSS">
+		<tradelist id="677"/>
+		<tradelist id="678"/>
+		<tradelist id="679"/>
+		<tradelist id="680"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798920" name="Apelles" npc_type="ABYSS">
+		<tradelist id="722"/>
+		<tradelist id="810"/>
+		<tradelist id="546"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798921" name="Campaspe" npc_type="ABYSS">
+		<tradelist id="699"/>
+		<tradelist id="700"/>
+		<tradelist id="701"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798922" name="Calito" npc_type="ABYSS">
+		<tradelist id="816"/>
+		<tradelist id="817"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798923" name="Valens" npc_type="ABYSS">
+		<tradelist id="818"/>
+		<tradelist id="819"/>
+		<tradelist id="820"/>
+		<tradelist id="821"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798924" name="Popaea" npc_type="ABYSS">
+		<tradelist id="583"/>
+		<tradelist id="584"/>
+		<tradelist id="585"/>
+		<tradelist id="586"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798925" name="Paulina" npc_type="ABYSS">
+		<tradelist id="587"/>
+		<tradelist id="588"/>
+		<tradelist id="589"/>
+		<tradelist id="590"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798963" name="cinisca">
+		<tradelist id="835"/>
+		<tradelist id="671"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798964" name="fabius" sell_price_rate="200">
+		<tradelist id="673"/>
+		<tradelist id="788"/>
+	</tradelist_template>
+	<tradelist_template npc_id="798993" name="enoitia">
+		<tradelist id="894"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799001" name="ardusia">
+		<tradelist id="835"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799012" name="zurd">
+		<tradelist id="835"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799028" name="brontes">
+		<tradelist id="236"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799040" name="madonia">
+		<tradelist id="835"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799046" name="ateleia">
+		<tradelist id="835"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799054" name="samirunerk">
+		<tradelist id="770"/>
+		<tradelist id="771"/>
+		<tradelist id="772"/>
+		<tradelist id="773"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799055" name="jocanerk">
+		<tradelist id="774"/>
+		<tradelist id="775"/>
+		<tradelist id="776"/>
+		<tradelist id="777"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799056" name="bukurunerk">
+		<tradelist id="769"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799058" name="layton">
+		<tradelist id="835"/>
+		<tradelist id="671"/>
+		<tradelist id="239"/>
+		<tradelist id="5011"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799059" name="scopas">
+		<tradelist id="706"/>
+		<tradelist id="788"/>
+		<tradelist id="5031"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799060" name="distine">
+		<tradelist id="706"/>
+		<tradelist id="788"/>
+		<tradelist id="5033"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799061" name="macar">
+		<tradelist id="707"/>
+		<tradelist id="790"/>
+		<tradelist id="5014"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799062" name="lisimakos">
+		<tradelist id="707"/>
+		<tradelist id="790"/>
+		<tradelist id="5016"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799063" name="chenshurunerk">
+		<tradelist id="828"/>
+		<tradelist id="829"/>
+		<tradelist id="830"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799080" name="cretos">
+		<tradelist id="835"/>
+		<tradelist id="239"/>
+		<tradelist id="5055"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799082" name="heriel" sell_price_rate="7200">
+		<tradelist id="5057"/>
+		<tradelist id="5061"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799083" name="mitilene" sell_price_rate="7200">
+		<tradelist id="5059"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799202" name="ipses">
+		<tradelist id="641"/>
+		<tradelist id="642"/>
+		<tradelist id="643"/>
+		<tradelist id="644"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799203" name="rayera">
+		<tradelist id="645"/>
+		<tradelist id="646"/>
+		<tradelist id="647"/>
+		<tradelist id="648"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799204" name="cenvezo">
+		<tradelist id="730"/>
+		<tradelist id="118"/>
+		<tradelist id="5012"/>
+		<tradelist id="793"/>
+		<tradelist id="795"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799205" name="gennaro">
+		<tradelist id="672"/>
+		<tradelist id="705"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799206" name="amrabat">
+		<tradelist id="674"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799207" name="collett">
+		<tradelist id="650"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799213" name="Nordin" npc_type="REWARD">
+		<tradelist id="1016"/>
+		<tradelist id="1020"/>
+		<tradelist id="1024"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799214" name="Flores" npc_type="REWARD">
+		<tradelist id="1017"/>
+		<tradelist id="1021"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799215" name="Godin" npc_type="REWARD">
+		<tradelist id="1019"/>
+		<tradelist id="1023"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799216" name="Assulin" npc_type="REWARD">
+		<tradelist id="1018"/>
+		<tradelist id="1022"/>
+		<tradelist id="1025"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799217" name="Renato" npc_type="ABYSS">
+		<tradelist id="681"/>
+		<tradelist id="682"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799218" name="Jelan" npc_type="ABYSS"> <!-- Ancien nom : Aslaug -->
+		<tradelist id="683"/>
+		<tradelist id="684"/>
+		<tradelist id="685"/>
+		<tradelist id="686"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799219" name="Maxi" npc_type="ABYSS">
+		<tradelist id="723"/>
+		<tradelist id="811"/>
+		<tradelist id="547"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799220" name="Janoka" npc_type="ABYSS">
+		<tradelist id="702"/>
+		<tradelist id="703"/>
+		<tradelist id="704"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799221" name="Beldeg" npc_type="ABYSS">
+		<tradelist id="822"/>
+		<tradelist id="823"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799222" name="Gaut" npc_type="ABYSS">
+		<tradelist id="824"/>
+		<tradelist id="825"/>
+		<tradelist id="826"/>
+		<tradelist id="827"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799223" name="Birgitta" npc_type="ABYSS">
+		<tradelist id="591"/>
+		<tradelist id="592"/>
+		<tradelist id="593"/>
+		<tradelist id="594"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799224" name="Camila" npc_type="ABYSS">
+		<tradelist id="595"/>
+		<tradelist id="596"/>
+		<tradelist id="597"/>
+		<tradelist id="598"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799261" name="tetzkin">
+		<tradelist id="836"/>
+		<tradelist id="672"/>
+		<tradelist id="118"/>
+		<tradelist id="5012"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799262" name="sayakiki" sell_price_rate="200">
+		<tradelist id="674"/>
+		<tradelist id="789"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799285" name="norrin">
+		<tradelist id="895"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799302" name="isseim">
+		<tradelist id="836"/>
+		<tradelist id="118"/>
+		<tradelist id="5012"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799311" name="tamuz">
+		<tradelist id="836"/>
+		<tradelist id="118"/>
+		<tradelist id="5012"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799332" name="agovard">
+		<tradelist id="374"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799351" name="honore">
+		<tradelist id="836"/>
+		<tradelist id="118"/>
+		<tradelist id="5012"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799357" name="giovana">
+		<tradelist id="836"/>
+		<tradelist id="118"/>
+		<tradelist id="5012"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799367" name="nicorunerk">
+		<tradelist id="779"/>
+		<tradelist id="780"/>
+		<tradelist id="781"/>
+		<tradelist id="782"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799368" name="verianerk">
+		<tradelist id="783"/>
+		<tradelist id="784"/>
+		<tradelist id="785"/>
+		<tradelist id="786"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799369" name="duminunerk">
+		<tradelist id="778"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799371" name="vetus">
+		<tradelist id="836"/>
+		<tradelist id="118"/>
+		<tradelist id="672"/>
+		<tradelist id="5012"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799372" name="dilbeek">
+		<tradelist id="706"/>
+		<tradelist id="789"/>
+		<tradelist id="5032"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799373" name="eistin">
+		<tradelist id="706"/>
+		<tradelist id="789"/>
+		<tradelist id="5034"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799374" name="tosel">
+		<tradelist id="707"/>
+		<tradelist id="791"/>
+		<tradelist id="5015"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799375" name="turen">
+		<tradelist id="707"/>
+		<tradelist id="791"/>
+		<tradelist id="5017"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799376" name="kenshurunerk">
+		<tradelist id="831"/>
+		<tradelist id="832"/>
+		<tradelist id="833"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799418" name="lucia">
+		<tradelist id="836"/>
+		<tradelist id="118"/>
+		<tradelist id="5056"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799422" name="eriams" sell_price_rate="7200">
+		<tradelist id="5058"/>
+		<tradelist id="5062"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799423" name="hyrokin" sell_price_rate="7200">
+		<tradelist id="5060"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799502" name="dorkin">
+		<tradelist id="565"/>
+		<tradelist id="5013"/>
+		<tradelist id="809"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799507" name="armanerk" sell_price_rate="150">
+		<tradelist id="728"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799508" name="channelnerk" sell_price_rate="150">
+		<tradelist id="728"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799509" name="vuittonyerk" sell_price_rate="150">
+		<tradelist id="728"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799510" name="pradaaknerk" sell_price_rate="150">
+		<tradelist id="834"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799511" name="givenchyerk" sell_price_rate="150">
+		<tradelist id="834"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799512" name="deornerk" sell_price_rate="150">
+		<tradelist id="834"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799681" name="event_Etuar" npc_type="REWARD">
+		<tradelist id="1225"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799682" name="event_Laipan" npc_type="REWARD">
+		<tradelist id="1225"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799683" name="event_Rochas" npc_type="REWARD">
+		<tradelist id="1226"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799684" name="event_Valman" npc_type="REWARD">
+		<tradelist id="1226"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799697" name="event_Rochas_twn" npc_type="REWARD">
+		<tradelist id="1358"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799698" name="event_Valman_twn" npc_type="REWARD">
+		<tradelist id="1358"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799700" name="event_Siglet" npc_type="REWARD">
+		<tradelist id="1224"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799701" name="event_Elmanana" npc_type="REWARD">
+		<tradelist id="1224"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799704" name="Zena" npc_type="REWARD">
+		<tradelist id="1058"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799714" name="smootinerk">
+		<tradelist id="731"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799715" name="bloitinerk">
+		<tradelist id="732"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799792" name="Elma" npc_type="REWARD">
+		<tradelist id="1059"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799802" name="favonius" npc_type="REWARD">
+		<tradelist id="906"/>
+		<tradelist id="907"/>
+		<tradelist id="908"/>
+		<tradelist id="909"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799804" name="Preiboea" npc_type="REWARD">
+		<tradelist id="906"/>
+		<tradelist id="907"/>
+		<tradelist id="908"/>
+		<tradelist id="909"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799807" name="Maphrodi" npc_type="REWARD">
+		<tradelist id="910"/>
+		<tradelist id="911"/>
+		<tradelist id="912"/>
+		<tradelist id="913"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799808" name="Psychopompus" npc_type="REWARD">
+		<tradelist id="924"/>
+		<tradelist id="1052"/>
+		<tradelist id="1369"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799809" name="Hypnus" npc_type="REWARD">
+		<tradelist id="914"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799810" name="Tidirdeth" npc_type="REWARD">
+		<tradelist id="914"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799811" name="Typhoeus" npc_type="REWARD">
+		<tradelist id="910"/>
+		<tradelist id="911"/>
+		<tradelist id="912"/>
+		<tradelist id="913"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799812" name="Milion" npc_type="REWARD">
+		<tradelist id="924"/>
+		<tradelist id="1052"/>
+		<tradelist id="1369"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799814" name="Corinth" npc_type="REWARD">
+		<tradelist id="906"/>
+		<tradelist id="907"/>
+		<tradelist id="908"/>
+		<tradelist id="909"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799815" name="Byblis" npc_type="REWARD">
+		<tradelist id="906"/>
+		<tradelist id="907"/>
+		<tradelist id="908"/>
+		<tradelist id="909"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799816" name="Brion" npc_type="REWARD">
+		<tradelist id="914"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799817" name="Comus" npc_type="REWARD">
+		<tradelist id="910"/>
+		<tradelist id="911"/>
+		<tradelist id="912"/>
+		<tradelist id="913"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799818" name="Argote" npc_type="REWARD">
+		<tradelist id="924"/>
+		<tradelist id="1052"/>
+		<tradelist id="1369"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799819" name="Nasil" npc_type="REWARD">
+		<tradelist id="914"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799820" name="Romaos" npc_type="REWARD">
+		<tradelist id="910"/>
+		<tradelist id="911"/>
+		<tradelist id="912"/>
+		<tradelist id="913"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799821" name="Roukianos" npc_type="REWARD">
+		<tradelist id="924"/>
+		<tradelist id="1052"/>
+		<tradelist id="1369"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799822" name="Licinius" npc_type="REWARD">
+		<tradelist id="1034"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799823" name="Marcellinus" npc_type="REWARD">
+		<tradelist id="1030"/>
+		<tradelist id="1031"/>
+		<tradelist id="1032"/>
+		<tradelist id="1033"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799824" name="Meno" npc_type="REWARD">
+		<tradelist id="1044"/>
+		<tradelist id="1056"/>
+		<tradelist id="1371"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799827" name="Belesarius" npc_type="REWARD">
+		<tradelist id="926"/>
+		<tradelist id="927"/>
+		<tradelist id="1054"/>
+		<tradelist id="1370"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799829" name="Ebion" npc_type="REWARD">
+		<tradelist id="926"/>
+		<tradelist id="927"/>
+		<tradelist id="1054"/>
+		<tradelist id="1370"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799830" name="Basileides" npc_type="REWARD">
+		<tradelist id="926"/>
+		<tradelist id="927"/>
+		<tradelist id="1054"/>
+		<tradelist id="1370"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799832" name="Marcion" npc_type="REWARD">
+		<tradelist id="1034"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799833" name="Donatus" npc_type="REWARD">
+		<tradelist id="1030"/>
+		<tradelist id="1031"/>
+		<tradelist id="1032"/>
+		<tradelist id="1033"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799834" name="Eutyches" npc_type="REWARD">
+		<tradelist id="1044"/>
+		<tradelist id="1056"/>
+		<tradelist id="1371"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799839" name="Agathas" npc_type="REWARD">
+		<tradelist id="1026"/>
+		<tradelist id="1027"/>
+		<tradelist id="1028"/>
+		<tradelist id="1029"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799841" name="Aristander" npc_type="REWARD">
+		<tradelist id="1026"/>
+		<tradelist id="1027"/>
+		<tradelist id="1028"/>
+		<tradelist id="1029"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799844" name="Dens" npc_type="REWARD">
+		<tradelist id="915"/>
+		<tradelist id="916"/>
+		<tradelist id="917"/>
+		<tradelist id="918"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799846" name="Corniculum" npc_type="REWARD">
+		<tradelist id="915"/>
+		<tradelist id="916"/>
+		<tradelist id="917"/>
+		<tradelist id="918"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799850" name="Hirundo" npc_type="REWARD">
+		<tradelist id="923"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799851" name="Cycnus" npc_type="REWARD">
+		<tradelist id="919"/>
+		<tradelist id="920"/>
+		<tradelist id="921"/>
+		<tradelist id="922"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799852" name="Pavo" npc_type="REWARD">
+		<tradelist id="925"/>
+		<tradelist id="1053"/>
+		<tradelist id="1373"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799853" name="Cornix" npc_type="REWARD">
+		<tradelist id="923"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799854" name="Cuculus" npc_type="REWARD">
+		<tradelist id="919"/>
+		<tradelist id="920"/>
+		<tradelist id="921"/>
+		<tradelist id="922"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799855" name="Copterus" npc_type="REWARD">
+		<tradelist id="915"/>
+		<tradelist id="916"/>
+		<tradelist id="917"/>
+		<tradelist id="918"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799856" name="Phager" npc_type="REWARD">
+		<tradelist id="915"/>
+		<tradelist id="916"/>
+		<tradelist id="917"/>
+		<tradelist id="918"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799857" name="Scomber" npc_type="REWARD">
+		<tradelist id="919"/>
+		<tradelist id="920"/>
+		<tradelist id="921"/>
+		<tradelist id="922"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799858" name="Rhynnus" npc_type="REWARD">
+		<tradelist id="925"/>
+		<tradelist id="1053"/>
+		<tradelist id="1373"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799859" name="Mola" npc_type="REWARD">
+		<tradelist id="923"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799860" name="Conger" npc_type="REWARD">
+		<tradelist id="923"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799861" name="Anguilla" npc_type="REWARD">
+		<tradelist id="919"/>
+		<tradelist id="920"/>
+		<tradelist id="921"/>
+		<tradelist id="922"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799862" name="Pulmo" npc_type="REWARD">
+		<tradelist id="925"/>
+		<tradelist id="1053"/>
+		<tradelist id="1373"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799863" name="Holothurion" npc_type="REWARD">
+		<tradelist id="925"/>
+		<tradelist id="1053"/>
+		<tradelist id="1373"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799867" name="Gemma" npc_type="REWARD">
+		<tradelist id="928"/>
+		<tradelist id="929"/>
+		<tradelist id="1055"/>
+		<tradelist id="1374"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799869" name="Rinaker" npc_type="REWARD">
+		<tradelist id="928"/>
+		<tradelist id="929"/>
+		<tradelist id="1055"/>
+		<tradelist id="1374"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799871" name="Turcestan" npc_type="REWARD">
+		<tradelist id="928"/>
+		<tradelist id="929"/>
+		<tradelist id="1055"/>
+		<tradelist id="1374"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799877" name="Godelier" npc_type="REWARD">
+		<tradelist id="1072"/>
+		<tradelist id="1073"/>
+		<tradelist id="1074"/>
+		<tradelist id="1075"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799878" name="Navaro" npc_type="REWARD">
+		<tradelist id="1080"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799880" name="Dezanti" npc_type="REWARD">
+		<tradelist id="1076"/>
+		<tradelist id="1077"/>
+		<tradelist id="1078"/>
+		<tradelist id="1079"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799884" name="Shugo_DQ_003" npc_type="REWARD">
+		<tradelist id="1035"/>
+		<tradelist id="1036"/>
+		<tradelist id="1037"/>
+		<tradelist id="1038"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799885" name="Shugo_DQ_004" npc_type="REWARD">
+		<tradelist id="1035"/>
+		<tradelist id="1036"/>
+		<tradelist id="1037"/>
+		<tradelist id="1038"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799888" name="Shugo_DQ_007" npc_type="REWARD">
+		<tradelist id="1043"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799889" name="Shugo_DQ_008" npc_type="REWARD">
+		<tradelist id="1039"/>
+		<tradelist id="1040"/>
+		<tradelist id="1041"/>
+		<tradelist id="1042"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799890" name="Shugo_DQ_009" npc_type="REWARD">
+		<tradelist id="1045"/>
+		<tradelist id="1057"/>
+		<tradelist id="1375"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799891" name="Shugo_DQ_010" npc_type="REWARD">
+		<tradelist id="1043"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799892" name="Shugo_DQ_011" npc_type="REWARD">
+		<tradelist id="1039"/>
+		<tradelist id="1040"/>
+		<tradelist id="1041"/>
+		<tradelist id="1042"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799893" name="Shugo_DQ_012" npc_type="REWARD">
+		<tradelist id="1045"/>
+		<tradelist id="1057"/>
+		<tradelist id="1375"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799897" name="Garnvia" npc_type="REWARD">
+		<tradelist id="1060"/>
+		<tradelist id="1061"/>
+		<tradelist id="1062"/>
+		<tradelist id="1063"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799898" name="Safine" npc_type="REWARD">
+		<tradelist id="1068"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799899" name="Peia" npc_type="REWARD">
+		<tradelist id="1064"/>
+		<tradelist id="1065"/>
+		<tradelist id="1066"/>
+		<tradelist id="1067"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799900" name="Kirine" npc_type="REWARD">
+		<tradelist id="1069"/>
+		<tradelist id="1070"/>
+		<tradelist id="1071"/>
+		<tradelist id="1372"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799902" name="Haraene" npc_type="REWARD">
+		<tradelist id="1060"/>
+		<tradelist id="1061"/>
+		<tradelist id="1062"/>
+		<tradelist id="1063"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799903" name="Narsil" npc_type="REWARD">
+		<tradelist id="1068"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799904" name="Militia" npc_type="REWARD">
+		<tradelist id="1064"/>
+		<tradelist id="1065"/>
+		<tradelist id="1066"/>
+		<tradelist id="1067"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799905" name="Heranian" npc_type="REWARD">
+		<tradelist id="1069"/>
+		<tradelist id="1070"/>
+		<tradelist id="1071"/>
+		<tradelist id="1372"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799907" name="Roxette" npc_type="REWARD">
+		<tradelist id="1060"/>
+		<tradelist id="1061"/>
+		<tradelist id="1062"/>
+		<tradelist id="1063"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799908" name="Embeira" npc_type="REWARD">
+		<tradelist id="1068"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799909" name="Erastin" npc_type="REWARD">
+		<tradelist id="1064"/>
+		<tradelist id="1065"/>
+		<tradelist id="1066"/>
+		<tradelist id="1067"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799910" name="Ailia" npc_type="REWARD">
+		<tradelist id="1069"/>
+		<tradelist id="1070"/>
+		<tradelist id="1071"/>
+		<tradelist id="1372"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799912" name="Alcadia" npc_type="REWARD">
+		<tradelist id="1060"/>
+		<tradelist id="1061"/>
+		<tradelist id="1062"/>
+		<tradelist id="1063"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799913" name="Ercine" npc_type="REWARD">
+		<tradelist id="1068"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799914" name="Seiyuunite" npc_type="REWARD">
+		<tradelist id="1064"/>
+		<tradelist id="1065"/>
+		<tradelist id="1066"/>
+		<tradelist id="1067"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799915" name="Merci" npc_type="REWARD">
+		<tradelist id="1069"/>
+		<tradelist id="1070"/>
+		<tradelist id="1071"/>
+		<tradelist id="1372"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799916" name="valhala" npc_type="REWARD">
+		<tradelist id="1081"/>
+		<tradelist id="1082"/>
+		<tradelist id="1083"/>
+		<tradelist id="1376"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799917" name="Setimner" npc_type="REWARD">
+		<tradelist id="1072"/>
+		<tradelist id="1073"/>
+		<tradelist id="1074"/>
+		<tradelist id="1075"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799918" name="Varasgalf" npc_type="REWARD">
+		<tradelist id="1080"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799919" name="Imiron" npc_type="REWARD">
+		<tradelist id="1076"/>
+		<tradelist id="1077"/>
+		<tradelist id="1078"/>
+		<tradelist id="1079"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799920" name="Ash" npc_type="REWARD">
+		<tradelist id="1081"/>
+		<tradelist id="1082"/>
+		<tradelist id="1083"/>
+		<tradelist id="1376"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799922" name="Alf" npc_type="REWARD">
+		<tradelist id="1072"/>
+		<tradelist id="1073"/>
+		<tradelist id="1074"/>
+		<tradelist id="1075"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799923" name="Jantman" npc_type="REWARD">
+		<tradelist id="1080"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799924" name="Aleman" npc_type="REWARD">
+		<tradelist id="1076"/>
+		<tradelist id="1077"/>
+		<tradelist id="1078"/>
+		<tradelist id="1079"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799925" name="Zaksen" npc_type="REWARD">
+		<tradelist id="1081"/>
+		<tradelist id="1082"/>
+		<tradelist id="1083"/>
+		<tradelist id="1376"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799927" name="Ostmark" npc_type="REWARD">
+		<tradelist id="1072"/>
+		<tradelist id="1073"/>
+		<tradelist id="1074"/>
+		<tradelist id="1075"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799928" name="Karolinger" npc_type="REWARD">
+		<tradelist id="1080"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799929" name="Volk" npc_type="REWARD">
+		<tradelist id="1076"/>
+		<tradelist id="1077"/>
+		<tradelist id="1078"/>
+		<tradelist id="1079"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799930" name="Wessel" npc_type="REWARD">
+		<tradelist id="1081"/>
+		<tradelist id="1082"/>
+		<tradelist id="1083"/>
+		<tradelist id="1376"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799933" name="Darin" npc_type="REWARD">
+		<tradelist id="1144"/>
+		<tradelist id="1142"/>
+		<tradelist id="1143"/>
+	</tradelist_template>
+	<tradelist_template npc_id="799939" name="Emma" npc_type="REWARD">
+		<tradelist id="1145"/>
+		<tradelist id="1147"/>
+		<tradelist id="1143"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800050" name="Adue">
+		<tradelist id="1292"/>
+		<tradelist id="1490"/>
+		<tradelist id="1514"/>
+		<tradelist id="118"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800061" name="Usiros" npc_type="REWARD">
+		<tradelist id="1314"/>
+		<tradelist id="1318"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800062" name="Quess" npc_type="REWARD">
+		<tradelist id="1314"/>
+		<tradelist id="1318"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800063" name="Alran" npc_type="REWARD">
+		<tradelist id="1315"/>
+		<tradelist id="1319"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800064" name="Benothye" npc_type="REWARD">
+		<tradelist id="1315"/>
+		<tradelist id="1319"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800233" name="Susia" sell_price_rate="6000">
+		<tradelist id="5073"/>
+		<tradelist id="5074"/>
+		<tradelist id="5075"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800234" name="Sasik" sell_price_rate="6000">
+		<tradelist id="5076"/>
+		<tradelist id="5077"/>
+		<tradelist id="5078"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800235" name="NPC_Gururu_08" sell_price_rate="7200">
+		<tradelist id="5080"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800236" name="Hoonion" sell_price_rate="6000">
+		<tradelist id="5073"/>
+		<tradelist id="5074"/>
+		<tradelist id="5075"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800246" name="event_hc_Miche" npc_type="REWARD">
+		<tradelist id="1450"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800247" name="event_hc_Luke" npc_type="REWARD">
+		<tradelist id="1451"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800248" name="event_hc_Evapona" npc_type="REWARD">
+		<tradelist id="1450"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800249" name="event_hc_Miata" npc_type="REWARD">
+		<tradelist id="1451"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800250" name="event_hc_Gleisia" npc_type="REWARD">
+		<tradelist id="1452"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800251" name="event_hc_Lacros" npc_type="REWARD">
+		<tradelist id="1453"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800252" name="event_hc_Meleaf" npc_type="REWARD">
+		<tradelist id="1452"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800253" name="event_hc_Luvdo" npc_type="REWARD">
+		<tradelist id="1453"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800254" name="event_hc_Rojelia" npc_type="REWARD">
+		<tradelist id="1454"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800255" name="event_hc_Erechi" npc_type="REWARD">
+		<tradelist id="1455"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800256" name="event_hc_Vibria" npc_type="REWARD">
+		<tradelist id="1454"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800257" name="event_hc_Everass" npc_type="REWARD">
+		<tradelist id="1455"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800258" name="event_hc_Plochel" npc_type="REWARD">
+		<tradelist id="1456"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800259" name="event_hc_Ballbeat" npc_type="REWARD">
+		<tradelist id="1457"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800260" name="event_hc_Ellaias" npc_type="REWARD">
+		<tradelist id="1456"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800261" name="event_hc_Koters" npc_type="REWARD">
+		<tradelist id="1457"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800262" name="event_hc_Brocha" npc_type="REWARD">
+		<tradelist id="1458"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800263" name="event_hc_Sloc" npc_type="REWARD">
+		<tradelist id="1459"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800264" name="event_hc_Namei" npc_type="REWARD">
+		<tradelist id="1460"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800265" name="event_hc_Mechin" npc_type="REWARD">
+		<tradelist id="1461"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800266" name="event_hc_Noel" npc_type="REWARD">
+		<tradelist id="1458"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800267" name="event_hc_Anodiff" npc_type="REWARD">
+		<tradelist id="1459"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800268" name="event_hc_Merdel" npc_type="REWARD">
+		<tradelist id="1460"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800269" name="event_hc_Maiano" npc_type="REWARD">
+		<tradelist id="1461"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800278" name="event_hc_Glaion" npc_type="REWARD">
+		<tradelist id="1462"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800279" name="event_hc_Adole" npc_type="REWARD">
+		<tradelist id="1462"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800311" name="pitthaus">
+		<tradelist id="567"/>
+		<tradelist id="568"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800312" name="gordios">
+		<tradelist id="569"/>
+		<tradelist id="570"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800313" name="amimune">
+		<tradelist id="573"/>
+		<tradelist id="574"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800314" name="delos">
+		<tradelist id="571"/>
+		<tradelist id="572"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800319" name="gelaluden">
+		<tradelist id="575"/>
+		<tradelist id="576"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800320" name="selmir">
+		<tradelist id="577"/>
+		<tradelist id="578"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800321" name="adriyan">
+		<tradelist id="581"/>
+		<tradelist id="582"/>
+	</tradelist_template>
+	<tradelist_template npc_id="800322" name="kamiya">
+		<tradelist id="579"/>
+		<tradelist id="580"/>
+	</tradelist_template>
+	<tradelist_template npc_id="810013" name="Housing_NPC_L_merchant">
+		<tradelist id="394"/>
+		<tradelist id="1492"/>
+		<tradelist id="1544"/>
+	</tradelist_template>
+	<tradelist_template npc_id="810014" name="Housing_NPC_D_merchant">
+		<tradelist id="398"/>
+		<tradelist id="1477"/>
+		<tradelist id="1545"/>
+	</tradelist_template>
+	<tradelist_template npc_id="810033" name="Housing_NPC_Event_L_merchant">
+		<tradelist id="394"/>
+		<tradelist id="1492"/>
+		<tradelist id="1544"/>
+	</tradelist_template>
+	<tradelist_template npc_id="810034" name="Housing_NPC_Event_D_merchant">
+		<tradelist id="398"/>
+		<tradelist id="1477"/>
+		<tradelist id="1545"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830034" name="Taltaros">
+		<tradelist id="1365"/>
+		<tradelist id="1492"/>
+		<tradelist id="1516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830035" name="Gernis">
+		<tradelist id="1365"/>
+		<tradelist id="1492"/>
+		<tradelist id="1516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830036" name="Setes">
+		<tradelist id="1365"/>
+		<tradelist id="1492"/>
+		<tradelist id="1516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830037" name="Rethy">
+		<tradelist id="1365"/>
+		<tradelist id="1492"/>
+		<tradelist id="1516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830038" name="Gercis">
+		<tradelist id="165"/>
+		<tradelist id="166"/>
+		<tradelist id="167"/>
+		<tradelist id="168"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830039" name="Percus">
+		<tradelist id="165"/>
+		<tradelist id="166"/>
+		<tradelist id="167"/>
+		<tradelist id="168"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830040" name="Videno">
+		<tradelist id="145"/>
+		<tradelist id="146"/>
+		<tradelist id="147"/>
+		<tradelist id="148"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830041" name="Enepce">
+		<tradelist id="169"/>
+		<tradelist id="170"/>
+		<tradelist id="171"/>
+		<tradelist id="172"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830042" name="Aniriel">
+		<tradelist id="169"/>
+		<tradelist id="170"/>
+		<tradelist id="171"/>
+		<tradelist id="172"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830043" name="Isne">
+		<tradelist id="149"/>
+		<tradelist id="150"/>
+		<tradelist id="151"/>
+		<tradelist id="152"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830044" name="Theis">
+		<tradelist id="175"/>
+		<tradelist id="176"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830045" name="Deis">
+		<tradelist id="175"/>
+		<tradelist id="176"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830046" name="Darien">
+		<tradelist id="158"/>
+		<tradelist id="159"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830047" name="Juter">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830048" name="Fooderis">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830049" name="Moderis">
+		<tradelist id="174"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830050" name="Ratea">
+		<tradelist id="155"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830053" name="Armonia">
+		<tradelist id="65"/>
+		<tradelist id="59"/>
+		<tradelist id="1134"/>
+		<tradelist id="478"/>
+		<tradelist id="1122"/>
+		<tradelist id="1218"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830055" name="Hemes">
+		<tradelist id="67"/>
+		<tradelist id="61"/>
+		<tradelist id="1136"/>
+		<tradelist id="478"/>
+		<tradelist id="1124"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830057" name="Shugo_housing_22">
+		<tradelist id="66"/>
+		<tradelist id="60"/>
+		<tradelist id="1135"/>
+		<tradelist id="478"/>
+		<tradelist id="1123"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830059" name="Serenus">
+		<tradelist id="68"/>
+		<tradelist id="62"/>
+		<tradelist id="1135"/>
+		<tradelist id="478"/>
+		<tradelist id="1125"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830061" name="Speros">
+		<tradelist id="64"/>
+		<tradelist id="58"/>
+		<tradelist id="1133"/>
+		<tradelist id="478"/>
+		<tradelist id="1121"/>
+		<tradelist id="1216"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830063" name="Nakisia">
+		<tradelist id="63"/>
+		<tradelist id="57"/>
+		<tradelist id="1132"/>
+		<tradelist id="478"/>
+		<tradelist id="1120"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830065" name="Gibokus">
+		<tradelist id="428"/>
+		<tradelist id="5052"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830067" name="Riverain">
+		<tradelist id="427"/>
+		<tradelist id="1377"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830068" name="Moria" sell_price_rate="6000">
+		<tradelist id="5082"/>
+		<tradelist id="5083"/>
+		<tradelist id="5084"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830071" name="Irarion"  >
+		<tradelist id="1338"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830072" name="Kibeira"  >
+		<tradelist id="1338"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830073" name="Kibeira"  >
+		<tradelist id="1046"/>
+		<tradelist id="1048"/>
+		<tradelist id="1050"/>
+		<tradelist id="1146"/>
+		<tradelist id="1150"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830074" name="Vesper"  >
+		<tradelist id="1046"/>
+		<tradelist id="1048"/>
+		<tradelist id="1050"/>
+		<tradelist id="1146"/>
+		<tradelist id="1150"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830076" name="Shugo_housing_21"  >
+		<tradelist id="1330"/>
+		<tradelist id="1348"/>
+		<tradelist id="1415"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830077" name="Shugo_housing_23"  >
+		<tradelist id="1330"/>
+		<tradelist id="1348"/>
+		<tradelist id="1415"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830078" name="Shugo_housing_01"  >
+		<tradelist id="1330"/>
+		<tradelist id="1348"/>
+		<tradelist id="1415"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830079" name="Shugo_housing_04"  >
+		<tradelist id="1350"/>
+		<tradelist id="1385"/>
+		<tradelist id="1387"/>
+		<tradelist id="1389"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830080" name="Shugo_housing_05"  >
+		<tradelist id="1350"/>
+		<tradelist id="1385"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830081" name="Shugo_housing_24"  >
+		<tradelist id="1385"/>
+		<tradelist id="1387"/>
+		<tradelist id="1389"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830118" name="Moren">
+		<tradelist id="1366"/>
+		<tradelist id="1477"/>
+		<tradelist id="1497"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830119" name="Seria">
+		<tradelist id="1366"/>
+		<tradelist id="1477"/>
+		<tradelist id="1497"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830120" name="Desken">
+		<tradelist id="1366"/>
+		<tradelist id="1477"/>
+		<tradelist id="1497"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830121" name="Sutelken">
+		<tradelist id="1366"/>
+		<tradelist id="1477"/>
+		<tradelist id="1497"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830122" name="Raizen">
+		<tradelist id="298"/>
+		<tradelist id="299"/>
+		<tradelist id="300"/>
+		<tradelist id="301"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830123" name="Amokr">
+		<tradelist id="298"/>
+		<tradelist id="299"/>
+		<tradelist id="300"/>
+		<tradelist id="301"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830124" name="Maknin">
+		<tradelist id="278"/>
+		<tradelist id="279"/>
+		<tradelist id="280"/>
+		<tradelist id="281"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830125" name="Suteden">
+		<tradelist id="302"/>
+		<tradelist id="303"/>
+		<tradelist id="304"/>
+		<tradelist id="305"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830126" name="Mora">
+		<tradelist id="302"/>
+		<tradelist id="303"/>
+		<tradelist id="304"/>
+		<tradelist id="305"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830127" name="Asrea">
+		<tradelist id="282"/>
+		<tradelist id="283"/>
+		<tradelist id="284"/>
+		<tradelist id="285"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830128" name="Ruiza">
+		<tradelist id="308"/>
+		<tradelist id="309"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830129" name="Saren">
+		<tradelist id="308"/>
+		<tradelist id="309"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830130" name="Maritel">
+		<tradelist id="291"/>
+		<tradelist id="292"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830131" name="Enika">
+		<tradelist id="350"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830132" name="Enube">
+		<tradelist id="350"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830133" name="Ranvet">
+		<tradelist id="350"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830134" name="Nirhye">
+		<tradelist id="155"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830137" name="Abellik">
+		<tradelist id="96"/>
+		<tradelist id="90"/>
+		<tradelist id="1139"/>
+		<tradelist id="479"/>
+		<tradelist id="1128"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830139" name="Penris">
+		<tradelist id="98"/>
+		<tradelist id="92"/>
+		<tradelist id="1141"/>
+		<tradelist id="479"/>
+		<tradelist id="1130"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830141" name="Shugo_housing_32">
+		<tradelist id="97"/>
+		<tradelist id="91"/>
+		<tradelist id="1140"/>
+		<tradelist id="479"/>
+		<tradelist id="1129"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830143" name="Gungnir">
+		<tradelist id="99"/>
+		<tradelist id="93"/>
+		<tradelist id="479"/>
+		<tradelist id="1131"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830145" name="Aizeco">
+		<tradelist id="95"/>
+		<tradelist id="89"/>
+		<tradelist id="1138"/>
+		<tradelist id="479"/>
+		<tradelist id="1127"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830147" name="Askr">
+		<tradelist id="94"/>
+		<tradelist id="88"/>
+		<tradelist id="1137"/>
+		<tradelist id="479"/>
+		<tradelist id="1126"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830149" name="Ilmerin">
+		<tradelist id="430"/>
+		<tradelist id="5054"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830151" name="Pacheco">
+		<tradelist id="429"/>
+		<tradelist id="1378"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830152" name="Korien" sell_price_rate="6000">
+		<tradelist id="5085"/>
+		<tradelist id="5086"/>
+		<tradelist id="5087"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830155" name="Sissoko">
+		<tradelist id="1339"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830156" name="Alisanos">
+		<tradelist id="1339"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830157" name="Nartel"  >
+		<tradelist id="1047"/>
+		<tradelist id="1049"/>
+		<tradelist id="1051"/>
+		<tradelist id="1146"/>
+		<tradelist id="1150"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830158" name="Voleide"  >
+		<tradelist id="1047"/>
+		<tradelist id="1049"/>
+		<tradelist id="1051"/>
+		<tradelist id="1146"/>
+		<tradelist id="1150"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830160" name="Shugo_housing_28"  >
+		<tradelist id="1331"/>
+		<tradelist id="1349"/>
+		<tradelist id="1416"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830161" name="Shugo_housing_29"  >
+		<tradelist id="1331"/>
+		<tradelist id="1349"/>
+		<tradelist id="1416"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830162" name="Shugo_housing_30"  >
+		<tradelist id="1331"/>
+		<tradelist id="1349"/>
+		<tradelist id="1416"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830163" name="Shugo_housing_13"  >
+		<tradelist id="1351"/>
+		<tradelist id="1386"/>
+		<tradelist id="1388"/>
+		<tradelist id="1390"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830164" name="Shugo_housing_14"  >
+		<tradelist id="1351"/>
+		<tradelist id="1386"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830165" name="Shugo_housing_31"  >
+		<tradelist id="1386"/>
+		<tradelist id="1388"/>
+		<tradelist id="1390"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830168" name="Shugo_housing_41"  >
+		<tradelist id="1328"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830169" name="Shugo_housing_42"  >
+		<tradelist id="1329"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830220" name="Seiria" sell_price_rate="6000">
+		<tradelist id="5082"/>
+		<tradelist id="5083"/>
+		<tradelist id="5084"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830221" name="Teinien" sell_price_rate="6000">
+		<tradelist id="5085"/>
+		<tradelist id="5086"/>
+		<tradelist id="5087"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830222" name="Ternis">
+		<tradelist id="1365"/>
+		<tradelist id="1492"/>
+		<tradelist id="1516"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830223" name="Niterk">
+		<tradelist id="1366"/>
+		<tradelist id="1477"/>
+		<tradelist id="1497"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830359" name="Hosuingstore_L1">
+		<tradelist id="1284"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830360" name="HousingStore_L2">
+		<tradelist id="1285"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830361" name="HousingStore_L3">
+		<tradelist id="1286"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830362" name="HousingStore_D1">
+		<tradelist id="1287"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830363" name="HousingStore_D2">
+		<tradelist id="1288"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830364" name="HousingStore_D3">
+		<tradelist id="1289"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830523" name="Shugo_housing_50" sell_price_rate="200">
+		<tradelist id="834"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830524" name="Shugo_housing_51">
+		<tradelist id="1340"/>
+		<tradelist id="5065"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830526" name="Shugo_housing_53" sell_price_rate="200">
+		<tradelist id="728"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830527" name="Shugo_housing_54">
+		<tradelist id="1344"/>
+		<tradelist id="5067"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830528" name="Pesarius">
+		<tradelist id="1334"/>
+		<tradelist id="1408"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830529" name="Framiden" npc_type="REWARD">
+		<tradelist id="1336"/>
+		<tradelist id="1548"/>
+		<tradelist id="1535"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830530" name="Prakon">
+		<tradelist id="1335"/>
+		<tradelist id="1409"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830531" name="Portnaon" npc_type="REWARD">
+		<tradelist id="1337"/>
+		<tradelist id="1549"/>
+		<tradelist id="1536"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830540" name="Shugo_housing_55">
+		<tradelist id="1341"/>
+		<tradelist id="5069"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830541" name="Shugo_housing_56">
+		<tradelist id="1342"/>
+		<tradelist id="5066"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830542" name="Shugo_housing_57">
+		<tradelist id="1343"/>
+		<tradelist id="5071"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830543" name="Shugo_housing_58">
+		<tradelist id="1345"/>
+		<tradelist id="5070"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830544" name="Shugo_housing_59">
+		<tradelist id="1346"/>
+		<tradelist id="5068"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830545" name="Shugo_housing_60">
+		<tradelist id="1347"/>
+		<tradelist id="5072"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830546" name="Shugo_housing_61" npc_type="REWARD">
+		<tradelist id="1463"/>
+		<tradelist id="1550"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830547" name="Shugo_housing_62">
+		<tradelist id="1465"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830551" name="Shugo_housing_66" npc_type="REWARD">
+		<tradelist id="1464"/>
+		<tradelist id="1551"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830552" name="Shugo_housing_67">
+		<tradelist id="1466"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830556" name="menuisier_store_L1">
+		<tradelist id="1354"/>
+		<tradelist id="1352"/>
+		<tradelist id="1356"/>
+		<tradelist id="1417"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830557" name="menuisier_store_D1">
+		<tradelist id="1355"/>
+		<tradelist id="1353"/>
+		<tradelist id="1357"/>
+		<tradelist id="1418"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830584" name="Shugo_housing_71">
+		<tradelist id="1537"/>
+		<tradelist id="1415"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830585" name="Shugo_housing_72">
+		<tradelist id="1538"/>
+		<tradelist id="1416"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830643" name="Kadusius">
+		<tradelist id="1334"/>
+		<tradelist id="1408"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830644" name="Sieris">
+		<tradelist id="1334"/>
+		<tradelist id="1408"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830645" name="Raknus">
+		<tradelist id="1334"/>
+		<tradelist id="1408"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830646" name="Kiaria" npc_type="REWARD">
+		<tradelist id="1336"/>
+		<tradelist id="1548"/>
+		<tradelist id="1535"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830647" name="Mihanus" npc_type="REWARD">
+		<tradelist id="1336"/>
+		<tradelist id="1548"/>
+		<tradelist id="1535"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830648" name="Riahagion" npc_type="REWARD">
+		<tradelist id="1336"/>
+		<tradelist id="1548"/>
+		<tradelist id="1535"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830649" name="Mirniel">
+		<tradelist id="1335"/>
+		<tradelist id="1409"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830650" name="Aktuon">
+		<tradelist id="1335"/>
+		<tradelist id="1409"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830651" name="Mireni">
+		<tradelist id="1335"/>
+		<tradelist id="1409"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830652" name="Hakitidin" npc_type="REWARD">
+		<tradelist id="1337"/>
+		<tradelist id="1549"/>
+		<tradelist id="1536"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830653" name="Arhiel" npc_type="REWARD">
+		<tradelist id="1337"/>
+		<tradelist id="1549"/>
+		<tradelist id="1536"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830654" name="Hadiroman" npc_type="REWARD">
+		<tradelist id="1337"/>
+		<tradelist id="1549"/>
+		<tradelist id="1536"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830830" name="event_hc_Langlang" npc_type="REWARD">
+		<tradelist id="1449"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830832" name="event_hc_Mingming" npc_type="REWARD">
+		<tradelist id="1449"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830994" name="pelronosis" npc_type="ABYSS">
+		<tradelist id="1420"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830995" name="gartigel" npc_type="ABYSS">
+		<tradelist id="1435"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830996" name="event_hc_Langlang2" npc_type="REWARD">
+		<tradelist id="1541"/>
+	</tradelist_template>
+	<tradelist_template npc_id="830998" name="event_hc_Mingming2" npc_type="REWARD">
+		<tradelist id="1541"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831000" name="udelia" npc_type="REWARD">
+		<tradelist id="1530"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831001" name="giyuna" npc_type="REWARD">
+		<tradelist id="1530"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831002" name="melisa"  >
+		<tradelist id="1531"/>
+		<tradelist id="1532"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831003" name="danitea"  >
+		<tradelist id="1533"/>
+		<tradelist id="1534"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831004" name="joniria"  >
+		<tradelist id="1531"/>
+		<tradelist id="1532"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831005" name="sinaenel"  >
+		<tradelist id="1533"/>
+		<tradelist id="1534"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831006" name="herinopon"  >
+		<tradelist id="1531"/>
+		<tradelist id="1532"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831007" name="mirgar"  >
+		<tradelist id="1533"/>
+		<tradelist id="1534"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831008" name="kediane"  >
+		<tradelist id="1531"/>
+		<tradelist id="1532"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831009" name="podinia"  >
+		<tradelist id="1533"/>
+		<tradelist id="1534"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831016" name="event_hc_Lacipe" npc_type="REWARD">
+		<tradelist id="1542"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831018" name="event_hc_Schoria" npc_type="REWARD">
+		<tradelist id="1542"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831020" name="event_hc_Lacipe2" npc_type="REWARD">
+		<tradelist id="1543"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831022" name="event_hc_Schoria2" npc_type="REWARD">
+		<tradelist id="1543"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831034" name="LC1_ChristmasEvent_Kebisung" npc_type="REWARD">
+		<tradelist id="1546"/>
+	</tradelist_template>
+	<tradelist_template npc_id="831035" name="DC1_ChristmasEvent_Kebisung" npc_type="REWARD">
+		<tradelist id="1547"/>
+	</tradelist_template>
+	<trade_in_list_template npc_id="205315" name="perbano" npc_type="NORMAL">
+		<tradelist id="39"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="205323" name="reigar" npc_type="NORMAL">
+		<tradelist id="40"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="205561" name="Kalinia" npc_type="NORMAL">
+		<tradelist id="48"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207019" name="scobi" npc_type="NORMAL">
+		<tradelist id="23"/>
+		<tradelist id="24"/>
+		<tradelist id="25"/>
+		<tradelist id="26"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207020" name="marre" npc_type="NORMAL">
+		<tradelist id="27"/>
+		<tradelist id="28"/>
+		<tradelist id="29"/>
+		<tradelist id="30"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207021" name="layer" npc_type="NORMAL">
+		<tradelist id="54"/>
+		<tradelist id="55"/>
+		<tradelist id="56"/>
+		<tradelist id="57"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207022" name="marion" npc_type="NORMAL">
+		<tradelist id="58"/>
+		<tradelist id="59"/>
+		<tradelist id="60"/>
+		<tradelist id="61"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207023" name="tyra" npc_type="NORMAL">
+		<tradelist id="7"/>
+		<tradelist id="8"/>
+		<tradelist id="9"/>
+		<tradelist id="10"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207024" name="forde" npc_type="NORMAL">
+		<tradelist id="11"/>
+		<tradelist id="12"/>
+		<tradelist id="13"/>
+		<tradelist id="14"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207025" name="saliva" npc_type="NORMAL">
+		<tradelist id="31"/>
+		<tradelist id="32"/>
+		<tradelist id="33"/>
+		<tradelist id="34"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207026" name="lonkus" npc_type="NORMAL">
+		<tradelist id="35"/>
+		<tradelist id="36"/>
+		<tradelist id="37"/>
+		<tradelist id="38"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207027" name="nodor" npc_type="NORMAL">
+		<tradelist id="62"/>
+		<tradelist id="63"/>
+		<tradelist id="64"/>
+		<tradelist id="65"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207028" name="dorsi" npc_type="NORMAL">
+		<tradelist id="66"/>
+		<tradelist id="67"/>
+		<tradelist id="68"/>
+		<tradelist id="69"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207029" name="os" npc_type="NORMAL">
+		<tradelist id="15"/>
+		<tradelist id="16"/>
+		<tradelist id="17"/>
+		<tradelist id="18"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="207030" name="numen" npc_type="NORMAL">
+		<tradelist id="19"/>
+		<tradelist id="20"/>
+		<tradelist id="21"/>
+		<tradelist id="22"/>
+	</trade_in_list_template>
+	<!--<trade_in_list_template npc_id="207031" name="Sutien" npc_type="NORMAL">
+		<tradelist id="15"/>
+		<tradelist id="16"/>
+		<tradelist id="17"/>
+		<tradelist id="18"/>
+	</trade_in_list_template>-->
+	<!--<trade_in_list_template npc_id="207032" name="Nualia" npc_type="NORMAL">
+		<tradelist id="19"/>
+		<tradelist id="20"/>
+		<tradelist id="21"/>
+		<tradelist id="22"/>
+	</trade_in_list_template>-->
+	<trade_in_list_template npc_id="800199" name="Yord" npc_type="NORMAL">
+		<tradelist id="50"/>
+		<tradelist id="51"/>
+		<tradelist id="52"/>
+		<tradelist id="53"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800200" name="Bahar" npc_type="NORMAL">
+		<tradelist id="41"/>
+		<tradelist id="42"/>
+		<tradelist id="43"/>
+		<tradelist id="44"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800201" name="Midoar" npc_type="NORMAL">
+		<tradelist id="45"/>
+		<tradelist id="46"/>
+		<tradelist id="47"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800202" name="Diero" npc_type="NORMAL">
+		<tradelist id="49"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800206" name="Ruias" npc_type="NORMAL">
+		<tradelist id="50"/>
+		<tradelist id="51"/>
+		<tradelist id="52"/>
+		<tradelist id="53"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800207" name="Suie" npc_type="NORMAL">
+		<tradelist id="41"/>
+		<tradelist id="42"/>
+		<tradelist id="43"/>
+		<tradelist id="44"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800208" name="Ardia" npc_type="NORMAL">
+		<tradelist id="45"/>
+		<tradelist id="46"/>
+		<tradelist id="47"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800209" name="Cremaon" npc_type="NORMAL">
+		<tradelist id="48"/>
+	</trade_in_list_template>
+	<trade_in_list_template npc_id="800210" name="Minasas" npc_type="NORMAL">
+		<tradelist id="49"/>
+	</trade_in_list_template>
+</npc_trade_list>

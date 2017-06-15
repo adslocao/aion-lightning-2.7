@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			1900 [SCRIPT] A Ring Imbued With Aether
+			1901 [SCRIPT] Krallic Language Potion
+			1902 [TODO] [Craft] Crafting Ingots
+			1903 [TODO] [Craft] Ingot Ingredients
+			1904 [TODO] [Craft] Roasting Inina
+			1905 [TODO] [Craft] A Betua Wood Offering
+			1906 [TODO] [Craft] A Token of Respect
+			1907 [TODO] [Craft] First Steps in Tailoring
+			1908 [TODO] Ulaguru Speaks
+			1909 [SCRIPT] A Song Of Praise
+			1910 [TODO] The Seed of Evil
+			1911 [TODO] Marmeia's Krall Research
+			1912 [TODO] Familiar Food
+			1917 [SCRIPT] A Lingering Mystery
+			1918 [TODO] An Ax For Namus
+			1919 [TODO] Manduri's Diary Restoration Project
+			1926 [SCRIPT] Secret Library Access
+			1927 [TODO] Sanctum Quest
+			1928 [SCRIPT] Chasing a Criminal
+			1929 [SCRIPT] A Sliver of Darkness
+			1930 [XML] Flame Sword
+			1931 [XML] Rules of Alchemy and Life
+			1932 [SCRIPT] A Matter of Reputation
+			1933 [XML] A Disturbing Report
+			1934 [XML] RM-78c
+			1935 [SCRIPT] Tissue? I Don't Even Know You!
+			1936 [SCRIPT] What Nerison Saw
+			1937 [SCRIPT] A Lepharist Monstrosity
+			1938 [SCRIPT] Black Cloud Fakery
+			1939 [XML] Going out of Business
+			1940 [SCRIPT] Wings of Mastery
+			1941 [XML] [Expert] Weaponsmithing Expert
+			1942 [XML] [Expert] Armorsmithing Expert
+			1943 [XML] [Expert] Handicrafting Expert
+			1944 [XML] [Expert] Cooking Expert
+			1945 [XML] [Expert] Alchemy Expert
+			1946 [XML] [Expert] Tailoring Expert
+			1947 [SCRIPT] A Lucky Day
+			1948 [SCRIPT] Where's Vindachinerk?
+			1949 [XML] A Gift For Vindachinerk
+			1950 [XML] A Letter to Medea
+			1951 [XML] Never Short of Steel
+			1952 [XML] A Package From Vulcanus
+			1953 [XML] Getting a Grip
+			1954 [XML] Nuts to Denegos
+			1955 [XML] Spellbook Express
+			1956 [XML] A Mended Robe
+			1957 [TODO] Weapon Delivery
+			1958 [TODO] Equipment Delivery
+			1959 [TODO] Staff Delivery
+			1960 [TODO] War Supplies Delivery
+			1961 [TODO] Spellbook Delivery
+			1962 [TODO] Robe Delivery
+			1963 [SCRIPT] Delivery for the Outer Port
+			1964 [SCRIPT] A Souvenir For Noris
+			1965 [SCRIPT] A Sword Gone Astray
+			1966 [SCRIPT] A Helmet Gone Astray
+			1967 [SCRIPT] A Staff Gone Astray
+			1968 [SCRIPT] Combat Rations
+			1969 [SCRIPT] Combat Potions
+			1970 [SCRIPT] A Robe Gone Astray
+			1971 [TODO] D'yer Ma'ker
+			1972 [SCRIPT] [Expert] Passion for Weaponsmithing
+			1973 [SCRIPT] [Expert] Expert of Weaponsmithing
+			1974 [SCRIPT] [Expert] Passion for Armorsmithing
+			1975 [SCRIPT] [Expert] Expert of Armorsmithing
+			1976 [SCRIPT] [Expert] Passion for Handicrafting
+			1977 [SCRIPT] [Expert] Expert of Handicrafting
+			1978 [SCRIPT] [Expert] Passion for Cooking
+			1979 [SCRIPT] [Expert] Expert of Cooking
+			1980 [SCRIPT] [Expert] Passion for Alchemy
+			1981 [SCRIPT] [Expert] Expert of Alchemy
+			1982 [SCRIPT] [Expert] A Passion For Tailoring
+			1983 [SCRIPT] [Expert] Expert of Tailoring
+			1984 [TODO] Sanctum Quest
+			1985 [TODO] Sanctum Quest
+			1986 [TODO] A Costume on Consignment
+			1987 [SCRIPT] A Bigger Warehouse
+			3201 [XML] Snow Blessing
+			3202 [XML] A Promise to a Customer
+			3203 [XML] The Manduri Imperative
+			3204 [XML] Shameless Peperinrinerk
+			3206 [XML] Hairpin Ahoy!
+			3207 [XML] The Pirates' Log
+			3209 [XML] Steel Rake Spy
+			3210 [SCRIPT] Rescue Haorunerk!
+			3212 [TODO] The Missing Cube Craftsman
+			3213 [XML] Revenge of Himusus
+			3214 [XML] The Pirates' Pouch
+			3215 [XML] Bring Back the Booty
+			3216 [XML] Plunder the Pirates
+			3218 [XML] The Difficulties of Beauty
+			3901 [XML] Esoteric Book of Justice
+			3902 [XML] Esoteric Book of Freedom
+			3903 [XML] Esoteric Book of Illusion
+			3904 [XML] Esoteric Book of Life
+			3905 [XML] To Catch a Dragon
+			3906 [XML] Destruction and Rebirth
+			3907 [XML] Fire and Ice
+			3908 [XML] To Master the Dragon
+			3909 [TODO] Guide of Life
+			3910 [TODO] Meaning of Life
+			3911 [TODO] Teachings of Life
+			3912 [TODO] Intention of Lady Yustiel
+			3913 [SCRIPT] A Secret Summons
+			3914 [XML] The Balaur Report
+			3915 [XML] Obtaining the Dragel
+			3916 [XML] The Danger of Drana
+			3917 [XML] Mutual Benefits
+			3918 [XML] Gathering the Surkana
+			3919 [XML] Obtaining the Drazma
+			3920 [XML] The Secret of Surkana
+			3921 [XML] Shoshinerk's Reward
+			3922 [SCRIPT] The Gladiator Preceptor's Task
+			3923 [SCRIPT] The Templar Preceptor's Task
+			3924 [SCRIPT] The Ranger Preceptor's Task
+			3925 [SCRIPT] The Assassin Preceptor's Task
+			3926 [SCRIPT] The Sorcerer Preceptor's Task
+			3927 [SCRIPT] The Spiritmaster Preceptor's Task
+			3928 [SCRIPT] The Cleric Preceptor's Task
+			3929 [SCRIPT] The Chanter Preceptor's Task
+			3941 [XML] [Top Expert] Zest for Weaponsmithing
+			3942 [XML] [Top Expert] Weaponsmith's Craft
+			3943 [XML] [Top Expert] Expert Weaponsmith
+			3944 [XML] [Top Expert] Zest for Armorsmithing
+			3945 [XML] [Top Expert] Armorsmith's Craft
+			3946 [XML] [Top Expert] Expert Armorsmith
+			3947 [XML] [Top Expert] Zest for Handicrafting
+			3948 [XML] [Top Expert] Handicrafter's Craft
+			3949 [XML] [Top Expert] Expert Handicrafter
+			3950 [XML] [Top Expert] Zest for Cooking
+			3951 [XML] [Top Expert] Cook's Craft
+			3952 [XML] [Top Expert] Expert Cook
+			3953 [XML] [Top Expert] Zest for Alchemy
+			3954 [XML] [Top Expert] Alchemist's Craft
+			3955 [XML] [Top Expert] Expert Alchemist
+			3956 [XML] [Top Expert] Zest for Tailoring
+			3957 [XML] [Top Expert] Tailor's Craft
+			3958 [XML] [Top Expert] Expert Tailor
+			3959 [TODO] Epilogue
+			3960 [XML] Goodwill of Kuruminerk
+			3961 [SCRIPT] Flora's First Charm
+			3962 [SCRIPT] Flora's Second Charm
+			3963 [SCRIPT] Flora's Third Charm
+			3964 [SCRIPT] Flora's Fourth Charm
+			3965 [SCRIPT] To the Galleria of Grandeur
+			3966 [SCRIPT] Salute! A New Uniform
+			3967 [SCRIPT] Andu's Dye Box
+			3968 [SCRIPT] Palentine's Request
+			3969 [SCRIPT] Sexiest Man Alive
+			3970 [TODO] Kinah-Digging Daughter
+			3971 [XML] What Did You Buy Me?
+			3972 [XML] The Go-Between
+			3973 [XML] Love's Messenger
+			3974 [XML] Love Suicide
+			3975 [XML] Koruchinerk's Offer
+			3976 [XML] Legionary Letters
+			3977 [TODO] Expunge the Drana Fed
+			3978 [XML] Golden Eye Gambit
+			3979 [XML] Steel Rake Rumpus
+			9510 [XML] Symbol of the Chosen
+			9548 [XML] [Event] Chasing the Grankers
+			9549 [XML] [Event] Solorius Invitations
+			9550 [TODO] [Event] Solorius Donations
+			9558 [TODO] [Event] Thirst for Invention!
+			9560 [TODO] [Event] Daeva's Day Fete
+			19000 [SCRIPT] [Expert] Essencetapper's Test
+			19001 [SCRIPT] [Expert] Essencetapping Expert
+			19002 [SCRIPT] [Expert] Aethertapper's Test
+			19003 [SCRIPT] [Expert] Aethertapping Expert
+			19004 [SCRIPT] Perikles's Insight
+			19008 [SCRIPT] [Master] Weaponsmith's Potential
+			19009 [XML] [Master] Weaponsmithing Master
+			19014 [SCRIPT] [Master] Armorsmith's Potential
+			19015 [XML] [Master] Armorsmithing Master
+			19020 [SCRIPT] [Master] Tailor's Potential
+			19021 [XML] [Master] Tailoring Master
+			19026 [SCRIPT] [Master] Handicrafter's Potential
+			19027 [XML] [Master] Handicrafting Master
+			19032 [SCRIPT] [Master] Alchemist's Potential
+			19033 [XML] [Master] Alchemy Master
+			19038 [SCRIPT] [Master] Cook's Potential
+			19039 [XML] [Master] Cooking Master
+			19040 [XML] Leah's Loneliness
+			19041 [XML] The Delivery
+			19042 [XML] The Shugo and the Shulack
+			19043 [XML] The Sanctum Shulackwalk
+			19044 [XML] Pampered Pets
+			19045 [XML] The Pleasure of Pets
+			19047 [TODO] Just Between Me and Fasimedes
+			19048 [TODO] Andreas' Teachings
+			50000 [TODO] [Event] Heat of High Summer
+			50001 [TODO] [Event] Heat of High Summer
+			50005 [TODO] [Event] Daeva's Day Energy
+			50006 [TODO] [Event] Ascension Extravaganza
+			80000 [SCRIPT] [Event] Joyful Daeva's Day
+			80008 [SCRIPT] [Event] Piece of Cake!
+			80010 [TODO] [Event] The Shulack Sugarcrooks
+			80011 [TODO] [Event] Trick or Treat
+			80012 [TODO] [Event] The Great Candy Hunt
+			80016 [SCRIPT] [Event] Sock Hop
+			80017 [TODO] [Event] Dirty Laundry
+			80020 [SCRIPT] [Event] Solorius Joy
+			80022 [TODO] [Event] Feeding the Children
+			80023 [TODO] [Event] Feeding the Elders
+			80024 [TODO] [Event] Feeding the Family
+			80028 [SCRIPT] [Event] Meet the Fayrefolk
+			80029 [SCRIPT] [Event] Using Your Charms
+			80030 [SCRIPT] [Event] An Unwelcome Gaze
+			80034 [SCRIPT] [Event] Greater Glories
+			80035 [SCRIPT] [Event] Only the Best
+			80036 [SCRIPT] [Event] Gambling with Grace
+			80040 [TODO] [Event] Pass the Enlightenment
+			80042 [TODO] [Event] Making the Best of It
+			80043 [TODO] [Event] The Best From the Worst
+			80044 [TODO] [Event] I'd Rather be Sailing
+			80045 [TODO] [Event] Sail Away
+			80050 [TODO] [Event] Pauno Provided
+			80051 [TODO] [Event] Sponsorship Stolen
+			80054 [TODO] [Event] Dedication Defalcator
+			80055 [TODO] [Event] Sinking Scrounger
+			80058 [TODO] [Event] Espionage!
+			80059 [TODO] [Event] Information Dealing
+			80060 [TODO] [Event] Parchment Problem
+			80061 [TODO] [Event] Envelope Envy
+			80062 [TODO] [Event] For the Want of Ink
+			80063 [TODO] [Event] Sealed With a Kiss
+			80064 [TODO] [Event] Mysterious Mission
+			80065 [TODO] [Event] Confidential!
+			80070 [TODO] [Event] Memory Lane
+			80072 [TODO] [Event] Swimsuit Swap
+			80073 [TODO] [Event] Kinah Swap
+			80076 [TODO] [Event] Doing Good During Daru Days
+			80078 [TODO] [Event] The Daru Diet
+			80079 [TODO] [Event] Daru Munchies
+			80080 [TODO] [Event] Feeding Darus
+			80081 [TODO] [Event] Dining For Darus
+			80086 [TODO] [Event] Witch White Pieces?
+			80087 [TODO] [Event] Witch Blue Pieces?
+			80088 [TODO] [Event] Witch Yellow Pieces?
+			80089 [TODO] [Event] Witch Red Pieces?
+			80090 [TODO] [Event] The Essence of White
+			80091 [TODO] [Event] The Essence of Blue
+			80092 [TODO] [Event] The Essence of Yellow
+			80093 [TODO] [Event] The Essence of Red
+			80094 [TODO] [Event] Pumpkins in Shades of White
+			80095 [TODO] [Event] Pumpkins in Shades of Blue
+			80096 [TODO] [Event] Pumpkins in Shades of Yellow
+			80097 [TODO] [Event] Pumpkins in Shades of Red
+			80110 [TODO] [Event] What Witches Wear
+			80112 [TODO] [Event] Crab Leaves
+			80113 [TODO] [Event] Deco Doldrums
+			80114 [TODO] [Event] Leafy Reds
+			80115 [TODO] [Event] Recycling Decorations
+			80116 [TODO] [Event] Sadly, Not Tahabata
+			80117 [TODO] [Event] How about Paksigue?
+			80118 [TODO] [Event] March, march, march
+			80119 [TODO] [Event] Parade Roll Call
+			80128 [TODO] [Event] Save the Crabs!
+			80159 [TODO] [Event] Warming Hearts and Hands
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<report_to id="1950" start_npc_id="203755" item_id="182206023" end_npc_id="204424"/>
+	<report_to id="1951" start_npc_id="203788" item_id="182206024" end_npc_id="278510"/>
+	<report_to id="1952" start_npc_id="203790" item_id="182206025" end_npc_id="278511"/>
+	<report_to id="1953" start_npc_id="203792" item_id="182206026" end_npc_id="278510"/>
+	<report_to id="1954" start_npc_id="203784" item_id="182206027" end_npc_id="278507"/>
+	<report_to id="1955" start_npc_id="203786" item_id="182206028" end_npc_id="278510"/>
+	<report_to id="1956" start_npc_id="203793" item_id="182206029" end_npc_id="278511"/>
+	<report_to id="3201" start_npc_id="798318" end_npc_id="203852"/>
+	<report_to id="3204" start_npc_id="798319" end_npc_id="279008" item_id="182209085"/>
+	<report_to id="3209" start_npc_id="798320" end_npc_id="798331"/>
+	<report_to id="3218" start_npc_id="798321" end_npc_id="798334" item_id="182209096"/>
+	<report_to id="3901" start_npc_id="203758" end_npc_id="203704" item_id="182206052"/>
+	<report_to id="3902" start_npc_id="203759" end_npc_id="203705" item_id="182206053"/>
+	<report_to id="3903" start_npc_id="203760" end_npc_id="203706" item_id="182206054"/>
+	<report_to id="3904" start_npc_id="203761" end_npc_id="203707" item_id="182206055"/>
+	<report_to id="3917" start_npc_id="203384" end_npc_id="798357"/>
+	<report_to id="3921" start_npc_id="798357" end_npc_id="279022" item_id="182206101"/>
+	<report_to id="3941" start_npc_id="203788" end_npc_id="203788"/>
+	<report_to id="3942" start_npc_id="203788" end_npc_id="203788"/>
+	<report_to id="3943" start_npc_id="204104" end_npc_id="204052"/>
+	<report_to id="3944" start_npc_id="203790" end_npc_id="203790"/>
+	<report_to id="3945" start_npc_id="203790" end_npc_id="203790"/>
+	<report_to id="3946" start_npc_id="204106" end_npc_id="204052"/>
+	<report_to id="3947" start_npc_id="203792" end_npc_id="203792"/>
+	<report_to id="3948" start_npc_id="203792" end_npc_id="203792"/>
+	<report_to id="3949" start_npc_id="204108" end_npc_id="204052"/>
+	<report_to id="3951" start_npc_id="203784" end_npc_id="203784"/>
+	<report_to id="3952" start_npc_id="203784" end_npc_id="204052"/>
+	<report_to id="3953" start_npc_id="203786" end_npc_id="203786"/>
+	<report_to id="3954" start_npc_id="203786" end_npc_id="203786"/>
+	<report_to id="3955" start_npc_id="203786" end_npc_id="204052"/>
+	<report_to id="3956" start_npc_id="203793" end_npc_id="203793"/>
+	<report_to id="3957" start_npc_id="203793" end_npc_id="203793"/>
+	<report_to id="3958" start_npc_id="203793" end_npc_id="204052"/>
+	<report_to id="3960" start_npc_id="798322" end_npc_id="203711"/>
+	<report_to id="3971" start_npc_id="798386" end_npc_id="203893" item_id="182206135"/>
+	<report_to id="3974" start_npc_id="798949" end_npc_id="203893"/>
+	<report_to id="3976" start_npc_id="203723" end_npc_id="798222" item_id="182206136"/>
+	<report_to id="9510" start_npc_id="203752" end_npc_id="203711"/>
+	<report_to id="19040" start_npc_id="203725" end_npc_id="798440"/>
+	<report_to id="19041" start_npc_id="203711" end_npc_id="798322"/>
+	<report_to id="19044" start_npc_id="798440" end_npc_id="798438"/>
+	<report_to id="19045" start_npc_id="798438" end_npc_id="798439"/>
+	<report_to_many id="3914" start_item_id="182206084" end_npc_id="203384">
+		<npc_infos npc_id="203752" var="0" quest_dialog="1352"/>
+		<npc_infos npc_id="203384" var="1" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<xml_quest id="3972" start_npc_id="203893" end_npc_id="203893">
+		<on_talk_event ids="798949">
+			<var value="0">
+				<npc id="798949">
+					<dialog id="26">
+						<operations>
+							<npc_dialog id="1352"/>
+						</operations>
+					</dialog>
+					<dialog id="1353">
+						<operations>
+							<npc_dialog id="1353"/>
+							<set_quest_var var_id="0" value="1"/>
+						</operations>
+					</dialog>
+					<dialog id="10000"/>
+				</npc>
+			</var>
+			<var value="1">
+				<npc id="203893">
+					<dialog id="26">
+						<operations>
+							<npc_dialog id="2375"/>
+						</operations>
+					</dialog>
+					<dialog id="1009">
+						<operations override="false">
+						<set_quest_status status="REWARD"/>
+					</operations>
+					</dialog>
+				</npc>
+			</var>
+		</on_talk_event>
+	</xml_quest>
+	<xml_quest id="3973" start_npc_id="203893" end_npc_id="798949">
+		<on_talk_event ids="203792 203793 798391 798949">
+			<var value="0">
+				<npc id="203792">
+					<dialog id="26">
+						<operations>
+							<npc_dialog id="1352"/>
+						</operations>
+					</dialog>
+					<dialog id="10000">
+						<operations>
+							<set_quest_var var_id="0" value="1"/>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+			<var value="1">
+				<npc id="203793">
+					<dialog id="26">
+						<operations>
+							<npc_dialog id="1693"/>
+						</operations>
+					</dialog>
+					<dialog id="10001">
+						<operations>
+							<set_quest_var var_id="0" value="2"/>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+			<var value="2">
+				<npc id="798391">
+					<dialog id="26">
+						<operations>
+							<npc_dialog id="2034"/>
+						</operations>
+					</dialog>
+					<dialog id="10002">
+						<operations>
+							<set_quest_var var_id="0" value="3"/>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+			<var value="3">
+				<npc id="798949">
+					<dialog id="26">
+						<operations>
+							<npc_dialog id="2375"/>
+						</operations>
+					</dialog>
+					<dialog id="1009">
+						<operations override="false">
+							<set_quest_status status="REWARD"/>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+		</on_talk_event>
+	</xml_quest>
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="1930" start_npc_id="203767"/>
+	<item_collecting id="1931" start_npc_id="203837" action_item_id="700230"/>
+	<item_collecting id="1933" start_npc_id="203833"/>
+	<item_collecting id="1934" start_npc_id="203833"/>
+	<item_collecting id="1949" start_npc_id="279006" end_npc_id="279016"/>
+	<item_collecting id="3202" start_npc_id="203852" action_item_id="700523"/>
+	<item_collecting id="3203" start_npc_id="798319"/>
+	<item_collecting id="3206" start_npc_id="798321"/>
+	<item_collecting id="3207" start_npc_id="798320" action_item_id="700524"/>
+	<item_collecting id="3214" start_npc_id="798321"/>
+	<item_collecting id="3215" start_npc_id="203750"/>
+	<item_collecting id="3216" start_npc_id="798318"/>
+	<item_collecting id="3905" start_npc_id="798316"/>
+	<item_collecting id="3906" start_npc_id="798316"/>
+	<item_collecting id="3907" start_npc_id="798316"/>
+	<item_collecting id="3908" start_npc_id="798316"/>
+	<item_collecting id="3915" start_npc_id="203384"/>
+	<item_collecting id="3916" start_npc_id="203384"/>
+	<item_collecting id="3918" start_npc_id="798357"/>
+	<item_collecting id="3919" start_npc_id="798357"/>
+	<item_collecting id="3920" start_npc_id="798357"/>
+	<item_collecting id="3950" start_npc_id="203784"/>
+	<item_collecting id="3975" start_npc_id="798321"/>
+	<item_collecting id="9548" start_npc_id="798301"/>
+	<item_collecting id="9549" start_npc_id="798301"/>
+	<item_collecting id="19042" start_npc_id="798322"/>
+	<item_collecting id="19043" start_npc_id="798444"/>
+	<crafting_rewards id="1941" start_npc_id="203788" end_npc_id="203700" movie="93" skill_id="40002" level_reward="400"/>
+	<crafting_rewards id="1942" start_npc_id="203790" end_npc_id="203700" movie="94" skill_id="40003" level_reward="400"/>
+	<crafting_rewards id="1943" start_npc_id="203792" end_npc_id="203700" movie="95" skill_id="40008" level_reward="400"/>
+	<crafting_rewards id="1944" start_npc_id="203784" end_npc_id="203700" movie="96" skill_id="40001" level_reward="400"/>
+	<crafting_rewards id="1945" start_npc_id="203786" end_npc_id="203700" movie="97" skill_id="40007" level_reward="400"/>
+	<crafting_rewards id="1946" start_npc_id="203793" end_npc_id="203700" movie="98" skill_id="40004" level_reward="400"/>
+	<crafting_rewards id="19009" start_npc_id="203788" end_npc_id="798600" movie="109" skill_id="40002" level_reward="500"/>
+	<crafting_rewards id="19015" start_npc_id="203790" end_npc_id="798600" movie="110" skill_id="40003" level_reward="500"/>
+	<crafting_rewards id="19021" start_npc_id="203793" end_npc_id="798600" movie="114" skill_id="40004" level_reward="500"/>
+	<crafting_rewards id="19027" start_npc_id="203792" end_npc_id="798600" movie="111" skill_id="40008" level_reward="500"/>
+	<crafting_rewards id="19039" start_npc_id="203784" end_npc_id="798600" movie="112" skill_id="40001" level_reward="500"/>
+	<crafting_rewards id="19033" start_npc_id="203786" end_npc_id="798600" movie="113" skill_id="40007" level_reward="500"/>
+	<!-- HUNTING QUESTS -->
+	<monster_hunt id="1939" start_npc_id="203703">
+		<monster var="0" npc_id="700265" end_var="3"/>
+	</monster_hunt>
+	<monster_hunt id="3211" start_npc_id="798331">
+		<monster var="1" npc_id="215069" end_var="1"/>
+		<monster var="2" npc_id="215070" end_var="1"/>
+		<monster var="3" npc_id="215081" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="3213" start_npc_id="203703">
+		<monster var="0" npc_id="203735" end_var="20"/>
+	</monster_hunt>
+	<monster_hunt id="3978" start_npc_id="798319">
+		<monster var="0" npc_id="215079" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="3979" start_npc_id="798322">
+		<monster var="0" npc_id="215081" end_var="1"/>
+	</monster_hunt>
+</quest_scripts>

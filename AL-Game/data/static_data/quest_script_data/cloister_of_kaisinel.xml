@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			10000 [SCRIPT] Lavirintos's Call
+			10001 [SCRIPT] Bound for Inggison!
+			19500 [TODO] Gaining the Templar's Stigma
+			19501 [TODO] Gaining the Gladiator's Stigma
+			19502 [TODO] Gaining the Cleric's Stigma
+			19503 [TODO] Gaining the Chanter's Stigma
+			19504 [TODO] Gaining the Assassin's Stigma
+			19505 [TODO] Gaining the Ranger's Stigma
+			19506 [TODO] Gaining the Sorcerer's Stigma
+			19507 [TODO] Gaining the Spiritmaster's Stigma
+			80150 [TODO] [Event] A Broken Mark
+			80151 [TODO] [Event] Your Shining Future
+			80152 [TODO] [Event] A Faded Mark
+			80153 [TODO] [Event] Your Sparkling Future
+			80154 [TODO] [Event] The Broken Mark
+			80155 [TODO] [Event] Your Shining Fate
+			80156 [TODO] [Event] The Faded Mark
+			80157 [TODO] [Event] Your Sparkling Fate
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

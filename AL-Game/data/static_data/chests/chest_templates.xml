@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chest_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="chests_template.xsd">
+	<!-- SOLO ARENA . FIX Dementor(DDDone) HomeEmu -->
+	 <chest npcid="217758">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	  <chest npcid="217827">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="217829">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+    <chest npcid="217828">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218571">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- ABYSS D'ASTERIA CHEST -->
+	<chest npcid="700475">
+        <keyitem id="1" itemid="185000033" quantity="1"/>
+    </chest>
+	<chest npcid="700476">
+        <keyitem id="1" itemid="185000034" quantity="1"/>
+    </chest>
+	<chest npcid="700477">
+        <keyitem id="1" itemid="185000035" quantity="1"/>
+    </chest>
+	
+	<!-- ABYSSAL SPLINTER 2.0 CHEST -->
+    <chest npcid="700859">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+    <chest npcid="700860">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+    <chest npcid="700861">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700862">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700863">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700864">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700865">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700934">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700935">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700936">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700937">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700938">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- ADMA STRONGHOLD CHEST -->
+	<chest npcid="730109">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- ARENA OF CHAOS/CHAOS TRAINING GROUNDS 2.7 -->
+	<chest npcid="218783">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218784">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218785">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218786">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218787">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218788">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218789">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218790">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218791">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218792">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218793">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218794">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218795">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218796">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218797">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218798">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218799">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218800">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218801">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!--<chest npcid="218802">
+        <keyitem id="1" itemid="164000166" quantity="1"/>
+		<keyitem id="2" itemid="164000164" quantity="1"/>
+		<keyitem id="3" itemid="164000182" quantity="1"/>
+    </chest>-->
+	<chest npcid="218809">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218810">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218811">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218812">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218813">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218814">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218815">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218816">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218817">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218818">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218832">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218833">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218834">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218835">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218836">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218837">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218838">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218839">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218840">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218841">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218842">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218843">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218844">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218845">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218846">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218847">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218848">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="218849">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701174">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701181">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701187">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701195">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701202">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701209">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701215">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701220">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701225">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- DRAUPNIR CAVE CHEST -->
+    <chest npcid="700462">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- DREDGION 1.5 CHEST -->
+	<!-- DREDGION 2.0 CHEST -->
+	<chest npcid="700837">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700948">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- DREDGION 3.0 CHEST -->
+    <chest npcid="701455">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- EMPYREAN CRUCIBLE 2.5 -->
+	<chest npcid="217734">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="217735">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="217759">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- EMPYREAN CRUCIBLE SOLO 2.6 -->
+	<chest npcid="217833">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="217834">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="217835">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- ESOTERRACE 2.5 CHEST -->
+    <chest npcid="701022"> <!-- Coffres Dalia Normaux -->
+        <keyitem id="1" itemid="185000111" quantity="1"/>
+    </chest>
+    <chest npcid="701023"> <!-- Coffre Dalia Gros -->
+        <keyitem id="1" itemid="185000110" quantity="1"/>
+    </chest>
+	<chest npcid="701027"> <!-- Coffre Capitaine Murugan -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+    <chest npcid="701024">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+    <chest npcid="701025"> <!-- Boîte d'articles divers -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- HARAMEL 2.0 CHEST -->
+	<chest npcid="700853">
+        <keyitem id="1" itemid="185000103" quantity="1"/>
+        <keyitem id="2" itemid="185000107" quantity="3"/>
+    </chest>
+	<chest npcid="700829">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700830">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700831">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700832">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- KROMEDE TRIAL 2.0 CHEST -->
+	<chest npcid="211861">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="212333">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="212335">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="212338">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+<!-- KROTAN CHAMBER CHEST -->
+    <chest npcid="254574"> <!-- NOT USED -->
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="700539">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700540">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- KYSIS CHAMBER CHEST -->
+	<chest npcid="254574"> <!-- NOT USED -->
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="700541">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700542">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- LADIS FOREST 3.0 CHEST -->
+	<chest npcid="700999">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="701009">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+<!-- LEFT WING CHAMBER CHEST -->
+	<chest npcid="700465"> <!-- NOT USED ! -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700466">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700467"> <!-- NOT USED ! -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700468"> <!-- NOT USED ! -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- LOWER UDAS TEMPLE 2.0 CHEST 
+    <chest npcid="216149">
+        <keyitem id="1" itemid="185000087" quantity="1"/>
+    </chest>
+    <chest npcid="216150">
+        <keyitem id="1" itemid="185000087" quantity="1"/>
+    </chest>
+	<chest npcid="216644">
+        <keyitem id="1" itemid="185000087" quantity="1"/>
+    </chest>
+    <chest npcid="216645">
+        <keyitem id="1" itemid="185000087" quantity="1"/>
+    </chest> -->
+<!-- MIREN CHAMBER CHEST -->
+	<!--
+	<chest npcid="254574">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	-->
+	<chest npcid="700543">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700544">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- NOCHSANA TRAINING CAMP CHEST -->
+	<chest npcid="700415">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+<!-- RIGHT WING CHAMBER CHEST -->
+	<chest npcid="700469"> <!-- NOT USED ! -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700470"> <!-- NOT USED ! -->
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700471">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- ROAH CHAMBER CHEST -->
+	<chest npcid="700472">
+        <keyitem id="1" itemid="185000036" quantity="1"/>
+    </chest>
+	<chest npcid="700473">
+        <keyitem id="1" itemid="185000037" quantity="1"/>
+    </chest>
+	<chest npcid="700474">
+        <keyitem id="1" itemid="185000038" quantity="1"/>
+    </chest>
+<!-- SARPAN 3.0 CHEST -->
+	<chest npcid="701419">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701420">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701421">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701422">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701423">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701424">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701425">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701426">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701427">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701428">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+<!-- STEEL RAKE 1.5 CHEST -->
+	<chest npcid="215489">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="700554">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="700555">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+<!-- STEEL RAKE SOLO 3.1 CHEST -->
+	<chest npcid="215489">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="700554">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<chest npcid="700555">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- SULFUR TREE NEST CHEST -->
+	<chest npcid="700415">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700463">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- THEOBOMOS LAB CHEST -->
+	<chest npcid="700826">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- TIAMAT DOWN 3.0 CHEST -->
+	<chest npcid="701388">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701389">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="701390">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- TALOC HOLLOW 2.0 CHEST -->
+	<chest npcid="700940">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<chest npcid="700941">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- UDAS TEMPLE 2.0 CHEST -->
+    <chest npcid="217753">
+        <keyitem id="1" itemid="185000087" quantity="1"/>
+    </chest>
+	<!-- MAGIC ABYSS CHEST -->
+	<chest npcid="700477">
+        <keyitem id="1" itemid="185000035" quantity="1"/>
+	</chest>
+	<chest npcid="700419">
+        <keyitem id="1" itemid="0" quantity="1"/>
+	</chest>
+	
+	
+	
+	<!-- CHEST DIVERS ELYOS -->
+	<!-- POETA CHEST -->
+    <chest npcid="211822">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- VERTERON CHEST -->
+<!-- 
+    <chest npcid="211823">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+-->
+	<!-- ELTNEN CHEST -->
+    <chest npcid="211801">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+    <chest npcid="211859">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- HEIRON CHEST -->
+    <chest npcid="212339">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- THEOBOMOS CHEST -->
+    <chest npcid="211860">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	
+	
+	
+	<!-- CHEST DIVERS ASMODIANS -->
+	<!-- ISHALGEN CHEST -->
+    <chest npcid="211822">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- ALTGARD CHEST -->
+    <chest npcid="211855">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- MORHEIM CHEST -->
+    <chest npcid="211856">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- BRUSTHONIN CHEST -->
+    <chest npcid="211857">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	<!-- BELUSLAN CHEST -->
+    <chest npcid="211858">
+        <keyitem id="1" itemid="185000106" quantity="1"/>
+    </chest>
+	
+	
+	<!-- CHEST FOR THE QUEST -->
+	<!-- Changarnerk Shoe Box (Q1491) -->
+    <chest npcid="211866">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- Changarnerk Glove Box (Q1492) -->
+	<chest npcid="211867">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- Changarnerk Wooden Box (Q1493) -->
+	<chest npcid="211868">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- Lepharist Research Diary (Q4907) -->
+	<chest npcid="700511">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	
+	
+	<!-- CHEST DIVERS -->
+    <chest npcid="216582">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+	<!-- Taloc's Hollow -->
+	<chest npcid="700742">
+		<keyitem id="1" itemid="185000082" quantity="1"/>
+	</chest>
+</chest_templates>

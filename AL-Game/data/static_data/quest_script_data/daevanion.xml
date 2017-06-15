@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			1923 [TODO] A Sage's Precious Weapon
+			1924 [TODO] A Sage's Precious Weapon
+			1925 [TODO] A Sage's Precious Weapon
+			1988 [SCRIPT] A Meeting with a Sage
+			1989 [SCRIPT] A Sage's Teachings
+			1990 [SCRIPT] A Sage's Gift
+			1991 [XML] A Sage's Encouragement
+			1992 [TODO] A Sage's Precious Weapon
+			1993 [SCRIPT] Another Beginning
+			1994 [SCRIPT] A New Choice
+			1995 [TODO] Another Beginning
+			1996 [TODO] A New Choice
+			1997 [XML] A Sage's Gift
+			1998 [XML] A Sage's Gift
+			1999 [XML] A Sage's Gift
+			2986 [TODO] Daevanion Weapon
+			2987 [TODO] Daevanion Weapon
+			2988 [SCRIPT] The Wise in Disguise
+			2989 [SCRIPT] Ceremony of the Wise
+			2990 [SCRIPT] Making the Daevanion Weapon
+			2991 [TODO] Obtaining Daevanion Armor
+			2992 [TODO] Daevanion Weapon
+			2993 [SCRIPT] Another Beginning
+			2994 [SCRIPT] A New Choice
+			2995 [TODO] Another Beginning
+			2996 [TODO] A New Choice
+			2997 [TODO] Daevanion Ceremony
+			2998 [TODO] Daevanion Ceremony
+			2999 [TODO] Daevanion Ceremony
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<item_collecting start_npc_id="203771" id="1991"/>
+	<item_collecting start_npc_id="203771" id="1997"/>
+	<item_collecting start_npc_id="203771" id="1998"/>
+	<item_collecting start_npc_id="203771" id="1999"/>
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

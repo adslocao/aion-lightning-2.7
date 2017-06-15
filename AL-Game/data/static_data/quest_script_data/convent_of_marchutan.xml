@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			20000 [SCRIPT] Vidar's Call
+			20001 [SCRIPT] Traveling to Gelkmaros
+			29500 [TODO] Gaining the Templar's Stigma
+			29501 [TODO] Gaining the Gladiator's Stigma
+			29502 [TODO] Gaining the Cleric's Stigma
+			29503 [TODO] Gaining the Chanter's Stigma
+			29504 [TODO] Gaining the Assassin's Stigma
+			29505 [TODO] Gaining the Ranger's Stigma
+			29506 [TODO] Gaining the Sorcerer's Stigma
+			29507 [TODO] Gaining the Spiritmaster's Stigma
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

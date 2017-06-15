@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="../import.xsd"/>
+	<xs:element name="spawns" type="SpawnsData2"/>
+
+	<xs:complexType name="SpawnsData2">
+		<xs:sequence>
+			<xs:element ref="import" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="spawn_map" type="SpawnMap" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SpawnMap">
+		<xs:sequence>
+			<xs:element name="spawn" type="Spawn" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="siege_spawn" type="SiegeSpawn" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="map_id" type="xs:int"/>
+	</xs:complexType>
+	<xs:complexType name="SiegeSpawn">
+		<xs:sequence>
+			<xs:element name="siege_race" type="SiegeRaceTemplate" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="siege_id" type="xs:int"/>
+	</xs:complexType>
+	<xs:complexType name="SiegeRaceTemplate">
+		<xs:sequence>
+			<xs:element name="siege_mod" type="SiegeModTemplate" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="race" type="SiegeRaceType"/>
+	</xs:complexType>
+	<xs:complexType name="SiegeModTemplate">
+		<xs:sequence>
+			<xs:element name="spawn" type="Spawn" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="mod" type="SiegeModType"/>
+	</xs:complexType>
+	<xs:complexType name="Spawn">
+		<xs:sequence>
+			<xs:element name="spot" type="SpawnSpotTemplate" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="npc_id" type="xs:int"/>
+		<xs:attribute name="pool" type="xs:int" use="optional"/>
+		<xs:attribute name="spawn_time" type="SpawnTimeType" use="optional" default="ALL"/>
+		<xs:attribute name="respawn_time" type="xs:int"/>
+		<xs:attribute name="handler" type="SpawnHandlerType"/>
+		<xs:attribute name="custom" type="xs:boolean" use="optional" default="false"/>
+	</xs:complexType>
+	<xs:complexType name="SpawnSpotTemplate">
+		<xs:attribute name="x" type="xs:float"/>
+		<xs:attribute name="y" type="xs:float"/>
+		<xs:attribute name="z" type="xs:float"/>
+		<xs:attribute name="h" type="HeadingType" use="optional" default="0"/>
+		<xs:attribute name="static_id" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="random_walk" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="walker_id" type="xs:string"/>
+		<xs:attribute name="walker_index" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="fly" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="anchor" type="xs:string"/>
+		<xs:attribute name="state" type="xs:int" use="optional" default="0"/>
+	</xs:complexType>
+	<xs:simpleType name="SiegeModType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PEACE"/>
+			<xs:enumeration value="SIEGE"/>
+			<xs:enumeration value="LANDING"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HeadingType">
+		<xs:restriction base="xs:byte">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="120"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SpawnTimeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ALL"/>
+			<xs:enumeration value="DAY"/>
+			<xs:enumeration value="NIGHT"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SiegeRaceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ELYOS"/>
+			<xs:enumeration value="ASMODIANS"/>
+			<xs:enumeration value="BALAUR"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SpawnHandlerType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="RIFT"/>
+			<xs:enumeration value="STATIC"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

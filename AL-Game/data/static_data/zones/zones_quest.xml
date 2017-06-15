@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<!-- Where's Tutty? -->
+	<zone zone_type="SUB" mapid="210010000" area_type="CYLINDER" name="QUEST_1123_210010000">
+		<cylinder bottom="165" top="175" x="222.69" y="1900" r="10" />
+	</zone>
+</zones>

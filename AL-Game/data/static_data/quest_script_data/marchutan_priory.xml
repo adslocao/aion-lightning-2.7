@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			47000 [TODO] Altgard Orb-it
+			47001 [XML] Magical Mau-stery Tour
+			47002 [XML] Declaw the Mau
+			47003 [TODO] A Global Problem
+			47004 [XML] Raiders of the Lost Arkanis
+			47005 [XML] That's Vine and Dandy
+			47006 [TODO] Amplifiers With Issues
+			47007 [XML] Mashing the Mist Mane
+			47008 [XML] Corrupt Chairman
+			48006 [TODO] The Marchutan Priory Beckons
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="47002" start_npc_id="0" end_npc_id="799864"/>
+	<item_collecting id="47005" start_npc_id="0" end_npc_id="799872"/>
+	<!-- HUNTING QUESTS -->
+	<mentor_monster_hunt id="47001" start_npc_id="0" end_npc_id="799864">
+		<monster end_var="5" var="0" npc_id="211279"/>
+		<monster end_var="5" var="0" npc_id="210561"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47004" start_npc_id="0" end_npc_id="799872">
+		<monster end_var="1" var="0" npc_id="212833"/>
+		<monster end_var="1" var="1" npc_id="212835"/>
+		<monster end_var="1" var="2" npc_id="212876"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47007" start_npc_id="0" end_npc_id="799872">
+		<monster end_var="5" var="0" npc_id="212741"/>
+		<monster end_var="5" var="0" npc_id="212742"/>
+		<monster end_var="5" var="0" npc_id="212726"/>
+		<monster end_var="5" var="0" npc_id="211612"/>
+		<monster end_var="5" var="0" npc_id="212727"/>
+		<monster end_var="5" var="0" npc_id="212736"/>
+		<monster end_var="5" var="0" npc_id="212737"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47008" start_npc_id="0" end_npc_id="799872">
+		<monster end_var="1" var="0" npc_id="212879"/>
+	</mentor_monster_hunt>
+</quest_scripts>

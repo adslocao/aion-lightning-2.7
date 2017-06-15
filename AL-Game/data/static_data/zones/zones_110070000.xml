@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zones>
+    <zone mapid="110070000" name="CRUCIBLE_COLISEUM_110070000" area_type="POLYGON" zone_type="SUB" priority="12">
+        <points bottom="100.17214" top="200.17213">
+            <point x="538.52856" y="219.4367"/>
+            <point x="539.32635" y="289.71164"/>
+            <point x="626.0972" y="289.47266"/>
+            <point x="625.86615" y="218.40993"/>
+        </points>
+    </zone>
+    <zone mapid="110070000" name="KAISINEL_ACADEMY_110070000" area_type="POLYGON" zone_type="SUB" priority="20">
+        <points bottom="121.02234" top="221.02234">
+            <point x="409.89398" y="174.80971"/>
+            <point x="630.5267" y="173.83981"/>
+            <point x="630.2393" y="367.82086"/>
+            <point x="412.52487" y="368.35458"/>
+        </points>
+    </zone>
+    <zone mapid="110070000" name="KAISINEL_ACADEMY_ENTRANCE_110070000" area_type="POLYGON" zone_type="SUB" priority="12">
+        <points bottom="84.66969" top="184.6697">
+            <point x="431.9383" y="214.80624"/>
+            <point x="432.51428" y="292.85095"/>
+            <point x="463.90494" y="293.13895"/>
+            <point x="463.90494" y="214.80624"/>
+        </points>
+    </zone>
+    <zone mapid="110070000" name="KAISINEL_ACADEMY_LOBBY_110070000" area_type="POLYGON" zone_type="SUB" priority="14">
+        <points bottom="100.17214" top="200.17213">
+            <point x="455.05917" y="192.6201"/>
+            <point x="455.15247" y="301.70828"/>
+            <point x="543.0331" y="301.03296"/>
+            <point x="543.1609" y="193.87756"/>
+        </points>
+    </zone>
+    <zone mapid="110070000" name="REWARDS_OFFICE_110070000" area_type="POLYGON" zone_type="SUB" priority="12">
+        <points bottom="100.17214" top="200.17213">
+            <point x="433.38232" y="294.28958"/>
+            <point x="434.32736" y="349.13562"/>
+            <point x="574.181" y="349.24475"/>
+            <point x="575.2816" y="294.36087"/>
+        </points>
+    </zone>
+</zones>

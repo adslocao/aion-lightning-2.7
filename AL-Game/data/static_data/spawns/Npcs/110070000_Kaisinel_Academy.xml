@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="110070000">
+		<!-- Crucible Guard -->
+		<spawn npc_id="799632" respawn_time="295">
+			<spot x="488.803" y="217.390" z="127.295" h="30"/>
+			<spot x="506.967" y="217.392" z="127.295" h="30"/>
+		</spawn>
+		<!-- Crucible Guard -->
+		<spawn npc_id="799633" respawn_time="295">
+			<spot x="495.805" y="217.415" z="127.295" h="30"/>
+			<spot x="513.969" y="217.418" z="127.295" h="30"/>
+		</spawn>
+		<!-- Poria -->
+		<spawn npc_id="207092" respawn_time="295">
+			<spot x="605.423" y="252.783" z="126.982" h="60"/>
+		</spawn>
+		<!-- Cades -->
+		<spawn npc_id="207057" respawn_time="295">
+			<spot x="604.616" y="257.580" z="126.982" h="60"/>
+		</spawn>
+		<!-- Taina -->
+		<spawn npc_id="207056" respawn_time="295">
+			<spot x="604.733" y="248.169" z="126.982" h="60"/>
+		</spawn>
+		<!-- Scobi -->
+		<spawn npc_id="207019" respawn_time="295">
+			<spot x="548.1645" y="246.934" z="127.286" h="30"/>
+		</spawn>
+		<!-- Marion Info : PNJ inexistant en 2.7 car sa Tradelist n'est pas encore créée
+		<spawn npc_id="207022" respawn_time="295">
+			<spot x="548.811" y="259.063" z="127.286" h="90"/>
+		</spawn> -->
+		<!-- Tyri -->
+		<spawn npc_id="207023" respawn_time="295">
+			<spot x="559.890" y="314.447" z="126.097" h="45"/>
+		</spawn>
+		<!-- Marre -->
+		<spawn npc_id="207020" respawn_time="295">
+			<spot x="548.2143" y="259.04" z="127.286" h="90"/>
+		</spawn>
+		<!-- Liyre Info : PNJ inexistant en 2.7 car sa Tradelist n'est pas encore créée
+		<spawn npc_id="207021" respawn_time="295">
+			<spot x="548.822" y="246.921" z="127.286" h="30"/>
+		</spawn> -->
+		<!-- Forde -->
+		<spawn npc_id="207024" respawn_time="295">
+			<spot x="558.581" y="314.039" z="126.097" h="45"/>
+		</spawn>
+		<!-- Sutien -->
+		<spawn npc_id="207031" respawn_time="295">
+			<spot x="567.486" y="324.926" z="126.097" h="60"/>
+		</spawn>
+		<!-- Junos -->
+		<spawn npc_id="205985" respawn_time="295">
+			<spot x="529.379" y="256.779" z="127.295" h="40"/>
+		</spawn>
+		<!-- Molfus -->
+		<spawn npc_id="205309" respawn_time="295">
+			<spot x="492.715" y="251.371" z="127.008" h="60"/>
+		</spawn>
+		<!-- Voren -->
+		<spawn npc_id="205311" respawn_time="295">
+			<spot x="567.439" y="325.875" z="126.097" h="60"/>
+		</spawn>
+		<!-- Howkis -->
+		<spawn npc_id="205310" respawn_time="295">
+			<spot x="567.441" y="323.944" z="126.097" h="60"/>
+		</spawn>
+		<!-- Inggison Teleporter -->
+		<spawn npc_id="730425" respawn_time="295">
+			<spot x="459.837" y="251.795" z="127.134" static_id="1601"/>
+		</spawn>
+		<!-- Sanctum Teleport Statue -->
+		<spawn npc_id="730424" respawn_time="295">
+			<spot x="443.879" y="258.604" z="126.972" static_id="328"/>
+		</spawn>
+		<!-- Empyrean Crucible Entrance -->
+		<spawn npc_id="730430" respawn_time="295">
+			<spot x="511.585" y="215.729" z="127.361" static_id="1"/>
+		</spawn>
+		<!-- Arena of Chaos Gate -->
+		<spawn npc_id="730481" respawn_time="295">
+			<spot x="599.1415" y="266.12518" z="127.24587" h="84" static_id="17"/>
+		</spawn>
+		<!-- Arena of Discipline Gate -->
+		<spawn npc_id="730483" respawn_time="295">
+			<spot x="599.4021" y="237.44107" z="127.340034" static_id="31"/>
+		</spawn>
+		<!-- Crucible Challenge Entrance -->
+		<spawn npc_id="730461" respawn_time="295">
+			<spot x="492.142" y="215.587" z="127.361" static_id="15"/>
+		</spawn>
+		<!-- Helbe -->
+		<spawn npc_id="205317" respawn_time="295">
+			<spot x="524.146" y="227.765" z="126.976" h="96"/>
+		</spawn>
+		<!-- Inggril -->
+		<spawn npc_id="205316" respawn_time="295">
+			<spot x="479.409" y="279.182" z="127.515" h="90"/>
+		</spawn>
+		<!-- Adel -->
+		<spawn npc_id="205319" respawn_time="295">
+			<spot x="525.734" y="222.624" z="126.976" h="55"/>
+		</spawn>
+		<!-- Rakwis -->
+		<spawn npc_id="205318" respawn_time="295">
+			<spot x="522.252" y="220.899" z="126.976" h="40"/>
+		</spawn>
+		<!-- Monilou -->
+		<spawn npc_id="205313" respawn_time="295">
+			<spot x="553.266" y="340.185" z="126.097" h="90"/>
+		</spawn>
+		<!-- Tanato -->
+		<spawn npc_id="205312" respawn_time="295">
+			<spot x="551.438" y="340.177" z="126.097" h="90"/>
+		</spawn>
+		<!-- Perbano -->
+		<spawn npc_id="205315" respawn_time="295">
+			<spot x="483.309" y="251.072" z="126.976" h="60"/>
+		</spawn>
+		<!-- Quilven -->
+		<spawn npc_id="205471" respawn_time="295">
+			<spot x="481.141" y="271.106" z="126.976" h="86"/>
+		</spawn>
+		<!-- Barius -->
+		<spawn npc_id="205456" respawn_time="295">
+			<spot x="476.982" y="271.428" z="126.976" h="90"/>
+		</spawn>
+		<!-- Adinale -->
+		<spawn npc_id="205451" respawn_time="295">
+			<spot x="455.706" y="340.224" z="126.097" h="90"/>
+		</spawn>
+		<!-- Romonia -->
+		<spawn npc_id="205444" respawn_time="295">
+			<spot x="455.823" y="309.688" z="126.097" h="30"/>
+		</spawn>
+		<!-- Modaro -->
+		<spawn npc_id="205443" respawn_time="295">
+			<spot x="440.452" y="325.101" z="126.097"/>
+		</spawn>
+		<!-- Polus -->
+		<spawn npc_id="205489" respawn_time="295">
+			<spot x="553.241" y="309.697" z="126.097" h="30"/>
+		</spawn>
+		<!-- Jailos -->
+		<spawn npc_id="205488" respawn_time="295">
+			<spot x="551.414" y="309.711" z="126.097" h="30"/>
+		</spawn>
+	</spawn_map>
+</spawns>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Souffre ASMO Entrée -->
+	<npc_template npc_id="700529" level="1" name="hidden stone door" name_id="371270" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Souffre ELYOS Entrée -->
+	<npc_template npc_id="700452" level="1" name="hidden stone door" name_id="371188" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Souffre Sortie -->
+	<npc_template npc_id="700453" level="1" name="hidden stone door" name_id="371189" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Aile gauche ASMO Entrée -->
+	<npc_template npc_id="700455" level="1" name="shining magic ward" name_id="371191" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Aile gauche ELYOS Entrée -->
+	<npc_template npc_id="700454" level="1" name="shining magic ward" name_id="371190" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Aile gauche Sortie -->
+	<npc_template npc_id="700530" level="1" name="shining magic ward" name_id="371271" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Aile droite ASMO Entrée -->
+	<npc_template npc_id="700531" level="1" name="stone gate" name_id="371272" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Aile droite ELYOS Entrée -->
+	<npc_template npc_id="700456" level="1" name="stone gate" name_id="371192" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3" state="67">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Aile droite Sortie -->
+	<npc_template npc_id="700457" level="1" name="stone gate" name_id="371193" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Roah ASMO Entrée -->
+	<npc_template npc_id="700532" level="1" name="old stone statue" name_id="371273" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Roah ELYOS Entrée -->
+	<npc_template npc_id="700479" level="1" name="old stone statue" name_id="371210" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Roah Sortie -->
+	<npc_template npc_id="700480" level="1" name="old stone statue" name_id="371211" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Krotan ASMO Entrée -->
+	<npc_template npc_id="700534" level="1" name="mossy gate" name_id="371275" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Krotan ELYOS Entrée -->
+	<npc_template npc_id="700458" level="1" name="mossy gate" name_id="371194" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Krotan Sortie -->
+	<npc_template npc_id="700459" level="1" name="mossy gate" name_id="371195" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Kysis ASMO Entrée -->
+	<npc_template npc_id="700535" level="1" name="old stone door" name_id="371276" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="162" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Kysis ELYOS Entrée -->
+	<npc_template npc_id="700481" level="1" name="old stone door" name_id="371212" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="161" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Kysis Sortie -->
+	<npc_template npc_id="700482" level="1" name="old stone door" name_id="371213" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="163" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Miren ASMO Entrée -->
+	<npc_template npc_id="700536" level="1" name="heavy stone door" name_id="371277" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="105" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Miren ELYOS Entrée -->
+	<npc_template npc_id="700483" level="1" name="heavy stone door" name_id="371214" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="105" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Miren Sortie -->
+	<npc_template npc_id="700484" level="1" name="heavy stone door" name_id="371215" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Asteria ASMO Entrée -->
+	<npc_template npc_id="700533" level="1" name="beautiful landscape painting" name_id="371274" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Asteria ELYOS Entrée -->
+	<npc_template npc_id="700460" level="1" name="beautiful landscape painting" name_id="371196" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+<!-- Asteria Sortie -->
+	<npc_template npc_id="700461" level="1" name="beautiful landscape painting" name_id="371197" npc_type="USEITEM" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_ALL" type="GENERAL" abyss_type="ETC" ai="portal" adelay="2000" hpgauge="3" talk_distance="5" talk_delay="3">
+		<stats maxHp="172" maxXp="100" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+</npc_templates>

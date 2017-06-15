@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_scripts" default="compile.module.scripts">
+  <dirname property="module.scripts.basedir" file="${ant.file.module_scripts}"/>
+  
+  <property name="module.jdk.home.scripts" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.scripts" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.scripts" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.scripts" value="${compiler.args}"/>
+  
+  <property name="scripts.output.dir" value="${module.scripts.basedir}/../../out/production/scripts"/>
+  <property name="scripts.testoutput.dir" value="${module.scripts.basedir}/../../out/test/scripts"/>
+  
+  <path id="scripts.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="scripts.module.production.classpath">
+    <path refid="${module.jdk.classpath.scripts}"/>
+    <path refid="library.target.classpath"/>
+    <pathelement location="${ae-commons.output.dir}"/>
+  </path>
+  
+  <path id="scripts.runtime.production.module.classpath">
+    <pathelement location="${scripts.output.dir}"/>
+    <path refid="library.target.classpath"/>
+    <path refid="ae-commons.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="scripts.module.classpath">
+    <path refid="${module.jdk.classpath.scripts}"/>
+    <pathelement location="${scripts.output.dir}"/>
+    <path refid="library.target.classpath"/>
+    <pathelement location="${ae-commons.testoutput.dir}"/>
+    <pathelement location="${ae-commons.output.dir}"/>
+  </path>
+  
+  <path id="scripts.runtime.module.classpath">
+    <pathelement location="${scripts.testoutput.dir}"/>
+    <pathelement location="${scripts.output.dir}"/>
+    <path refid="library.target.classpath"/>
+    <path refid="ae-commons.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.scripts">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.scripts">
+    <patternset refid="excluded.from.module.scripts"/>
+  </patternset>
+  
+  <path id="scripts.module.sourcepath">
+    <dirset dir="${module.scripts.basedir}">
+      <include name="scriptManagerTest"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.scripts" depends="compile.module.scripts.production,compile.module.scripts.tests" description="Compile module scripts"/>
+  
+  <target name="compile.module.scripts.production" depends="register.custom.compilers,compile.module.ae-commons" description="Compile module scripts; production classes">
+    <mkdir dir="${scripts.output.dir}"/>
+    <javac2 destdir="${scripts.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.scripts}/javac">
+      <compilerarg line="${compiler.args.scripts}"/>
+      <bootclasspath refid="scripts.module.bootclasspath"/>
+      <classpath refid="scripts.module.production.classpath"/>
+      <src refid="scripts.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.scripts"/>
+    </javac2>
+    
+    <copy todir="${scripts.output.dir}">
+      <fileset dir="${module.scripts.basedir}/scriptManagerTest">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.scripts.tests" depends="register.custom.compilers,compile.module.scripts.production" description="compile module scripts; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.scripts" description="cleanup module">
+    <delete dir="${scripts.output.dir}"/>
+    <delete dir="${scripts.testoutput.dir}"/>
+  </target>
+</project>

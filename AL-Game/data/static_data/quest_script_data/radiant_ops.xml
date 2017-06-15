@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			35502 [XML] Asmodians on the Loose
+			35503 [XML] Everything is Radiant
+			35504 [XML] Asmodian Extermination
+			35505 [XML] Operation: Gelkmaros
+			35506 [XML] Asmodians Abated
+			35507 [XML] [Spy/Weekly] Operation: Asmodae
+			35508 [XML] Zero Tolerance Policy
+			35509 [XML] Zero Tolerance or Less
+			38001 [SCRIPT] Radiant Ops Recruitment
+			38004 [TODO] Radiant Ops Recruitment
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+	<kill_in_world id="35502" end_npc_id="799831" amount="3">
+		<world id="400010000"/>
+	</kill_in_world>
+	<kill_in_world id="35503" start_npc_id="799825" start_npc_id2="799826" end_npc_id="799825" end_npc_id2="799826" amount="5">
+		<world id="600010000"/>
+	</kill_in_world>
+	<kill_in_world id="35504" end_npc_id="799825" end_npc_id2="799826" amount="5">
+		<world id="210050000"/>
+	</kill_in_world>
+	<kill_in_world id="35505" end_npc_id="799825" end_npc_id2="799826" amount="5">
+		<world id="220070000"/>
+	</kill_in_world>
+	<kill_in_world id="35506" start_npc_id="799831" end_npc_id="799831" amount="2">
+		<world id="210020000"/>
+		<world id="210040000"/>
+	</kill_in_world>
+	<kill_in_world id="35507" start_npc_id="799831" end_npc_id="799831" amount="1">
+		<world id="220020000"/>
+		<world id="220040000"/>
+	</kill_in_world>
+	<kill_in_world id="35508" end_npc_id="799831" amount="5">
+		<world id="0"/>
+	</kill_in_world>
+	<kill_in_world id="35509" end_npc_id="799825" end_npc_id2="799826" amount="5">
+		<world id="0"/>
+	</kill_in_world>
+</quest_scripts>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			30007 [TODO] Drakan Document
+			30008 [XML] Legendary Jotun
+			30009 [XML] Pieces of You
+			30011 [XML] Arachnophobia
+			30013 [XML] Axe Another Favor
+			30014 [XML] A Reian in the Sun
+			30033 [XML] A New Spin on Death
+			30107 [TODO] Deciphering Drakan
+			30108 [XML] Heart of the Matter
+			30109 [TODO] Pieces of the Past
+			30111 [TODO] Center of the Web
+			30113 [TODO] Fan Flames of Vengeance
+			30114 [TODO] Revenge's Last Link
+			30133 [TODO] Chakra Choking
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

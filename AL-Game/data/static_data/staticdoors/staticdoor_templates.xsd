@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="../global_types.xsd"/>
+	<xs:include schemaLocation="../import.xsd"/>
+	<xs:element name="staticdoor_templates">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="import" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="world" type="World" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="World">
+		<xs:sequence>
+			<xs:element name="staticdoor" type="StaticDoor" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="world" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="StaticDoor">
+		<xs:attribute name="x" type="xs:float"/>
+		<xs:attribute name="y" type="xs:float"/>
+		<xs:attribute name="z" type="xs:float"/>
+		<xs:attribute name="doorid" type="xs:int"/>
+		<xs:attribute name="keyid" type="xs:int"/>
+		<xs:attribute name="mesh" type="xs:string"/>
+		<xs:attribute name="state" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>

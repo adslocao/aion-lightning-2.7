@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="110010000">
+		<!-- Loom -->
+		<spawn npc_id="150000015" handler="STATIC">
+			<spot x="1884.07" y="1549.99" z="590.021" static_id="105"/>
+			<spot x="1888.98" y="1545.64" z="590.016" static_id="16"/>
+			<spot x="1888.98" y="1547.83" z="590.021" static_id="107"/>
+		</spawn>
+		<!-- Workbench -->
+		<spawn npc_id="150000012" handler="STATIC">
+			<spot x="1882.53" y="1464.43" z="590.419" static_id="109"/>
+			<spot x="1892.24" y="1464.57" z="590.419" static_id="83"/>
+			<spot x="1892.18" y="1441.29" z="590.455" static_id="110"/>
+			<spot x="1887.44" y="1440.59" z="590.433" static_id="26"/>
+			<spot x="1887.38" y="1465.09" z="590.396" static_id="108"/>
+			<spot x="1882.76" y="1441.38" z="590.455" static_id="111"/>
+		</spawn>
+		<!-- Alchemists Table -->
+		<spawn npc_id="150000013" handler="STATIC">
+			<spot x="1851.41" y="1463.89" z="590.409" static_id="221"/>
+			<spot x="1838.71" y="1441.29" z="590.373" static_id="132"/>
+			<spot x="1851.61" y="1441.25" z="590.389" static_id="72"/>
+			<spot x="1845.25" y="1442.52" z="590.38" static_id="113"/>
+			<spot x="1838.59" y="1463.7" z="590.395" static_id="117"/>
+			<spot x="1845.15" y="1461.95" z="590.403" static_id="116"/>
+		</spawn>
+		<!-- Armor Forge -->
+		<spawn npc_id="150000010" handler="STATIC">
+			<spot x="1882.21" y="1555.27" z="590.041" static_id="19"/>
+			<spot x="1893.35" y="1560.78" z="590.041" static_id="21"/>
+			<spot x="1893.25" y="1581.3" z="590.041" static_id="96"/>
+			<spot x="1893.25" y="1575.87" z="590.041" static_id="129"/>
+			<spot x="1893.35" y="1555.38" z="590.041" static_id="18"/>
+			<spot x="1882.32" y="1581.17" z="590.041" static_id="97"/>
+		</spawn>
+		<!-- Weapon Forge -->
+		<spawn npc_id="150000011" handler="STATIC">
+			<spot x="1838.61" y="1581.34" z="590.061" static_id="17"/>
+			<spot x="1839.38" y="1555.49" z="590.061" static_id="100"/>
+			<spot x="1851.08" y="1556.19" z="590.061" static_id="102"/>
+			<spot x="1850.95" y="1580.54" z="590.061" static_id="98"/>
+			<spot x="1838.67" y="1576.13" z="590.061" static_id="99"/>
+			<spot x="1839.45" y="1560.88" z="590.061" static_id="101"/>
+		</spawn>
+		<!-- Oven -->
+		<spawn npc_id="150000009" handler="STATIC">
+			<spot x="1853.09" y="1548.22" z="590.021" static_id="104"/>
+			<spot x="1843.4" y="1547.37" z="590.021" static_id="38"/>
+			<spot x="1849.79" y="1549.14" z="590.026" static_id="103"/>
+			<spot x="1846.03" y="1549.14" z="590.021" static_id="118"/>
+		</spawn>
+	</spawn_map>
+</spawns>

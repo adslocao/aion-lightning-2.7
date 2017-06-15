@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warehouse_expander xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="warehouse_expander.xsd">
+	<warehouse_npc id="203199">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="203221">
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+	</warehouse_npc>
+	<warehouse_npc id="203687">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="203749">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="203750">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204047">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204072">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204073">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204377">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204632">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204780">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="204800">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="205122">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="205149">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="205443">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="205447">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="260214">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="260216">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="263215">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="263217">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="263515">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="263517">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="264715">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="264717">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="266515">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="266517">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="268015">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="268017">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="269215">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="269217">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="270115">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="270117">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="271015">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="271017">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="278009">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="278025">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="278509">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="278525">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798139">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798171">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798309">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798310">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798312">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798313">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798911">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798965">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="798995">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799003">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799014">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799027">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799042">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799048">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799210">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799263">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799287">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799304">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799313">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799331">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799353">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+	<warehouse_npc id="799359">
+		<expand price="1200" level="1"/>
+		<expand price="24000" level="2"/>
+		<expand price="72600" level="3"/>
+		<expand price="181500" level="4"/>
+		<expand price="363000" level="5"/>
+	</warehouse_npc>
+</warehouse_expander>

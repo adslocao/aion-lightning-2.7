@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<auto_groups>
+    <auto_group register_group="true" register_fast="true" max_lvl="50" min_lvl="46" title_id="401197" name_id="401193" instanceId="300110000" id="1" npc_ids="279055 279054 279041 279057 279039 279056"/>
+    <auto_group register_group="true" register_fast="true" max_lvl="55" min_lvl="51" title_id="401677" name_id="401675" instanceId="300210000" id="2" npc_ids="0"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="30" title_id="903282" name_id="400836" instanceId="320100000" id="4" npc_ids="730069"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="25" title_id="903282" name_id="401161" instanceId="300030000" id="5" npc_ids="700414 700413"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="50" title_id="903282" name_id="401172" instanceId="300040000" id="6" npc_ids="730185 730186"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="40" title_id="903282" name_id="401255" instanceId="300100000" id="7" npc_ids="798379 798378"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="51" title_id="903282" name_id="401311" instanceId="300150000" id="8" npc_ids="730278 730277"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="51" title_id="903282" name_id="401325" instanceId="300160000" id="9" npc_ids="730280 730279"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="50" title_id="903282" name_id="401828" instanceId="300300000" id="11" npc_ids="730431 730430"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="27" title_id="903282" name_id="400836" instanceId="320100000" id="14" npc_ids="730047"/>
+    <auto_group register_fast="true" max_lvl="50" min_lvl="46" title_id="903479" name_id="402045" instanceId="300350000" id="21" npc_ids="730482 730481"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="51" title_id="903479" name_id="402045" instanceId="300350000" id="22" npc_ids="730482 730481"/>
+    <auto_group register_fast="true" max_lvl="60" min_lvl="56" title_id="903479" name_id="402045" instanceId="300350000" id="23" npc_ids="730482 730481"/>
+    <auto_group register_fast="true" max_lvl="50" min_lvl="46" title_id="903479" name_id="402046" instanceId="300360000" id="24" npc_ids="730484 730483"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="51" title_id="903479" name_id="402046" instanceId="300360000" id="25" npc_ids="730484 730483"/>
+    <auto_group register_fast="true" max_lvl="60" min_lvl="56" title_id="903479" name_id="402046" instanceId="300360000" id="26" npc_ids="730484 730483"/>
+    <auto_group register_fast="true" max_lvl="50" min_lvl="46" title_id="903479" name_id="403259" instanceId="300420000" id="27" npc_ids="207059 207057"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="51" title_id="903479" name_id="403259" instanceId="300420000" id="28" npc_ids="207059 207057"/>
+    <auto_group register_fast="true" max_lvl="60" min_lvl="56" title_id="903479" name_id="403259" instanceId="300420000" id="29" npc_ids="207059 207057"/>
+    <auto_group register_fast="true" max_lvl="50" min_lvl="46" title_id="903479" name_id="403260" instanceId="300430000" id="30" npc_ids="207058 207056"/>
+    <auto_group register_fast="true" max_lvl="55" min_lvl="51" title_id="903479" name_id="403260" instanceId="300430000" id="31" npc_ids="207058 207056"/>
+    <auto_group register_fast="true" max_lvl="60" min_lvl="56" title_id="903479" name_id="403260" instanceId="300430000" id="32" npc_ids="207058 207056"/>
+</auto_groups>

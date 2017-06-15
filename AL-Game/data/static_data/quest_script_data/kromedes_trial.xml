@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			18603 [TODO] Kromede's Mission
+			18604 [TODO] Meeting with Rotan
+			18618 [SCRIPT] Kaliga's Collection
+			18619 [SCRIPT] Kaliga's Collection
+			18620 [SCRIPT] Kaliga's Collection
+			18621 [SCRIPT] Kaliga's Collection
+			18622 [SCRIPT] Kaliga's Collection
+			18623 [SCRIPT] Kaliga's Collection
+			18624 [SCRIPT] Kaliga's Collection
+			18625 [SCRIPT] Kaliga's Collection
+			18626 [SCRIPT] Kaliga's Collection
+			18627 [SCRIPT] Kaliga's Collection
+			28603 [TODO] Kromede's Burden
+			28604 [TODO] Recovering Rotan
+			28618 [SCRIPT] Kaliga's Collection
+			28619 [SCRIPT] Kaliga's Collection
+			28620 [SCRIPT] Kaliga's Collection
+			28621 [SCRIPT] Kaliga's Collection
+			28622 [SCRIPT] Kaliga's Collection
+			28623 [SCRIPT] Kaliga's Collection
+			28624 [SCRIPT] Kaliga's Collection
+			28625 [SCRIPT] Kaliga's Collection
+			28626 [SCRIPT] Kaliga's Collection
+			28627 [SCRIPT] Kaliga's Collection
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

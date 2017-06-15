@@ -1,0 +1,5 @@
+2016-05-27 23:16:41,214 ERROR [main] com.aionemu.gameserver.utils.ThreadUncaughtExceptionHandler [ThreadUncaughtExceptionHandler.java:38] Critical Error - Thread: main terminated abnormaly: java.lang.Error: Please configure -javaagent jvm option.
+java.lang.Error: Please configure -javaagent jvm option.
+	at com.aionemu.gameserver.utils.javaagent.JavaAgentUtils.isConfigured(JavaAgentUtils.java:19) ~[classes/:na]
+	at com.aionemu.gameserver.GameServer.initUtilityServicesAndConfig(GameServer.java:344) ~[classes/:na]
+	at com.aionemu.gameserver.GameServer.main(GameServer.java:164) ~[classes/:na]

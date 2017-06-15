@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="300220000">
+		<!-- Artifact of Protection -->
+		<spawn npc_id="700856">
+			<spot x="328.492" y="755.354" z="195.503" h="84"/>
+		</spawn>
+	</spawn_map>
+</spawns>

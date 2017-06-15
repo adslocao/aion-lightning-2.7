@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			18200 [XML] The Crucible
+			18201 [XML] The First Rule of the Crucible
+			18202 [XML] Molfus's Approval
+			18203 [XML] Keep on Driving Me Higher
+			18204 [XML] A Giant Illusion
+			18205 [XML] Vanquish the Vanktrist
+			18206 [XML] A Private Exercise
+			18207 [XML] A Change in Programming?
+			18208 [SCRIPT] Illusion or Infiltration?
+			18209 [SCRIPT] A Rift in the SpaceTwine Continuum
+			18210 [XML] A Coliseum Contestant
+			18211 [TODO] First Entrance
+			18212 [TODO] First Blood
+			18213 [TODO] The Broken Insignia
+			18214 [TODO] Continued Training
+			18215 [XML] Arena Ticket
+			18216 [TODO] Insignia Exchange
+			18217 [TODO] Arena of Chaos Ticket
+			28200 [XML] Entering the Crucible
+			28201 [XML] Through the Wind and Fire
+			28202 [XML] Halfway There
+			28203 [XML] The Student Becomes the Master
+			28204 [XML] Everything's Bigger in Asmodae
+			28205 [XML] From the Reaches of Nothingness
+			28206 [XML] A Challenging Challenge
+			28207 [XML] A Question of Protocols
+			28208 [SCRIPT] A Rift Adrift
+			28209 [SCRIPT] Catching the Rift
+			28210 [XML] The Crucible Coliseum
+			28211 [TODO] Quivering Experience
+			28212 [TODO] A Test of Blood
+			28213 [TODO] The Coliseum's Secret
+			28214 [TODO] Improve Your Skills
+			28215 [XML] Arena Tickets
+			28216 [TODO] Insignia Trade
+			28217 [TODO] Arena of Chaos Tickets
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<report_to id="18200" start_npc_id="798604" end_npc_id="799088"/>
+	<report_to id="18207" start_npc_id="205309" end_npc_id="205316"/>
+	<report_to_many id="18210" start_npc_id="205315" end_npc_id="205985" start_dialog_id="1011">
+		<npc_infos npc_id="205985" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="18215" start_npc_id="205315" end_npc_id="205315" start_dialog_id="1011">
+		<npc_infos npc_id="205315" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to id="28200" start_npc_id="798804" end_npc_id="799428"/>
+	<report_to id="28207" start_npc_id="205321" end_npc_id="205320"/>
+	<report_to_many id="28210" start_npc_id="205323" end_npc_id="205986" start_dialog_id="1011">
+		<npc_infos var="0" npc_id="205986" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<report_to_many id="28215" start_npc_id="205323" end_npc_id="205323" start_dialog_id="1011">
+		<npc_infos npc_id="205323" var="0" quest_dialog="2375" close_dialog="1009"/>
+	</report_to_many>
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+	<monster_hunt id="18201" start_npc_id="205309">
+		<monster var="0" npc_id="217527" end_var="1"/>
+		<monster var="1" npc_id="217528" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="18202" start_npc_id="205309">
+		<monster var="0" npc_id="217556" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="18203" start_npc_id="205309">
+		<monster var="0" npc_id="217586" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="18204" start_npc_id="205309">
+		<monster var="0" npc_id="217599" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="18205" start_npc_id="205309" end_npc_id="799088">
+		<monster var="0" npc_id="217609" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="18206" start_npc_id="205309">
+		<monster var="0" npc_id="217819" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28201" start_npc_id="205321">
+		<monster var="0" npc_id="217527" end_var="1"/>
+		<monster var="1" npc_id="217528" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28202" start_npc_id="205321">
+		<monster var="0" npc_id="217556" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28203" start_npc_id="205321">
+		<monster var="0" npc_id="217587" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28204" start_npc_id="205321">
+		<monster var="0" npc_id="217599" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28205" start_npc_id="205321" end_npc_id="799428">
+		<monster var="0" npc_id="217609" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="28206" start_npc_id="205321">
+		<monster end_var="1" var="0" npc_id="217819"/>
+	</monster_hunt>
+</quest_scripts>

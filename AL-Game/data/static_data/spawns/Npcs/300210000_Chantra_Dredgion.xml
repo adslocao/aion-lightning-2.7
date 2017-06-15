@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="300210000">
+		<!-- Gatekeeper Sarta -->
+		<spawn npc_id="217037">
+			<spot x="484.19" y="495.588" z="397.402" h="71"/>
+		</spawn>
+	</spawn_map>
+</spawns>

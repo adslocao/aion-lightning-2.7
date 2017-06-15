@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			30402 [TODO] The Rescue
+			30408 [TODO] Dreams of Flight
+			30409 [TODO] Stories of the Past
+			30410 [TODO] Dreams to Reality
+			30412 [TODO] Housecleaning
+			30420 [TODO] Golem Gutting
+			30452 [TODO] Undoing Spellweaver
+			30458 [TODO] Love Is Stupid?
+			30459 [TODO] Master of the Ring
+			30461 [TODO] Ring Around the Shugo
+			30463 [TODO] The Explorer
+			30471 [TODO] Manor Matters
+			30472 [TODO] This is Not a Toy!
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

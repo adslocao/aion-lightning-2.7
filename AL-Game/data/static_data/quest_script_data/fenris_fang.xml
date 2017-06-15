@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			4937 [SCRIPT] Recognition of the Preceptors
+			4938 [SCRIPT] Work of the Fenris's Fangs
+			4939 [SCRIPT] Proving Ground
+			4940 [SCRIPT] Decorations of Pandaemonium
+			4941 [SCRIPT] Pandaemonium Honors
+			4942 [SCRIPT] Proving Proficiency
+			4943 [SCRIPT] Luck and Persistence
+			4944 [SCRIPT] Loyalty and Affableness
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

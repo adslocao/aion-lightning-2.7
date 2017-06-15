@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+	<!--
+		This file is part of Aion X Emu <aionxemu.com>.
+
+		This is free software: you can redistribute it and/or modify
+		it under the terms of the GNU Lesser Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+
+		This software is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+		GNU Lesser Public License for more details.
+
+		You should have received a copy of the GNU Lesser Public License
+		along with this software.  If not, see <http://www.gnu.org/licenses/>.
+	-->
+
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration>
+
+	<!-- This appender prints information to console -->
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="%p [%d{dd MMM HH:mm:ss,SSS}] %m%n" />
+		</layout>
+		<filter class="com.aionengine.commons.log4j.filters.ConsoleFilter" />
+	</appender>
+
+	<!-- This appender prints all that is shown in console to file -->
+	<appender name="CONSOLE_TO_FILE" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="log/console.log" />
+		<param name="append" value="false" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="%p [%d{dd MMM yyyy HH:mm:ss,SSS}] %c:%L %m%n" />
+		</layout>
+		<filter class="com.aionengine.commons.log4j.filters.ConsoleFilter" />
+	</appender>
+
+	<!--
+		This appender accepts only messages with exceptions and logs them to
+		separate file
+	-->
+	<appender name="ERROR_APPENDER" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="log/errors.log" />
+		<param name="append" value="true" />
+		<param name="MaxFileSize" value="50000KB" />
+		<param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="%p [%d{dd MMM yyyy HH:mm:ss,SSS}] %c:%L %m%n" />
+		</layout>
+		<filter class="com.aionengine.commons.log4j.filters.ThrowablePresentFilter" />
+	</appender>
+
+	<!-- Root Logger -->
+	<root>
+		<priority value="info" />
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="CONSOLE_TO_FILE" />
+		<appender-ref ref="ERROR_APPENDER" />
+	</root>
+
+	<categoryFactory
+		class="com.aionengine.commons.log4j.ThrowableAsMessageAwareFactory" />
+
+</log4j:configuration>

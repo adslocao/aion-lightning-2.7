@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			28701 [TODO] Seismoracle
+			28702 [TODO] Atheno-what?
+			28704 [TODO] Freedom to Kill
+			28705 [TODO] Ghosts in a Room
+			28706 [TODO] Becoming a Guardian
+			28707 [TODO] The Tahmes Sickness
+			28708 [TODO] Sealed Proof
+			28709 [TODO] Loyal Krall Hero
+			28711 [TODO] Crazy Raksha
+			28712 [TODO] A Secret Legion
+			29701 [TODO] Imminent Collapse
+			29702 [TODO] Drana Destruction
+			29704 [TODO] Ghostly Rumors
+			29705 [TODO] Into the Breach
+			29706 [TODO] All-time Truth
+			29707 [TODO] Tahmes Oil Sales-shugo
+			29708 [TODO] Proof of Sealing
+			29709 [TODO] Pride of the Krall
+			29711 [TODO] Maddening Plan
+			29712 [TODO] Strategic Voice
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

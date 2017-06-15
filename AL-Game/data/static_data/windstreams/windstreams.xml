@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<windstreams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="windstreams.xsd">
+	<!-- INGGISON 2.0 -->
+	<windstream mapid="210050000">
+		<locations>
+		    <location id="77" boost="1" bidirectional="1"/>
+			<location id="78" boost="1" bidirectional="1"/>
+			<location id="80" boost="1" bidirectional="1"/>
+			<location id="81" boost="1" bidirectional="1"/>
+			<location id="89" boost="1" bidirectional="1"/>
+			<location id="90" boost="1" bidirectional="1"/>
+			<location id="92" boost="1" bidirectional="1"/>
+			<location id="93" boost="1" bidirectional="1"/>
+			<location id="94" boost="1" bidirectional="1"/>
+			<location id="95" boost="1" bidirectional="1"/>
+			<location id="100" boost="1" bidirectional="0"/>
+			<location id="101" boost="1" bidirectional="0"/>
+			<location id="110" boost="1" bidirectional="0"/>
+			<location id="120" boost="1" bidirectional="0"/>
+			<location id="130" boost="1" bidirectional="0"/>
+			<location id="146" boost="1" bidirectional="1"/>
+			<location id="150" boost="1" bidirectional="1"/>
+			<location id="152" boost="1" bidirectional="1"/>
+			<location id="153" boost="1" bidirectional="1"/>
+			<location id="154" boost="1" bidirectional="1"/>
+			<location id="200" boost="1" bidirectional="1"/>
+			<location id="201" boost="1" bidirectional="1"/>
+		</locations>
+	</windstream>
+	<!-- GELKMAROS 2.0 -->
+	<windstream mapid="220070000">
+		<locations>
+			<location id="1" boost="1" bidirectional="2"/>
+			<location id="2" boost="1" bidirectional="0"/>
+			<location id="3" boost="1" bidirectional="0"/>
+			<location id="4" boost="1" bidirectional="0"/>
+			<location id="31" boost="1" bidirectional="2"/>
+			<location id="79" boost="1" bidirectional="1"/>
+			<location id="82" boost="1" bidirectional="1"/>
+			<location id="83" boost="1" bidirectional="1"/>
+			<location id="84" boost="1" bidirectional="1"/>
+			<location id="91" boost="1" bidirectional="1"/>
+			<location id="102" boost="1" bidirectional="0"/>
+			<location id="147" boost="1" bidirectional="1"/>
+			<location id="148" boost="1" bidirectional="1"/>
+			<location id="149" boost="1" bidirectional="1"/>
+			<location id="150" boost="1" bidirectional="1"/>
+			<location id="151" boost="1" bidirectional="1"/>
+			<location id="155" boost="1" bidirectional="1"/>
+			<location id="156" boost="1" bidirectional="1"/>
+			<location id="157" boost="1" bidirectional="1"/>
+		</locations>
+	</windstream>
+	<!-- TEST DUNGEON -->
+	<windstream mapid="300020000">
+ 		<locations>
+ 			<location id="158" boost="1" bidirectional="2"/>
+		</locations>
+ 	</windstream>
+	<!-- ESOTERRACE 2.5 -->
+	<windstream mapid="300250000">
+		<locations>
+            <location id="1" boost="1" bidirectional="1"/>
+            <location id="2" boost="1" bidirectional="1"/>
+            <location id="3" boost="1" bidirectional="1"/>
+            <location id="4" boost="1" bidirectional="1"/>
+            <location id="5" boost="1" bidirectional="1"/>
+            <location id="6" boost="1" bidirectional="1"/>
+            <location id="7" boost="1" bidirectional="1"/>
+            <location id="8" boost="1" bidirectional="1"/>
+			<location id="159" boost="1" bidirectional="1"/>
+            <location id="160" boost="1" bidirectional="1"/>
+            <location id="162" boost="1" bidirectional="1"/>
+		</locations>
+	</windstream>
+	<!-- SARPAN 3.0 -->
+	<windstream mapid="600020000">
+		<locations>
+			<location id="163" boost="1" bidirectional="1"/>
+		</locations>
+	</windstream>
+	<!-- TIAMARANTA 3.0 -->
+	<windstream mapid="600030000">
+		<locations>
+			<location id="164" boost="1" bidirectional="1"/>
+			<location id="165" boost="1" bidirectional="1"/>
+			<location id="203" boost="1" bidirectional="1"/>
+			<location id="204" boost="1" bidirectional="1"/>
+			<location id="205" boost="1" bidirectional="1"/>
+			<location id="206" boost="1" bidirectional="1"/>
+			<location id="207" boost="1" bidirectional="1"/>
+			<location id="208" boost="1" bidirectional="1"/>
+			<location id="209" boost="1" bidirectional="1"/>
+			<location id="210" boost="1" bidirectional="1"/>
+			<location id="211" boost="1" bidirectional="1"/>
+			<location id="212" boost="1" bidirectional="1"/>
+			<location id="213" boost="1" bidirectional="1"/>
+			<location id="214" boost="1" bidirectional="1"/>
+			<location id="215" boost="1" bidirectional="1"/>
+			<location id="216" boost="1" bidirectional="1"/>
+			<location id="217" boost="1" bidirectional="1"/>
+		</locations>
+	</windstream>
+	<!-- TIAMAT DOWN 3.0 -->
+	<windstream mapid="600040000">
+		<locations>
+			<location id="218" boost="1" bidirectional="1"/>
+			<location id="219" boost="1" bidirectional="1"/>
+			<location id="220" boost="1" bidirectional="1"/>
+		</locations>
+	</windstream>
+</windstreams>

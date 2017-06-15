@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zones>
+    <zone mapid="300010000" name="FLYINGZONESHAPEMAIN1" area_type="POLYGON" zone_type="FLY">
+        <points bottom="0.1" top="320.1">
+            <point x="-0.980423" y="0.740837"/>
+            <point x="511.0196" y="0.740837"/>
+            <point x="511.0196" y="511.74084"/>
+            <point x="0.019577" y="512.74084"/>
+        </points>
+    </zone>
+</zones>

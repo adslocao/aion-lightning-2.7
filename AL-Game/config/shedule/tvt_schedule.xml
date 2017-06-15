@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tvt_schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tvt_schedule.xsd">
+	<tvt_level id="0" level="55" start_time="1800" duration="1800" mapId="300420000" boss="true">
+        <tvt_registrator mapId="120010000" npcId="264889" x="1305.7627" y="1424.7743" z="209" h="90"/>
+        <tvt_registrator mapId="110010000" npcId="264888" x="1514.0834" y="1524.0903" z="566" h="0"/>
+		<tvt_time>0 0 2 ? * SAT,SUN</tvt_time>
+		<tvt_time>0 0 10 ? * SUN</tvt_time>
+		<tvt_time>0 0 14 ? * SUN,MON,THU,FRI</tvt_time>
+		<tvt_time>0 0 16 ? * MON,SAT</tvt_time>
+		<tvt_time>0 0 17 ? * TUE</tvt_time>
+		<tvt_time>0 0 18 ? * SUN,THU,FRI,SAT</tvt_time>
+		<tvt_time>0 0 19 ? * WED,</tvt_time>
+		<tvt_time>0 0 22 ? * SUN,MON,WED,FRI,SAT</tvt_time>
+		<tvt_time>0 0 23 ? * TUE,THU,SAT</tvt_time>
+		<tvt_helpers helperId="209218" race="ASMODIANS">
+		    <tvt_helper_loc>1335.112;1115.3639;339.84592;113</tvt_helper_loc>
+		    <tvt_helper_loc>1330.5668;1099.3226;339.05414;113</tvt_helper_loc>
+		    <tvt_helper_loc>1331.3939;1089.0145;339.41107;113</tvt_helper_loc>
+		    <tvt_helper_loc>1331.046;1078.6235;339.7241;113</tvt_helper_loc>
+		    <tvt_helper_loc>1332.5381;1069.3445;339.375;113</tvt_helper_loc>
+		    <tvt_helper_loc>1330.0806;1053.1514;339.25537;113</tvt_helper_loc>
+		    <tvt_helper_loc>1328.9886;1039.6855;339.7907;113</tvt_helper_loc>
+		    <tvt_helper_loc>1328.9315;1027.018;340.50317;113</tvt_helper_loc>
+		</tvt_helpers>
+		<tvt_helpers helperId="209018" race="ELYOS">
+		    <tvt_helper_loc>1335.112;1115.3639;339.84592;52</tvt_helper_loc>
+		    <tvt_helper_loc>1330.5668;1099.3226;339.05414;52</tvt_helper_loc>
+		    <tvt_helper_loc>1331.3939;1089.0145;339.41107;52</tvt_helper_loc>
+		    <tvt_helper_loc>1331.046;1078.6235;339.7241;52</tvt_helper_loc>
+		    <tvt_helper_loc>1332.5381;1069.3445;339.375;52</tvt_helper_loc>
+		    <tvt_helper_loc>1330.0806;1053.1514;339.25537;52</tvt_helper_loc>
+		    <tvt_helper_loc>1328.9886;1039.6855;339.7907;52</tvt_helper_loc>
+		    <tvt_helper_loc>1328.9315;1027.018;340.50317;52</tvt_helper_loc>
+		</tvt_helpers>
+		<tvt_clock clockId="" race="ELYOS">
+		    <tvt_clock_loc>1288.903;1061.6238;341.21497;6</tvt_clock_loc>
+		</tvt_clock>
+		<tvt_clock clockId="" race="ASMODIANS">
+		    <tvt_clock_loc>1381.578;1071.6123;340.73053;62</tvt_clock_loc>
+		</tvt_clock>
+		<tvt_boss bossId="217788" need_score="10" reward="20" vote="1" ap="1000" remove_cd="true" boost="true">
+		    <tvt_boss_loc>1340.5791;1079.7045;339.73154;119</tvt_boss_loc>
+		</tvt_boss>
+		<tvt_boss bossId="217788" need_score="40" reward="20" vote="1" ap="1000" remove_cd="true" boost="true">
+		    <tvt_boss_loc>1340.5791;1079.7045;339.73154;119</tvt_boss_loc>
+		</tvt_boss>
+	</tvt_level>
+</tvt_schedule>

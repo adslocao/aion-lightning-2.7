@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			37100 [TODO] Mutant Ninja Ininas
+			37101 [XML] No Bad Deed...
+			37102 [XML] Spare the Krall? Never!
+			37103 [TODO] Camo and Carnage
+			37104 [XML] Rookies for Restoration
+			37105 [XML] Krall Disciplinary
+			37106 [TODO] Asmo Hunt
+			37107 [TODO] Cool, Blue Water
+			37108 [XML] No Bad Deed...
+			37109 [XML] Spare the Krall? Never!
+			37110 [TODO] My Young Apprentice
+			37111 [XML] Rookies for Restoration
+			37112 [XML] Krall Disciplinary
+			37113 [TODO] Asmo ICU
+			37114 [XML] Interception and Bribery
+			37115 [XML] Lephies on the Loose
+			37116 [XML] The Only Mentor in Town
+			37117 [XML] Indratu in da Field
+			37118 [TODO] Balaur Boogeyman
+			37119 [TODO] Dead Daevas are Deadly
+			37120 [TODO] Steely Resolve
+			38007 [TODO] A Key Message
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="37114" start_npc_id="799906" action_item_id="700974"/>
+	<!-- HUNTING QUESTS -->
+	<mentor_monster_hunt id="37101" start_npc_id="0" end_npc_id="799901" min_mente_level="15" max_mente_level="25">
+		<monster end_var="5" var="0" npc_id="210165"/>
+		<monster end_var="5" var="0" npc_id="210166"/>
+		<monster end_var="5" var="0" npc_id="210167"/>
+		<monster end_var="5" var="0" npc_id="210170"/>
+		<monster end_var="5" var="0" npc_id="210171"/>
+		<monster end_var="5" var="0" npc_id="210175"/>
+		<monster end_var="5" var="0" npc_id="210176"/>
+		<monster end_var="5" var="0" npc_id="210177"/>
+		<monster end_var="5" var="0" npc_id="210183"/>
+		<monster end_var="5" var="0" npc_id="210184"/>
+		<monster end_var="5" var="0" npc_id="210354"/>
+		<monster end_var="5" var="0" npc_id="210355"/>
+		<monster end_var="5" var="0" npc_id="210692"/>
+		<monster end_var="5" var="0" npc_id="210693"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37102" start_npc_id="0" end_npc_id="799901" min_mente_level="13" max_mente_level="20">
+		<monster end_var="5" var="0" npc_id="210168"/>
+		<monster end_var="5" var="0" npc_id="210179"/>
+		<monster end_var="5" var="0" npc_id="210180"/>
+		<monster end_var="5" var="0" npc_id="210185"/>
+		<monster end_var="5" var="0" npc_id="210186"/>
+		<monster end_var="5" var="0" npc_id="210694"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37104" start_npc_id="0" end_npc_id="799906" min_mente_level="28" max_mente_level="38">
+		<monster end_var="5" var="0" npc_id="211781"/>
+		<monster end_var="5" var="0" npc_id="211782"/>
+		<monster end_var="5" var="0" npc_id="211783"/>
+		<monster end_var="5" var="0" npc_id="211784"/>
+		<monster end_var="5" var="0" npc_id="211785"/>
+		<monster end_var="5" var="0" npc_id="211786"/>
+		<monster end_var="5" var="0" npc_id="211787"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37105" start_npc_id="0" end_npc_id="799906" min_mente_level="25" max_mente_level="35">
+		<monster end_var="5" var="0" npc_id="212058"/>
+		<monster end_var="5" var="0" npc_id="212059"/>
+		<monster end_var="5" var="0" npc_id="212060"/>
+		<monster end_var="5" var="0" npc_id="212061"/>
+		<monster end_var="5" var="0" npc_id="212062"/>
+		<monster end_var="5" var="0" npc_id="212063"/>
+		<monster end_var="5" var="0" npc_id="212064"/>
+		<monster end_var="5" var="0" npc_id="212065"/>
+		<monster end_var="5" var="0" npc_id="212066"/>
+		<monster end_var="5" var="0" npc_id="212067"/>
+		<monster end_var="5" var="0" npc_id="212068"/>
+		<monster end_var="5" var="0" npc_id="212069"/>
+		<monster end_var="5" var="0" npc_id="212070"/>
+		<monster end_var="5" var="0" npc_id="212071"/>
+		<monster end_var="5" var="0" npc_id="212073"/>
+		<monster end_var="5" var="0" npc_id="212075"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37108" start_npc_id="0" end_npc_id="799901" min_mente_level="15" max_mente_level="25">
+		<monster end_var="5" var="0" npc_id="210165"/>
+		<monster end_var="5" var="0" npc_id="210166"/>
+		<monster end_var="5" var="0" npc_id="210167"/>
+		<monster end_var="5" var="0" npc_id="210170"/>
+		<monster end_var="5" var="0" npc_id="210171"/>
+		<monster end_var="5" var="0" npc_id="210175"/>
+		<monster end_var="5" var="0" npc_id="210176"/>
+		<monster end_var="5" var="0" npc_id="210177"/>
+		<monster end_var="5" var="0" npc_id="210183"/>
+		<monster end_var="5" var="0" npc_id="210184"/>
+		<monster end_var="5" var="0" npc_id="210354"/>
+		<monster end_var="5" var="0" npc_id="210355"/>
+		<monster end_var="5" var="0" npc_id="210692"/>
+		<monster end_var="5" var="0" npc_id="210693"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37109" start_npc_id="0" end_npc_id="799901" min_mente_level="13" max_mente_level="20">
+		<monster end_var="5" var="0" npc_id="210168"/>
+		<monster end_var="5" var="0" npc_id="210179"/>
+		<monster end_var="5" var="0" npc_id="210180"/>
+		<monster end_var="5" var="0" npc_id="210185"/>
+		<monster end_var="5" var="0" npc_id="210186"/>
+		<monster end_var="5" var="0" npc_id="210694"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37111" start_npc_id="0" end_npc_id="799906" min_mente_level="28" max_mente_level="38">
+		<monster end_var="5" var="0" npc_id="211781"/>
+		<monster end_var="5" var="0" npc_id="211782"/>
+		<monster end_var="5" var="0" npc_id="211783"/>
+		<monster end_var="5" var="0" npc_id="211784"/>
+		<monster end_var="5" var="0" npc_id="211785"/>
+		<monster end_var="5" var="0" npc_id="211786"/>
+		<monster end_var="5" var="0" npc_id="211787"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37112" start_npc_id="0" end_npc_id="799906" min_mente_level="25" max_mente_level="35">
+		<monster end_var="5" var="0" npc_id="212058"/>
+		<monster end_var="5" var="0" npc_id="212059"/>
+		<monster end_var="5" var="0" npc_id="212060"/>
+		<monster end_var="5" var="0" npc_id="212061"/>
+		<monster end_var="5" var="0" npc_id="212062"/>
+		<monster end_var="5" var="0" npc_id="212063"/>
+		<monster end_var="5" var="0" npc_id="212064"/>
+		<monster end_var="5" var="0" npc_id="212065"/>
+		<monster end_var="5" var="0" npc_id="212066"/>
+		<monster end_var="5" var="0" npc_id="212067"/>
+		<monster end_var="5" var="0" npc_id="212068"/>
+		<monster end_var="5" var="0" npc_id="212069"/>
+		<monster end_var="5" var="0" npc_id="212070"/>
+		<monster end_var="5" var="0" npc_id="212071"/>
+		<monster end_var="5" var="0" npc_id="212073"/>
+		<monster end_var="5" var="0" npc_id="212075"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37115" start_npc_id="799906" min_mente_level="35" max_mente_level="45">
+		<monster end_var="5" var="0" npc_id="211023"/>
+		<monster end_var="5" var="0" npc_id="211027"/>
+		<monster end_var="5" var="0" npc_id="211013"/>
+		<monster end_var="5" var="0" npc_id="211022"/>
+		<monster end_var="5" var="0" npc_id="211031"/>
+		<monster end_var="5" var="0" npc_id="211024"/>
+		<monster end_var="5" var="0" npc_id="211028"/>
+		<monster end_var="5" var="0" npc_id="211012"/>
+		<monster end_var="5" var="0" npc_id="211021"/>
+		<monster end_var="5" var="0" npc_id="211030"/>
+		<monster end_var="5" var="0" npc_id="211025"/>
+		<monster end_var="5" var="0" npc_id="211029"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37116" start_npc_id="799906" min_mente_level="35" max_mente_level="45">
+		<monster end_var="5" var="0" npc_id="211179"/>
+		<monster end_var="5" var="0" npc_id="211204"/>
+		<monster end_var="5" var="0" npc_id="212235"/>
+		<monster end_var="5" var="0" npc_id="211180"/>
+		<monster end_var="5" var="0" npc_id="211205"/>
+		<monster end_var="5" var="0" npc_id="212236"/>
+		<monster end_var="5" var="0" npc_id="212237"/>
+		<monster end_var="5" var="0" npc_id="212238"/>
+		<monster end_var="5" var="0" npc_id="212239"/>
+		<monster end_var="5" var="0" npc_id="212240"/>
+		<monster end_var="5" var="0" npc_id="212241"/>
+		<monster end_var="5" var="0" npc_id="212242"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="37117" start_npc_id="799911" min_mente_level="35" max_mente_level="45">
+		<monster end_var="5" var="0" npc_id="213968"/>
+		<monster end_var="5" var="0" npc_id="213969"/>
+		<monster end_var="5" var="0" npc_id="214051"/>
+		<monster end_var="5" var="0" npc_id="214052"/>
+		<monster end_var="5" var="0" npc_id="214053"/>
+		<monster end_var="5" var="0" npc_id="213987"/>
+		<monster end_var="5" var="0" npc_id="213988"/>
+		<monster end_var="5" var="0" npc_id="214060"/>
+		<monster end_var="5" var="0" npc_id="214061"/>
+		<monster end_var="5" var="0" npc_id="214062"/>
+		<monster end_var="5" var="0" npc_id="213964"/>
+		<monster end_var="5" var="0" npc_id="213965"/>
+		<monster end_var="5" var="0" npc_id="214044"/>
+		<monster end_var="5" var="0" npc_id="214046"/>
+		<monster end_var="5" var="0" npc_id="214045"/>
+	</mentor_monster_hunt>
+</quest_scripts>

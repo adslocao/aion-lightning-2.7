@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			3930 [SCRIPT] The Shattered Stigma
+			3931 [SCRIPT] How to Use Stigma
+			3932 [SCRIPT] Stop the Shulacks!
+			4934 [SCRIPT] The Shulack's Stigma
+			4935 [SCRIPT] A Booklet on Stigma
+			4936 [SCRIPT] Secret of the Greater Stigma
+			11049 [SCRIPT] Taloc's Heart Full of Soul
+			11275 [XML] Cracking the Stigma Threshold
+			11276 [SCRIPT] Stigma Enlightenment
+			21049 [SCRIPT] Stigma Expansion
+			21277 [SCRIPT] Out of their Cold, Dead Hands
+			21278 [SCRIPT] Test Subject One
+			30216 [XML] Stigma Dogma
+			30217 [SCRIPT] Stigmas & Scars
+			30218 [XML] Aeshma's Vengeance
+			30219 [XML] Mine Vengeance
+			30220 [XML] For Honor, For Stormwing
+			30221 [XML] The Spirit Sleepeth
+			30316 [XML] Stigma of the Dragonbound
+			30317 [SCRIPT] Spirits and Stigma Slots
+			30318 [XML] Aeshma's Retaliation
+			30319 [XML] Eliminate Manadar
+			30320 [XML] Smiting for Bhemah
+			30321 [XML] Complete the Last Mission
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<report_to id="30216" start_npc_id="798941" end_npc_id="798909"/>
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="11275" start_npc_id="798909"/>
+	<!-- HUNTING QUESTS -->
+	<monster_hunt id="30218" start_npc_id="799504">
+		<monster var="0" npc_id="216195" end_var="25"/>
+		<monster var="0" npc_id="216196" end_var="25"/>
+		<monster var="0" npc_id="216197" end_var="25"/>
+		<monster var="0" npc_id="216198" end_var="25"/>
+		<monster var="0" npc_id="216276" end_var="25"/>
+		<monster var="0" npc_id="216277" end_var="25"/>
+		<monster var="0" npc_id="216278" end_var="25"/>
+		<monster var="0" npc_id="216279" end_var="25"/>
+	</monster_hunt>
+	<monster_hunt id="30219" start_npc_id="799504">
+		<monster var="0" npc_id="216160" end_var="1"/>
+	</monster_hunt>
+	<monster_hunt id="30220" start_npc_id="799505">
+		<monster var="0" npc_id="216199" end_var="25"/>
+		<monster var="0" npc_id="216200" end_var="25"/>
+		<monster var="0" npc_id="216201" end_var="25"/>
+		<monster var="0" npc_id="216202" end_var="25"/>
+		<monster var="0" npc_id="216203" end_var="25"/>
+		<monster var="0" npc_id="216280" end_var="25"/>
+		<monster var="0" npc_id="216281" end_var="25"/>
+		<monster var="0" npc_id="216282" end_var="25"/>
+	</monster_hunt>
+	<monster_hunt id="30221" start_npc_id="799505">
+		<monster var="0" npc_id="216242" end_var="1"/>
+	</monster_hunt>
+</quest_scripts>

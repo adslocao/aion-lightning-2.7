@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="portal_templates.xsd">
+	<!-- INSTANCES -->
+	<!-- Sulfur Tree Nest Asmodians Entrance -->
+	<portal npcid="700529" minlevel="30" instance="true" playersize="6" instancesiegeid="1141">
+		<entrypoint mapid="400010000" x="1344.071" y="1243.705" z="1498.314"/>
+		<exitpoint mapid="300060000" x="462.352" y="345.609" z="162.817"/>
+	</portal>
+	<!-- Sulfur Tree Nest Elyos Entrance -->
+	<portal npcid="700452" minlevel="30" instance="true" playersize="6" instancesiegeid="1141">
+		<entrypoint mapid="400010000" x="1344.071" y="1243.705" z="1498.314"/>
+		<exitpoint mapid="300060000" x="462.352" y="345.609" z="162.817"/>
+	</portal>
+	<!-- Sulfur Tree Nest Exit -->
+	<portal npcid="700453" minlevel="30" instance="false">
+		<entrypoint mapid="300060000" x="462.6254" y="332.89355" z="162.80669"/>
+		<exitpoint mapid="400010000" x="1341.6997" y="1242.4253" z="1496.5812"/>
+	</portal>
+	<!-- Left Wing Chamber Asmo Entrance -->
+	<portal npcid="700455" minlevel="30" instance="true" playersize="6" instancesiegeid="1131">
+		<entrypoint mapid="400010000" x="2784.99" y="2664.03" z="1486.7"/>
+		<exitpoint mapid="300080000" x="672.09576" y="606.1819" z="321.19"/>
+	</portal>
+	<!-- Left Wing Chamber Elyos Entrance -->
+	<portal npcid="700454" minlevel="30" instance="true" playersize="6" instancesiegeid="1131">
+		<entrypoint mapid="400010000" x="2784.99" y="2664.03" z="1486.7"/>
+		<exitpoint mapid="300080000" x="672.09576" y="606.1819" z="321.19"/>
+	</portal>
+	<!-- Left Wing Chamber Exit -->
+	<portal npcid="700530" minlevel="30" maxlevel="60" instance="false">
+		<entrypoint mapid="300080000" x="672.09576" y="606.1819" z="321.19"/>
+		<exitpoint mapid="400010000" x="2784.99" y="2664.03" z="1486.7"/>
+	</portal>
+	<!-- Right Wing Chamber Asmo Entrance -->
+	<portal npcid="700531" minlevel="30" instance="true" playersize="6" instancesiegeid="1132">
+		<entrypoint mapid="400010000" x="2542.846" y="2855.972" z="1488.811"/>
+		<exitpoint mapid="300090000" x="263.64" y="386.0" z="103.243"/>
+	</portal>
+	<!-- Right Wing Chamber Elyos Entrance -->
+	<portal npcid="700456" minlevel="30" instance="true" playersize="6" instancesiegeid="1132">
+		<entrypoint mapid="400010000" x="2542.846" y="2855.972" z="1488.811"/>
+		<exitpoint mapid="300090000" x="263.64" y="386.0" z="103.243"/>
+	</portal>
+	<!-- Right Wing Chamber Exit -->
+	<portal npcid="700457" minlevel="30" maxlevel="60" instance="false">
+		<entrypoint mapid="300090000" x="263.64" y="395.442" z="103.243"/>
+		<exitpoint mapid="400010000" x="2542.846" y="2855.972" z="1488.811"/>
+	</portal>
+	<!-- Roah Asmo Entrance -->
+	<portal npcid="700532" minlevel="40" instance="true" playersize="6" instancesiegeid="1211">
+		<entrypoint mapid="400010000" x="2712.521" y="757.886" z="2855.45"/>
+		<exitpoint mapid="300070000" x="503.74" y="395.70" z="94.34"/>
+	</portal>
+	<!-- Roah Elyos Entrance -->
+	<portal npcid="700479" minlevel="40" instance="true" playersize="6" instancesiegeid="1211">
+		<entrypoint mapid="400010000" x="2712.53" y="757.89" z="2854.295"/>
+		<exitpoint mapid="300070000" x="503.74" y="395.70" z="94.34"/>
+	</portal>
+	<!-- Roah Exit -->
+	<portal npcid="700480" minlevel="40" maxlevel="60" instance="false">
+		<entrypoint mapid="300070000" x="505.271" y="375.789" z="93.873"/>
+		<exitpoint mapid="400010000" x="2712.53" y="757.89" z="2854.295"/>
+	</portal>
+	<!-- Krotan Asmo Entrance -->
+	<portal npcid="700534" minlevel="40" instance="true" playersize="6" instancesiegeid="1221">
+		<entrypoint mapid="400010000" x="2011.3734" y="1251.6195" z="2945.3445"/>
+		<exitpoint mapid="300140000" x="527.79846" y="109.320755" z="175.92393"/>
+	</portal>
+	<!-- Krotan Elyos Entrance -->
+	<portal npcid="700458" minlevel="40" instance="true" playersize="6" instancesiegeid="1221">
+		<entrypoint mapid="400010000" x="2011.3734" y="1251.6195" z="2945.3445"/>
+		<exitpoint mapid="300140000" x="527.79846" y="109.320755" z="175.92393"/>
+	</portal>
+	<!-- Krotan Exit -->
+	<portal npcid="700459" minlevel="40" maxlevel="60" instance="false">
+		<entrypoint mapid="300140000" x="527.197" y="105.021" z="175.889"/>
+		<exitpoint mapid="400010000" x="2011.3734" y="1251.6195" z="2945.3445"/>
+	</portal>
+	<!-- Kysis Asmo Entrance -->
+	<portal npcid="700535" minlevel="40" instance="true" playersize="6" instancesiegeid="1231">
+		<entrypoint mapid="400010000" x="2532.262" y="2064.385" z="3034.000"/>
+		<exitpoint mapid="300120000" x="527.33484" y="122.05632" z="175.95427"/>
+	</portal>
+	<!-- Kysis Elyos Entrance -->
+	<portal npcid="700481" minlevel="40" instance="true" playersize="6" instancesiegeid="1231">
+		<entrypoint mapid="400010000" x="2532.262" y="2064.385" z="3034.000"/>
+		<exitpoint mapid="300120000" x="527.33484" y="122.05632" z="175.95427"/>
+	</portal>
+	<!-- Kysis Exit -->
+	<portal npcid="700482" minlevel="40" maxlevel="60" instance="false">
+		<entrypoint mapid="300120000" x="527.651" y="105.021" z="175.889"/>
+		<exitpoint mapid="400010000" x="2529.329" y="2063.255" z="3031.838"/>
+	</portal>
+	<!-- Miren Asmo Entrance -->
+	<portal npcid="700536" minlevel="40" instance="true" playersize="6" instancesiegeid="1241">
+		<entrypoint mapid="400010000" x="1827.2914" y="2305.899" z="2931.5413"/>
+		<exitpoint mapid="300130000" x="527.5752" y="119.29071" z="175.89603"/>
+	</portal>
+	<!-- Miren Elyos Entrance -->
+	<portal npcid="700483" minlevel="40" instance="true" playersize="6" instancesiegeid="1241">
+		<entrypoint mapid="400010000" x="1827.2914" y="2305.899" z="2931.5413"/>
+		<exitpoint mapid="300130000" x="527.5752" y="119.29071" z="175.89603"/>
+	</portal>
+	<!-- Miren Exit -->
+	<portal npcid="700484" minlevel="40" maxlevel="60" instance="false">
+		<entrypoint mapid="300130000" x="527.251" y="105.021" z="175.889"/>
+		<exitpoint mapid="400010000" x="1817.759" y="2317.781" z="2931.541"/>
+	</portal>
+	<!-- Asteria Asmo Entrance -->
+	<portal npcid="700533" minlevel="40" instance="true" playersize="6" instancesiegeid="1251">
+		<entrypoint mapid="400010000" x="705.45" y="2921.74" z="2880.84"/>
+		<exitpoint mapid="300050000" x="469.343" y="567.713" z="201.732"/>
+	</portal>
+	<!-- Asteria Elyos Entrance -->
+	<portal npcid="700460" minlevel="40" instance="true" playersize="6" instancesiegeid="1251">
+		<entrypoint mapid="400010000" x="705.45" y="2921.74" z="2880.84"/>
+		<exitpoint mapid="300050000" x="469.343" y="567.713" z="201.732"/>
+	</portal>
+	<!-- Asteria Chamber Entrance Exit -->
+	<portal npcid="700461" minlevel="40" maxlevel="60" instance="false">
+		<entrypoint mapid="300050000" x="461.05597" y="567.03485" z="205.75105"/>
+		<exitpoint mapid="400010000" x="707.98" y="2919.22" z="2877.51"/>
+	</portal>
+	
+	
+	
+	<!-- Haramel Entrance Elyos-->
+	<portal npcid="730318" minlevel="18" maxlevel="60" instance="true">
+		<entrypoint mapid="210030000" x="2537.3516" y="835.2221" z="103.967476"/>
+		<exitpoint mapid="300200000" x="172" y="20" z="144.22548" race="ELYOS"/>
+	</portal>
+	<!-- Haramel Entrance Asmo-->
+	<portal npcid="730319" minlevel="18" maxlevel="60" instance="true">
+		<entrypoint mapid="220030000" x="2909.5413" y="1459.5999" z="252.59264"/>
+		<exitpoint mapid="300200000" x="172" y="20" z="144.22548" race="ASMODIANS"/>
+	</portal>
+	<!-- Haramel Lift -->
+	<portal npcid="730321" minlevel="18" maxlevel="60" instance="true">
+		<entrypoint mapid="300200000" x="220.868" y="213.263" z="89.2187"/>
+		<exitpoint mapid="300200000" x="220" y="213" z="126.68472"/>
+	</portal>
+	<!-- Haramel Boss to Haramel Entry -->
+	<portal npcid="700852" minlevel="18" maxlevel="60" instance="true">
+		<entrypoint mapid="300200000" x="224.59842" y="331.14313" z="141.89247"/>
+		<exitpoint mapid="300200000" x="172" y="20" z="144.22548"/>
+	</portal>
+	<!-- Haramel Exit -->
+	<portal npcid="730320" minlevel="18" maxlevel="60" instance="false">
+		<entrypoint mapid="300200000" x="182.29105" y="20.523394" z="144.2241"/>
+		<exitpoint mapid="210030000" x="2528.9458" y="834.3297" z="103.967476" race="ELYOS"/>
+		<exitpoint mapid="220030000" x="2904.8564" y="1471.9283" z="252.59264" race="ASMODIANS"/>
+	</portal>
+	<!-- Dredgion Captains Cabin Teleport Elyos -->
+	<portal npcid="730357" minlevel="51" maxlevel="60">
+		<entrypoint mapid="300210000" x="496.522003" y="761.994995" z="388.660004"/>
+		<exitpoint mapid="300210000" x="485.5936" y="859.6671" z="417.98563" race="ELYOS"/>
+	</portal>
+	<!-- Dredgion Captains Cabin Teleport Asmo -->
+	<portal npcid="730358" minlevel="51" maxlevel="60">
+		<entrypoint mapid="300210000" x="496.522003" y="761.994995" z="388.660004"/>
+		<exitpoint mapid="300210000" x="485.5936" y="859.6671" z="417.98563" race="ASMODIANS"/>
+	</portal>
+	<!-- Dredgion Center Teleport Portside -->
+	<portal npcid="730311" minlevel="51" maxlevel="60">
+		<entrypoint mapid="300210000" x="554.830994" y="173.871994" z="432.523987"/>
+		<exitpoint mapid="300210000" x="484.1897" y="495.58765" z="397.40155" />
+	</portal>
+	<!-- Dredgion Center Teleport Starboard -->
+	<portal npcid="730312" minlevel="51" maxlevel="60">
+		<entrypoint mapid="300210000" x="397.117004" y="184.298004" z="432.803009"/>
+		<exitpoint mapid="300210000" x="484.1897" y="495.58765" z="397.40155" />
+	</portal>
+	<!-- Dredgion Supply Room Teleport Portside -->
+	<portal npcid="730314" minlevel="51" maxlevel="60">
+		<entrypoint mapid="300210000" x="572.104004" y="185.238998" z="432.559998"/>
+		<exitpoint mapid="300210000" x="578.1164" y="711.2476" z="401.7698" />
+	</portal>
+	<!-- Dredgion Supply Room Teleport Starboard -->
+	<portal npcid="730315" minlevel="51" maxlevel="60">
+		<entrypoint mapid="300210000" x="415.076996" y="173.852997" z="432.533997"/>
+		<exitpoint mapid="300210000" x="392.62808" y="711.1573" z="401.7698" />
+	</portal>
+	<!-- Nochsana Training Camp (Elyos) -->
+	<portal npcid="700413" minlevel="25" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="400010000" x="2890" y="754" z="1498.5786"/>
+		<exitpoint mapid="300030000" x="513" y="668" z="331" race="ELYOS"/>
+	</portal>
+	<!-- Nochsana Training Camp (Asmo) -->
+	<portal npcid="700414" minlevel="25" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="400010000" x="876.7211" y="3079.2874" z="1644.5786"/>
+		<exitpoint mapid="300030000" x="513" y="668" z="331" race="ASMODIANS"/>
+	</portal>
+	<!-- Fire Temple Entrance (Elyos) -->
+	<portal npcid="730069" minlevel="27" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210020000" x="1343.28" y="350.96" z="348.67"/>
+		<exitpoint mapid="320100000" x="148.256" y="460.857" z="141.713" race="ELYOS"/>
+	</portal>
+	<!-- Fire Temple Entrance (Asmo) -->
+	<portal npcid="730047" minlevel="27" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210020000" x="1343.28" y="350.96" z="348.67" race="ELYOS"/>
+		<entrypoint mapid="220020000" x="1592.178" y="977.2572" z="140.75" race="ASMODIANS"/>
+		<exitpoint mapid="320100000" x="148.256" y="460.857" z="141.713"/>
+	</portal>
+	<!-- Fire Temple Exit -->
+	<portal npcid="730048" minlevel="27" maxlevel="60" instance="false">
+		<entrypoint mapid="320100000" x="148.256" y="460.857" z="141.713"/>
+		<exitpoint mapid="220020000" x="1592.178" y="977.2572" z="140.75" race="ASMODIANS"/>
+		<exitpoint mapid="210020000" x="1343.28" y="350.96" z="348.67" race="ELYOS"/>
+	</portal>
+	<!-- Aetherogenetics Lab (Elyos) -->
+	<portal npcid="730034" minlevel="35" maxlevel="60" instance="true" playersize="6" requirequest="1057/4">
+		<entrypoint mapid="210040000" x="235.95" y="533.53" z="158.75"/>
+		<exitpoint mapid="310050000" x="348.7295" y="235.60219" z="147.67067" race="ELYOS"/>
+	</portal>
+	<!-- Kromede's Trial (Asmo) -->
+	<portal npcid="205234" minlevel="37" maxlevel="60" instance="true" requirequest="28602">
+		<entrypoint mapid="220040000" x="1929.999" y="507.82068" z="412.25"/>
+		<exitpoint mapid="300230000" x="244.98566" y="244.14162" z="189.52058" race="ASMODIANS"/>
+	</portal>
+	<!-- Kromede's Trial (Elyos) -->
+	<portal npcid="205229" minlevel="37" maxlevel="60" instance="true" requirequest="18602">
+		<entrypoint mapid="210040000" x="170.42387" y="1619.6165" z="120.853546"/>
+		<exitpoint mapid="300230000" x="244.98566" y="244.14162" z="189.52058" race="ELYOS"/>
+	</portal>
+	<!-- Secret Safe Door -->
+	<portal npcid="700924" minlevel="37" maxlevel="60" instance="true">
+		<entrypoint mapid="300230000" x="587.822" y="774.494" z="215.6"/>
+		<exitpoint mapid="300230000" x="593.46" y="774" z="215.58"/>
+	</portal>
+	<!-- Kromede's Trial Emergency Exit -->
+	<portal npcid="700928" minlevel="37" maxlevel="60" instance="false">
+		<entrypoint mapid="300230000" x="680.7784" y="774.01013" z="216.88036"/>
+		<exitpoint mapid="210040000" x="170.42387" y="1619.6165" z="120.853546" race="ELYOS"/>
+		<exitpoint mapid="220040000" x="1929.999" y="507.82068" z="412.25" race="ASMODIANS"/>
+	</portal>
+	<!-- Kromede's Trial Exit-->
+	<portal npcid="700949" minlevel="37" maxlevel="60" instance="false" >
+		<entrypoint mapid="300230000" x="247.85089" y="244.04916" z="189.284543"/>
+		<exitpoint mapid="210040000" x="170.42387" y="1619.6165" z="120.853546" race="ELYOS"/>
+		<exitpoint mapid="220040000" x="1929.999" y="507.82068" z="412.25" race="ASMODIANS"/>
+	</portal>
+	<!-- Draupnir Cave -->
+	<portal npcid="700370" minlevel="39" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220040000" x="1605.27" y="2729.9" z="705.345" race="ASMODIANS"/>
+		<exitpoint mapid="320080000" x="491" y="373" z="622"/>
+	</portal>
+	<!-- Draupnir Cave Exit -->
+	<portal npcid="700371" minlevel="39" maxlevel="60" instance="false">
+		<entrypoint mapid="320080000" x="492.2223" y="373.34915" z="622.7593"/>
+		<exitpoint mapid="220040000" x="1605.27" y="2729.9" z="705.345"/>
+	</portal>
+	<!-- Steel Rake (Elyos) -->
+	<portal npcid="798378" minlevel="40" maxlevel="60" instance="true" playersize="6" requirequest="3200">
+		<entrypoint mapid="110010000" x="1869.8866" y="2067.3823" z="517.9073"/>
+		<exitpoint mapid="300100000" x="234.7316" y="505.87134" z="948.6736" race="ELYOS"/>
+	 </portal>
+	<!-- Steel Rake (Asmo) -->
+	<portal npcid="798379" minlevel="40" maxlevel="60" instance="true" playersize="6" requirequest="4200">
+		<entrypoint mapid="120010000" x="949.4451" y="1157.7664" z="195.88037"/>
+		<exitpoint mapid="300100000" x="234.7316" y="505.87134" z="948.6736" race="ASMODIANS"/>
+	</portal>
+	<!-- Escape Exit -->
+	<portal npcid="700525" minlevel="40" maxlevel="60" instance="false" >
+		<entrypoint mapid="300100000" x="505.77" y="434.08" z="885.18"/>
+		<exitpoint mapid="110010000" x="1867" y="2068" z="517" race="ELYOS"/>
+		<exitpoint mapid="120010000" x="950" y="1150" z="195" race="ASMODIANS"/>
+	</portal>
+	<!-- Captain's Cabin Teleport Device -->
+	<portal npcid="730197" minlevel="40" maxlevel="60" instance="false" >
+		<entrypoint mapid="300100000" x="406.9" y="496.21" z="1071.9"/>
+		<exitpoint mapid="110010000" x="1869.8866" y="2067.3823" z="517.9073" race="ELYOS"/>
+		<exitpoint mapid="120010000" x="950" y="1150" z="195" race="ASMODIANS"/>
+	</portal>
+	<!-- Escape Anchor -->
+	<portal npcid="730198" minlevel="40" maxlevel="60" instance="false" >
+		<entrypoint mapid="300100000" x="239.47" y="497.61" z="948.68"/>
+		<exitpoint mapid="110010000" x="1869.8866" y="2067.3823" z="517.9073" race="ELYOS"/>
+		<exitpoint mapid="120010000" x="950" y="1150" z="195" race="ASMODIANS"/>
+	</portal>
+	<!-- Door To Groggets Saferoom/Steel Rake -->
+	<portal npcid="730199" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="690.6555" y="500.8247" z="942.3741"/>
+		<exitpoint mapid="300100000" x="702.24036" y="500.71756" z="939.6068"/>
+	</portal>
+	<!-- Door To Groggets Saferoom/Steel Rake -->
+	<portal npcid="730206" minlevel="40" maxlevel="60" instance="false">
+		<entrypoint mapid="300100000" x="734.10156" y="487.2395" z="942"/>
+		<exitpoint mapid="300100000" x="236.17696" y="492.87778" z="949"/>
+	</portal>
+	<!-- The Brig Entrance-->
+	<portal npcid="730200" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="461.45" y="486.63" z="877.714"/>
+		<exitpoint mapid="300100000" x="461.5" y="489.6" z="877.8"/>
+	</portal>
+	<!-- The Brig Exit-->
+	<portal npcid="730201" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="461.807" y="488.18127" z="877.7017"/>
+		<exitpoint mapid="300100000" x="461.5" y="485" z="877.8"/>
+	</portal>
+	<!-- Elevator Lever To Lower Deck/Steel Rake -->
+	<portal npcid="730210" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="283.51892" y="451.8091" z="952.5578"/>
+		<exitpoint mapid="300100000" x="283.42413" y="457.4362" z="902.0897"/>
+	</portal>
+	<!-- Drana Generator Room/Steel Rake -->
+	<portal npcid="730202" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="657.11066" y="509.10962" z="872.94763"/>
+		<exitpoint mapid="300100000" x="659.8103" y="509.08694" z="867.7978"/>
+	</portal>
+	<!-- Pirate Ship Anchor To Upper Deck/Steel Rake -->
+	<portal npcid="730209" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="727.6591" y="463.55432" z="867.66626"/>
+		<exitpoint mapid="300100000" x="709.256" y="459.05927" z="1015.1851"/>
+	</portal>
+	<!-- The captain room entrance -->
+	<portal npcid="730205" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="389.74463" y="545.895" z="1072.0944"/>
+		<exitpoint mapid="300100000" x="383" y="517" z="1072"/>
+	</portal>
+	<!-- Artillery room entrance -->
+	<portal npcid="730203" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="722.56384" y="508.87735" z="1012.93243"/>
+		<exitpoint mapid="300100000" x="729" y="509" z="1013"/>
+	</portal>
+	<!-- Artillery room export -->
+	<portal npcid="730204" minlevel="40" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300100000" x="724.0423" y="508.90076" z="1012.8286"/>
+		<exitpoint mapid="300100000" x="719" y="509" z="1013"/>
+	</portal>
+	<!-- Taloc's Mirage -->
+	<portal npcid="799503" minlevel="50" maxlevel="60" instance="false" >
+		<entrypoint mapid="300190000" x="548.0" y="811.0" z="1375.0"/>
+		<exitpoint mapid="210050000" x="2894.7688" y="357.71338" z="299.4761" race="ELYOS"/>
+		<exitpoint mapid="220070000" x="979.4631" y="2569.5842" z="242.23325" race="ASMODIANS"/>
+	</portal>
+	<!-- Abyssal Splinter Entrance-->
+	<portal npcid="730356" minlevel="50" maxlevel="60" instance="true" playersize="12" instancesiegeid="1011">
+		<entrypoint mapid="400010000" x="2200.443" y="1927.3447" z="2303.0366"/>
+		<exitpoint mapid="300220000" x="707.06085" y="159.32991" z="453.47333"/>
+	</portal>
+	<!-- Abyssal Splinter Entrance-->
+	<portal npcid="730316" minlevel="50" maxlevel="60" instance="true" playersize="12">
+		<entrypoint mapid="400010000" x="2200.443" y="1927.3447" z="2303.0366"/>
+		<exitpoint mapid="300220000" x="707.06085" y="159.32991" z="453.47333"/>
+	</portal>
+	
+	<!-- Exit Abyssal Splinter -->
+	<portal npcid="730317" minlevel="50" maxlevel="60" instance="false" >
+		<entrypoint mapid="300220000" x="707.06085" y="159.32991" z="453.47333"/>
+		<exitpoint mapid="400010000" x="2200.443" y="1927.3447" z="2303.0366"/>
+	</portal>
+	<!-- Indratu Fortress -->
+	<portal npcid="700565" minlevel="41" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210040000" x="781.1078" y="1665.9824" z="104.672005" race="ELYOS"/>
+		<entrypoint mapid="220040000" x="1466.8792" y="1947.9192" z="588.06555" race="ASMODIANS"/>
+		<exitpoint mapid="310090000" x="562.4863" y="335.8061" z="1015.81885"/>
+	</portal>
+	<!-- Indratu Fortress Exit -->
+	<portal npcid="700361" minlevel="41" maxlevel="60" instance="false">
+		<entrypoint mapid="310090000" x="564.6521" y="324.64066" z="1016.7643"/>
+		<exitpoint mapid="210040000" x="781.1078" y="1665.9824" z="104.672005" race="ELYOS"/>
+		<exitpoint mapid="220040000" x="1466.8792" y="1947.9192" z="588.06555" race="ASMODIANS"/>
+	</portal>
+	<!-- Alquimia Research Center Entrance -->
+	<portal npcid="730110" minlevel="41" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220040000" x="2203.19" y="2923.57" z="699.81"/>
+		<exitpoint mapid="320110000" x="602.62976" y="526.6474" z="200.05792"/>
+	</portal>
+	<!-- Secret Port (Asmo) -->
+	<portal npcid="700359" minlevel="41" maxlevel="60" instance="true">
+		<entrypoint mapid="220040000" x="1654.75" y="1499.61" z="333.51"/>
+		<exitpoint mapid="320110000" x="609.808" y="527.38477" z="200.05792" race="ASMODIANS"/>
+	</portal>
+	<!-- Alquimia Research Center Exit -->
+	<portal npcid="730111" minlevel="41" maxlevel="60" instance="false">
+		<entrypoint mapid="320110000" x="609.57" y="528.11" z="200.05792"/>
+		<exitpoint mapid="220040000" x="2209.6526" y="2926.3257" z="699.80756"/>
+	</portal>
+	<!-- Theobomos Lab (Elyos) -->
+	<portal npcid="730154" minlevel="46" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210060000" x="2974.363" y="196.73184" z="170.99974"/>
+		<exitpoint mapid="310110000" x="476.96606" y="201.32736" z="169.98848" race="ELYOS"/>
+	</portal>
+	<!-- Unstable Entrance Fragment -->
+	<portal npcid="730177" minlevel="46" maxlevel="60" instance="true">
+		<entrypoint mapid="310110000" x="569.96021" y="490.50586" z="196.5226"/>
+		<exitpoint mapid="310110000" x="576.17" y="490.58" z="196.73"/>
+	</portal>
+	<!-- Theobomos Lab Exit -->
+	<portal npcid="730168" minlevel="46" maxlevel="60" instance="false">
+		<entrypoint mapid="310110000" x="477.6559" y="204.82689" z="169.98976"/>
+		<exitpoint mapid="210060000" x="2978.09" y="193.51" z="172.14" race="ELYOS"/>
+	</portal>
+	<!-- Artifact Of Circulation/Dark Poeta (Asmo) -->
+	<portal npcid="730185" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220040000" x="2420.12" y="2061.31" z="579.7"/>
+		<exitpoint mapid="300040000" x="1225.9075" y="419.7187" z="140.18988" race="ASMODIANS"/>
+		<portalitem id="1" itemid="185000041" quantity="1"/>
+	</portal>
+	<!-- Artifact Of Transcendence/Dark Poeta (Elyos) -->
+	<portal npcid="730186" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210040000" x="2019.51" y="1467.34" z="127.19"/>
+		<exitpoint mapid="300040000" x="1225.9075" y="419.7187" z="140.18988" race="ELYOS"/>
+		<portalitem id="1" itemid="185000041" quantity="1"/>
+	</portal>
+	<!-- Artifact Of Time/Dark Poeta -->
+	<portal npcid="730215" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="400010000" x="2158" y="1581" z="2272.5"/>
+		<exitpoint mapid="300040000" x="1225.9075" y="419.7187" z="140.18988"/>
+		<portalitem id="1" itemid="185000041" quantity="1"/>
+	</portal>
+	<!-- Tahabata Abyss Gate/Dark Poeta -->
+	<portal npcid="730211" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300040000" x="299.2994" y="316.23352" z="133.52376"/>
+		<exitpoint mapid="300040000" x="1188.80707" y="1241.4151" z="143.85065"/>
+	</portal>
+	<!-- Taloc's Hollow (Elyos) -->
+	<portal npcid="799022" minlevel="51" maxlevel="60" instance="true">
+		<entrypoint mapid="210050000" x="2895.888" y="352.69165" z="299.68256"/>
+		<exitpoint mapid="300190000" x="199.87788" y="212.72118" z="1098.889" race="ELYOS"/>
+	</portal>
+	<!-- Taloc's Hollow (Asmo) -->
+	<portal npcid="799325" minlevel="51" maxlevel="60" instance="true" >
+		<entrypoint mapid="220070000" x="981.11395" y="2565.7437" z="241.7037"/>
+		<exitpoint mapid="300190000" x="199.87788" y="212.72118" z="1098.889" race="ASMODIANS"/>
+	</portal>
+	<!-- Udas Temple Entrance (Asmo) -->
+	<portal npcid="730278" minlevel="51" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220070000" x="2265.386" y="1605.9316" z="310.72098"/>
+		<exitpoint mapid="300150000" x="635.11" y="647.73" z="133.23" race="ASMODIANS"/>
+	</portal>
+	<!-- Udas Temple Entrance (Elyos) -->
+	<portal npcid="730277" minlevel="51" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210050000" x="210.79068" y="1393.3815" z="266.69495"/>
+		<exitpoint mapid="300150000" x="637" y="649" z="133.23833" race="ELYOS"/>
+	</portal>
+	<!-- Lower Udas Temple Entrance (Asmo) -->
+	<portal npcid="730280" minlevel="51" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220070000" x="2253.0093" y="1731.1752" z="309.5974"/>
+		<exitpoint mapid="300160000" x="1145" y="283" z="115.53778" race="ASMODIANS"/>
+	</portal>
+	<!-- Lower Udas Temple Entrance (Elyos)-->
+	<portal npcid="730279" minlevel="51" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210050000" x="342.77997" y="1349.805" z="262.2649"/>
+		<exitpoint mapid="300160000" x="1145" y="283" z="115.53778" race="ELYOS"/>
+	</portal>
+	<!-- Udas Temple Exit -->
+	<portal npcid="730272" minlevel="51" maxlevel="60" instance="false">
+		<entrypoint mapid="300150000" x="636.6904" y="658.74976" z="133.69518"/>
+		<exitpoint mapid="210050000" x="204.9667" y="1386.87" z="266.4227"  race="ELYOS"/>
+		<exitpoint mapid="220070000" x="2274.8582" y="1602.2708" z="310.4504" race="ASMODIANS"/>
+	</portal>
+	<!-- Lower Udas Temple Exit -->
+	<portal npcid="730273" minlevel="51" maxlevel="60" instance="false">
+		<entrypoint mapid="300160000" x="1145.629" y="272.97864" z="115.56341"/>
+		<exitpoint mapid="210050000" x="332.81326" y="1353.1685" z="263.96545" race="ELYOS"/>
+		<exitpoint mapid="220070000" x="2261.6108" y="1728.4307" z="309.1358" race="ASMODIANS"/>
+	</portal>
+	<!-- Beshmundir Temple Exit -->
+	<portal npcid="730286" minlevel="20" maxlevel="60" instance="false">
+		<entrypoint mapid="300170000" x="1583" y="1523" z="304.14"/>
+		<exitpoint mapid="600010000" x="1412" y="767" z="313"/>
+	</portal>
+	<!-- Beshmundir Temple Exit 2 -->
+	<portal npcid="730285" minlevel="55" maxlevel="60" instance="false" >
+		<entrypoint mapid="300170000" x="1476.91" y="226.821" z="252.219"/>
+		<exitpoint mapid="600010000" x="1408.07" y="767.05" z="312.7"/>
+	</portal>
+	<!-- Beshmundir Temple -->
+	<portal npcid="730231" minlevel="55" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="600010000" x="1417.427" y="767.18164" z="312.86633"/>
+		<exitpoint mapid="300170000" x="1480.8746" y="255.21692" z="243.45709"/>
+	</portal>
+	<!-- Beshmundir Temple to Prison Of Ice (Stormwing) -->
+	<portal npcid="730276" minlevel="55" maxlevel="60">
+		<entrypoint mapid="300170000" x="1611.1266" y="1604.6935" z="311.78503"/>
+		<exitpoint mapid="300170000" x="534.9943" y="1333.4729" z="223.52919"/>
+	</portal>
+	<!-- Beshmundir Temple to Inggison/Gelkmaros -->
+	<portal npcid="730259" minlevel="55" maxlevel="60" instance="false">
+		<entrypoint mapid="300170000" x="0" y="0" z="0"/>
+		<exitpoint mapid="210050000" x="1363.0831" y="2297.2302" z="296.6737" race="ELYOS"/>
+		<exitpoint mapid="220070000" x="1448.0195" y="911.6332" z="294.02194" race="ASMODIANS"/>
+	</portal>
+	<!-- Adma Stronghold Entrance (Asmo) -->
+	<portal npcid="730151" minlevel="46" maxlevel="60" instance="true" playersize="6" requirequest="2094/4">
+		<entrypoint mapid="220050000" x="1840.48" y="887.51" z="59.108303"/>
+		<exitpoint mapid="320130000" x="476.61665" y="832.25867" z="165.14975" race="ASMODIANS"/>
+	</portal>
+	<!-- Adma Stronghold Secret Passage (Asmo) -->
+	<portal npcid="730165" minlevel="46" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220050000" x="2339.747" y="160.00119" z="246.44734"/>
+		<exitpoint mapid="320130000" x="450.66864" y="199.70248" z="167.84444" race="ASMODIANS"/>
+	</portal>
+	<!-- Adma Stronghold Exit (Asmo) -->
+	<portal npcid="730166" minlevel="46" maxlevel="60" instance="false">
+		<entrypoint mapid="320130000" x="624.03296" y="745.4517" z="199.97066"/>
+		<exitpoint mapid="220050000" x="2339.747" y="160.00119" z="246.44734"/>
+	</portal>
+	<!-- Udas Exit -->
+	<portal npcid="730255" minlevel="20" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300150000" x="508" y="363" z="137"/>
+		<exitpoint mapid="300150000" x="637" y="641" z="133"/>
+	</portal>
+	<!-- Kaisinel Academy to Sanctum -->
+	<portal npcid="730424" minlevel="10" maxlevel="60" instance="false">
+		<entrypoint mapid="110070000" x="443.878601" y="258.603699" z="126.971657"/>
+		<exitpoint mapid="110010000" x="1366" y="1541" z="569.03815"/>
+	</portal>
+	<!-- Kaisinel Academy to Inggison -->
+	<portal npcid="730425" minlevel="50" maxlevel="60" instance="false" requirequest="10001" kinah_count="9300">
+		<entrypoint mapid="110070000" x="549.388245" y="213.390884" z="93.642151"/>
+		<exitpoint mapid="210050000" x="1324" y="261" z="591"/>
+	</portal>
+	<!-- Marchutan Priory to Pandaemonium -->
+	<portal npcid="730427" minlevel="10" maxlevel="60" instance="false" >
+		<entrypoint mapid="120080000" x="542.433594" y="200.702301" z="93.479576"/>
+		<exitpoint mapid="120010000" x="1602" y="1389" z="193.12868"/>
+	</portal>
+	<!-- Marchutan Priory to Gelkmaros -->
+	<portal npcid="730428" minlevel="50" maxlevel="60" instance="false" requirequest="20001" kinah_count="9300">
+		<entrypoint mapid="120080000" x="549.388245" y="213.390884" z="93.642151"/>
+		<exitpoint mapid="220070000" x="1771" y="2892" z="548"/>
+	</portal>
+	<!-- Gelkmaros to Marchutan Priory-->
+	<portal npcid="205322" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1758" y="2961" z="555"/>
+		<exitpoint mapid="120080000" x="548" y="211" z="94"/>
+	</portal>
+	<!-- Inggison to Kaisinel Academy-->
+	<portal npcid="205314" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="1290" y="200" z="596"/>
+		<exitpoint mapid="110070000" x="457" y="251" z="128"/>
+	</portal>
+	<!-- INGGISON GATE -->
+	<portal npcid="730298" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="536.35" y="705.89" z="484.04898"/>
+		<exitpoint mapid="210050000" x="543.21" y="715.02" z="484.0491" race="ELYOS"/>
+	</portal>
+	<!-- INGGISON GATE -->
+	<portal npcid="730299" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="543.21" y="715.02" z="484.0491"/>
+		<exitpoint mapid="210050000" x="536.35" y="705.89" z="484.04898" race="ELYOS"/>
+	</portal>
+	<!-- INGGISON GATE -->
+	<portal npcid="730296" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="2507.78" y="811.96" z="415.83273"/>
+		<exitpoint mapid="210050000" x="2514.82" y="821.68" z="415.8327" race="ELYOS"/>
+	</portal>
+	<!-- INGGISON GATE -->
+	<portal npcid="730297" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="2514.82" y="821.68" z="415.8327"/>
+		<exitpoint mapid="210050000" x="2507.78" y="811.96" z="415.83273" race="ELYOS"/>
+	</portal>
+	<!-- GELKMAROS GATE -->
+	<portal npcid="730302" minlevel="50" maxlevel="60" instance="false" >
+		<entrypoint mapid="220070000" x="2663.65" y="2200.99" z="495.9283"/>
+		<exitpoint mapid="220070000" x="2657.23" y="2195.18" z="495.9283" race="ASMODIANS"/>
+	</portal>
+	<!-- GELKMAROS GATE -->
+	<portal npcid="730303" minlevel="50" maxlevel="60" instance="false" >
+		<entrypoint mapid="220070000" x="2657.23" y="2195.18" z="495.9283"/>
+		<exitpoint mapid="220070000" x="2663.65" y="2200.99" z="495.9283" race="ASMODIANS"/>
+	</portal>
+	<!-- GELKMAROS GATE -->
+	<portal npcid="730300" minlevel="50" maxlevel="60" instance="false" >
+		<entrypoint mapid="220070000" x="728.87" y="2286.43" z="389.6456"/>
+		<exitpoint mapid="220070000" x="724.96" y="2279.15" z="389.64566" race="ASMODIANS"/>
+	</portal>
+	<!-- GELKMAROS GATE -->
+	<portal npcid="730301" minlevel="50" maxlevel="60" instance="false" >
+		<entrypoint mapid="220070000" x="724.96" y="2279.15" z="389.64566"/>
+		<exitpoint mapid="220070000" x="728.87" y="2286.43" z="389.6456" race="ASMODIANS"/>
+	</portal>
+	<!-- Esoterrace Entry -->
+	<portal npcid="730409" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220070000" x="1278.5237" y="855.8312" z="310.54282" race="ASMODIANS"/>
+		<entrypoint mapid="210050000" x="1662.0251" y="2159.5183" z="325.41455" race="ELYOS"/>
+		<exitpoint mapid="300250000" x="333" y="437" z="326"/>
+	</portal>
+	<!-- Esoterrace Exit 1 -->
+	<portal npcid="701044" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="300250000" x="324.386017" y="426.344788" z="327.713837"/>
+		<exitpoint mapid="220070000" x="1278.5237" y="855.8312" z="310.54282" race="ASMODIANS"/>
+		<exitpoint mapid="210050000" x="1662.0251" y="2159.5183" z="325.41455" race="ELYOS"/>
+	</portal>
+	<!-- Esoterrace Exit 2 -->
+	<portal npcid="205437" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="300250000" x="1309.39025" y="1163.644287" z="51.493992"/>
+		<exitpoint mapid="220070000" x="1783.3955" y="1815.8047" z="405.47815" race="ASMODIANS"/>
+		<exitpoint mapid="210050000" x="1081.3258" y="1567.8789" z="407.9063" race="ELYOS"/>
+	</portal>
+	<!-- Crucible enter (Elyos) -->
+	<portal npcid="730430" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="110070000" x="510" y="222" z="126"/>
+		<exitpoint mapid="300300000" x="354.7868" y="349.34567" z="96.09097" race="ELYOS"/>
+	</portal>
+	<!-- Crucible enter (Asmo) -->
+	<portal npcid="730431" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="120080000" x="575" y="261" z="93"/>
+		<exitpoint mapid="300300000" x="354.7868" y="349.34567" z="96.09097" race="ASMODIANS"/>
+	</portal>
+	<!-- PORTALS -->
+	<!-- Sky Temple Interior/Wind Room Entrance -->
+	<portal npcid="730043" minlevel="27" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220020000" x="1683.6216" y="1155.3657" z="200.35364"/>
+		<exitpoint mapid="320050000" x="306.94183" y="433.35468" z="416.82278"/>
+	</portal>
+	<!-- Sky Temple Interior/Water Room Entrance -->
+	<portal npcid="730041" minlevel="27" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220020000" x="1674.475" y="1147.6744" z="200.3536"/>
+		<exitpoint mapid="320050000" x="472.06757" y="114.2766" z="214.81421"/>
+	</portal>
+	<!-- Sky Temple Interior/Fire Room Entrance -->
+	<portal npcid="730045" minlevel="27" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220020000" x="1685.9839" y="1143.314" z="200.3536"/>
+		<exitpoint mapid="320050000" x="101.678894" y="24.675533" z="611.0359"/>
+	</portal>
+	<!-- Sky Temple Interior/Wind Room Exit -->
+	<portal npcid="730044" minlevel="27" maxlevel="60" instance="false">
+		<entrypoint mapid="320050000" x="461.5814" y="438.2416" z="374.9654"/>
+		<exitpoint mapid="220020000" x="1685.6427" y="1159.2311" z="200.3536"/>
+	</portal>
+	<!-- Sky Temple Interior/Water Room Exit -->
+	<portal npcid="730042" minlevel="27" maxlevel="60" instance="false">
+		<entrypoint mapid="320050000" x="377.5475" y="72.9379" z="226.3454"/>
+		<exitpoint mapid="220020000" x="1668.0662" y="1146.7683" z="200.3536"/>
+	</portal>
+	<!-- Sky Temple Interior/Fire Room Exit -->
+	<portal npcid="730046" minlevel="27" maxlevel="60" instance="false">
+		<entrypoint mapid="320050000" x="230.2906" y="303.6501" z="547.2333"/>
+		<exitpoint mapid="220020000" x="1690.505" y="1139.1676" z="200.3536"/>
+	</portal>
+	<!-- Shadow Court Dungeon (Elyos) -->
+	<portal npcid="700627" minlevel="35" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210020000" x="951.9338" y="2084.9907" z="260.68808"/>
+		<exitpoint mapid="320120000" x="407.6533" y="399.1897" z="245.10768" race="ELYOS"/>
+	</portal>
+	<!-- Shadow Court Dungeon (Asmo) -->
+	<portal npcid="700626" minlevel="35" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="120010000" x="1293.5262" y="1348.2704" z="203.67369"/>
+		<exitpoint mapid="320120000" x="407.6533" y="399.1897" z="245.10768" race="ASMODIANS"/>
+	</portal>
+	<!-- Azoturan Fortress -->
+	<portal npcid="700364" minlevel="35" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210040000" x="542.84" y="712.9" z="153.03"/>
+		<exitpoint mapid="310100000" x="304.16013" y="323.43713" z="1021.4955"/>
+	</portal>
+	<!-- Azoturan Fortress Exit-->
+	<portal npcid="700367" minlevel="35" maxlevel="60" instance="false">
+		<entrypoint mapid="310100000" x="304.81" y="325.5" z="1021.4955"/>
+		<exitpoint mapid="210040000" x="533.06" y="712.6" z="150.2" race="ELYOS"/>
+	</portal>
+	<!-- Eracus Temple (Elyos) -->
+	<portal npcid="203981" minlevel="30" maxlevel="60" instance="false" requirequest="1346">
+		<entrypoint mapid="210020000" x="446.38937" y="428.9423" z="274.5"/>
+		<exitpoint mapid="210020000" x="437.04294" y="422.63818" z="274.375" race="ELYOS"/>
+	</portal>
+	<!-- Eracus Temple Exit (Elyos) -->
+	<portal npcid="203982" minlevel="30" maxlevel="60" instance="false">
+		<entrypoint mapid="210020000" x="437.04294" y="422.63818" z="274.375"/>
+		<exitpoint mapid="210020000" x="446.38937" y="428.9423" z="274.5" race="ELYOS"/>
+	</portal>
+	<!-- Alukina's Palace (Asmo) -->
+	<portal npcid="730137" minlevel="38" maxlevel="60" instance="false">
+		<entrypoint mapid="220040000" x="576.73724" y="2503.9868" z="290.09546"/>
+		<exitpoint mapid="220040000" x="593" y="2535" z="289" race="ASMODIANS"/>
+	</portal>
+	<!-- Alukina's Palace Exit (Asmo) -->
+	<portal npcid="730138" minlevel="38" maxlevel="60" instance="false">
+		<entrypoint mapid="220040000" x="589.1326" y="2534.8586" z="288.48273"/>
+		<exitpoint mapid="220040000" x="543.44214" y="2500.1926" z="286.55652" race="ASMODIANS"/>
+	</portal>
+	<!-- Silentera Canyon (Elyos) -->
+	<portal npcid="730256" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="1362.5396" y="2302.1187" z="296.6737"/>
+		<exitpoint mapid="600010000" x="471.12662" y="460.05142" z="330.0077" race="ELYOS"/>
+	</portal>
+	<!-- Silentera to Inggison -->
+	<portal npcid="730270" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1685.5969" y="1400.5013" z="195.3448"/>
+		<exitpoint mapid="210050000" x="1363.2781" y="2298.1277" z="296.6737"/>
+	</portal>
+	<!-- Silentera to Agrief Ruins -->
+	<portal npcid="730257" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="600010000" x="1020.5811" y="968.00543" z="310.14017"/>
+		<exitpoint mapid="210050000" x="1066.0039" y="2005.531" z="370.1548"/>
+	</portal>
+	<!-- Silentera to Hanarkand -->
+	<portal npcid="730258" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="600010000" x="919.65155" y="150.1299" z="346.56458"/>
+		<exitpoint mapid="210050000" x="2756.1963" y="2141.9448" z="245.125"/>
+	</portal>
+	<!-- Silentera to Pimeval pass -->
+	<portal npcid="730259" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="600010000" x="981.41003" y="557.9709" z="311.27164"/>
+		<exitpoint mapid="210050000" x="405.25473" y="2062.1338" z="332.26474"/>
+	</portal>
+	<!-- Silentera Canyon (Asmo) -->
+	<portal npcid="730260" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1449.097" y="905.3585" z="294.02194"/>
+		<exitpoint mapid="600010000" x="480" y="1094" z="334.7" race="ASMODIANS"/>
+	</portal>
+	<!-- Silentera to Gelkmaros -->
+	<portal npcid="730271" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="1094.249" y="2172.9402" z="341.3571"/>
+		<exitpoint mapid="220070000" x="1448.3127" y="910.9731" z="294.02194"/>
+	</portal>
+	<!-- Silentera to Mitrakand -->
+	<portal npcid="730261" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="600010000" x="406.69403" y="1407.3597" z="320.91837"/>
+		<exitpoint mapid="220070000" x="691" y="623" z="385"/>
+	</portal>
+	<!-- Silentera to Vorgaltem -->
+	<portal npcid="730262" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="600010000" x="882.6667" y="1356.9557" z="334.92102"/>
+		<exitpoint mapid="220070000" x="1623" y="1135" z="353.375"/>
+	</portal>
+	<!-- Silentera to Earthfang pass -->
+	<portal npcid="730263" minlevel="53" maxlevel="60" instance="false">
+		<entrypoint mapid="600010000" x="1020.5811" y="968.00543" z="310.14017"/>
+		<exitpoint mapid="220070000" x="2934" y="882" z="310.25"/>
+	</portal>
+	<!-- Sematariux cave -->
+	<portal npcid="730291" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="138.09879" y="2005.2008" z="433.98132"/>
+		<exitpoint mapid="210050000" x="144.2154" y="2061.28154" z="438.14926"/>
+	</portal>
+	<!-- Sematariux cave Exit -->
+	<portal npcid="730292" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="144.2154" y="2061.28154" z="438.14926"/>
+		<exitpoint mapid="210050000" x="136.9814" y="2006.6646" z="434.29237"/>
+	</portal>
+	<!-- Padmarashka cave -->
+	<portal npcid="730293" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="2971.7256" y="1215.9103" z="242.0056"/>
+		<exitpoint mapid="220070000" x="2929.5613" y="920.25977" z="35.288937"/>
+	</portal>
+	<!-- Padmarashka cave Exit -->
+	<portal npcid="730294" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="2928.694" y="922.9771" z="36.80308"/>
+		<exitpoint mapid="220070000" x="2971.7256" y="1215.9103" z="242.0056"/>
+	</portal>
+	<!-- Triniel arena (Asmo) -->
+	<portal npcid="700368" minlevel="20" maxlevel="60" instance="true">
+		<entrypoint mapid="120010000" x="981.6009" y="1552.97" z="210.46"/>
+		<exitpoint mapid="320090000" x="276" y="293" z="163" race="ASMODIANS"/>
+	</portal>
+	<!-- Triniel arena Exit (Asmo) -->
+	<portal npcid="730067" minlevel="20" maxlevel="60" instance="false">
+		<entrypoint mapid="320090000" x="275.897" y="295.69427" z="163.5308"/>
+		<exitpoint mapid="120010000" x="981.6009" y="1552.97" z="210.46" race="ASMODIANS"/>
+	</portal>
+	<!-- Secret Library Teleport (Asmo) -->
+	<portal npcid="204268" minlevel="10" maxlevel="60" instance="false">
+		<entrypoint mapid="120010000" x="1403.333" y="1066.803" z="206.0237"/>
+		<exitpoint mapid="120010000" x="1392" y="1060.3" z="206.1" race="ASMODIANS"/>
+	</portal>
+	<!-- Gelkmaros Fortress Teleportation Tower (Ely) -->
+	<portal npcid="258133" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1831.010010" y="1155.400024" z="320.846008"/>
+		<entrypoint mapid="220070000" x="1968.250000" y="1122.709961" z="322.880005"/>
+		<exitpoint mapid="220070000" x="1878.780029" y="1027.000000" z="330.270996" race="ELYOS"/>
+	</portal>
+	<!-- Gelkmaros Fortress Teleportation Tower (Ely) -->
+	<portal npcid="257833" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1285.380005" y="882.937012" z="306.024994"/>
+		<entrypoint mapid="220070000" x="1150.459961" y="918.155029" z="303.997009"/>
+		<exitpoint mapid="220070000" x="1196.989990" y="802.956970" z="313.450012" race="ELYOS"/>
+	</portal>
+	<!-- Gelkmaros Fortress Teleportation Tower (Asmo) -->
+	<portal npcid="258134" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1831.010010" y="1155.400024" z="320.846008"/>
+		<entrypoint mapid="220070000" x="1968.250000" y="1122.709961" z="322.880005"/>
+		<exitpoint mapid="220070000" x="1878.780029" y="1027.000000" z="330.270996" race="ASMODIANS"/>
+	</portal>
+	<!-- Gelkmaros Fortress Teleportation Tower (Asmo) -->
+	<portal npcid="257834" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="220070000" x="1285.380005" y="882.937012" z="306.024994"/>
+		<entrypoint mapid="220070000" x="1150.459961" y="918.155029" z="303.997009"/>
+		<exitpoint mapid="220070000" x="1196.989990" y="802.956970" z="313.450012" race="ASMODIANS"/>
+	</portal>
+	<!-- Ingison Fortress Teleportation Tower (Ely) -->
+	<portal npcid="257233" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="1804.619995" y="2141.159912" z="318.868988"/>
+		<entrypoint mapid="210050000" x="1667.099976" y="2134.429932" z="320.894012"/>
+		<exitpoint mapid="210050000" x="1725.530029" y="2251.399902" z="328.294006" race="ELYOS"/>
+	</portal>
+	<!-- Ingison Fortress Teleportation Tower (Ely) -->
+	<portal npcid="257533" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="881.948975" y="1857.459961" z="331.294006"/>
+		<entrypoint mapid="210050000" x="771.973022" y="1941.469971" z="333.334015"/>
+		<exitpoint mapid="210050000" x="892.479004" y="1992.589966" z="340.717987" race="ELYOS"/>
+	</portal>
+	<!-- Ingison Fortress Teleportation Tower (Asmo) -->
+	<portal npcid="257234" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="1804.619995" y="2141.159912" z="318.868988"/>
+		<entrypoint mapid="210050000" x="1667.099976" y="2134.429932" z="320.894012"/>
+		<exitpoint mapid="210050000" x="1725.530029" y="2251.399902" z="328.294006" race="ASMODIANS"/>
+	</portal>
+	<!-- Ingison Fortress Teleportation Tower (Asmo) -->
+	<portal npcid="257534" minlevel="50" maxlevel="60" instance="false">
+		<entrypoint mapid="210050000" x="881.948975" y="1857.459961" z="331.294006"/>
+		<entrypoint mapid="210050000" x="771.973022" y="1941.469971" z="333.334015"/>
+		<exitpoint mapid="210050000" x="892.479004" y="1992.589966" z="340.717987" race="ASMODIANS"/>
+	</portal>
+	<!-- QUEST TELEPORTER -->
+	<!-- Destroyed Teleport Statue : Heiron To upstairs of Drake Temple Ruins [A Flute For the Fixing] (Elyos) -->
+	<portal npcid="730033" minlevel="43" maxlevel="60" instance="false" requirequest="1636/3">
+		<entrypoint mapid="210040000" x="184.100006" y="2703.949951" z="115.500000"/>
+		<exitpoint mapid="210040000" x="186.27" y="2710.73" z="141.91" race="ELYOS"/>
+	</portal>
+	<!-- Verteron Abyss Gate : Verteron To Aerdina [Sealing The Abyss Gate Quest] (Elyos) -->
+	<portal npcid="700088" minlevel="15" maxlevel="60" instance="true" playersize="6" requirequest="1020/1">
+		<entrypoint mapid="210030000" x="2690.373779" y="1067.992676" z="200.398865"/>
+		<exitpoint mapid="310030000" x="270.5" y="174.3" z="204.3" race="ELYOS"/>
+	</portal>
+	<!-- Verteron Abyss Gate : Verteron To Geranaia [Sealing The Abyss Gate Quest] (Elyos) -->
+	<portal npcid="700177" minlevel="35" maxlevel="60" instance="true" playersize="6" requirequest="1043/2">
+		<entrypoint mapid="210020000" x="2511.361816" y="792.140869" z="412.818970"/>
+		<exitpoint mapid="310040000" x="274.9307" y="167.90654" z="204.34718" race="ELYOS"/>
+	</portal>
+	<!-- Altgard Abyss Gate : Altgard To Bregirun [Crushing the Conspiracy Quest] (Asmo) -->
+	<portal npcid="700089" minlevel="12" maxlevel="60" instance="true">
+		<entrypoint mapid="220030000" x="2451.530029" y="2546.449951" z="317.128998"/>
+		<exitpoint mapid="320030000" x="274.2" y="171.7" z="204.3" race="ASMODIANS"/>
+	</portal>
+	<!-- Dimension Exit : Bregirum to Altgard & Aerdina to Verteron -->
+	<portal npcid="700184" minlevel="15" maxlevel="60" instance="false">
+		<entrypoint mapid="310030000" x="2682.9846" y="1068.646" z="199.375" race="ELYOS"/>
+		<entrypoint mapid="320030000" x="275.73795" y="162.70334" z="205.33205" race="ASMODIANS"/>
+		<exitpoint mapid="210030000" x="275.0" y="168.0" z="204.35" race="ELYOS"/>
+		<exitpoint mapid="220030000" x="2453.0" y="2553.2" z="316.3" race="ASMODIANS"/>
+	</portal>
+	<!-- Abyss Gate : Morheim To Nidalber [[Group] Hold The Front Line Quest] (Asmo) -->
+	<portal npcid="700183" minlevel="34" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="220020000" x="3030.8676" y="875.6538" z="363.2065"/>
+		<exitpoint mapid="320040000" x="277.2907" y="170.9613" z="204.3471" race="ASMODIANS"/>
+	</portal>
+	<!-- Morai [A Silver Of Darkness Quest] (Elyos) -->
+	<portal npcid="203164" minlevel="20" maxlevel="60" instance="true">
+		<entrypoint mapid="210030000" x="2315.9" y="1800" z="195.2"/>
+		<exitpoint mapid="310070000" x="338" y="101" z="1191" race="ELYOS"/>
+	</portal>
+	<!-- Skuld [No Escaping Destiny Quest] (Asmo) -->
+	<portal npcid="203546" minlevel="20" maxlevel="60" instance="true">
+		<entrypoint mapid="220010000" x="1111.6" y="1716.6" z="270.6"/>
+		<exitpoint mapid="320070000" x="257.5292" y="245" z="129" race="ASMODIANS"/>
+	</portal>
+	<!-- Statue Of Mau Hero Entrance [The Hand Behind The IceClaw] (Asmo) -->
+	<portal npcid="730052" minlevel="20" maxlevel="60" instance="false" titleid="58">
+		<entrypoint mapid="220020000" x="0" y="0" z="0"/>
+		<exitpoint mapid="220020000" x="1252.9" y="266" z="534.2" race="ASMODIANS"/>
+	</portal>
+	<!-- Statue Of Mau Hero Exit [The Hand Behind The IceClaw] (Asmo) -->
+	<portal npcid="730053" minlevel="20" maxlevel="60" instance="false" titleid="58">
+		<entrypoint mapid="220020000" x="0" y="0" z="0"/>
+		<exitpoint mapid="220020000" x="1243.5" y="263.9" z="531.3" race="ASMODIANS"/>
+	</portal>
+	<!-- Symbol Of Mau Hero To Chieftain Nuaka (Asmo) -->
+	<portal npcid="730049" minlevel="35" maxlevel="60" instance="false">
+		<entrypoint mapid="220020000" x="2399.2" y="540.37" z="266.15"/>
+		<exitpoint mapid="220020000" x="2401.9648" y="570.7738" z="329.09976" race="ASMODIANS"/>
+	</portal>
+	<!-- Crucible Challenge Elyos -->
+	<portal npcid="730461" minlevel="50" maxlevel="60" instance="true">
+		<entrypoint mapid="110070000" x="492.348" y="215.795" z="127.361"/>
+		<exitpoint mapid="300320000" x="357.10208" y="1662.702" z="95.9803" race="ELYOS"/>
+	</portal>
+	<!-- Crucible Challenge Asmo -->
+	<portal npcid="730462" minlevel="50" maxlevel="60" instance="true">
+		<entrypoint mapid="120080000" x="578.37683" y="239.06154" z="93.50602"/>
+		<exitpoint mapid="300320000" x="357.10208" y="1662.702" z="95.9803" race="ASMODIANS"/>
+	</portal>
+	<!-- TELEPORTER ELYOS ABYSS -->
+	<!-- Verteron To Abyss (Elyos) -->
+	<portal npcid="730059" minlevel="25" maxlevel="60" instance="false" requirequest="1044">
+		<entrypoint mapid="210030000" x="1687.52" y="1490.02" z="248.999"/>
+		<exitpoint mapid="400010000" x="2845.921" y="931.41455" z="1533.6484" race="ELYOS"/>
+	</portal>
+	<!-- Eltnen To Abyss (Elyos) -->
+	<portal npcid="730060" minlevel="25" maxlevel="60" instance="false" requirequest="1044">
+		<entrypoint mapid="210020000" x="287.861" y="2770.78" z="143.765"/>
+		<exitpoint mapid="400010000" x="2886" y="1014.35" z="1528.34" race="ELYOS"/>
+	</portal>
+	<!-- Heiron To Abyss (Elyos) -->
+	<portal npcid="730061" minlevel="25" maxlevel="60" instance="false" requirequest="1044">
+		<entrypoint mapid="210040000" x="2484.928" y="351.7729" z="531.4409"/>
+		<exitpoint mapid="400010000" x="2962.973" y="1040.1316" z="1533.6783" race="ELYOS"/>
+	</portal>
+	<!-- Abyss To Verteron (Elyios) -->
+	<portal npcid="730073" minlevel="25" maxlevel="60" instance="false">
+		<entrypoint mapid="400010000" x="2857.81" y="932.03" z="1534.01"/>
+		<exitpoint mapid="210030000" x="1643" y="1500" z="119" race="ELYOS"/>
+	</portal>
+	<!-- Abyss To Eltnen (Elyos) -->
+	<portal npcid="730074" minlevel="25" maxlevel="60" instance="false">
+		<entrypoint mapid="400010000" x="2886.0" y="1014.35" z="1528.34"/>
+		<exitpoint mapid="210020000" x="343" y="2724" z="264" race="ELYOS"/>
+	</portal>
+	<!-- Abyss To Heiron (Elyos) -->
+	<portal npcid="730075" minlevel="25" maxlevel="60" instance="false">
+		<entrypoint mapid="400010000" x="2970.3" y="1032.47" z="1534.02"/>
+		<exitpoint mapid="210040000" x="2540" y="343" z="411" race="ELYOS"/>
+	</portal>
+	<!-- TELEPORTER ASMODIANS ABYSS -->
+	<!-- Morheim To Abyss (Asmo) -->
+	<portal npcid="730063" minlevel="25" maxlevel="60" instance="false" requirequest="2042">
+		<entrypoint mapid="220020000" x="304.942" y="2349.667" z="552.48"/>
+		<exitpoint mapid="400010000" x="1078" y="2839" z="1636" race="ASMODIANS"/>
+	</portal>
+	<!-- Beluslan To Abyss (Asmo) -->
+	<portal npcid="730064" minlevel="25" maxlevel="60" instance="false" requirequest="2042">
+		<entrypoint mapid="220040000" x="333.64923" y="341.68185" z="400.14023"/>
+		<exitpoint mapid="400010000" x="932" y="2832" z="1639.1885" race="ASMODIANS"/>
+	</portal>
+	<!-- Altgard To Abyss (Asmo) -->
+	<portal npcid="730062" minlevel="25" maxlevel="60" instance="false" requirequest="2042">
+		<entrypoint mapid="220030000" x="1658.6061" y="1812.1017" z="373.9576"/>
+		<exitpoint mapid="400010000" x="1078" y="2839" z="1636" race="ASMODIANS"/>
+	</portal>
+	<!-- Abyss To Morheim (Asmo) -->
+	<portal npcid="730077" minlevel="25" maxlevel="60" instance="false">
+		<entrypoint mapid="400010000" x="0" y="0" z="0"/>
+		<exitpoint mapid="220020000" x="308" y="2274" z="449" race="ASMODIANS"/>
+	</portal>
+	<!-- Abyss To Beluslan (Asmo) -->
+	<portal npcid="730078" minlevel="25" maxlevel="60" instance="false">
+		<entrypoint mapid="400010000" x="0" y="0" z="0"/>
+		<exitpoint mapid="220040000" x="325" y="336" z="229" race="ASMODIANS"/>
+	</portal>
+	<!-- Abyss To Altgard (Asmo) -->
+	<portal npcid="730076" minlevel="25" maxlevel="60" instance="false">
+		<entrypoint mapid="400010000" x="0" y="0" z="0"/>
+		<exitpoint mapid="220030000" x="1748" y="1807" z="254" race="ASMODIANS"/>
+	</portal>
+	<!-- Virvain Teleporter (ASMODIANS)Gelkmaros to -->
+	<portal npcid="205322" minlevel="25" maxlevel="60" instance="false" kinah_count="9300">
+		<entrypoint mapid="220070000" x="1758.63" y="2961.25" z="554.866"/>
+		<exitpoint mapid="120080000" x="549.5695" y="207.663714" z="93.479576" race="ASMODIANS"/>
+	</portal>
+	<!-- Noratha Teleporter (ELYOS) Inggison to Kaisinels -->
+	<portal npcid="205314" minlevel="25" maxlevel="60" instance="false" kinah_count="9300">
+		<entrypoint mapid="210050000" x="1290.25" y="200.38" z="595.813"/>
+		<exitpoint mapid="110070000" x="454.51755" y="251.5683" z="126.97164" race="ELYOS"/>
+	</portal>
+	<!-- SCROLL TELEPORTS ELYOS -->
+	<portal name="LC1_RETURN_AREA_1">
+		<exitpoint mapid="110010000" x="1476.3" y="1595.5" z="572.9" race="ELYOS"/>
+	</portal>
+	<portal name="ARENA_L_LOBBY_RETURNAREA">
+		<exitpoint mapid="110070000" x="459" y="251" z="128" race="ELYOS"/>
+	</portal>
+	<portal name="LF1A_RETURN_AREA_1">
+		<exitpoint mapid="210030000" x="1690.4" y="1481.4" z="121.4" race="ELYOS"/>
+	</portal>
+	<portal name="LF2A_RETURN_AREA">
+		<exitpoint mapid="210060000" x="2238.46" y="2284.2185" z="50.013657" race="ELYOS"/>
+	</portal>
+	<portal name="LF2_RETURN_AREA">
+		<exitpoint mapid="210020000" x="285.4" y="2750.8" z="270.5" race="ELYOS"/>
+	</portal>
+	<portal name="LF3_RETURN_AREA_1">
+		<exitpoint mapid="210040000" x="2469.6" y="304.2" z="415.62418" race="ELYOS"/>
+	</portal>
+	<portal name="LF4_RETURN_AREA_1">
+		<exitpoint mapid="210050000" x="1324.7362" y="261.8812" z="591.36" race="ELYOS"/>
+	</portal>
+	<portal name="AB1_LIGHT_RETURN_ALIAS">
+		<exitpoint mapid="400010000" x="2867" y="1036" z="1528" race="ELYOS"/>
+	</portal>
+	<!-- SCROLL TELEPORTS ASMODIANS -->
+	<portal name="DC1_RETURN_AREA_1">
+		<exitpoint mapid="120010000" x="1455.7977" y="1416.6743" z="177.52625" race="ASMODIANS"/>
+	</portal>
+	<portal name="ARENA_D_LOBBY_RETURNAREA">
+		<exitpoint mapid="120080000" x="577" y="250" z="94" race="ASMODIANS"/>
+	</portal>
+	<portal name="DF1A_RETURN_AREA">
+		<exitpoint mapid="220030000" x="1661.2" y="1816.3" z="253.712" race="ASMODIANS"/>
+	</portal>
+	<portal name="DF2A_RETURN_AREA">
+		<exitpoint mapid="220050000" x="1409.85" y="2013.62" z="51.5" race="ASMODIANS"/>
+	</portal>
+	<portal name="DF2_RETURN_AREA_1">
+		<exitpoint mapid="220020000" x="270.9" y="2339.6" z="443.74" race="ASMODIANS"/>
+	</portal>
+	<portal name="DF3_RETURN_AREA_1">
+		<exitpoint mapid="220040000" x="321.8" y="335.0" z="229.9" race="ASMODIANS"/>
+	</portal>
+	<portal name="DF4_RETURN_AREA_1">
+		<exitpoint mapid="220070000" x="1771.5" y="2892.2" z="548.8" race="ASMODIANS"/>
+	</portal>
+	<portal name="AB1_DARK_RETURN_ALIAS">
+		<exitpoint mapid="400010000" x="1078" y="2839" z="1636" race="ASMODIANS"/>
+	</portal>
+	<!-- Draupnir Cave Abyss Gate -->
+	<portal npcid="700564" minlevel="39" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="210040000" x="2528.662" y="2680.882" z="155.050" race="ELYOS"/>
+		<exitpoint mapid="320080000" x="491" y="373" z="622"/>
+	</portal>
+	<!-- Arena of Discipline Gate -->
+	<portal npcid="730484" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="120080000" x="549.32" y="328.39505" z="93.49" race="ASMODIANS"/>
+		<exitpoint mapid="300360000" x="0" y="0" z="0" race="ASMODIANS"/>
+	</portal>
+	<!-- Arena of Discipline Training -->
+	<portal npcid="207058" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="120080000" x="549.32" y="328.39505" z="93.49" race="ASMODIANS"/>
+		<exitpoint mapid="300430000" x="0" y="0" z="0" race="ASMODIANS"/>
+	</portal>
+	<!-- Arena Of Chaos Training Grounds -->
+	<portal npcid="207059" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="120080000" x="549.32" y="328.39505" z="93.49" race="ASMODIANS"/>
+		<exitpoint mapid="300420000" x="0" y="0" z="0" race="ASMODIANS"/>
+	</portal>
+	<!-- Arena Of Chaos -->
+	<portal npcid="730482" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="120080000" x="549.32" y="328.39505" z="93.49" race="ASMODIANS"/>
+		<exitpoint mapid="300350000" x="0" y="0" z="0" race="ASMODIANS"/>
+	</portal>
+	<!-- Arena of Discipline Gate -->
+	<portal npcid="730483" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="110070000" x="584.598" y="251.76744" z="127.008286" race="ELYOS"/>
+		<exitpoint mapid="300360000" x="0" y="0" z="0" race="ELYOS"/>
+	</portal>
+	<!-- Arena of Discipline Training -->
+	<portal npcid="207056" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="110070000" x="584.598" y="251.76744" z="127.008286" race="ELYOS"/>
+		<exitpoint mapid="300430000" x="0" y="0" z="0" race="ELYOS"/>
+	</portal>
+	<!-- Arena Of Chaos Training Grounds -->
+	<portal npcid="207057" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="110070000" x="584.598" y="251.76744" z="127.008286" race="ELYOS"/>
+		<exitpoint mapid="300420000" x="0" y="0" z="0" race="ELYOS"/>
+	</portal>
+	<!-- Arena Of Chaos -->
+	<portal npcid="730481" instance="true" minlevel="46" maxlevel="60">
+		<entrypoint mapid="110070000" x="584.598" y="251.76744" z="127.008286" race="ELYOS"/>
+		<exitpoint mapid="300350000" x="0" y="0" z="0" race="ELYOS"/>
+	</portal>
+	<!-- Chantra Dredgion -->
+	<portal npcid="0" instance="true" minlevel="51" maxlevel="60">
+		<entrypoint mapid="220070000" x="1817.2432" y="2906.463" z="548.52545" race="ASMODIANS"/>
+		<exitpoint mapid="300210000" x="0" y="0" z="0" race="ASMODIANS"/>
+	</portal>
+	<!-- Baranath Dredgion -->
+	<portal npcid="0" instance="true" minlevel="46" maxlevel="50">
+		<entrypoint mapid="400010000" x="1059.1161" y="2880.7703" z="1635.9315" race="ASMODIANS"/>
+		<exitpoint mapid="300110000" x="0" y="0" z="0" race="ASMODIANS"/>
+	</portal>
+	<!-- Chantra Dredgion -->
+	<portal npcid="0" instance="true" minlevel="51" maxlevel="60">
+		<entrypoint mapid="210050000" x="1309.1302" y="304.283" z="589.78674" race="ELYOS"/>
+		<exitpoint mapid="300210000" x="0" y="0" z="0" race="ELYOS"/>
+	</portal>
+	<!-- Baranath Dredgion -->
+	<portal npcid="0" instance="true" minlevel="46" maxlevel="50">
+		<entrypoint mapid="400010000" x="2891.7883" y="1002.82996" z="1528.0001" race="ELYOS"/>
+		<exitpoint mapid="300110000" x="0" y="0" z="0" race="ELYOS"/>
+	</portal>
+	<!-- nosh exit -->
+	<portal npcid="700438" minlevel="20" maxlevel="60" instance="false">
+		<entrypoint mapid="300030000" x="466.94" y="701.45" z="345" />
+		<exitpoint mapid="400010000" x="889.60" y="3083.66" z="1646" race="ASMODIANS"/>
+		<exitpoint mapid="400010000" x="2903.44" y="748.48" z="1502" race="ELYOS"/>
+	</portal>
+	<!-- Udas Temple Poisoned Cave Entrance -->
+	<portal npcid="700966" minlevel="50" maxlevel="60" instance="true" playersize="6">
+		<entrypoint mapid="300160000" x="1145.90" y="352.37" z="110.07"/>
+		<exitpoint mapid="300160000" x="1343.71" y="810.43" z="113.8"/>
+		<portalitem id="1" itemid="186000110" quantity="1"/>
+	</portal>
+	<!-- teleporteur temporaire beshmundir asmo -->
+	<portal npcid="203238" minlevel="50" instance="false">
+		<entrypoint mapid="220070000" x="1344.071" y="1243.705" z="1498.314"/>
+		<exitpoint mapid="600010000" x="474.7399" y="1085.8688" z="336" race="ASMODIANS"/>
+	</portal>
+	<!-- teleporteur temporaire beshmundir elyos -->
+	<portal npcid="203233" minlevel="50" instance="false">
+		<entrypoint mapid="210050000" x="1448.041" y="911.75824" z="295"/>
+		<exitpoint mapid="600010000" x="472.3715" y="459.31656" z="330" race="ELYOS"/>
+	</portal>
+</portal_templates>

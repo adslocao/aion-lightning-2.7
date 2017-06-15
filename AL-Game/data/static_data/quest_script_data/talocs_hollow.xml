@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			11463 [TODO] Trapped Within
+			11464 [XML] The Wounds of Change
+			11465 [TODO] Mysterious Seed
+			11466 [TODO] A Hard Seed to Crack
+			11467 [TODO] Death to the Queen
+			11468 [TODO] With Friends Like These
+			21461 [XML] The Lost Tome
+			21463 [TODO] Handprints and Silk
+			21464 [XML] Soiled Soil
+			21465 [TODO] Mysterious Seed
+			21467 [TODO] Spawning the Sap Suckers
+			21468 [TODO] The Struggle Within
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="21461" start_npc_id="799502" end_npc_id="799256" action_item_id="700636"/>
+	<item_collecting id="21464" start_npc_id="799526" end_npc_id="799503" action_item_id="700634"/>
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

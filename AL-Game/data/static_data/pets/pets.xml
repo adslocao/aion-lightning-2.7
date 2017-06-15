@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pets>
+    <pet id="900000" name="siberian wild tiger (purebred)" nameid="1600012" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900001" name="siberian wild tiger (companion)" nameid="1600021" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900002" name="siberian wild tiger (signal)" nameid="1600023" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900003" name="siberian wild tiger (pack)" nameid="1600025" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900004" name="siberian wild tiger (fortune 1)" nameid="1600027" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900005" name="siberian wild tiger (fortune 2)" nameid="1600029" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900006" name="siberian wild tiger (fortune 3)" nameid="1600031" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900007" name="siberian wild tiger (fortune 4)" nameid="1600033" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900008" name="siberian wild tiger (fortune 5)" nameid="1600035" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900009" name="siberian wild tiger (fortune 6)" nameid="1600037" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900010" name="grassy drakie" nameid="1600039" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900011" name="red eye larail" nameid="1600041" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900012" name="quick kirca" nameid="1600043" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900013" name="manic aukwi" nameid="1600045" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900014" name="rotund methu" nameid="1600047" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900015" name="indigo ribbit" nameid="1600049" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900016" name="striped elroco" nameid="1600051" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.9"/>
+    </pet>
+    <pet id="900017" name="fuzzy elroco" nameid="1600053" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.9"/>
+    </pet>
+    <pet id="900018" name="sawteeth rotan" nameid="1600055" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.3"/>
+    </pet>
+    <pet id="900019" name="skullabra krall" nameid="1600057" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.4"/>
+    </pet>
+    <pet id="900020" name="bottlenose tion" nameid="1600059" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900021" name="mau cubling" nameid="1600061" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900022" name="golden wuf" nameid="1600063" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.4"/>
+    </pet>
+    <pet id="900023" name="silver wuf" nameid="1600065" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.4"/>
+    </pet>
+    <pet id="900024" name="desert naeda" nameid="1600067" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="2.0"/>
+    </pet>
+    <pet id="900025" name="jumpy shugo" nameid="1600069" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900026" name="acute shugo" nameid="1600071" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900027" name="golden nyanco" nameid="1600073" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900028" name="pink nyanco" nameid="1600075" condition_reward="188051378">
+        <petstats run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900029" name="annoying manduri" nameid="1600077" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900030" name="whitebeard manduri" nameid="1600079" condition_reward="188051378">
+        <petstats run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900031" name="bluehair steren" nameid="1600081" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900032" name="pinkhair steren" nameid="1600083" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900033" name="silvertail dorion" nameid="1600085" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900034" name="goldentail dorion" nameid="1600087" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900035" name="potbelly inquin" nameid="1600089" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900036" name="cresent inquin" nameid="1600091" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900037" name="bluemane trico" nameid="1600093" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900038" name="goldmane trico" nameid="1600095" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900039" name="micro mumu" nameid="1600097" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="18"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900040" name="mini mumu" nameid="1600099" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="18"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900041" name="shugo lass" nameid="1600103" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="24"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900042" name="shugo lad" nameid="1600101" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="24"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900043" name="button-eye mookie" nameid="1600105" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900044" name="mellow ksellid" nameid="1600107" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900045" name="rotund ayas" nameid="1600109" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900046" name="hungry porgus" nameid="1600111" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900047" name="pudgy porgus" nameid="1600113" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900048" name="mean poroco" nameid="1600115" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.7"/>
+    </pet>
+    <pet id="900049" name="headstrong poroco" nameid="1600117" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.7"/>
+    </pet>
+    <pet id="900050" name="azure drakie" nameid="1600119" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900051" name="pointyhat sprigg" nameid="1600121" condition_reward="188051378">
+        <petstats run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900052" name="boxing king kerub" nameid="1600123" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900053" name="tin narky" nameid="1600125" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900054" name="pink griffo" nameid="1600127" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900055" name="golden drakie" nameid="1600129" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900056" name="teasing jefi" nameid="1600131" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900057" name="aqua griffo" nameid="1600133" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="18"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900058" name="sunset drakie" nameid="1600135" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="18"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900059" name="wild kitter" nameid="1600137" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.3"/>
+    </pet>
+    <pet id="900060" name="beluslan kitter" nameid="1600139" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.3"/>
+    </pet>
+    <pet id="900061" name="altgard kitter" nameid="1600141" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.3"/>
+    </pet>
+    <pet id="900062" name="heiron kitter" nameid="1600143" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.3"/>
+    </pet>
+    <pet id="900063" name="white dagg" nameid="1600145" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900064" name="border daggie" nameid="1600147" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900065" name="speckled ailu" nameid="1600149" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900066" name="purple ribbit" nameid="1600339" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900067" name="green ribbit" nameid="1600341" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900068" name="croaking ribbit" nameid="1600343" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900069" name="blue ribbit" nameid="1600345" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900070" name="ribbitron" nameid="1600347" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900071" name="red ribbit" nameid="1600349" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900072" name="tangerine ribbit" nameid="1600351" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900073" name="violet ribbit" nameid="1600353" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900074" name="auric ribbit" nameid="1600355" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900075" name="black ribbit" nameid="1600357" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900076" name="speckled ailu" nameid="1600359" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900077" name="capped fungie" nameid="1600361" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900078" name="silvertail dorion" nameid="1600406" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="6"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900079" name="dapper taegeuk shugo" nameid="1600408" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900080" name="cute taegeuk shugo" nameid="1600410" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900081" name="pesky manduri" nameid="1600412" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900082" name="mischievous manduri" nameid="1600414" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900083" name="eager sprigg" nameid="1600416" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900084" name="crimson kerub" nameid="1600418" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900085" name="stately crestlich" nameid="1600420" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900086" name="spurred crestlich" nameid="1600422" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900087" name="palmist acarun" nameid="1600424" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900088" name="pointytail acarun" nameid="1600426" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900089" name="snowy radama" nameid="1600428" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900090" name="golden radama" nameid="1600430" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900091" name="robust ailu" nameid="1600432" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900092" name="watchful ailu" nameid="1600434" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900093" name="hungry porgus" nameid="1600111" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900094" name="pudgy porgus" nameid="1600113" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900095" name="jumpy shugo" nameid="1600563" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900096" name="acute shugo" nameid="1600564" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900097" name="azure drakie" nameid="1600119" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900098" name="azure drakie" nameid="1600119" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900099" name="headstrong poroco" nameid="1600117" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.7"/>
+    </pet>
+    <pet id="900100" name="headstrong poroco" nameid="1600117" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.7"/>
+    </pet>
+    <pet id="900101" name="sunset drakie" nameid="1606721" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="18"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900102" name="centennial golden saam" nameid="1607473" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900103" name="ten-thousand-year-old golden saam" nameid="1607475" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900104" name="flattop fungie" nameid="1607477" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900105" name="crewcut fungie" nameid="1607479" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900106" name="flame bogel" nameid="1607481" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900107" name="flash bogel" nameid="1607483" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900108" name="red shell potcrab" nameid="1607485" condition_reward="188051378">
+        <petfunction type="WAREHOUSE" slots="12"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900109" name="green shell potcrab" nameid="1607487" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900110" name="sticky wooden box" nameid="1607489" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900111" name="muddy wooden box" nameid="1607491" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900112" name="worg of the dead" nameid="1607493" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900113" name="waxy humpback worg" nameid="1607495" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.7"/>
+    </pet>
+    <pet id="900114" name="yellow bulldozer" nameid="1607497" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900115" name="blue bulldozer" nameid="1607499" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.8"/>
+    </pet>
+    <pet id="900116" name="blue bandana kobok" nameid="1607501" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.9"/>
+    </pet>
+    <pet id="900117" name="red cap kobok" nameid="1607503" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="0.9"/>
+    </pet>
+    <pet id="900118" name="red diabol" nameid="1607505" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900119" name="green diabol" nameid="1607507" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900120" name="pink merek" nameid="1607509" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900121" name="blue merek" nameid="1607511" condition_reward="188051378">
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900122" name="kung fu manduri" nameid="1609021" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.5"/>
+    </pet>
+    <pet id="900123" name="turkish kitter" nameid="1609023" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.3"/>
+    </pet>
+    <pet id="900124" name="crikey kitter" nameid="1609025" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.3"/>
+    </pet>
+    <pet id="900125" name="runaway poppy" nameid="1609255" condition_reward="188051378">
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="0.6"/>
+    </pet>
+    <pet id="900126" name="potbelly inquin" nameid="1609338" condition_reward="188051378">
+        <petfunction type="WAREHOUSE"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900127" name="cresent inquin" nameid="1609340" condition_reward="188051378">
+        <petfunction type="WAREHOUSE"/>
+        <petstats reaction="cowardly" run_speed="6.0" walk_speed="1.132" height="1.2"/>
+    </pet>
+    <pet id="900128" name="micro mumu" nameid="1609342" condition_reward="188051378">
+        <petfunction type="WAREHOUSE"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900129" name="mini mumu" nameid="1609344" condition_reward="188051378">
+        <petfunction type="WAREHOUSE"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900130" name="big boy shugo" nameid="1609649" condition_reward="188051378">
+        <petfunction type="WAREHOUSE"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+    <pet id="900131" name="big girl shugo" nameid="1609651" condition_reward="188051378">
+        <petfunction type="WAREHOUSE"/>
+        <petstats reaction="brave" run_speed="6.0" walk_speed="1.132" height="1.0"/>
+    </pet>
+</pets>

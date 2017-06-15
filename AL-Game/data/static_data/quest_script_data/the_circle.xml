@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			47100 [TODO] Wards and Ward Orbs
+			47101 [XML] Physician, Kill Thyself
+			47102 [XML] A Guide to Killing Mau
+			47103 [TODO] A Globe-Trotting Lesson
+			47104 [XML] Spirits in the Sky Temple
+			47105 [XML] Thawing the Ice Claw
+			47106 [TODO] Turning Up the Amplifiers
+			47107 [TODO] Wards and Ward Orbs
+			47108 [XML] Physician, Kill Thyself
+			47109 [XML] A Guide to Killing Mau
+			47110 [TODO] A Globe-Trotting Lesson
+			47111 [XML] Spirits in the Sky Temple
+			47112 [XML] Mau Tribute-ary
+			47113 [TODO] Turning Up the Amplifiers
+			47114 [XML] Leading the Anti-Mau Charge
+			47115 [XML] The Chairman Has the Floor
+			47116 [XML] Deathsinging a Deathsong
+			47117 [XML] Bakarma Brouhaha
+			47118 [XML] Lepharist Crackdown
+			47119 [XML] Strengthening the Alliance
+			47120 [XML] Bloody Pirates!
+			48007 [TODO] Joining The Circle
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+<!--
+	<item_collecting id="47112" start_npc_id="0" end_npc_id="799921" action_item_id="700976"/>
+-->
+	<!-- HUNTING QUESTS -->
+	<mentor_monster_hunt id="47101" start_npc_id="0" end_npc_id="799881" min_mente_level="15" max_mente_level="25">
+		<monster end_var="5" var="0" npc_id="210540"/>
+		<monster end_var="5" var="0" npc_id="210541"/>
+		<monster end_var="5" var="0" npc_id="211282"/>
+		<monster end_var="5" var="0" npc_id="210538"/>
+		<monster end_var="5" var="0" npc_id="210539"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47102" start_npc_id="0" end_npc_id="799881" min_mente_level="13" max_mente_level="20">
+		<monster end_var="8" var="0" npc_id="210549"/>
+		<monster end_var="8" var="0" npc_id="210550"/>
+		<monster end_var="8" var="0" npc_id="210558"/>
+		<monster end_var="8" var="0" npc_id="210559"/>
+		<monster end_var="8" var="0" npc_id="210562"/>
+		<monster end_var="8" var="0" npc_id="210563"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47104" start_npc_id="0" end_npc_id="799881" min_mente_level="27" max_mente_level="37">
+		<monster end_var="1" var="0" npc_id="212833"/>
+		<monster end_var="1" var="1" npc_id="212835"/>
+		<monster end_var="1" var="2" npc_id="212876"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47105" start_npc_id="0" end_npc_id="799881" min_mente_level="25" max_mente_level="35">
+		<monster end_var="5" var="0" npc_id="212670"/>
+		<monster end_var="5" var="0" npc_id="212671"/>
+		<monster end_var="5" var="0" npc_id="212672"/>
+		<monster end_var="5" var="0" npc_id="212673"/>
+		<monster end_var="5" var="0" npc_id="212674"/>
+		<monster end_var="5" var="0" npc_id="212669"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47108" start_npc_id="0" end_npc_id="799881" min_mente_level="15" max_mente_level="25">
+		<monster end_var="5" var="0" npc_id="210540"/>
+		<monster end_var="5" var="0" npc_id="210541"/>
+		<monster end_var="5" var="0" npc_id="211282"/>
+		<monster end_var="5" var="0" npc_id="210538"/>
+		<monster end_var="5" var="0" npc_id="210539"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47109" start_npc_id="0" end_npc_id="799881" min_mente_level="13" max_mente_level="20">
+		<monster end_var="8" var="0" npc_id="210549"/>
+		<monster end_var="8" var="0" npc_id="210550"/>
+		<monster end_var="8" var="0" npc_id="210558"/>
+		<monster end_var="8" var="0" npc_id="210559"/>
+		<monster end_var="8" var="0" npc_id="210562"/>
+		<monster end_var="8" var="0" npc_id="210563"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47111" start_npc_id="0" end_npc_id="799921" min_mente_level="27" max_mente_level="37">
+		<monster end_var="1" var="0" npc_id="212833"/>
+		<monster end_var="1" var="1" npc_id="212835"/>
+		<monster end_var="1" var="2" npc_id="212876"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47114" start_npc_id="799921" end_npc_id="799921" min_mente_level="35" max_mente_level="45">
+		<monster end_var="5" var="0" npc_id="212741"/>
+		<monster end_var="5" var="0" npc_id="212742"/>
+		<monster end_var="5" var="0" npc_id="212726"/>
+		<monster end_var="5" var="0" npc_id="211612"/>
+		<monster end_var="5" var="0" npc_id="212727"/>
+		<monster end_var="5" var="0" npc_id="212736"/>
+		<monster end_var="5" var="0" npc_id="212737"/>
+		<monster end_var="5" var="0" npc_id="211574"/>
+		<monster end_var="5" var="0" npc_id="212729"/>
+		<monster end_var="5" var="0" npc_id="212731"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47115" start_npc_id="799921" end_npc_id="799921" min_mente_level="35" max_mente_level="45">
+		<monster end_var="1" var="0" npc_id="212879"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47116" start_npc_id="799926" end_npc_id="799926" min_mente_level="35" max_mente_level="45">
+		<monster end_var="1" var="0" npc_id="213741"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47117" start_npc_id="799926" end_npc_id="799926" min_mente_level="35" max_mente_level="45">
+		<monster end_var="9" var="0" npc_id="213624"/>
+		<monster end_var="9" var="0" npc_id="213628"/>
+		<monster end_var="9" var="0" npc_id="213629"/>
+		<monster end_var="9" var="0" npc_id="213630"/>
+		<monster end_var="9" var="0" npc_id="213631"/>
+		<monster end_var="9" var="0" npc_id="213632"/>
+		<monster end_var="9" var="0" npc_id="213652"/>
+		<monster end_var="9" var="0" npc_id="213653"/>
+		<monster end_var="9" var="0" npc_id="213654"/>
+		<monster end_var="9" var="0" npc_id="213670"/>
+		<monster end_var="9" var="0" npc_id="213671"/>
+		<monster end_var="9" var="0" npc_id="213663"/>
+		<monster end_var="9" var="0" npc_id="213664"/>
+		<monster end_var="9" var="0" npc_id="213665"/>
+		<monster end_var="9" var="0" npc_id="213666"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47118" start_npc_id="799926" end_npc_id="799926" min_mente_level="35" max_mente_level="45">
+		<monster end_var="6" var="0" npc_id="213534"/>
+		<monster end_var="6" var="0" npc_id="213535"/>
+		<monster end_var="6" var="0" npc_id="213529"/>
+		<monster end_var="6" var="0" npc_id="213530"/>
+		<monster end_var="6" var="0" npc_id="213531"/>
+		<monster end_var="6" var="0" npc_id="213532"/>
+		<monster end_var="6" var="0" npc_id="213537"/>
+		<monster end_var="6" var="0" npc_id="213538"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47119" start_npc_id="799926" end_npc_id="799926" min_mente_level="35" max_mente_level="45">
+		<monster end_var="7" var="0" npc_id="213299"/>
+		<monster end_var="7" var="0" npc_id="213300"/>
+		<monster end_var="7" var="0" npc_id="213301"/>
+		<monster end_var="7" var="0" npc_id="213302"/>
+		<monster end_var="7" var="0" npc_id="213312"/>
+		<monster end_var="7" var="0" npc_id="213313"/>
+		<monster end_var="7" var="0" npc_id="213698"/>
+		<monster end_var="7" var="0" npc_id="213699"/>
+		<monster end_var="7" var="0" npc_id="213702"/>
+		<monster end_var="7" var="0" npc_id="213310"/>
+	</mentor_monster_hunt>
+	<mentor_monster_hunt id="47120" start_npc_id="799926" end_npc_id="799926" min_mente_level="40" max_mente_level="45">
+		<monster end_var="1" var="0" npc_id="212833"/>
+		<monster end_var="1" var="1" npc_id="212835"/>
+		<monster end_var="1" var="2" npc_id="212876"/>
+	</mentor_monster_hunt>
+</quest_scripts>

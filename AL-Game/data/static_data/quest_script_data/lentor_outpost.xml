@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			30500 [TODO] Desperation
+			30501 [TODO] Infiltrating Rentus
+			30502 [TODO] Conquer the Vasharti
+			30503 [TODO] Rodelion Rescue
+			30504 [TODO] The Search for Paios
+			30505 [TODO] Journal of a Traitor
+			30506 [TODO] Tragic Reasons
+			30507 [TODO] An Old Friend
+			30508 [TODO] Returning the Favor
+			30509 [TODO] The Weight of Guilt
+			30510 [TODO] An Engaging Quest
+			30511 [TODO] Seal Their Doom
+			30512 [TODO] Pride of the Elyos
+			30513 [TODO] Powerful Rangers
+			30550 [TODO] Moment of Crisis
+			30551 [TODO] On to Rentus Outpost
+			30552 [TODO] Drive Out the Vasharti
+			30553 [TODO] Comrades in Arms
+			30554 [TODO] Saving Private Paios
+			30555 [TODO] Traitorous Words
+			30556 [TODO] The Whole Story
+			30557 [TODO] Tragedy of the Past
+			30558 [TODO] Shame of the Gergers
+			30559 [TODO] Mark of Pride
+			30560 [TODO] There's an Emo Reian?!
+			30561 [TODO] For the Reians' Sake
+			30562 [TODO] Slaking Bloodthirst
+			30563 [TODO] Never Bow Down
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

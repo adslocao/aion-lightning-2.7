@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="220020000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="745.42" y="1872.32" z="364.746" anchor="MORHEIM_AS"/>
+			<spot x="1364.66" y="1334.97" z="238.177" anchor="MORHEIM_BS"/>
+			<spot x="2930.68" y="879.49" z="370.009" anchor="MORHEIM_GS"/>
+			<spot x="450" y="2350" z="439" anchor="MORHEIM_AM"/>
+			<spot x="750" y="920" z="329.25" anchor="MORHEIM_BM"/>
+			<spot x="250" y="500" z="436.25" anchor="MORHEIM_CM"/>
+			<spot x="617.477" y="209.07" z="518.337" anchor="MORHEIM_CS"/>
+			<spot x="1820.14" y="1309.38" z="21.6041" anchor="MORHEIM_DS"/>
+			<spot x="1559.14" y="2757.69" z="358.771" anchor="MORHEIM_ES"/>
+			<spot x="2613.38" y="2235.68" z="95.959" anchor="MORHEIM_FS"/>
+			<spot x="1650" y="1400" z="124" anchor="MORHEIM_DM"/>
+			<spot x="1624.59" y="1119.29" z="187.13" anchor="MORHEIM_EM"/>
+			<spot x="2400" y="2300" z="108" anchor="MORHEIM_FM"/>
+			<spot x="2450" y="600" z="266" anchor="MORHEIM_GM"/>
+		</spawn>
+	</spawn_map>
+</spawns>

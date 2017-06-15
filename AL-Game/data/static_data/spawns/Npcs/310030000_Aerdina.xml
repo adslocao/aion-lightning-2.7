@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+	<spawn_map map_id="310030000">
+		<!-- Abyss Gate -->
+		<spawn npc_id="700141">
+			<spot x="250.752" y="271.369" z="230.283" h="93" static_id="17"/>
+		</spawn>
+	</spawn_map>
+</spawns>

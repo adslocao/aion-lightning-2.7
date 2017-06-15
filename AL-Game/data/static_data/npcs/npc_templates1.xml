@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+       <!-- Fontaine Or/platine -->
+		<npc_template npc_id="730242" level="1" name="gelkmaros coin fountain" name_id="371433" npc_type="NON_ATTACKABLE" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_DARK" type="GENERAL" ai="balaur_fountain" srange="12" adelay="2000" hpgauge="3" talk_distance="8" talk_delay="1">
+		<stats maxHp="172" maxXp="105" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="217" evasion="187" accuracy="217"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+		<npc_template npc_id="730241" level="1" name="inggison coin fountain" name_id="371383" npc_type="NON_ATTACKABLE" height="2" rank="DISCIPLINED" rating="NORMAL" tribe="FIELD_OBJECT_LIGHT" type="GENERAL" ai="balaur_fountain" srange="12" adelay="2000" hpgauge="3" talk_distance="8" talk_delay="1">
+		<stats maxHp="172" maxXp="107" main_hand_attack="30" main_hand_accuracy="225" pdef="100" mresist="187" power="217" evasion="187" accuracy="93"/>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+	<!-- teleporteur temporaire beshmundir elyos / asmo-->
+	<npc_template npc_id="203233" level="55" name="test teleport" name_id="350069" npc_type="NON_ATTACKABLE" height="2" rank="DISCIPLINED" rating="NORMAL" race="ELYOS" tribe="GENERAL" type="GENERAL" ai="portal" srange="10" adelay="2000" hpgauge="3" talk_distance="3">
+		<stats maxHp="105" maxXp="161" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="29" evasion="187" accuracy="119" walk_speed="1.5" run_speed="6" run_speed_fight="4.2"/>
+		<equipment>
+			<item>113100009</item>
+			<item>110100013</item>
+			<item>112100006</item>
+			<item>111100011</item>
+			<item>114100012</item>
+		</equipment>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+	<npc_template npc_id="203238" level="55" name="" name_id="350069" npc_type="NON_ATTACKABLE" height="2" rank="DISCIPLINED" rating="NORMAL" race="ASMODIANS" tribe="GENERAL_DARK" type="GENERAL" ai="portal" srange="10" adelay="2000" hpgauge="3" talk_distance="5">
+		<stats maxHp="111" maxXp="163" main_hand_attack="20" main_hand_accuracy="187" pdef="100" mresist="187" power="29" evasion="187" accuracy="119" walk_speed="1.5" run_speed="6" run_speed_fight="4.2"/>
+		<equipment>
+			<item>113100009</item>
+			<item>110100013</item>
+			<item>112100006</item>
+			<item>111100011</item>
+			<item>114100012</item>
+		</equipment>
+		<bound_radius front="0.25" side="0.35" upper="2"/>
+	</npc_template>
+	<npc_template npc_id="216519" level="55" name="captain voltayre" name_id="321650" npc_type="ATTACKABLE" height="5.25" rank="VETERAN" rating="HERO" race="DRAKAN" tribe="XDRAKAN_PRIEST" type="MONSTER" ai="aggressive" srange="10" arange="2" adelay="2040" arate="1000" hpgauge="21">
+		<stats maxHp="1000000" maxXp="12043" main_hand_attack="1896" main_hand_accuracy="1213" pdef="1180" mresist="1213" power="1380" evasion="1213" accuracy="2100" walk_speed="1.07" run_speed="6" run_speed_fight="15"/>
+		<equipment>
+			<item>101500782</item>
+		</equipment>
+		<bound_radius front="1.5" side="1.125" upper="5.25"/>
+	</npc_template>
+	<!-- NPC Recharger -->
+	<npc_template npc_id="270924" level="1" name="veteran high priest" name_id="311133" npc_type="NON_ATTACKABLE" height="2.4" rank="VETERAN" rating="ELITE" tribe="GUARD" type="GENERAL" ai="recharger" srange="12" adelay="2000" hpgauge="3" talk_distance="8" talk_delay="1">
+		<stats maxHp="5010" maxXp="3774" main_hand_attack="48" main_hand_accuracy="187" pdef="100" mresist="187" power="167" evasion="187" accuracy="435" walk_speed="1.457" run_speed="6" run_speed_fight="7"/>
+		<equipment>
+			<item>113600515</item>
+			<item>110600550</item>
+			<item>100000078</item>
+			<item>115000129</item>
+			<item>112600502</item>
+			<item>111600520</item>
+			<item>114600506</item>
+			<item>125200003</item>
+		</equipment>
+		<bound_radius front="0.3" side="0.42" upper="2.4"/>
+	</npc_template>
+	<npc_template npc_id="270929" level="1" name="veteran high priest" name_id="311138" npc_type="NON_ATTACKABLE" height="2.4" rank="VETERAN" rating="ELITE" race="ASMODIANS" tribe="GUARD" type="GENERAL" ai="recharger" srange="12" adelay="2000" hpgauge="3" talk_distance="8" talk_delay="1">
+		<stats maxHp="4962" maxXp="3810" main_hand_attack="48" main_hand_accuracy="187" pdef="100" mresist="187" power="167" evasion="187" accuracy="435" walk_speed="1.419" run_speed="6" run_speed_fight="7"/>
+		<equipment>
+			<item>113600517</item>
+			<item>110600552</item>
+			<item>100000078</item>
+			<item>115000129</item>
+			<item>112600504</item>
+			<item>111600522</item>
+			<item>114600508</item>
+			<item>125200004</item>
+		</equipment>
+		<bound_radius front="0.3" side="0.42" upper="2.4"/>
+	</npc_template>
+</npc_templates>

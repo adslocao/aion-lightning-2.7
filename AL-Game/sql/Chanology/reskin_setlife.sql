@@ -1,0 +1,2 @@
+UPDATE `aion_gs`.`command` SET `security` = '0', `help` = 'Syntax : .reskin <@link delete> L''objet en paramêtre sera supprimé.' WHERE `command`.`name` = 'reskin';
+INSERT INTO `aion_gs`.`command` (`name`, `security`, `help`) VALUES ('setlife', '12', '//setlife <percentage>');

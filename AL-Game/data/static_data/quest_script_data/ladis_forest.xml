@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+	<!--
+		[BEGIN] SUMMARY
+			30400 [TODO] A Cry For Help
+			30401 [TODO] All For a Stone
+			30403 [TODO] Cute Overload
+			30404 [TODO] A Spiritual Consultation
+			30405 [TODO] Cursebreakers
+			30406 [TODO] Cage Courier
+			30407 [TODO] Catching the Light
+			30411 [TODO] Clearcutting
+			30413 [TODO] Entanglements
+			30415 [TODO] The Light Crystal
+			30419 [TODO] Stop the Sapping
+			30421 [TODO] Toy Fair
+			30450 [TODO] Mysterious Errand
+			30451 [TODO] Key to the Manor
+			30453 [TODO] The Completionist
+			30454 [TODO] Gotta Catch 'Em All
+			30455 [TODO] Jurdin's Release
+			30456 [TODO] Carrying the Cage
+			30457 [TODO] Spirit Chase
+			30460 [TODO] Terma-nate!
+			30462 [TODO] Adventure!
+			30466 [TODO] A Rock Containing Crystal
+			30470 [TODO] What a Sap!
+		[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	<!-- COLLECTING QUESTS -->
+	<!-- HUNTING QUESTS -->
+</quest_scripts>

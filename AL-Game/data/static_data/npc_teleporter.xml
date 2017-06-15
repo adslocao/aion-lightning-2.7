@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_teleporter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_teleporter.xsd">
+	<teleporter_template npc_id="203895" name="Lamid" teleportId="102">
+		<locations>
+			<telelocation loc_id="24" price="200" pricePvp="200" type="REGULAR"/><!-- Elyos Square -->
+			<telelocation loc_id="105" price="1000" pricePvp="1000" type="REGULAR"/><!-- Outer Dock -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203726" name="Polyidus" teleportId="1">
+		<locations>
+			<telelocation loc_id="3" price="100" pricePvp="100" required_quest="1006" type="REGULAR"/><!-- Poeta -->
+			<telelocation loc_id="4" price="500" pricePvp="500" required_quest="1007" type="BEAM"/><!-- Verteron -->
+			<telelocation loc_id="5" price="1500" pricePvp="1500" required_quest="1130" type="REGULAR"/><!-- Eltnen -->
+			<telelocation loc_id="6" price="2500" pricePvp="2500" required_quest="1300" type="REGULAR"/><!-- Heiron -->
+			<telelocation loc_id="81" price="1400" pricePvp="1400" required_quest="1130" type="REGULAR"/><!-- Theobomos -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203194" name="Daines" teleportId="2">
+		<locations>
+			<telelocation loc_id="2" price="100" pricePvp="100" required_quest="1006" type="REGULAR"/><!-- Sanctum -->
+			<telelocation loc_id="4" price="800" pricePvp="800" required_quest="1007" type="REGULAR"/><!-- Verteron -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203091" name="Urakron" teleportId="3">
+		<locations>
+			<telelocation loc_id="2" price="500" pricePvp="500" required_quest="1007" type="REGULAR"/><!-- Sanctum -->
+			<telelocation loc_id="3" price="800" pricePvp="800" required_quest="1007" type="REGULAR"/><!-- Poeta -->
+			<telelocation loc_id="5" price="1700" pricePvp="1700" required_quest="1130" type="REGULAR"/><!-- Eltnen -->
+			<telelocation loc_id="6" price="2700" pricePvp="2700" required_quest="1300" type="REGULAR"/><!-- Heiron -->
+			<telelocation loc_id="81" price="1600" pricePvp="1600" required_quest="1130" type="REGULAR"/><!-- Theobomos -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203919" name="Onesimus" teleportId="4">
+		<locations>
+			<telelocation loc_id="2" price="1500" pricePvp="1500" type="REGULAR"/><!-- Sanctum -->
+			<telelocation loc_id="4" price="1700" pricePvp="1700" type="REGULAR"/><!-- Verteron -->
+			<telelocation loc_id="6" price="3200" pricePvp="3200" required_quest="1300" type="REGULAR"/><!-- Heiron -->
+			<telelocation loc_id="81" price="2000" pricePvp="2000" required_quest="1007" type="REGULAR"/><!-- Theobomos -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="798141" name="Thesaly" teleportId="5">
+		<locations>
+			<telelocation loc_id="2" price="1400" pricePvp="1400" type="REGULAR"/><!-- Sanctum -->
+			<telelocation loc_id="5" price="2000" pricePvp="2000" required_quest="1130" type="REGULAR"/><!-- Eltnen -->
+			<telelocation loc_id="4" price="1600" pricePvp="1600" type="REGULAR"/><!-- Verteron -->
+			<telelocation loc_id="6" price="2900" pricePvp="2900" required_quest="1300" type="REGULAR"/><!-- Heiron -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204514" name="Barantus" teleportId="6">
+		<locations>
+			<telelocation loc_id="2" price="2500" pricePvp="2500" type="REGULAR"/><!-- Sanctum -->
+			<telelocation loc_id="4" price="2700" pricePvp="2700" type="REGULAR"/><!-- Verteron -->
+			<telelocation loc_id="5" price="3200" pricePvp="3200" type="REGULAR"/><!-- Eltnen -->
+			<telelocation loc_id="81" price="2900" pricePvp="2900" required_quest="1130" type="REGULAR"/><!-- Theobomos -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730218" name="Aerolink to Inggison" teleportId="7">
+		<locations>
+			<telelocation loc_id="96" price="9300" pricePvp="9300" required_quest="10001" type="REGULAR"/><!-- Outer Port of Inggison -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730220" name="Aerolink to Sanctum" teleportId="8">
+		<locations>
+			<telelocation loc_id="95" price="9300" pricePvp="9300" required_quest="10001" type="REGULAR"/><!-- Outer Dock -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730265" name="Sanctum Gate" teleportId="9">
+		<locations>
+			<telelocation loc_id="108" price="0" pricePvp="0" type="REGULAR"/><!-- Seraphim Gate -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730266" name="Seraphim Gate" teleportId="10">
+		<locations>
+			<telelocation loc_id="107" price="0" pricePvp="0" type="REGULAR"/><!-- Sanctum Gate -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204191" name="Doman" teleportId="50">
+		<locations>
+			<telelocation loc_id="8" price="100" pricePvp="100" required_quest="2008" type="REGULAR"/><!-- Ishalgen -->
+			<telelocation loc_id="9" price="500" pricePvp="500" required_quest="2009" type="REGULAR"/><!-- Altgard -->
+			<telelocation loc_id="10" price="1500" pricePvp="1500" required_quest="2200" type="REGULAR"/><!-- Morheim -->
+			<telelocation loc_id="11" price="2500" pricePvp="2500" required_quest="2300" type="REGULAR"/><!-- Beluslan -->
+			<telelocation loc_id="82" price="1400" pricePvp="1400" required_quest="2200" type="REGULAR"/><!-- Brusthonin -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203679" name="Osmar" teleportId="51">
+		<locations>
+			<telelocation loc_id="7" price="100" pricePvp="100" required_quest="2008" type="REGULAR"/><!-- Pandaemonium -->
+			<telelocation loc_id="9" price="800" pricePvp="800" required_quest="2009" type="REGULAR"/><!-- Altgard -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203581" name="Ukin" teleportId="52">
+		<locations>
+			<telelocation loc_id="7" price="500" pricePvp="500" required_quest="2009" type="REGULAR"/><!-- Pandaemonium -->
+			<telelocation loc_id="8" price="800" pricePvp="800" required_quest="2009" type="REGULAR"/><!-- Ishalgen -->
+			<telelocation loc_id="10" price="1700" pricePvp="1700" required_quest="2200" type="REGULAR"/><!-- Morheim -->
+			<telelocation loc_id="11" price="2700" pricePvp="2700" required_quest="2300" type="REGULAR"/><!-- Beluslan -->
+			<telelocation loc_id="82" price="1600" pricePvp="1600" required_quest="2200" type="REGULAR"/><!-- Brusthonin -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204399" name="Orhe" teleportId="53">
+		<locations>
+			<telelocation loc_id="7" price="1500" pricePvp="1500" type="REGULAR"/><!-- Pandaemonium -->
+			<telelocation loc_id="9" price="1700" pricePvp="1700" type="REGULAR"/><!-- Altgard -->
+			<telelocation loc_id="82" price="2000" pricePvp="2000" required_quest="2200" type="REGULAR"/><!-- Brusthonin -->
+			<telelocation loc_id="11" price="3200" pricePvp="3200" required_quest="2300" type="REGULAR"/><!-- Beluslan -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205124" name="Tusen" teleportId="54">
+		<locations>
+			<telelocation loc_id="7" price="1400" pricePvp="1400" type="REGULAR"/><!-- Pandaemonium -->
+			<telelocation loc_id="10" price="2000" pricePvp="2000" required_quest="2200" type="REGULAR"/><!-- Morheim -->
+			<telelocation loc_id="9" price="1600" pricePvp="1600" type="REGULAR"/><!-- Altgard -->
+			<telelocation loc_id="11" price="2900" pricePvp="2900" required_quest="2300" type="REGULAR"/><!-- Beluslan -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204724" name="Eda" teleportId="55">
+		<locations>
+			<telelocation loc_id="7" price="2500" pricePvp="2500" type="REGULAR"/><!-- Pandaemonium -->
+			<telelocation loc_id="9" price="2700" pricePvp="2700" type="REGULAR"/><!-- Altgard -->
+			<telelocation loc_id="10" price="3200" pricePvp="3200" type="REGULAR"/><!-- Morheim -->
+			<telelocation loc_id="82" price="2900" pricePvp="2900" required_quest="2200" type="REGULAR"/><!-- Brusthonin -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730219" name="Aerolink to Gelkmaros" teleportId="56">
+		<locations>
+			<telelocation loc_id="98" price="9300" pricePvp="9300" required_quest="20001" type="REGULAR"/><!-- Gelkmaros Airship Dock -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730221" name="Aerolink to Pandaemonium" teleportId="57">
+		<locations>
+			<telelocation loc_id="97" price="9300" pricePvp="9300" required_quest="20001" type="REGULAR"/><!-- Pandaemonium Airship Dock -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730268" name="Pandaemonium Entrance" teleportId="58">
+		<locations>
+			<telelocation loc_id="110" price="0" pricePvp="0" type="REGULAR"/><!-- Shedim Gate -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730269" name="Shedim Gate" teleportId="59">
+		<locations>
+			<telelocation loc_id="109" price="0" pricePvp="0" type="REGULAR"/><!-- Pandaemonium Entrance -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730015" name="Elyos Square Teleport Statue" teleportId="101">
+		<locations>
+			<telelocation loc_id="25" price="200" pricePvp="200" type="REGULAR"/><!-- Divine Road -->
+			<telelocation loc_id="105" price="1000" pricePvp="1000" type="REGULAR"/><!-- Outer Dock -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730016" name="Divine Road Teleport Statue" teleportId="102">
+		<locations>
+			<telelocation loc_id="24" price="200" pricePvp="200" type="REGULAR"/><!-- Elyos Square -->
+			<telelocation loc_id="105" price="800" pricePvp="800" type="REGULAR"/><!-- Outer Dock -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203070" name="Kustanon" teleportId="103">
+		<locations>
+			<telelocation loc_id="13" teleportid="5001" price="160" pricePvp="160" type="FLIGHT"/><!-- Melponeh's Campsite -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203083" name="Aero" teleportId="104">
+		<locations>
+			<telelocation loc_id="12" teleportid="6001" price="160" pricePvp="160" type="FLIGHT"/><!-- Akarios Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203120" name="Mirdiena" teleportId="105">
+		<locations>
+			<telelocation loc_id="15" teleportid="7001" price="400" pricePvp="400" type="FLIGHT"/><!-- Pilgrims Respite -->
+			<telelocation loc_id="16" teleportid="9001" price="560" pricePvp="560" type="FLIGHT"/><!-- Verteron Observatory -->
+			<telelocation loc_id="111" teleportid="114001" price="200" pricePvp="200" type="FLIGHT"/><!-- Tolbas Village -->
+			<telelocation loc_id="112" teleportid="116001" price="570" pricePvp="570" type="FLIGHT"/><!-- Ardus Shrine -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203159" name="Irona" teleportId="106">
+		<locations>
+			<telelocation loc_id="14" teleportid="8001" price="400" pricePvp="400" type="FLIGHT"/><!-- Verteron Citadel -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203173" name="Belfinu" teleportId="107">
+		<locations>
+			<telelocation loc_id="14" teleportid="10001" price="560" pricePvp="560" type="FLIGHT"/><!-- Verteron Citadel -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203920" name="Naomi" teleportId="108">
+		<locations>
+			<telelocation loc_id="22" teleportid="18001" price="960" pricePvp="960" type="FLIGHT"/><!-- Golden Bough Garrison -->
+			<telelocation loc_id="23" teleportid="20001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Agairon Village -->
+			<telelocation loc_id="113" teleportid="118001" price="600" pricePvp="600" type="FLIGHT"/><!-- Novan's Crossing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203986" name="Navilreas" teleportId="109">
+		<locations>
+			<telelocation loc_id="21" teleportid="19001" price="960" pricePvp="960" type="FLIGHT"/><!-- Eltnen Fortress -->
+			<telelocation loc_id="23" teleportid="22001" price="1440" pricePvp="1440" type="FLIGHT"/><!-- Agairon Village -->
+			<telelocation loc_id="114" teleportid="120001" price="800" pricePvp="800" type="FLIGHT"/><!-- Eltnen Observatory -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203962" name="Tareash" teleportId="110">
+		<locations>
+			<telelocation loc_id="21" teleportid="21001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Eltnen Fortress -->
+			<telelocation loc_id="22" teleportid="23001" price="1440" pricePvp="1440" type="FLIGHT"/><!-- Golden Bough Garrison -->
+			<telelocation loc_id="115" teleportid="122001" price="900" pricePvp="900" type="FLIGHT"/><!-- Kuriullu Outpost -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204513" name="Amene" teleportId="111">
+		<locations>
+			<telelocation loc_id="29" teleportid="40001" price="1280" pricePvp="1280" type="FLIGHT"/><!-- Heiron Observatory -->
+			<telelocation loc_id="30" teleportid="42001" price="1440" pricePvp="1440" type="FLIGHT"/><!-- Arbolu's Haven -->
+			<telelocation loc_id="31" teleportid="44001" price="1840" pricePvp="1840" type="FLIGHT"/><!-- Jeiaparan Village -->
+			<telelocation loc_id="118" teleportid="140001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Senea's Campsite -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204556" name="Seiana" teleportId="112">
+		<locations>
+			<telelocation loc_id="28" teleportid="41001" price="1280" pricePvp="1280" type="FLIGHT"/><!-- New Heiron Gate -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204561" name="Arkos" teleportId="113">
+		<locations>
+			<telelocation loc_id="28" teleportid="43001" price="1440" pricePvp="1440" type="FLIGHT"/><!-- New Heiron Gate -->
+			<telelocation loc_id="31" teleportid="46001" price="2240" pricePvp="2240" type="FLIGHT"/><!-- Jeiaparan Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204532" name="Nibeon" teleportId="114">
+		<locations>
+			<telelocation loc_id="28" teleportid="45001" price="1840" pricePvp="1840" type="FLIGHT"/><!-- New Heiron Gate -->
+			<telelocation loc_id="30" teleportid="47001" price="2240" pricePvp="2240" type="FLIGHT"/><!-- Arbolu's Haven -->
+			<telelocation loc_id="119" teleportid="142001" price="1400" pricePvp="1400" type="FLIGHT"/><!-- Kishar Observation Post -->
+			<telelocation loc_id="120" teleportid="144001" price="1000" pricePvp="1000" type="FLIGHT"/><!-- Changarnerk Campsite -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730264" name="Sanctum Outer Port Teleport Statue" teleportId="115">
+		<locations>
+			<telelocation loc_id="25" price="800" pricePvp="800" type="REGULAR"/><!-- Divine Road -->
+			<telelocation loc_id="24" price="1000" pricePvp="1000" type="REGULAR"/><!-- Elyos Square -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="798901" name="Air Line" teleportId="116">
+		<locations>
+			<telelocation loc_id="100" teleportid="100001" price="2600" pricePvp="2600" type="FLIGHT"/><!-- Soteria Sanctuary -->
+			<telelocation loc_id="101" teleportid="98001" price="2500" pricePvp="2500" type="FLIGHT"/><!-- Undirborg Observation Post -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="798962" name="Air Line" teleportId="117">
+		<locations>
+			<telelocation loc_id="99" teleportid="101001" price="2600" pricePvp="2600" type="FLIGHT"/><!-- Inggison Illusion Fortress -->
+			<telelocation loc_id="90" price="11600" pricePvp="34800" type="REGULAR"/><!-- Temple of Scales -->
+			<telelocation loc_id="91" price="14200" pricePvp="42600" type="REGULAR"/><!-- Altar of Avarice -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="799057" name="Air Line" teleportId="118">
+		<locations>
+			<telelocation loc_id="99" teleportid="99001" price="2500" pricePvp="2500" type="FLIGHT"/><!-- Inggison Illusion Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205248" name="Nestos" teleportId="119">
+		<locations>
+			<telelocation loc_id="14" teleportid="115001" price="200" pricePvp="200" type="FLIGHT"/><!-- Verteron Citadel -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205249" name="Archemenes" teleportId="120">
+		<locations>
+			<telelocation loc_id="14" teleportid="117001" price="570" pricePvp="570" type="FLIGHT"/><!-- Verteron Citadel -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205250" name="Cyrus" teleportId="121">
+		<locations>
+			<telelocation loc_id="21" teleportid="119001" price="600" pricePvp="600" type="FLIGHT"/><!-- Eltnen Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205251" name="Rius" teleportId="122">
+		<locations>
+			<telelocation loc_id="22" teleportid="121001" price="800" pricePvp="800" type="FLIGHT"/><!-- Golden Bough Garrison -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205252" name="Orius" teleportId="123">
+		<locations>
+			<telelocation loc_id="23" teleportid="123001" price="900" pricePvp="900" type="FLIGHT"/><!-- Agairon Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205253" name="Danais" teleportId="124">
+		<locations>
+			<telelocation loc_id="84" teleportid="137001" price="3800" pricePvp="3800" type="FLIGHT"/><!-- Observatory Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205254" name="Idmene" teleportId="125">
+		<locations>
+			<telelocation loc_id="84" teleportid="139001" price="1500" pricePvp="1500" type="FLIGHT"/><!-- Observatory Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205255" name="Euphrosyne" teleportId="126">
+		<locations>
+			<telelocation loc_id="28" teleportid="141001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- New Heiron Gate -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205256" name="Nikipe" teleportId="127">
+		<locations>
+			<telelocation loc_id="31" teleportid="143001" price="1400" pricePvp="1400" type="FLIGHT"/><!-- Jeiaparan Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205257" name="Erdina" teleportId="128">
+		<locations>
+			<telelocation loc_id="31" teleportid="145001" price="1000" pricePvp="1000" type="FLIGHT"/><!-- Jeiaparan Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730017" name="Vifrost Bridge Teleport Statue" teleportId="201">
+		<locations>
+			<telelocation loc_id="34" price="200" pricePvp="200" type="REGULAR"/><!-- Prosperity Road -->
+			<telelocation loc_id="106" price="1000" pricePvp="1000" type="REGULAR"/><!-- Crandale District -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730018" name="Prosperity Road Teleport Statue" teleportId="202">
+		<locations>
+			<telelocation loc_id="33" price="200" pricePvp="200" type="REGULAR"/><!-- Vifrost Bridge -->
+			<telelocation loc_id="106" price="800" pricePvp="800" type="REGULAR"/><!-- Crandale District -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203513" name="Sheofin" teleportId="203">
+		<locations>
+			<telelocation loc_id="18" teleportid="11001" price="160" pricePvp="160" type="FLIGHT"/><!-- Anturoon Crossing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203545" name="Garhara" teleportId="204">
+		<locations>
+			<telelocation loc_id="17" teleportid="12001" price="160" pricePvp="160" type="FLIGHT"/><!-- Aldelle Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203561" name="Lenat" teleportId="205">
+		<locations>
+			<telelocation loc_id="20" teleportid="13001" price="560" pricePvp="560" type="FLIGHT"/><!-- Trader's Berth -->
+			<telelocation loc_id="32" teleportid="15001" price="400" pricePvp="400" type="FLIGHT"/><!-- Basfelt Village -->
+			<telelocation loc_id="121" teleportid="124001" price="400" pricePvp="400" type="FLIGHT"/><!-- Heart of Impetusium -->
+			<telelocation loc_id="122" teleportid="126001" price="250" pricePvp="250" type="FLIGHT"/><!-- Altgard Observatory -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203678" name="Latunin" teleportId="206">
+		<locations>
+			<telelocation loc_id="19" teleportid="14001" price="560" pricePvp="560" type="FLIGHT"/><!-- Altgard Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="203683" name="Rubander" teleportId="207">
+		<locations>
+			<telelocation loc_id="19" teleportid="16001" price="400" pricePvp="400" type="FLIGHT"/><!-- Altgard Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204319" name="Yornduf" teleportId="208">
+		<locations>
+			<telelocation loc_id="64" teleportid="24001" price="800" pricePvp="800" type="FLIGHT"/><!-- Desert Garrison -->
+			<telelocation loc_id="65" teleportid="25001" price="1280" pricePvp="1280" type="FLIGHT"/><!-- Alsig Village -->
+			<telelocation loc_id="123" teleportid="128001" price="880" pricePvp="880" type="FLIGHT"/><!-- Kellan's Cabin -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204334" name="Grander" teleportId="209">
+		<locations>
+			<telelocation loc_id="63" teleportid="26001" price="800" pricePvp="800" type="FLIGHT"/><!-- Morheim Ice Fortress -->
+			<telelocation loc_id="65" teleportid="27001" price="1440" pricePvp="1440" type="FLIGHT"/><!-- Alsig Village -->
+			<telelocation loc_id="124" teleportid="130001" price="1000" pricePvp="1000" type="FLIGHT"/><!-- Slag Bulwark -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204358" name="Kiril" teleportId="210">
+		<locations>
+			<telelocation loc_id="63" teleportid="28001" price="1280" pricePvp="1280" type="FLIGHT"/><!-- Morheim Ice Fortress -->
+			<telelocation loc_id="64" teleportid="29001" price="1440" pricePvp="1440" type="FLIGHT"/><!-- Desert Garrison -->
+			<telelocation loc_id="125" teleportid="132001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Halabana Outpost -->
+			<telelocation loc_id="126" teleportid="134001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Morheim Observatory -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204718" name="Gylfi" teleportId="211">
+		<locations>
+			<telelocation loc_id="79" teleportid="48001" price="1120" pricePvp="1120" type="FLIGHT"/><!-- Besfer Refugee Camp -->
+			<telelocation loc_id="80" teleportid="50001" price="1520" pricePvp="1520" type="FLIGHT"/><!-- Red Mane Cavern -->
+			<telelocation loc_id="129" teleportid="108001" price="700" pricePvp="700" type="FLIGHT"/><!-- Kidorun Campsite -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204747" name="Kunbernan" teleportId="212">
+		<locations>
+			<telelocation loc_id="78" teleportid="49001" price="1120" pricePvp="1120" type="FLIGHT"/><!-- Beluslan Fortress -->
+			<telelocation loc_id="80" teleportid="52001" price="1680" pricePvp="1680" type="FLIGHT"/><!-- Red Mane Cavern -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="204756" name="Boudica" teleportId="213">
+		<locations>
+			<telelocation loc_id="78" teleportid="51001" price="1520" pricePvp="1520" type="FLIGHT"/><!-- Beluslan Fortress -->
+			<telelocation loc_id="79" teleportid="53001" price="1680" pricePvp="1680" type="FLIGHT"/><!-- Besfer Refugee Camp -->
+			<telelocation loc_id="130" teleportid="110001" price="1000" pricePvp="1000" type="FLIGHT"/><!-- Camp Kistenian -->
+			<telelocation loc_id="131" teleportid="112001" price="1100" pricePvp="1100" type="FLIGHT"/><!-- Hoarfrost Shelter -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730267" name="Crandale District Teleport Statue" teleportId="214">
+		<locations>
+			<telelocation loc_id="34" price="800" pricePvp="800" type="REGULAR"/><!-- Prosperity Road -->
+			<telelocation loc_id="33" price="1000" pricePvp="1000" type="REGULAR"/><!-- Vifrost Bridge -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="799201" name="Air Line" teleportId="215">
+		<locations>
+			<telelocation loc_id="103" teleportid="102001" price="2500" pricePvp="2500" type="FLIGHT"/><!-- Rhonnam Refugee Village -->
+			<telelocation loc_id="104" teleportid="96001" price="2100" pricePvp="2100" type="FLIGHT"/><!-- Subterranea Observation Post -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="799260" name="Air Line" teleportId="216">
+		<locations>
+			<telelocation loc_id="102" teleportid="103001" price="2500" pricePvp="2500" type="FLIGHT"/><!-- Gelkmaros Fortress -->
+			<telelocation loc_id="93" price="11600" pricePvp="34800" type="REGULAR"/><!-- Vorgaltem Citadel -->
+			<telelocation loc_id="94" price="14200" pricePvp="42600" type="REGULAR"/><!-- Crimson Temple -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="799370" name="Air Line" teleportId="217">
+		<locations>
+			<telelocation loc_id="102" teleportid="97001" price="2100" pricePvp="2100" type="FLIGHT"/><!-- Gelkmaros Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205258" name="Petesson" teleportId="218">
+		<locations>
+			<telelocation loc_id="19" teleportid="125001" price="400" pricePvp="400" type="FLIGHT"/><!-- Altgard Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205259" name="Lemel" teleportId="219">
+		<locations>
+			<telelocation loc_id="19" teleportid="127001" price="250" pricePvp="250" type="FLIGHT"/><!-- Altgard Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205260" name="Gruntvi" teleportId="220">
+		<locations>
+			<telelocation loc_id="63" teleportid="129001" price="880" pricePvp="880" type="FLIGHT"/><!-- Morheim Ice Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205261" name="Severin" teleportId="221">
+		<locations>
+			<telelocation loc_id="64" teleportid="131001" price="1000" pricePvp="1000" type="FLIGHT"/><!-- Desert Garrison -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205262" name="Belhaven" teleportId="222">
+		<locations>
+			<telelocation loc_id="65" teleportid="133001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Alsig Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205263" name="Olav" teleportId="223">
+		<locations>
+			<telelocation loc_id="65" teleportid="135001" price="1200" pricePvp="1200" type="FLIGHT"/><!-- Alsig Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205264" name="Ivar" teleportId="224">
+		<locations>
+			<telelocation loc_id="87" teleportid="107001" price="1800" pricePvp="1800" type="FLIGHT"/><!-- Baltasar Hill Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205265" name="Juvik" teleportId="225">
+		<locations>
+			<telelocation loc_id="87" teleportid="105001" price="1800" pricePvp="1800" type="FLIGHT"/><!-- Baltasar Hill Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205266" name="Suomi" teleportId="226">
+		<locations>
+			<telelocation loc_id="78" teleportid="109001" price="700" pricePvp="700" type="FLIGHT"/><!-- Beluslan Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205267" name="Berta" teleportId="227">
+		<locations>
+			<telelocation loc_id="80" teleportid="111001" price="1000" pricePvp="1000" type="FLIGHT"/><!-- Red Mane Cavern -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205268" name="Konradin" teleportId="228">
+		<locations>
+			<telelocation loc_id="80" teleportid="113001" price="1100" pricePvp="1100" type="FLIGHT"/><!-- Red Mane Cavern -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278506" name="Tellus" teleportId="500">
+		<locations>
+			<telelocation loc_id="36" price="2300" pricePvp="6900" type="REGULAR"/><!-- Siel's Western Fortress -->
+			<telelocation loc_id="37" price="3000" pricePvp="9000" type="REGULAR"/><!-- Siel's Eastern Fortress -->
+			<telelocation loc_id="39" price="3000" pricePvp="9000" type="REGULAR"/><!-- Sulfur Archipelago -->
+			<telelocation loc_id="44" price="4500" pricePvp="13500" type="REGULAR"/><!-- Roah Fortress -->
+			<telelocation loc_id="45" price="5200" pricePvp="15600" type="REGULAR"/><!-- Krotan Refuge -->
+			<telelocation loc_id="46" price="6000" pricePvp="18000" type="REGULAR"/><!-- Kysis Fortress -->
+			<telelocation loc_id="47" price="6000" pricePvp="18000" type="REGULAR"/><!-- Miren Fortress -->
+			<telelocation loc_id="48" price="7500" pricePvp="22500" type="REGULAR"/><!-- Asteria Fortress -->
+			<telelocation loc_id="42" price="1500" pricePvp="4500" type="REGULAR"/><!-- Western Shard of Latesran -->
+			<telelocation loc_id="40" price="4500" pricePvp="13500" type="REGULAR"/><!-- Eastern Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="263222" name="Sicaios" teleportId="501">
+		<locations>
+			<telelocation loc_id="35" price="2300" pricePvp="6900" type="REGULAR"/><!-- Teminon Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="263522" name="Iacos" teleportId="502">
+		<locations>
+			<telelocation loc_id="35" price="3000" pricePvp="9000" type="REGULAR"/><!-- Teminon Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278006" name="Briallen" teleportId="503">
+		<locations>
+			<telelocation loc_id="54" price="3800" pricePvp="11400" type="REGULAR"/><!-- Siel's Western Fortress -->
+			<telelocation loc_id="55" price="3000" pricePvp="9000" type="REGULAR"/><!-- Siel's Eastern Fortress -->
+			<telelocation loc_id="56" price="3000" pricePvp="9000" type="REGULAR"/><!-- Sulfur Archipelago -->
+			<telelocation loc_id="62" price="7500" pricePvp="22500" type="REGULAR"/><!-- Roah Fortress -->
+			<telelocation loc_id="57" price="6000" pricePvp="18000" type="REGULAR"/><!-- Krotan Refuge -->
+			<telelocation loc_id="58" price="6000" pricePvp="18000" type="REGULAR"/><!-- Kysis Fortress -->
+			<telelocation loc_id="59" price="5200" pricePvp="15600" type="REGULAR"/><!-- Miren Fortress -->
+			<telelocation loc_id="60" price="4500" pricePvp="13500" type="REGULAR"/><!-- Asteria Fortress -->
+			<telelocation loc_id="50" price="1500" pricePvp="4500" type="REGULAR"/><!-- Eastern Shard of Latesran -->
+			<telelocation loc_id="52" price="4500" pricePvp="13500" type="REGULAR"/><!-- Western Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="264722" name="Chrisotemis" teleportId="504">
+		<locations>
+			<telelocation loc_id="35" price="1500" pricePvp="4500" type="REGULAR"/><!-- Teminon Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278515" name="Septimus" teleportId="505">
+		<locations>
+			<telelocation loc_id="41" teleportid="38001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Eastern Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278516" name="Theon" teleportId="506">
+		<locations>
+			<telelocation loc_id="40" teleportid="39001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Eastern Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278513" name="Echo" teleportId="507">
+		<locations>
+			<telelocation loc_id="43" teleportid="36001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Western Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278514" name="Tiberius" teleportId="508">
+		<locations>
+			<telelocation loc_id="42" teleportid="37001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Western Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="266522" name="Pydeus" teleportId="509">
+		<locations>
+			<telelocation loc_id="35" price="4500" pricePvp="13500" type="REGULAR"/><!-- Teminon Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="268022" name="Hyprotes" teleportId="510">
+		<locations>
+			<telelocation loc_id="35" price="5200" pricePvp="15600" type="REGULAR"/><!-- Teminon Landing -->
+			<telelocation loc_id="49" price="1500" pricePvp="4500" type="REGULAR"/><!-- Divine Fortress -->
+			<telelocation loc_id="74" price="1500" pricePvp="4500" type="REGULAR"/><!-- Miren Fortress Area -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="269222" name="Astraia" teleportId="511">
+		<locations>
+			<telelocation loc_id="35" price="6000" pricePvp="18000" type="REGULAR"/><!-- Teminon Landing -->
+			<telelocation loc_id="49" price="1500" pricePvp="4500" type="REGULAR"/><!-- Divine Fortress -->
+			<telelocation loc_id="72" price="1500" pricePvp="4500" type="REGULAR"/><!-- Krotan Refuge Area -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="270122" name="Cora" teleportId="512">
+		<locations>
+			<telelocation loc_id="35" price="6000" pricePvp="18000" type="REGULAR"/><!-- Teminon Landing -->
+			<telelocation loc_id="49" price="1500" pricePvp="4500" type="REGULAR"/><!-- Divine Fortress -->
+			<telelocation loc_id="73" price="1500" pricePvp="4500" type="REGULAR"/><!-- Kysis Fortress Area -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="271022" name="Yana" teleportId="513">
+		<locations>
+			<telelocation loc_id="35" price="7500" pricePvp="22500" type="REGULAR"/><!-- Teminon Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="260221" name="Latinus" teleportId="514">
+		<locations>
+			<telelocation loc_id="45" price="1500" pricePvp="4500" type="REGULAR"/><!-- Krotan Refuge -->
+			<telelocation loc_id="46" price="1500" pricePvp="4500" type="REGULAR"/><!-- Kysis Fortress -->
+			<telelocation loc_id="47" price="1500" pricePvp="4500" type="REGULAR"/><!-- Miren Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278014" name="Mure" teleportId="515">
+		<locations>
+			<telelocation loc_id="51" teleportid="34001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Eastern Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278015" name="Hwiath" teleportId="516">
+		<locations>
+			<telelocation loc_id="50" teleportid="35001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Eastern Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278000" name="Peroniad" teleportId="517">
+		<locations>
+			<telelocation loc_id="53" teleportid="32001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Western Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="278013" name="Givihi" teleportId="518">
+		<locations>
+			<telelocation loc_id="52" teleportid="33001" price="1200" pricePvp="3600" type="FLIGHT"/><!-- Western Shard of Latesran -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="263223" name="Givihi" teleportId="519">
+		<locations>
+			<telelocation loc_id="38" price="3800" pricePvp="11400" type="REGULAR"/><!-- Primum Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="263523" name="Neved" teleportId="520">
+		<locations>
+			<telelocation loc_id="38" price="3000" pricePvp="9000" type="REGULAR"/><!-- Primum Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="264723" name="Sygfuson" teleportId="521">
+		<locations>
+			<telelocation loc_id="38" price="3000" pricePvp="9000" type="REGULAR"/><!-- Primum Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="266523" name="Kbest" teleportId="522">
+		<locations>
+			<telelocation loc_id="38" price="7500" pricePvp="22500" type="REGULAR"/><!-- Primum Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="268023" name="Antber" teleportId="523">
+		<locations>
+			<telelocation loc_id="38" price="6000" pricePvp="18000" type="REGULAR"/><!-- Primum Landing -->
+			<telelocation loc_id="61" price="1500" pricePvp="4500" type="REGULAR"/><!-- Divine Fortress -->
+			<telelocation loc_id="77" price="1500" pricePvp="4500" type="REGULAR"/><!-- Miren Fortress Area -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="269223" name="Ofnyhr" teleportId="524">
+		<locations>
+			<telelocation loc_id="38" price="6000" pricePvp="18000" type="REGULAR"/><!-- Primum Landing -->
+			<telelocation loc_id="61" price="1500" pricePvp="4500" type="REGULAR"/><!-- Divine Fortress -->
+			<telelocation loc_id="75" price="1500" pricePvp="4500" type="REGULAR"/><!-- Krotan Refuge Area -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="270123" name="Moynen" teleportId="525">
+		<locations>
+			<telelocation loc_id="38" price="5200" pricePvp="15600" type="REGULAR"/><!-- Primum Landing -->
+			<telelocation loc_id="61" price="1500" pricePvp="4500" type="REGULAR"/><!-- Divine Fortress -->
+			<telelocation loc_id="76" price="1500" pricePvp="4500" type="REGULAR"/><!-- Kysis Fortress Area -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="271023" name="Bey" teleportId="526">
+		<locations>
+			<telelocation loc_id="38" price="4500" pricePvp="13500" type="REGULAR"/><!-- Primum Landing -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="260222" name="Galen" teleportId="527">
+		<locations>
+			<telelocation loc_id="57" price="1500" pricePvp="4500" type="REGULAR"/><!-- Krotan Refuge -->
+			<telelocation loc_id="58" price="1500" pricePvp="4500" type="REGULAR"/><!-- Kysis Fortress -->
+			<telelocation loc_id="59" price="1500" pricePvp="4500" type="REGULAR"/><!-- Miren Fortress -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730073" name="Verteron Teleport Tower" teleportId="600">
+		<locations>
+			<telelocation loc_id="4" price="1500" pricePvp="1500" type="REGULAR"/><!-- Verteron -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730074" name="Eltnen Teleport Tower" teleportId="601">
+		<locations>
+			<telelocation loc_id="5" price="2500" pricePvp="2500" type="REGULAR"/><!-- Eltnen -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730075" name="Heiron Teleport Tower" teleportId="602">
+		<locations>
+			<telelocation loc_id="6" price="4500" pricePvp="4500" type="REGULAR"/><!-- Heiron -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730076" name="Altgard Teleport Device" teleportId="603">
+		<locations>
+			<telelocation loc_id="9" price="1500" pricePvp="1500" type="REGULAR"/><!-- Altgard -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730077" name="Morheim Teleport Device" teleportId="604">
+		<locations>
+			<telelocation loc_id="10" price="2500" pricePvp="2500" type="REGULAR"/><!-- Morheim -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730078" name="Beluslan Teleport Device" teleportId="605">
+		<locations>
+			<telelocation loc_id="11" price="4500" pricePvp="4500" type="REGULAR"/><!-- Beluslan -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="798216" name="Gerana" teleportId="606">
+		<locations>
+			<telelocation loc_id="84" teleportid="59001" price="1840" pricePvp="1840" type="FLIGHT"/><!-- Observatory Village -->
+			<telelocation loc_id="85" teleportid="64001" price="2320" pricePvp="2320" type="FLIGHT"/><!-- Jamanok Inn -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="798157" name="Palimedes" teleportId="607">
+		<locations>
+			<telelocation loc_id="83" teleportid="60001" price="1840" pricePvp="1840" type="FLIGHT"/><!-- Meniherk Excavation Camp -->
+			<telelocation loc_id="85" teleportid="61001" price="2640" pricePvp="2640" type="FLIGHT"/><!-- Jamanok Inn -->
+			<telelocation loc_id="116" teleportid="136001" price="3800" pricePvp="3800" type="FLIGHT"/><!-- Anangke Excavation Camp -->
+			<telelocation loc_id="117" teleportid="138001" price="1500" pricePvp="1500" type="FLIGHT"/><!-- Josnack's Vigil -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="798188" name="Ida" teleportId="608">
+		<locations>
+			<telelocation loc_id="83" teleportid="63001" price="2320" pricePvp="2320" type="FLIGHT"/><!-- Meniherk Excavation Camp -->
+			<telelocation loc_id="84" teleportid="62001" price="2640" pricePvp="2640" type="FLIGHT"/><!-- Observatory Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205207" name="Ullur" teleportId="609">
+		<locations>
+			<telelocation loc_id="87" teleportid="65001" price="2640" pricePvp="2640" type="FLIGHT"/><!-- Baltasar Hill Village -->
+			<telelocation loc_id="88" teleportid="70001" price="2320" pricePvp="2320" type="FLIGHT"/><!-- BuBu Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205145" name="Billeten" teleportId="610">
+		<locations>
+			<telelocation loc_id="86" teleportid="66001" price="1840" pricePvp="1840" type="FLIGHT"/><!-- Settlers Campsite -->
+			<telelocation loc_id="88" teleportid="67001" price="2640" pricePvp="2640" type="FLIGHT"/><!-- BuBu Village -->
+			<telelocation loc_id="127" teleportid="106001" price="1800" pricePvp="1800" type="FLIGHT"/><!-- Edge of Torment -->
+			<telelocation loc_id="128" teleportid="104001" price="1800" pricePvp="1800" type="FLIGHT"/><!-- Iollu Overlook -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205174" name="Svan" teleportId="611">
+		<locations>
+			<telelocation loc_id="86" teleportid="69001" price="2320" pricePvp="2320" type="FLIGHT"/><!-- Settlers Campsite -->
+			<telelocation loc_id="87" teleportid="68001" price="2640" pricePvp="2640" type="FLIGHT"/><!-- Baltasar Hill Village -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="258263" name="Micaelo" teleportId="612">
+		<locations>
+			<telelocation loc_id="90" price="1000" pricePvp="1000" type="REGULAR"/><!-- Temple of Scales -->
+			<telelocation loc_id="91" price="1000" pricePvp="1000" type="REGULAR"/><!-- Altar of Avarice -->
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="258264" name="Leopolt" teleportId="615">
+		<locations>
+			<telelocation loc_id="93" price="1000" pricePvp="1000" type="REGULAR"/><!-- Vorgaltem Citadel -->
+			<telelocation loc_id="94" price="1000" pricePvp="1000" type="REGULAR"/><!-- Crimson Temple -->
+		</locations>
+	</teleporter_template>
+	<!-- 3.0 Teleports -->
+	<!-- Part 1 -->
+	<teleporter_template npc_id="730529" name="PHL_LF4_TELEPORT" teleportId="616">
+		<locations>
+			<telelocation loc_id="96" price="9800" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830000" name="Lublan" teleportId="617">
+		<locations>
+			<telelocation loc_id="2" price="500" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="5" price="2200" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="81" price="3400" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="6" price="4800" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830001" name="Vexramas" teleportId="618">
+		<locations>
+			<telelocation loc_id="140" price="2495" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="144" price="1035" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="153" price="354" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830002" name="Rainus" teleportId="619">
+		<locations>
+			<telelocation loc_id="139" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830003" name="Strikus" teleportId="620">
+		<locations>
+			<telelocation loc_id="139" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830004" name="Asterope" teleportId="621">
+		<locations>
+			<telelocation loc_id="139" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	
+	<teleporter_template npc_id="830005" name="Celaeno" teleportId="622">
+		<locations>
+			<telelocation loc_id="139" price="354" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="154" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="155" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="156" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="157" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="158" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="159" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="160" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="161" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="162" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="163" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="164" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	
+	<teleporter_template npc_id="830006" name="Merope" teleportId="623">
+		<locations>
+			<telelocation loc_id="139" price="2495" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="141" price="1928" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="142" price="1928" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="143" price="1928" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830007" name="Nekkar" teleportId="624">
+		<locations>
+			<telelocation loc_id="139" price="1035" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="145" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="146" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="147" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="148" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="149" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="150" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="151" price="861" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="152" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830008" name="Atanos" teleportId="625">
+		<locations>
+			<telelocation loc_id="153" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830009" name="Auriera" teleportId="626">
+		<locations>
+			<telelocation loc_id="140" price="1928" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830010" name="Ribeiro" teleportId="627" >
+		<locations>
+			<telelocation loc_id="140" price="1928" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830011" name="Mignole" teleportId="628" >
+		<locations>
+			<telelocation loc_id="140" price="1928" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830012" name="Python" teleportId="629">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830013" name="Aeneas" teleportId="630">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830014" name="Chatelle" teleportId="631">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830015" name="Appiah" teleportId="632">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830016" name="Neire" teleportId="633">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830017" name="Paidra" teleportId="634">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830018" name="Penellope" teleportId="635">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830019" name="Camel" teleportId="636">
+		<locations>
+			<telelocation loc_id="144" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830020" name="Eldora" teleportId="637">
+		<locations>
+			<telelocation loc_id="153" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830021" name="Isador" teleportId="638">
+		<locations>
+			<telelocation loc_id="153" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830022" name="Arcturus" teleportId="639">
+		<locations>
+			<telelocation loc_id="153" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830023" name="Doris" teleportId="640">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830024" name="Huie" teleportId="641">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830025" name="Pomilisa" teleportId="642">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830026" name="Elmera" teleportId="643">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830027" name="Leinia" teleportId="644">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830028" name="Lamonea" teleportId="645">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830029" name="Tayrion" teleportId="646">
+		<locations>
+			<telelocation loc_id="153" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830030" name="Certas" teleportId="647">
+		<locations>
+			<telelocation loc_id="13" price="160" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<!-- Part 2 -->
+	<teleporter_template npc_id="730530" name="PHD_DF4_TELEPORT" teleportId="648">
+		<locations>
+			<telelocation loc_id="98" price="9800" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830084" name="Grimhilde" teleportId="649">
+		<locations>
+			<telelocation loc_id="7" price="500" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="10" price="2200" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="82" price="3400" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="11" price="4800" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830085" name="Hemenlin" teleportId="650">
+		<locations>
+			<telelocation loc_id="166" price="2495" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="170" price="1035" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="179" price="354" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830086" name="Skerak" teleportId="651">
+		<locations>
+			<telelocation loc_id="165" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830087" name="Karet" teleportId="652">
+		<locations>
+			<telelocation loc_id="165" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830088" name="Atli" teleportId="653">
+		<locations>
+			<telelocation loc_id="165" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830089" name="Lihine" teleportId="654">
+		<locations>
+			<telelocation loc_id="165" price="2495" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="167" price="1928" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="168" price="1928" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="169" price="1928" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830090" name="Naobel" teleportId="655">
+		<locations>
+			<telelocation loc_id="166" price="1928" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830091" name="Huebarr" teleportId="656">
+		<locations>
+			<telelocation loc_id="166" price="1928" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830092" name="Ogor" teleportId="657">
+		<locations>
+			<telelocation loc_id="166" price="1928" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830093" name="Gerr" teleportId="658">
+		<locations>
+			<telelocation loc_id="165" price="1035" type="REGULAR"/>
+			<telelocation loc_id="171" price="861" type="REGULAR"/>
+			<telelocation loc_id="172" price="861" type="REGULAR"/>
+			<telelocation loc_id="173" price="861" type="REGULAR"/>
+			<telelocation loc_id="174" price="861" type="REGULAR"/>
+			<telelocation loc_id="175" price="861" type="REGULAR"/>
+			<telelocation loc_id="176" price="861" type="REGULAR"/>
+			<telelocation loc_id="177" price="861" type="REGULAR"/>
+			<telelocation loc_id="178" price="861" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830094" name="Vertia" teleportId="659">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830095" name="Vorpencia" teleportId="660">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830096" name="Iosyr" teleportId="670">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830097" name="Riwin" teleportId="671">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830098" name="Noakes" teleportId="672">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830099" name="Took" teleportId="673">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830100" name="Otho" teleportId="674">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830101" name="Afelt" teleportId="675">
+		<locations>
+			<telelocation loc_id="170" price="861" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830102" name="Asnin" teleportId="676">
+		<locations>
+			<telelocation loc_id="165" price="354" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="180" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="181" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="182" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="183" price="226" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="184" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="185" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="186" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="187" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="188" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="189" price="280" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="190" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830103" name="Varkir" teleportId="677">
+		<locations>
+			<telelocation loc_id="179" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830104" name="Valkir" teleportId="678">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830105" name="Nix" teleportId="678">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830106" name="Auk" teleportId="679">
+		<locations>
+			<telelocation loc_id="179" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830107" name="Liben" teleportId="680">
+		<locations>
+			<telelocation loc_id="179" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830108" name="Vidun" teleportId="681">
+		<locations>
+			<telelocation loc_id="179" price="226" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830109" name="Schles" teleportId="682">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830110" name="Bortea" teleportId="683">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830111" name="Noraia" teleportId="684">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830112" name="Nerein" teleportId="685">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830113" name="Libeta" teleportId="686">
+		<locations>
+			<telelocation loc_id="179" price="280" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="830114" name="Elber" teleportId="687">
+		<locations>
+			<telelocation loc_id="18" price="160" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<!-- Part 3 -->
+	<teleporter_template npc_id="205796" name="Hataetia" teleportId="688">
+		<locations>
+			<telelocation loc_id="96" price="6400" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="201" price="8200" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800056" name="Phaedara" teleportId="689">
+		<locations>
+			<telelocation loc_id="98" price="6400" pricePvp="1000" type="REGULAR"/>
+			<telelocation loc_id="202" price="8200" pricePvp="1000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730535" name="LDF4a_City_Teleport_Li" teleportId="690">
+		<locations>
+			<telelocation loc_id="95" price="13240" pricePvp="132400" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730536" name="LDF4a_City_Teleport_Da" teleportId="691">
+		<locations>
+			<telelocation loc_id="97" price="13240" pricePvp="132400" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800118" name="LDF4a_C1_teleporter_Upper" teleportId="692">
+		<locations>
+			<telelocation loc_id="304" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800119" name="LDF4a_C1_teleporter_Lower" teleportId="693">
+		<locations>
+			<telelocation loc_id="303" price="0" pricePvp="0" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730580" name="LDF4a_Ord_Teleporter_5" teleportId="694">
+		<locations>
+			<telelocation loc_id="132" teleportid="196001" price="3589" pricePvp="196001" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730581" name="LDF4a_Ord_Teleporter_6" teleportId="695">
+		<locations>
+			<telelocation loc_id="193" teleportid="200001" price="7000" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730582" name="LDF4a_Ord_Teleporter_7" teleportId="696">
+		<locations>
+			<telelocation loc_id="132" teleportid="198001" price="3480" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="730583" name="LDF4a_Ord_Teleporter_8" teleportId="697">
+		<locations>
+			<telelocation loc_id="132" teleportid="202001" price="4480" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800006" name="LDF4a_Ord_Teleporter_1" teleportId="698"><!-- Teleport FlightMN3 -->
+		<locations>
+			<telelocation loc_id="133" teleportid="182001" price="7180" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="134" teleportid="184001" price="4578" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="135" teleportid="186001" price="4578" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="136" teleportid="188001" price="4578" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="193" teleportid="190001" price="7180" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="205" teleportid="195001" price="3589" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="207" teleportid="197001" price="3480" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="208" teleportid="201001" price="4480" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205735" name="Lolios" teleportId="699"><!-- Teleport FlightMN3 -->
+		<locations>
+			<telelocation loc_id="133" teleportid="182001" price="7180" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="134" teleportid="184001" price="4578" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="135" teleportid="186001" price="4578" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="136" teleportid="188001" price="4578" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="193" teleportid="190001" price="7180" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="205" teleportid="195001" price="3589" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="207" teleportid="197001" price="3480" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="208" teleportid="201001" price="4480" pricePvp="7000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205736" name="Peruos" teleportId="700"><!-- TeleportFlightMn3 -->
+		<locations>
+			<telelocation loc_id="133" teleportid="182001" price="7180" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="134" teleportid="184001" price="4578" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="135" teleportid="186001" price="4578" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="136" teleportid="188001" price="4578" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="193" teleportid="190001" price="7180" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="205" teleportid="195001" price="3589" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="207" teleportid="197001" price="3480" pricePvp="7000" type="FLIGHT"/>
+			<telelocation loc_id="208" teleportid="201001" price="4480" pricePvp="7000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800007" name="LDF4a_Ord_Teleporter_2" teleportId="701">
+		<locations>
+			<telelocation loc_id="132" teleportid="183001" price="6402" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="134" teleportid="192001" price="6402" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800008" name="LDF4a_Ord_Teleporter_3" teleportId="702">
+		<locations>
+			<telelocation loc_id="132" teleportid="185001" price="6400" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="133" teleportid="193001" price="6400" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800059" name="LDF4a_D_Ord_Teleporter_L" teleportId="703">
+		<locations>
+			<telelocation loc_id="132" teleportid="187001" price="6420" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800060" name="LDF4a_D_Ord_Teleporter_D" teleportId="704">
+		<locations>
+			<telelocation loc_id="132" teleportid="189001" price="6420" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800111" name="LDF4a_Ord_Teleporter_4" teleportId="705">
+		<locations>
+			<telelocation loc_id="132" teleportid="191001" price="3279" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="206" teleportid="199001" price="7000" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<!-- Regular 3.0 Ost -->
+	<teleporter_template npc_id="205825" name="Pino" teleportId="706">
+		<locations>
+			<telelocation loc_id="96" price="14600" pricePvp="10000" type="REGULAR"/>
+			<telelocation loc_id="137" price="8200" pricePvp="10000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205846" name="Litzof" teleportId="707">
+		<locations>
+			<telelocation loc_id="98" price="14600" pricePvp="10000" type="REGULAR"/>
+			<telelocation loc_id="138" price="8200" pricePvp="10000" type="REGULAR"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205976" name="LDF4b_Ord_Teleporter_1_L" teleportId="708">
+		<locations>
+			<telelocation loc_id="196" teleportid="166001" price="8008" pricePvp="10000" type="FLIGHT"/>
+			<telelocation loc_id="197" teleportid="170001" price="7030" pricePvp="10000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205977" name="LDF4b_Ord_Teleporter_2" teleportId="702">
+		<locations>
+			<telelocation loc_id="194" teleportid="167001" price="7700" pricePvp="10000" type="FLIGHT"/>
+			<telelocation loc_id="195" teleportid="169001" price="7700" pricePvp="10000" type="FLIGHT"/>
+			<telelocation loc_id="198" teleportid="174001" price="4558" pricePvp="10000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205978" name="LDF4b_Ord_Teleporter_3" teleportId="703">
+		<locations>
+			<telelocation loc_id="194" teleportid="171001" price="5700" pricePvp="10000" type="FLIGHT"/>
+			<telelocation loc_id="195" teleportid="173001" price="5700" pricePvp="10000" type="FLIGHT"/>
+			<telelocation loc_id="198" teleportid="176001" price="6313" pricePvp="10000" type="FLIGHT"/>
+			<telelocation loc_id="199" teleportid="180001" price="2780" pricePvp="10000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205979" name="LDF4b_Ord_Teleporter_4" teleportId="704">
+		<locations>
+			<telelocation loc_id="196" teleportid="175001" price="4430" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="197" teleportid="177001" price="6136" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="200" teleportid="178001" price="2012" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205980" name="LDF4b_Ord_Teleporter_5" teleportId="705">
+		<locations>
+			<telelocation loc_id="197" teleportid="181001" price="2891" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="205981" name="LDF4b_Ord_Teleporter_6" teleportId="706">
+		<locations>
+			<telelocation loc_id="198" teleportid="179001" price="2012" pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+	<teleporter_template npc_id="800017" name="LDF4b_Ord_Teleporter_1_D" teleportId="707">
+		<locations>
+			<telelocation loc_id="196" teleportid="168001" price="8008" pricePvp="1000" type="FLIGHT"/>
+			<telelocation loc_id="197" teleportid="172001" price="7030"	pricePvp="1000" type="FLIGHT"/>
+		</locations>
+	</teleporter_template>
+</npc_teleporter>

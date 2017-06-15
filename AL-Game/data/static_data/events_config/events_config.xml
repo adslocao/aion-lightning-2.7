@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events_config>
+	<active>The Fortune Fayre;Doppelgangers;Ascension Energy;Festival Winter;Harvest Revel;Daru Days;Ardent heat;Ascension Energy Inventory;Ardent heat Inventory</active>
+  	<events>
+		<event name="The Fortune Fayre" start="2012-03-09T00:00:00+00:00" end="2012-03-23T00:00:00+00:00">
+			<quests>
+				<startable>80028;80029;80031;80032</startable>
+				<maintainable>80030;80033;80034;80035;80036;80037;80038;80039</maintainable>
+			</quests>
+			<spawns>
+				<!-- Sanctum -->
+				<spawn_map map_id="110010000">
+					<!-- Tirrian -->
+      				<spawn npc_id="799765" pool="1" respawn_time="295">
+      					<spot x="1551.3645" y="1472.868" z="573.0145" h="115" />
+      				</spawn>
+      				<!-- Thourak -->
+      				<spawn npc_id="799766" pool="1" respawn_time="295">
+      					<spot x="1550.9011" y="1470.6844" z="573.02454" h="115" />
+      				</spawn>
+		        </spawn_map>
+				<!-- Pandaemonium -->
+		        <spawn_map map_id="120010000">
+      				<!-- Druike -->
+      				<spawn npc_id="799780" pool="1" respawn_time="295">
+      					<spot x="1182.7379" y="1351.888" z="209.6744" h="61" />
+      				</spawn>
+      				<!-- Metrano -->
+      				<spawn npc_id="799781" pool="1" respawn_time="295">
+      					<spot x="1181.7347" y="1354.239" z="209.6744" h="65" />
+      				</spawn>
+		        </spawn_map>
+			</spawns>
+		</event>
+		<event name="Doppelgangers" start="2012-01-01T00:00:00+02:00" end="2012-01-30T00:00:00+02:00">
+			<spawns>
+				<!-- Verteron -->
+				<spawn_map map_id="210030000">
+					<!-- Laylin -->
+					<spawn npc_id="799702" pool="1" respawn_time="295">
+						<spot x="1645.45" y="1498.74" z="119.717" h="49" />
+					</spawn>
+                </spawn_map>
+				<!-- Altgard -->
+				<spawn_map map_id="220030000">
+					<!-- Ronya -->
+					<spawn npc_id="799703" pool="1" respawn_time="295">
+						<spot x="1749.65" y="1808.09" z="254.487" h="108" />
+					</spawn>
+                </spawn_map>
+			</spawns>
+		</event>
+		<event name="Ascension Energy Inventory" start="2012-09-21T00:00:00+00:00" end="2012-10-26T00:00:00+00:00">
+			<inventory_drop startlevel="8" interval="15">186000127</inventory_drop>
+		</event>
+		<event name="Ascension Energy" start="2012-09-21T00:00:00+00:00" end="2012-10-26T00:00:00+00:00">
+			<spawns>
+				<!-- Sanctum -->
+				<spawn_map map_id="110010000">
+					<!-- <Daeva's Day Cake> -->
+					<spawn npc_id="700585" pool="1" respawn_time="295">
+						<spot x="1532.4474" y="1511.6154" z="565.8823" h="59"/>
+					</spawn>
+					<!-- Gracia -->
+					<spawn npc_id="799933" pool="1" respawn_time="295">
+						<spot x="1528.2053" y="1513.424" z="565.89343" h="57"/>
+					</spawn>
+					<!-- Kaneth -->
+					<spawn npc_id="799934" pool="1" respawn_time="295">
+						<spot x="1527.9835" y="1509.6407" z="565.894" h="60"/>
+					</spawn>
+					<!-- Need Spawns -->
+                </spawn_map>
+				<!-- Poeta -->
+				<spawn_map map_id="210010000">
+					<!-- Hesson -->
+					<spawn npc_id="799935" pool="1" respawn_time="295">
+						<spot x="866.24854" y="1224.7153" z="118.85947" h="64"/>
+					</spawn>
+                </spawn_map>
+				<!-- Eltnen -->
+				<spawn_map map_id="210020000">
+					<!-- Luce -->
+					<spawn npc_id="799936" pool="1" respawn_time="295">
+						<spot x="386.78238" y="2707.2236" z="266.287" h="51"/>
+					</spawn>
+                </spawn_map>
+				<!-- Heiron -->
+				<spawn_map map_id="210040000">
+					<!-- Thalone -->
+					<spawn npc_id="799937" pool="1" respawn_time="295">
+						<spot x="2518.931" y="385.31033" z="408.25" h="60"/>
+					</spawn>
+                </spawn_map>
+				<!-- Inggison -->
+				<spawn_map map_id="210050000">
+					<!-- Celline -->
+					<spawn npc_id="799938" pool="1" respawn_time="295">
+						<spot x="1297.713" y="257.6204" z="595.8169" h="88"/>
+					</spawn>
+                </spawn_map>
+				<!-- Pandaemonium -->
+				<spawn_map map_id="120010000">
+					<!-- <Daeva's Day Cake> -->
+					<spawn npc_id="700585" pool="1" respawn_time="295">
+						<spot x="1275.8658" y="1333.3451" z="204.42003" h="90"/>
+					</spawn>
+					<!-- Emma -->
+					<spawn npc_id="799939" pool="1" respawn_time="295">
+						<spot x="1277.4176" y="1329.777" z="204.42003" h="92"/>
+					</spawn>
+					<!-- Aivar -->
+					<spawn npc_id="799940" pool="1" respawn_time="295">
+						<spot x="1273.6998" y="1329.7642" z="204.41998" h="81"/>
+					</spawn>
+                </spawn_map>
+				<!-- Morheim -->
+				<spawn_map map_id="220020000">
+					<!-- Nerin -->
+					<spawn npc_id="799942" pool="1" respawn_time="295">
+						<spot x="251.19788" y="2342.8154" z="445.12222" h="119"/>
+					</spawn>
+                </spawn_map>
+				<!-- Beluslan -->
+				<spawn_map map_id="220040000">
+					<!-- Gertz -->
+					<spawn npc_id="799943" pool="1" respawn_time="295">
+						<spot x="365.52826" y="370.39612" z="229.1664" h="22"/>
+					</spawn>
+                </spawn_map>
+				<!-- Gelkmaros -->
+				<spawn_map map_id="220070000">
+					<!-- Reoni -->
+					<spawn npc_id="799944" pool="1" respawn_time="295">
+						<spot x="1782.7567" y="2900.8984" z="552.508" h="102"/>
+					</spawn>
+                </spawn_map>
+			</spawns>
+		</event>
+		<event name="Festival Winter" start="2012-12-14T00:00:00+00:00" end="2013-01-04T00:00:00+00:00" theme="christmas">
+			<quests>
+				<startable>80128;80112;80116;80113;80117;80114;80118;80115;80119;80129;80120;80124;80121;80122;80126;80123;80127</startable>
+			</quests>
+			<spawns>
+				<!-- Pandaemonium -->
+				<spawn_map map_id="120010000">
+					<!-- Blingbling -->
+					<spawn npc_id="205487" pool="1" respawn_time="295">
+						<spot x="1606.6971" y="1385.3406" z="193.12827" h="119"/>
+					</spawn>
+					<!-- Epiclone -->
+					<spawn npc_id="217733" pool="12" respawn_time="100">
+						<spot x="966.17975" y="1553.2114" z="222.05359" h="75"/>
+						<spot x="972.8082" y="1541.1821" z="221.90492" h="103"/>
+						<spot x="984.13464" y="1565.8885" z="221.89754" h="24"/>
+						<spot x="971.9474" y="1578.2194" z="221.59808" h="50"/>
+						<spot x="954.9844" y="1574.9327" z="221.49535" h="65"/>
+						<spot x="932.5883" y="1578.2856" z="221.84654" h="46"/>
+						<spot x="944.341" y="1584.6888" z="221.63184" h="119"/>
+						<spot x="954.83856" y="1596.0103" z="221.76999" h="112"/>
+						<spot x="959.1071" y="1584.9911" z="221.65314" h="95"/>
+						<spot x="950.2936" y="1562.001" z="221.75958" h="100"/>
+						<spot x="963.8887" y="1565.9484" z="221.46317" h="116"/>
+						<spot x="974.4402" y="1560.0535" z="221.83434" h="117"/>
+					</spawn>
+                </spawn_map>
+				<!-- Sanctum -->
+				<spawn_map map_id="110010000">
+					<!-- Sunshine -->
+					<spawn npc_id="205486" pool="1" respawn_time="295">
+						<spot x="1399.9498" y="1520.4519" z="572.99426" h="60"/>
+					</spawn>
+					<!-- Epiclone -->
+					<spawn npc_id="217733" pool="12" respawn_time="100">
+						<spot x="966.17975" y="1553.2114" z="222.05359" h="75"/>
+						<spot x="972.8082" y="1541.1821" z="221.90492" h="103"/>
+						<spot x="984.13464" y="1565.8885" z="221.89754" h="24"/>
+						<spot x="971.9474" y="1578.2194" z="221.59808" h="50"/>
+						<spot x="954.9844" y="1574.9327" z="221.49535" h="65"/>
+						<spot x="932.5883" y="1578.2856" z="221.84654" h="46"/>
+						<spot x="944.341" y="1584.6888" z="221.63184" h="119"/>
+						<spot x="954.83856" y="1596.0103" z="221.76999" h="112"/>
+						<spot x="959.1071" y="1584.9911" z="221.65314" h="95"/>
+						<spot x="950.2936" y="1562.001" z="221.75958" h="100"/>
+						<spot x="963.8887" y="1565.9484" z="221.46317" h="116"/>
+						<spot x="974.4402" y="1560.0535" z="221.83434" h="117"/>
+					</spawn>
+                </spawn_map>
+			</spawns>
+		</event>
+		<event name="Harvest Revel" start="2012-10-26T00:00:00+00:00" end="2012-11-09T00:00:00+00:00">
+			<quests>
+				<startable>80110;80086;80090;80095;80088;80092;80096;80089;80093;80097;80111;80098;80102;80106;80099;80103;80107;80100;80104;80108;80101;80105;80109</startable>
+			</quests>
+			<spawns>
+				<!-- Pandaemonium -->
+				<spawn_map map_id="120010000">
+					<!-- Witchta -->
+					<spawn npc_id="205485" pool="1" respawn_time="295">
+						<spot x="1271.2024" y="1350.1512" z="204.4608" h="100"/>
+					</spawn>
+                </spawn_map>
+				<!-- Sanctum -->
+				<spawn_map map_id="110010000">
+					<!-- Blair -->
+					<spawn npc_id="205484" pool="1" respawn_time="295">
+						<spot x="1534.1069" y="1489.5824" z="565.93616" h="35"/>
+					</spawn>
+                </spawn_map>
+			</spawns>
+		</event>
+		<event name="Daru Days" start="2012-11-23T00:00:00+00:00" end="2012-11-30T00:00:00+00:00">
+			<quests>
+				<startable>80076;80078;80079;80080;80081;80077;80082;80083;80084;80085</startable>
+			</quests>
+			<spawns>
+				<!-- Pandaemonium -->
+				<spawn_map map_id="120010000">
+					<!-- Tayalli -->
+					<spawn npc_id="205483" pool="1" respawn_time="295">
+						<spot x="1267.2097" y="1344.3351" z="204.41998" h="103"/>
+					</spawn>
+					<!-- Icehide Daru -->
+					<spawn npc_id="217688" pool="12" respawn_time="100">
+						<spot x="966.17975" y="1553.2114" z="222.05359" h="75"/>
+						<spot x="972.8082" y="1541.1821" z="221.90492" h="103"/>
+						<spot x="984.13464" y="1565.8885" z="221.89754" h="24"/>
+						<spot x="971.9474" y="1578.2194" z="221.59808" h="50"/>
+						<spot x="954.9844" y="1574.9327" z="221.49535" h="65"/>
+						<spot x="932.5883" y="1578.2856" z="221.84654" h="46"/>
+						<spot x="944.341" y="1584.6888" z="221.63184" h="119"/>
+						<spot x="954.83856" y="1596.0103" z="221.76999" h="112"/>
+						<spot x="959.1071" y="1584.9911" z="221.65314" h="95"/>
+						<spot x="950.2936" y="1562.001" z="221.75958" h="100"/>
+						<spot x="963.8887" y="1565.9484" z="221.46317" h="116"/>
+						<spot x="974.4402" y="1560.0535" z="221.83434" h="117"/>
+					</spawn>
+                </spawn_map>
+				<!-- Sanctum -->
+				<spawn_map map_id="110010000">
+					<!-- Robitta -->
+					<spawn npc_id="205482" pool="1" respawn_time="295">
+						<spot x="1530.4368" y="1489.6666" z="565.9349" h="32"/>
+					</spawn>
+					<!-- Flamehide Daru -->
+					<spawn npc_id="217683" pool="12" respawn_time="100">
+						<spot x="1460.3923" y="1309.5315" z="564.2091" h="115"/>
+						<spot x="1457.1675" y="1296.065" z="564.1405" h="83"/>
+						<spot x="1447.1777" y="1303.2382" z="564.1405" h="53"/>
+						<spot x="1446.7172" y="1317.4813" z="564.1405" h="30"/>
+						<spot x="1435.6023" y="1307.77" z="564.1405" h="7"/>
+						<spot x="1469.5254" y="1312.7368" z="564.1405" h="2"/>
+						<spot x="1446.07" y="1292.0155" z="564.1405" h="72"/>
+						<spot x="1434.4569" y="1292.4628" z="564.1405" h="62"/>
+						<spot x="1427.0883" y="1279.0695" z="564.1405" h="11"/>
+						<spot x="1437.5994" y="1275.1007" z="564.1405" h="17"/>
+						<spot x="1450.8138" y="1267.3801" z="564.1405" h="29"/>
+						<spot x="1458.9592" y="1278.4596" z="564.1405" h="29"/>
+					</spawn>
+                </spawn_map>
+			</spawns>
+		</event>
+		<event name="Ardent heat Inventory" start="2012-07-20T00:00:00+00:00" end="2012-08-03T00:00:00+00:00">
+			<inventory_drop startlevel="1" interval="20">186000111</inventory_drop>
+		</event>
+		<event name="Ardent heat" start="2012-07-20T00:00:00+00:00" end="2012-08-03T00:00:00+00:00">
+			<spawns>
+				<!-- Pandaemonium -->
+				<spawn_map map_id="120010000">
+					<!-- Elma -->
+					<spawn npc_id="799792" pool="1" respawn_time="295">
+						<spot x="1246.69" y="1356.16" z="204.42001"/>
+					</spawn>
+					<!-- Sihein -->
+					<spawn npc_id="799793" pool="1" respawn_time="295">
+						<spot x="1244.6205" y="1351.6508" z="204.42001"/>
+					</spawn>
+					<!-- Murea -->
+					<spawn npc_id="799794" pool="1" respawn_time="295">
+						<spot x="1246.9843" y="1363.0145" z="204.42001"/>
+					</spawn>
+                </spawn_map>
+				<!-- Sanctum -->
+				<spawn_map map_id="110010000">
+					<!-- Zena -->
+					<spawn npc_id="799704" pool="1" respawn_time="295">
+						<spot x="1535.91" y="1474.44" z="565.962" h="33"/>
+					</spawn>
+					<!-- Cartiros -->
+					<spawn npc_id="799705" pool="1" respawn_time="295">
+						<spot x="1535.4037" y="1496.5366" z="565.91974" h="45"/>
+					</spawn>
+					<!-- Eliana -->
+					<spawn npc_id="799706" pool="1" respawn_time="295">
+						<spot x="1530.75" y="1496.0077" z="565.91974" h="29"/>
+					</spawn>
+                </spawn_map>
+				<!-- Gelkmaros -->
+				<spawn_map map_id="220070000">
+					<!-- Darian -->
+					<spawn npc_id="799798" pool="1" respawn_time="295">
+						<spot x="1774" y="2899" z="549" h="110"/>
+					</spawn>
+                </spawn_map>
+				<!-- Beluslan -->
+				<spawn_map map_id="220040000">
+					<!-- Odel -->
+					<spawn npc_id="799797" pool="1" respawn_time="295">
+						<spot x="386.28958" y="343.31763" z="229.1838" h="53"/>
+					</spawn>
+                </spawn_map>
+				<!-- Morheim -->
+				<spawn_map map_id="220020000">
+					<!-- Jennis -->
+					<spawn npc_id="799796" pool="1" respawn_time="295">
+						<spot x="322" y="2377" z="443" h="77"/>
+					</spawn>
+                </spawn_map>
+				<!-- Inggison -->
+				<spawn_map map_id="210050000">
+					<!-- Larsa -->
+					<spawn npc_id="799710" pool="1" respawn_time="295">
+						<spot x="1360.7979" y="358.68234" z="589.5762" h="93"/>
+					</spawn>
+                </spawn_map>
+				<!-- Heiron -->
+				<spawn_map map_id="210040000">
+					<!-- Pollig -->
+					<spawn npc_id="799709" pool="1" respawn_time="295">
+						<spot x="2519.3638" y="384.1401" z="408.25" h="42"/>
+					</spawn>
+                </spawn_map>
+				<!-- Eltnen -->
+				<spawn_map map_id="210020000">
+					<!-- Divani -->
+					<spawn npc_id="799708" pool="1" respawn_time="295">
+						<spot x="386" y="2706" z="266.24893" h="53"/>
+					</spawn>
+                </spawn_map>
+				<!-- Poeta -->
+				<spawn_map map_id="210010000">
+					<!-- Thenon -->
+					<spawn npc_id="799707" pool="1" respawn_time="295">
+						<spot x="865.9374" y="1225.0037" z="118.875" h="66"/>
+					</spawn>
+                </spawn_map>
+			</spawns>
+		</event>
+	</events>
+</events_config>

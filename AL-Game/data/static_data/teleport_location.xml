@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../licenses/Aion-Unique.css" title="License" alternate="no"?>
+<teleport_location xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="teleport_location.xsd">
+	<!-- Normal Teleport-->
+	<!-- ELYOS -->
+	<teleloc_template loc_id="2" mapid="110010000" name="Sanctum" posX="1313.9315" posY="1512.0283" posZ="568.107" heading="0"/>
+	<teleloc_template loc_id="3" mapid="210010000" name="Akarios Village" posX="806.11426" posY="1242.6438" posZ="118.98627" heading="0"/>
+	<teleloc_template loc_id="4" mapid="210030000" name="Verteron" posX="1643" posY="1500" posZ="119" heading="0"/>
+	<teleloc_template loc_id="5" mapid="210020000" name="Eltnen" posX="343" posY="2724" posZ="264" heading="0"/>
+	<teleloc_template loc_id="6" mapid="210040000" name="Heiron" posX="2540" posY="343" posZ="411" heading="0"/>
+	<teleloc_template loc_id="81" mapid="210060000" name="Theobomos" posX="1398" posY="1557" posZ="31" heading="0"/>
+	<teleloc_template loc_id="24" mapid="110010000" name="LC1_Airport_SPOT_Bank" posX="1458.3" posY="1448.8" posZ="572.9" heading="0"/>
+	<teleloc_template loc_id="25" mapid="110010000" name="LC1_Airport_SPOT_Library" posX="1931.6" posY="1516.9" posZ="590.0" heading="0"/>
+	<teleloc_template loc_id="105" mapid="110010000" name="LC1_Airport_SPOT_Dock" posX="1817" posY="2157" posZ="527" heading="0"/>
+	<teleloc_template loc_id="95" mapid="110010000" name="LC1_Airport_ZONE_Port" posX="1743.5588" posY="2059.158" posZ="518.0106" heading="0"/>
+	<teleloc_template loc_id="96" mapid="210050000" name="LF4_Airport_ZONE" posX="1371.33" posY="361.41" posZ="589.6" heading="0"/>
+	<teleloc_template loc_id="107" mapid="110010000" name="LC1_Airport_ZONE_Entrance" posX="1366.8" posY="1539.5" posZ="569.0" heading="0"/>
+	<teleloc_template loc_id="108" mapid="110020000" name="LC2_Airport_ZONE_Entrance" posX="2155.6" posY="1566.9" posZ="1204.9" heading="0"/>
+	<teleloc_template loc_id="191" mapid="700010000" name="HLFPlevel_Airport_Level" posX="1275.54" posY="1867.76" posZ="97.5" heading="0"/>
+	<!-- ASMODIANS -->
+	<teleloc_template loc_id="7" mapid="120010000" name="Pandemonium" posX="1685.5665" posY="1399.6561" posZ="195.38385" heading="0"/>
+	<teleloc_template loc_id="8" mapid="220010000" name="Ishalgen" posX="528.59595" posY="2449.176" posZ="281.59262" heading="0"/>
+	<teleloc_template loc_id="9" mapid="220030000" name="Altgard" posX="1748" posY="1807" posZ="254" heading="0"/>
+	<teleloc_template loc_id="10" mapid="220020000" name="Morheim" posX="308" posY="2274" posZ="449" heading="0"/>
+	<teleloc_template loc_id="11" mapid="220040000" name="Beluslan" posX="398" posY="400" posZ="222" heading="0"/>
+	<teleloc_template loc_id="82" mapid="220050000" name="Brusthonin" posX="2917" posY="2421" posZ="15" heading="0"/>
+	<teleloc_template loc_id="33" mapid="120010000" name="DC1_SPOT_Street" posX="1602.7" posY="1413.7" posZ="193.1" heading="0"/>
+	<teleloc_template loc_id="34" mapid="120010000" name="DC1_SPOT_Bridge" posX="1042.8" posY="1480.2" posZ="213.5" heading="0"/>
+	<teleloc_template loc_id="106" mapid="120010000" name="DC1_SPOT_Westside" posX="1179.9" posY="1173.2" posZ="208.0" heading="0"/>
+	<teleloc_template loc_id="109" mapid="120010000" name="DC1_Airport_ZONE_Entrance" posX="1609.9" posY="1390.7" posZ="193.1" heading="0"/>
+	<teleloc_template loc_id="110" mapid="120020000" name="DC2_Airport_ZONE_Entrance" posX="1559.2" posY="1426.9" posZ="265.7" heading="0"/>
+	<teleloc_template loc_id="97" mapid="120010000" name="DC1_Airport_ZONE_Port" posX="943.9" posY="1126.1" posZ="206.9" heading="0"/>
+	<teleloc_template loc_id="98" mapid="220070000" name="DF4_Airport_ZONE" posX="1788.72" posY="2844.73" posZ="555.1" heading="0"/>
+	<teleloc_template loc_id="192" mapid="710010000" name="HDFPlevel_Airport_Level" posX="1045.0769" posY="1522.6863" posZ="97.88" heading="0"/>
+	<!-- Abyss ELYOS -->
+	<teleloc_template loc_id="35" mapid="400010000" name="Ab1_SUB_1111" posX="2865.8623" posY="1036.5726" posZ="1528.1271" heading="44"/>
+	<teleloc_template loc_id="36" mapid="400010000" name="Siels Western Fortress" posX="2985.3564" posY="2595.3398" posZ="1489.0905" heading="33"/>
+	<teleloc_template loc_id="37" mapid="400010000" name="Siels Eastern Fortess" posX="2656.2722" posY="3063.4211" posZ="1483.1167" heading="33"/>
+	<teleloc_template loc_id="39" mapid="400010000" name="Sulfur Archipelago" posX="1345.1719" posY="1190.9126" posZ="1514.6681" heading="41"/>
+	<teleloc_template loc_id="40" mapid="400010000" name="Eastern Shard of Latesran" posX="1642" posY="3042" posZ="1669" heading="0"/>
+	<teleloc_template loc_id="41" mapid="400010000" name="Elyos Eastern Lower Layer of Latesran"/>
+	<teleloc_template loc_id="42" mapid="400010000" name="Western Shard of Latesran" posX="2098" posY="754" posZ="1569" heading="0"/>
+	<teleloc_template loc_id="43" mapid="400010000" name="Elyos Western Lower Layer of Latesran"/>
+	<teleloc_template loc_id="44" mapid="400010000" name="Roah Fortress" posX="2711.9102" posY="774.9118" posZ="2872.3818" heading="93"/>
+	<teleloc_template loc_id="45" mapid="400010000" name="Krotan Refuge" posX="2033.38" posY="1294.35" posZ="2963.57" heading="60"/>
+	<teleloc_template loc_id="46" mapid="400010000" name="Kysis Fortress" posX="2533.7102" posY="2090.47" posZ="3049.9705" heading="91"/>
+	<teleloc_template loc_id="47" mapid="400010000" name="Miren Fortress" posX="1792.247" posY="2315.0828" posZ="2949.6829" heading="7"/>
+	<teleloc_template loc_id="48" mapid="400010000" name="Asteria Fortress" posX="717.2298" posY="3002.2446" posZ="2893.0178" heading="16"/>
+	<teleloc_template loc_id="49" mapid="400010000" name="Ab1_DYN_L_1011" posX="2125.776" posY="1913.0077" posZ="2322.0728" heading="72"/>
+	<teleloc_template loc_id="72" mapid="400010000" name="Ab1_DYN_L_1221_1" posX="2033.3788" posY="1294.3495" posZ="2963.5703" heading="60"/>
+	<teleloc_template loc_id="73" mapid="400010000" name="Ab1_DYN_L_1231_1" posX="2533.71" posY="2090.47" posZ="3049.97" heading="91"/>
+	<teleloc_template loc_id="74" mapid="400010000" name="Ab1_DYN_L_1241_1" posX="1789.7555" posY="2314.2678" posZ="2949.6802" heading="7"/>
+	<!-- Abyss ASMODIANS -->
+	<teleloc_template loc_id="38" mapid="400010000" name="Ab1_SUB_1121" posX="1078.7183" posY="2838.5483" posZ="1636.5863" heading="0"/>
+	<teleloc_template loc_id="50" mapid="400010000" name="Eastern Shard of Latesran" posX="1644" posY="2881" posZ="1667" heading="0"/>
+	<teleloc_template loc_id="51" mapid="400010000" name="Asmo Eastern Lower Layer of Latesran"/>
+	<teleloc_template loc_id="52" mapid="400010000" name="Western Shard of Latesran" posX="2100" posY="593" posZ="1567" heading="0"/>
+	<teleloc_template loc_id="53" mapid="400010000" name="Asmo Western Lower Layer of Latesran"/>
+	<teleloc_template loc_id="54" mapid="400010000" name="Siels Western Fortress" posX="2985.3564" posY="2595.3398" posZ="1489.0905" heading="33"/>
+	<teleloc_template loc_id="55" mapid="400010000" name="Siels Eastern Fortess" posX="2656.2722" posY="3063.4211" posZ="1483.1167" heading="33"/>
+	<teleloc_template loc_id="56" mapid="400010000" name="Sulfur Archipelago" posX="1345.1719" posY="1190.9126" posZ="1514.6681" heading="41"/>
+	<teleloc_template loc_id="57" mapid="400010000" name="Krotan Refuge" posX="2033.38" posY="1294.35" posZ="2963.57" heading="60"/>
+	<teleloc_template loc_id="58" mapid="400010000" name="Kysis Fortress" posX="2533.7102" posY="2090.47" posZ="3049.9705" heading="91"/>
+	<teleloc_template loc_id="59" mapid="400010000" name="Miren Fortress" posX="1792.247" posY="2315.0828" posZ="2949.6829" heading="7"/>
+	<teleloc_template loc_id="60" mapid="400010000" name="Asteria Fortress" posX="717.2298" posY="3002.2446" posZ="2893.0178" heading="16"/>
+	<teleloc_template loc_id="61" mapid="400010000" name="Ab1_DYN_D_1011" posX="2125.776" posY="1913.0077" posZ="2322.0728" heading="72"/>
+	<teleloc_template loc_id="62" mapid="400010000" name="Roah Fortress" posX="2711.9102" posY="774.9118" posZ="2872.3818" heading="93"/>
+	<teleloc_template loc_id="75" mapid="400010000" name="Miren Fortress" posX="2033.3788" posY="1294.3495" posZ="2963.5703" heading="60"/>
+	<teleloc_template loc_id="76" mapid="400010000" name="Kysis Fortress" posX="2533.71" posY="2090.47" posZ="3049.97" heading="91"/>
+	<teleloc_template loc_id="77" mapid="400010000" name="Krotan Refuge" posX="1789.7555" posY="2314.2678" posZ="2949.6802" heading="7"/>
+	<!-- Flying Teleport-->
+	<!-- ELYOS -->
+	<teleloc_template loc_id="12" mapid="210010000" name="Akarios Village"/>
+	<teleloc_template loc_id="13" mapid="210010000" name="Melponeh Campsite"/>
+	<teleloc_template loc_id="14" mapid="210030000" name="Verteron Citadel"/>
+	<teleloc_template loc_id="15" mapid="210030000" name="Pilgrims Respite"/>
+	<teleloc_template loc_id="16" mapid="210030000" name="Verteron Observatory"/>
+	<teleloc_template loc_id="111" mapid="210030000" name="Tolbas Village"/>
+	<teleloc_template loc_id="112" mapid="210030000" name="Ardus Shrine"/>
+	<teleloc_template loc_id="21" mapid="210020000" name="Eltnen Fortress"/>
+	<teleloc_template loc_id="22" mapid="210020000" name="Golden Bough Garrison"/>
+	<teleloc_template loc_id="23" mapid="210020000" name="Agairon Village"/>
+	<teleloc_template loc_id="113" mapid="210020000" name="Eltnen Fortress"/>
+	<teleloc_template loc_id="114" mapid="210020000" name="Eltnen Observatory"/>
+	<teleloc_template loc_id="115" mapid="210020000" name="Agairon Village"/>
+	<teleloc_template loc_id="28" mapid="210040000" name="New Heiron Gate"/>
+	<teleloc_template loc_id="29" mapid="210040000" name="Heiron Observatory"/>
+	<teleloc_template loc_id="30" mapid="210040000" name="Arbolu's Haven"/>
+	<teleloc_template loc_id="31" mapid="210040000" name="Jeiaparan Village"/>
+	<teleloc_template loc_id="118" mapid="210040000" name="New Heiron Gate"/>
+	<teleloc_template loc_id="119" mapid="210040000" name="Kishar observation outpost"/>
+	<teleloc_template loc_id="120" mapid="210040000" name="Changarnerk campsite"/>
+	<teleloc_template loc_id="83" mapid="210060000" name="Maniherk Excavation Camp"/>
+	<teleloc_template loc_id="84" mapid="210060000" name="Observatory Village"/>
+	<teleloc_template loc_id="85" mapid="210060000" name="Jamanok Inn"/>
+	<teleloc_template loc_id="116" mapid="210060000" name="Port Anangke"/>
+	<teleloc_template loc_id="117" mapid="210060000" name="Josnack vigil"/>
+	<!-- ASMODIANS -->
+	<teleloc_template loc_id="18" mapid="220010000" name="Aldelle Village"/>
+	<teleloc_template loc_id="17" mapid="220010000" name="Anturoon Sentry Post"/>
+	<teleloc_template loc_id="63" mapid="220020000" name="Morheim Ice Fortress"/>
+	<teleloc_template loc_id="64" mapid="220020000" name="Salintus Observation Post"/>
+	<teleloc_template loc_id="65" mapid="220020000" name="Alsig Village"/>
+	<teleloc_template loc_id="123" mapid="220020000" name="kellan's Cabin"/>
+	<teleloc_template loc_id="124" mapid="220020000" name="Slag Bulwark"/>
+	<teleloc_template loc_id="125" mapid="220020000" name="Halabana Outpost"/>
+	<teleloc_template loc_id="126" mapid="220020000" name="Morheim Observatory"/>
+	<teleloc_template loc_id="19" mapid="220030000" name="Altgard Fortress"/>
+	<teleloc_template loc_id="20" mapid="220030000" name="Trader's Airship Dock of Call"/>
+	<teleloc_template loc_id="32" mapid="220030000" name="Basfelt Village"/>
+	<teleloc_template loc_id="121" mapid="220030000" name="Impetusium"/>
+	<teleloc_template loc_id="122" mapid="220030000" name="Altgard Observatory"/>
+	<teleloc_template loc_id="78" mapid="220040000" name="Beluslan Fortress"/>
+	<teleloc_template loc_id="79" mapid="220040000" name="Besfer Refugee Camp"/>
+	<teleloc_template loc_id="80" mapid="220040000" name="Red Mane Cavern"/>
+	<teleloc_template loc_id="129" mapid="220040000" name="Kidorun's Campsite"/>
+	<teleloc_template loc_id="130" mapid="220040000" name="Camp Kistenian"/>
+	<teleloc_template loc_id="131" mapid="220040000" name="Hoarfrost Shelter"/>
+	<teleloc_template loc_id="86" mapid="220050000" name="Settler's Camp Site"/>
+	<teleloc_template loc_id="87" mapid="220050000" name="Baltasar Hill Village"/>
+	<teleloc_template loc_id="88" mapid="220050000" name="BuBu Village"/>
+	<teleloc_template loc_id="127" mapid="220050000" name="Edge of Torment"/>
+	<teleloc_template loc_id="128" mapid="220050000" name="Lollu Overlook"/>
+	<!-- Inggison -->
+	<teleloc_template loc_id="90" mapid="210050000" name="LF4_Dyn_L_2011" posX="1666.5121" posY="2190.421" posZ="324.8958" heading="7"/>
+	<teleloc_template loc_id="91" mapid="210050000" name="LF4_Dyn_L_2021" posX="812.62964" posY="1986.4653" posZ="337.32233" heading="113"/>
+	<teleloc_template loc_id="99" mapid="210050000" name="Underground Fortress Observation Base" posX="1335.0" posY="276.0" posZ="589.3662" heading="25"/>
+	<teleloc_template loc_id="100" mapid="210050000" name="Inggison Illusion Fortress"/>
+	<teleloc_template loc_id="101" mapid="210050000" name="Sotena Sanctuary Village"/>
+	<!-- Gelkmaros -->
+	<teleloc_template loc_id="93" mapid="220070000" name="DF4_Dyn_D_3011" posX="1263.3544" posY="823.83575" posZ="310.0366" heading="56"/>
+	<teleloc_template loc_id="94" mapid="220070000" name="DF4_Dyn_D_3021" posX="1952.8867" posY="1069.4634" posZ="326.8721" heading="68"/>
+	<teleloc_template loc_id="102" mapid="220070000" name="Gelkmaros Fortress" posX="1790.0" posY="2915.0" posZ="554.8073" heading="17"/>
+	<teleloc_template loc_id="103" mapid="220070000" name="Rhombus Refugee Village"/>
+	<teleloc_template loc_id="104" mapid="220070000" name="Underground City observation Post"/>
+	<!-- 3.0 -->
+	<teleloc_template loc_id="137" mapid="600020000" name="LDF4a_Airport_ZONE_Li" posX="1213.1521" posY="1356.1478" posZ="612.4769" heading="0"/>
+	<teleloc_template loc_id="138" mapid="600020000" name="LDF4a_Airport_ZONE_Da" posX="1529.3892" posY="1568.5856" posZ="611.9866" heading="0"/>
+	<teleloc_template loc_id="132" mapid="600020000" name="LDF4a_Airport_SUB_OP"/>
+	<teleloc_template loc_id="133" mapid="600020000" name="LDF4a_Airport_SUB_A3"/>
+	<teleloc_template loc_id="134" mapid="600020000" name="LDF4a_Airport_SUB_A4"/>
+	<teleloc_template loc_id="135" mapid="600020000" name="LDF4a_Airport_SUB_D_Li"/>
+	<teleloc_template loc_id="136" mapid="600020000" name="LDF4a_Airport_SUB_D_Da"/>
+	<teleloc_template loc_id="193" mapid="600020000" name="LDF4a_Airport_SUB_A2"/>
+	<teleloc_template loc_id="205" mapid="600020000" name="LDF4a_Airport_SUB_A2_2"/>
+	<teleloc_template loc_id="206" mapid="600020000" name="LDF4a_Airport_SUB_B1"/>
+	<teleloc_template loc_id="207" mapid="600020000" name="LDF4a_Airport_SUB_B2"/>
+	<teleloc_template loc_id="208" mapid="600020000" name="LDF4a_Airport_SUB_C1"/>
+	<!-- Teleport NPC -->
+	<teleloc_template loc_id="303" mapid="600020000" name="LDF4a_C1_teleporter_Upper" posX="2183.9863" posY="1594.1982" posZ="398.7359" heading="0"/>
+	<teleloc_template loc_id="304" mapid="600020000" name="LDF4a_C1_teleporter_Lower" posX="2779.7107" posY="1371.0131" posZ="207.125" heading="0"/>
+	<!-- 3.0 -->
+	<teleloc_template loc_id="201" mapid="600030000" name="LDF4b_Airport_ZONE_OP_L" posX="14" posY="1732" posZ="297" heading="0"/>
+	<teleloc_template loc_id="202" mapid="600030000" name="LDF4b_Airport_ZONE_OP_D" posX="14" posY="1732" posZ="297" heading="0"/>
+	<teleloc_template loc_id="194" mapid="600030000" name="LDF4b_Airport_SUB_OP_L"/>
+	<teleloc_template loc_id="195" mapid="600030000" name="LDF4b_Airport_SUB_OP_D"/>
+	<teleloc_template loc_id="196" mapid="600030000" name="LDF4b_Airport_SUB_T2"/>
+	<teleloc_template loc_id="197" mapid="600030000" name="LDF4b_Airport_SUB_T3"/>
+	<teleloc_template loc_id="198" mapid="600030000" name="LDF4b_Airport_SUB_T4"/>
+	<teleloc_template loc_id="199" mapid="600030000" name="LDF4b_Airport_SUB_C1"/>
+	<teleloc_template loc_id="200" mapid="600030000" name="LDF4b_Airport_SUB_C2"/>
+	<!-- 3.0 -->
+	<teleloc_template loc_id="139" mapid="700010000" name="HLFP_Airport_Level" posX="1256.5579" posY="1835.413" posZ="97.9553" heading="0"/>
+	<teleloc_template loc_id="140" mapid="700010000" name="HLFP_Airport_A" posX="684.4517" posY="2273.5066" posZ="162.25377" heading="0"/>
+	<teleloc_template loc_id="141" mapid="700010000" name="HLFP_Airport_A_1" posX="233.61156" posY="2048.5042" posZ="121.73419" heading="0"/>
+	<teleloc_template loc_id="142" mapid="700010000" name="HLFP_Airport_A_2" posX="273.14465" posY="2624.7512" posZ="265.6051" heading="0"/>
+	<teleloc_template loc_id="143" mapid="700010000" name="HLFP_Airport_A_3" posX="985.51465" posY="2633.6445" posZ="106.58138" heading="0"/>
+	<teleloc_template loc_id="144" mapid="700010000" name="HLFP_Airport_B" posX="691.9899" posY="1048.704" posZ="95.30991" heading="0"/>
+	<teleloc_template loc_id="145" mapid="700010000" name="HLFP_Airport_B_1" posX="781.33936" posY="1531.6823" posZ="101.77079" heading="0"/>
+	<teleloc_template loc_id="146" mapid="700010000" name="HLFP_Airport_B_2" posX="400.07816" posY="1405.9005" posZ="85.68491" heading="0"/>
+	<teleloc_template loc_id="147" mapid="700010000" name="HLFP_Airport_B_3" posX="301.08173" posY="404.7607" posZ="128.10094" heading="0"/>
+	<teleloc_template loc_id="148" mapid="700010000" name="HLFP_Airport_B_4" posX="537.2632" posY="650.3559" posZ="85.73607" heading="0"/>
+	<teleloc_template loc_id="149" mapid="700010000" name="HLFP_Airport_B_5" posX="707.0477" posY="344.22507" posZ="119.617386" heading="0"/>
+	<teleloc_template loc_id="150" mapid="700010000" name="HLFP_Airport_B_6" posX="1247.5981" posY="1174.3341" posZ="102.30991" heading="0"/>
+	<teleloc_template loc_id="151" mapid="700010000" name="HLFP_Airport_B_7" posX="1036.047" posY="824.2705" posZ="82.6958" heading="0"/>
+	<teleloc_template loc_id="152" mapid="700010000" name="HLFP_Airport_B_8" posX="1269.5596" posY="529.774" posZ="110.45259" heading="0"/>
+	<teleloc_template loc_id="153" mapid="700010000" name="HLFP_Airport_C" posX="2541.9072" posY="1636.9911" posZ="180.90013" heading="0"/>
+	<teleloc_template loc_id="154" mapid="700010000" name="HLFP_Airport_C_1" posX="2068.2617" posY="1307.8822" posZ="78.30991" heading="0"/>
+	<teleloc_template loc_id="155" mapid="700010000" name="HLFP_Airport_C_2" posX="2029.3035" posY="1960.8531" posZ="81.18491" heading="0"/>
+	<teleloc_template loc_id="156" mapid="700010000" name="HLFP_Airport_C_3" posX="2051.8562" posY="917.09314" posZ="85.554955" heading="0"/>
+	<teleloc_template loc_id="157" mapid="700010000" name="HLFP_Airport_C_4" posX="2784.6687" posY="1092.8529" posZ="191.80992" heading="0"/>
+	<teleloc_template loc_id="158" mapid="700010000" name="HLFP_Airport_C_5" posX="2353.6277" posY="2193.8047" posZ="137.48112" heading="0"/>
+	<teleloc_template loc_id="159" mapid="700010000" name="HLFP_Airport_C_6" posX="1541.079" posY="2715.6384" posZ="85.18491" heading="0"/>
+	<teleloc_template loc_id="160" mapid="700010000" name="HLFP_Airport_C_7" posX="1617.1471" posY="2255.1704" posZ="84.30991" heading="0"/>
+	<teleloc_template loc_id="161" mapid="700010000" name="HLFP_Airport_C_8" posX="2143.704" posY="406.35718" posZ="85.30991" heading="0"/>
+	<teleloc_template loc_id="162" mapid="700010000" name="HLFP_Airport_C_9" posX="2020.2795" posY="2639.9597" posZ="156.80992" heading="0"/>
+	<teleloc_template loc_id="163" mapid="700010000" name="HLFP_Airport_C_10" posX="2569.007" posY="659.10864" posZ="137.68492" heading="0"/>
+	<teleloc_template loc_id="164" mapid="700010000" name="HLFP_Airport_C_11" posX="2494.2754" posY="2606.5928" posZ="183.18492" heading="0"/>
+	<!-- 3.0 -->
+	<teleloc_template loc_id="165" mapid="710010000" name="HDFP_Airport_Level" posX="1076.9694" posY="1536.6163" posZ="98.08641" heading="0"/>
+	<teleloc_template loc_id="166" mapid="710010000" name="HDFP_Airport_A" posX="915.78326" posY="938.6894" posZ="136.20749" heading="0"/>
+	<teleloc_template loc_id="167" mapid="710010000" name="HDFP_Airport_A_1" posX="1006.8007" posY="305.56506" posZ="73.57843" heading="0"/>
+	<teleloc_template loc_id="168" mapid="710010000" name="HDFP_Airport_A_2" posX="481.47885" posY="388.3648" posZ="200.70462" heading="0"/>
+	<teleloc_template loc_id="169" mapid="710010000" name="HDFP_Airport_A_3" posX="350.85422" posY="1069.5037" posZ="167.81252" heading="0"/>
+	<teleloc_template loc_id="170" mapid="710010000" name="HDFP_Airport_B" posX="2206.036" posY="917.46844" posZ="78.271996" heading="0"/>
+	<teleloc_template loc_id="171" mapid="710010000" name="HDFP_Airport_B_1" posX="1670.7117" posY="926.49945" posZ="72.83199" heading="0"/>
+	<teleloc_template loc_id="172" mapid="710010000" name="HDFP_Airport_B_2" posX="1625.795" posY="397.07373" posZ="84.551994" heading="0"/>
+	<teleloc_template loc_id="173" mapid="710010000" name="HDFP_Airport_B_3" posX="2160.871" posY="304.1554" posZ="76.79953" heading="0"/>
+	<teleloc_template loc_id="174" mapid="710010000" name="HDFP_Airport_B_4" posX="2752.9817" posY="350.7929" posZ="76.922" heading="0"/>
+	<teleloc_template loc_id="175" mapid="710010000" name="HDFP_Airport_B_5" posX="1760.6151" posY="1494.5106" posZ="112.182" heading="0"/>
+	<teleloc_template loc_id="176" mapid="710010000" name="HDFP_Airport_B_6" posX="2294.0332" posY="1404.6498" posZ="78.782" heading="0"/>
+	<teleloc_template loc_id="177" mapid="710010000" name="HDFP_Airport_B_7" posX="2732.594" posY="820.795" posZ="84.172" heading="0"/>
+	<teleloc_template loc_id="178" mapid="710010000" name="HDFP_Airport_B_8" posX="2832.6567" posY="1367.0441" posZ="76.792" heading="0"/>
+	<teleloc_template loc_id="179" mapid="710010000" name="HDFP_Airport_C" posX="1743.4388" posY="2647.5168" posZ="230.972" heading="0"/>
+	<teleloc_template loc_id="180" mapid="710010000" name="HDFP_Airport_C_1" posX="1150.8833" posY="2175.6636" posZ="189.31519" heading="0"/>
+	<teleloc_template loc_id="181" mapid="710010000" name="HDFP_Airport_C_2" posX="1631.1447" posY="2090.8787" posZ="223.0626" heading="0"/>
+	<teleloc_template loc_id="182" mapid="710010000" name="HDFP_Airport_C_3" posX="2187.799" posY="2013.2501" posZ="238.972" heading="0"/>
+	<teleloc_template loc_id="183" mapid="710010000" name="HDFP_Airport_C_4" posX="734.56757" posY="2079.56" posZ="166.59201" heading="0"/>
+	<teleloc_template loc_id="184" mapid="710010000" name="HDFP_Airport_C_5" posX="339.2777" posY="1801.9604" posZ="137.67479" heading="0"/>
+	<teleloc_template loc_id="185" mapid="710010000" name="HDFP_Airport_C_6" posX="2715.71" posY="2087.7058" posZ="341.44693" heading="0"/>
+	<teleloc_template loc_id="186" mapid="710010000" name="HDFP_Airport_C_7" posX="273.86322" posY="2271.6172" posZ="197.34056" heading="0"/>
+	<teleloc_template loc_id="187" mapid="710010000" name="HDFP_Airport_C_8" posX="775.8424" posY="2703.5344" posZ="212.33916" heading="0"/>
+	<teleloc_template loc_id="188" mapid="710010000" name="HDFP_Airport_C_9" posX="2424.668" posY="2552.2358" posZ="323.31445" heading="0"/>
+	<teleloc_template loc_id="189" mapid="710010000" name="HDFP_Airport_C_10" posX="2771.5488" posY="2516.454" posZ="360.4443" heading="0"/>
+	<teleloc_template loc_id="190" mapid="710010000" name="HDFP_Airport_C_11" posX="384.1676" posY="2667.0737" posZ="210.45473" heading="0"/>
+</teleport_location>

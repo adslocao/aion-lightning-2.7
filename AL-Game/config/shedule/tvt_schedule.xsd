@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="tvt_level" type="tvtLevel"/>
+	<xs:element name="tvt_schedule" type="tvtSchedule"/>
+	
+	<xs:complexType name="tvtSchedule">
+		<xs:sequence>
+			<xs:element ref="tvt_level" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="tvtLevel">
+		<xs:sequence>
+		    <xs:element name="tvt_registrator" type="tvtRegistrator" maxOccurs="unbounded"/>
+			<xs:element name="tvt_time" type="xs:string" maxOccurs="unbounded"/>
+			<xs:element name="tvt_helpers" type="tvtHelpers" maxOccurs="unbounded"/>
+			<xs:element name="tvt_clock" type="tvtClock" maxOccurs="unbounded"/>
+			<xs:element name="tvt_boss" type="tvtBoss" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="level" type="xs:int" use="required"/>
+		<xs:attribute name="start_time" type="xs:int" use="required"/>
+		<xs:attribute name="duration" type="xs:int" use="required"/>
+		<xs:attribute name="mapId" type="xs:int" use="required"/>
+		<xs:attribute name="boss" type="xs:boolean" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="tvtRegistrator">
+		<xs:attribute name="mapId" type="xs:int" use="required"/>
+		<xs:attribute name="npcId" type="xs:int" use="required"/>
+		<xs:attribute name="x" type="xs:float" use="required"/>
+		<xs:attribute name="y" type="xs:float" use="required"/>
+		<xs:attribute name="z" type="xs:float" use="required"/>
+		<xs:attribute name="h" type="xs:byte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="tvtHelpers">
+		<xs:sequence>
+		    <xs:element name="tvt_helper_loc" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="helperId" type="xs:int" use="required"/>
+		<xs:attribute name="race" type="Race" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="tvtClock">
+		<xs:sequence>
+		    <xs:element name="tvt_clock_loc" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="clockId" type="xs:int" use="required"/>
+		<xs:attribute name="race" type="Race" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="tvtBoss">
+		<xs:sequence>
+		    <xs:element name="tvt_boss_loc" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="bossId" type="xs:int" use="required"/>
+		<xs:attribute name="need_score" type="xs:int" use="required"/>
+		<xs:attribute name="reward" type="xs:int" use="required"/>
+		<xs:attribute name="vote" type="xs:int" use="required"/>
+		<xs:attribute name="ap" type="xs:int" use="required"/>
+		<xs:attribute name="remove_cd" type="xs:boolean" use="required"/>
+		<xs:attribute name="boost" type="xs:boolean" use="required"/>
+	</xs:complexType>
+	
+	<xs:simpleType name="Race">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ELYOS" />
+			<xs:enumeration value="ASMODIANS" />
+			<xs:enumeration value="LYCAN" />
+			<xs:enumeration value="CONSTRUCT" />
+			<xs:enumeration value="CARRIER" />
+			<xs:enumeration value="DRAKAN" />
+			<xs:enumeration value="LIZARDMAN" />
+			<xs:enumeration value="TELEPORTER" />
+			<xs:enumeration value="NAGA" />
+			<xs:enumeration value="BROWNIE" />
+			<xs:enumeration value="KRALL" />
+			<xs:enumeration value="SHULACK" />
+			<xs:enumeration value="BARRIER" />
+			<xs:enumeration value="PC_LIGHT_CASTLE_DOOR" />
+			<xs:enumeration value="PC_DARK_CASTLE_DOOR" />
+			<xs:enumeration value="DRAGON_CASTLE_DOOR" />
+			<xs:enumeration value="GCHIEF_LIGHT" />
+			<xs:enumeration value="GCHIEF_DARK" />
+			<xs:enumeration value="DRAGON" />
+			<xs:enumeration value="OUTSIDER" />
+			<xs:enumeration value="RATMAN" />
+			<xs:enumeration value="DEMIHUMANOID" />
+			<xs:enumeration value="UNDEAD" />
+			<xs:enumeration value="BEAST" />
+			<xs:enumeration value="MAGICALMONSTER" />
+			<xs:enumeration value="ELEMENTAL" />
+			<xs:enumeration value="NONE" />
+			<xs:enumeration value="PC_ALL" />
+			<xs:enumeration value="GOBLIN" />
+			<xs:enumeration value="GENERAL" />
+			<xs:enumeration value="NPC" />
+			<xs:enumeration value="LIVINGWATER" />
+			<xs:enumeration value="NEUT" />
+			<xs:enumeration value="GHENCHMAN_LIGHT" />
+			<xs:enumeration value="GHENCHMAN_DARK" />
+			<xs:enumeration value="TRICODARK" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

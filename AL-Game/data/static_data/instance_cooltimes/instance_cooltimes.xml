@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance_cooltimes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="instance_cooltimes.xsd">
+	<instance_cooltime race="PC_ALL" worldId="310090000" id="1">
+		<ent_cool_time>120</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>41</enter_min_level_light>
+		<enter_min_level_dark>41</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="320080000" id="2">
+		<ent_cool_time>120</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>39</enter_min_level_light>
+		<enter_min_level_dark>39</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="320100000" id="3">
+		<ent_cool_time>15</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>27</enter_min_level_light>
+		<enter_min_level_dark>27</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="310050000" id="4">
+		<ent_cool_time>5</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>35</enter_min_level_light>
+		<enter_min_level_dark>35</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310110000" id="6">
+		<ent_cool_time>90</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>0</max_member_dark>
+		<enter_min_level_light>46</enter_min_level_light>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320130000" id="7">
+		<ent_cool_time>90</ent_cool_time>
+		<max_member_light>0</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_dark>46</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300030000" id="8">
+		<ent_cool_time>90</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>25</enter_min_level_light>
+		<enter_min_level_dark>25</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300040000" id="9">
+		<ent_cool_time>180</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>50</enter_min_level_light>
+		<enter_min_level_dark>50</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300060000" id="10">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>30</enter_min_level_light>
+		<enter_min_level_dark>30</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300090000" id="11">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>30</enter_min_level_light>
+		<enter_min_level_dark>30</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300080000" id="12">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>30</enter_min_level_light>
+		<enter_min_level_dark>30</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300050000" id="13">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>40</enter_min_level_light>
+		<enter_min_level_dark>40</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300070000" id="14">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>40</enter_min_level_light>
+		<enter_min_level_dark>40</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300140000" id="15">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>40</enter_min_level_light>
+		<enter_min_level_dark>40</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300120000" id="16">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>40</enter_min_level_light>
+		<enter_min_level_dark>40</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300130000" id="17">
+		<ent_cool_time>360</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>40</enter_min_level_light>
+		<enter_min_level_dark>40</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300100000" id="18">
+		<ent_cool_time>60</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>40</enter_min_level_light>
+		<enter_min_level_dark>40</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300110000" id="19">
+		<ent_cool_time>60</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>46</enter_min_level_light>
+		<enter_max_level_light>55</enter_max_level_light>
+		<enter_min_level_dark>46</enter_min_level_dark>
+		<enter_max_level_dark>55</enter_max_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310030000" id="20">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>0</max_member_dark>
+		<enter_min_level_light>15</enter_min_level_light>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310040000" id="21">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>0</max_member_dark>
+		<enter_min_level_light>35</enter_min_level_light>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320030000" id="22">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>0</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_dark>14</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320040000" id="23">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>0</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_dark>34</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320050000" id="24">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>0</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_dark>27</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="310100000" id="25">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>35</enter_min_level_light>
+		<enter_min_level_dark>35</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300150000" id="26">
+		<ent_cool_time>180</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>51</enter_min_level_light>
+		<enter_min_level_dark>51</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300160000" id="27">
+		<ent_cool_time>180</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>51</enter_min_level_light>
+		<enter_min_level_dark>51</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300170000" id="28">
+		<ent_cool_time>240</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>55</enter_min_level_light>
+		<enter_min_level_dark>55</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300190000" id="29">
+		<ent_cool_time>180</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>51</enter_min_level_light>
+		<enter_max_level_light>55</enter_max_level_light>
+		<enter_min_level_dark>51</enter_min_level_dark>
+		<enter_max_level_dark>55</enter_max_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310010000" id="30">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310020000" id="31">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310120000" id="32">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320010000" id="33">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320020000" id="34">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320140000" id="35">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320090000" id="36">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320120000" id="37">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320060000" id="38">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310080000" id="39">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310060000" id="40">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ELYOS" worldId="310070000" id="41">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="ASMODIANS" worldId="320070000" id="42">
+		<ent_cool_time>0</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>1</enter_min_level_light>
+		<enter_min_level_dark>1</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300210000" id="43">
+		<ent_cool_time>60</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>51</enter_min_level_light>
+		<enter_max_level_light>55</enter_max_level_light>
+		<enter_min_level_dark>51</enter_min_level_dark>
+		<enter_max_level_dark>55</enter_max_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300220000" id="44">
+		<ent_cool_time>1380</ent_cool_time>
+		<max_member_light>12</max_member_light>
+		<max_member_dark>12</max_member_dark>
+		<enter_min_level_light>50</enter_min_level_light>
+		<enter_min_level_dark>50</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300230000" id="45">
+		<ent_cool_time>90</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>37</enter_min_level_light>
+		<enter_max_level_light>55</enter_max_level_light>
+		<enter_min_level_dark>37</enter_min_level_dark>
+		<enter_max_level_dark>55</enter_max_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300200000" id="46">
+		<ent_cool_time>90</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>16</enter_min_level_light>
+		<enter_max_level_light>55</enter_max_level_light>
+		<enter_min_level_dark>16</enter_min_level_dark>
+		<enter_max_level_dark>55</enter_max_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300250000" id="51">
+		<ent_cool_time>480</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>50</enter_min_level_light>
+		<enter_min_level_dark>50</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300300000" id="54">
+		<ent_cool_time>480</ent_cool_time>
+		<max_member_light>6</max_member_light>
+		<max_member_dark>6</max_member_dark>
+		<enter_min_level_light>50</enter_min_level_light>
+		<enter_min_level_dark>50</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300320000" id="57">
+		<ent_cool_time>45</ent_cool_time>
+		<max_member_light>1</max_member_light>
+		<max_member_dark>1</max_member_dark>
+		<enter_min_level_light>50</enter_min_level_light>
+		<enter_min_level_dark>50</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300350000" id="61">
+		<ent_cool_time>1</ent_cool_time>
+		<max_member_light>10</max_member_light>
+		<max_member_dark>10</max_member_dark>
+		<enter_min_level_light>46</enter_min_level_light>
+		<enter_min_level_dark>46</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300360000" id="62">
+		<ent_cool_time>1</ent_cool_time>
+		<max_member_light>2</max_member_light>
+		<max_member_dark>2</max_member_dark>
+		<enter_min_level_light>46</enter_min_level_light>
+		<enter_min_level_dark>46</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="320150000" id="68">
+		<ent_cool_time>720</ent_cool_time>
+		<max_member_light>48</max_member_light>
+		<max_member_dark>48</max_member_dark>
+		<enter_min_level_light>55</enter_min_level_light>
+		<enter_min_level_dark>55</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300420000" id="69">
+		<ent_cool_time>15</ent_cool_time>
+		<max_member_light>10</max_member_light>
+		<max_member_dark>10</max_member_dark>
+		<enter_min_level_light>46</enter_min_level_light>
+		<enter_min_level_dark>46</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+	<instance_cooltime race="PC_ALL" worldId="300430000" id="70">
+		<ent_cool_time>15</ent_cool_time>
+		<max_member_light>2</max_member_light>
+		<max_member_dark>2</max_member_dark>
+		<enter_min_level_light>46</enter_min_level_light>
+		<enter_min_level_dark>46</enter_min_level_dark>
+		<can_enter_mentor>false</can_enter_mentor>
+	</instance_cooltime>
+</instance_cooltimes>
