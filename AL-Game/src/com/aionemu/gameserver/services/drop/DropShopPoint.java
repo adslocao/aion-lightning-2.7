@@ -45,7 +45,7 @@ public class DropShopPoint {
 		PlayerGroup pg = null;
 		Collection<Player> listPlayer = new ArrayList<Player>();
 		
-		// Si pas npc custom drop
+		// If killed NPC is not in custom shop point npcs list
 		if(!makeCalculations(npc)) {
 			return;
 		}
@@ -145,9 +145,7 @@ public class DropShopPoint {
 			return false;
 		}
 		
-		NpcTemplate npcTemplate = npc.getObjectTemplate();
 		int npcTemplateId = npc.getNpcId();
-		NpcRating npcRating = npcTemplate.getRating();
 		
 		String[] npcsShopPoint = CustomDrop.getNpcShopPoint();
 		if(!Arrays.asList(npcsShopPoint).contains(String.valueOf(npcTemplateId))) {
@@ -157,32 +155,38 @@ public class DropShopPoint {
 			return false;
 		}
 		
+		if(CustomDrop.SHOPPOINTS_FIXED_REWARD) {
+			luck = CustomDrop.SHOPPOINTS_FIXED_REWARD_LUCK;
+			max = CustomDrop.SHOPPOINTS_FIXED_REWARD_MAX;
+			min = CustomDrop.SHOPPOINTS_FIXED_REWARD_MIN;
+			return true;
+		}
+		
+		NpcTemplate npcTemplate = npc.getObjectTemplate();
+		NpcRating npcRating = npcTemplate.getRating();
+		
 		switch (npcRating) {
 			case LEGENDARY:
-				luck = 50;
-				max = 25;
-				min = 10;
+				luck = CustomDrop.SHOPPOINTS_LEGENDARY_LUCK;
+				max = CustomDrop.SHOPPOINTS_LEGENDARY_MAX;
+				min = CustomDrop.SHOPPOINTS_LEGENDARY_MIN;
 				break;
 			case HERO:
-				luck = 50;
-				max = 10;
-				min = 5;
+				luck = CustomDrop.SHOPPOINTS_HERO_LUCK;
+				max = CustomDrop.SHOPPOINTS_HERO_MAX;
+				min = CustomDrop.SHOPPOINTS_HERO_MIN;
 				break;
 			case ELITE:
-				luck = 50;
-				max = 5;
-				min = 3;
+				luck = CustomDrop.SHOPPOINTS_ELITE_LUCK;
+				max = CustomDrop.SHOPPOINTS_ELITE_MAX;
+				min = CustomDrop.SHOPPOINTS_ELITE_MIN;
 				break;
 			case NORMAL:
-				luck = 50;
-				max = 2;
-				min = 1;
-				break;
 			case JUNK:
 			default:
-				luck = 50;
-				max = 2;
-				min = 1;
+				luck = CustomDrop.SHOPPOINTS_NORMAL_LUCK;
+				max = CustomDrop.SHOPPOINTS_NORMAL_MAX;
+				min = CustomDrop.SHOPPOINTS_NORMAL_MIN;
 				break;
 		}
 		

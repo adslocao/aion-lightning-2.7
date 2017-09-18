@@ -36,8 +36,58 @@ public class CustomDrop {
 
 	/**
 	 * Shop point drops
-	 * Only id of NPC, chance will be calculated in service
 	 */
+	@Property(key = "gameserver.custom.shoppoints.enable", defaultValue = "false")
+	public static boolean SHOPPOINTS_DROPABLE;
+	
+	@Property(key = "gameserver.custom.shoppoints.fixed_reward", defaultValue = "true")
+	public static boolean SHOPPOINTS_FIXED_REWARD;
+	
+	@Property(key = "gameserver.custom.shoppoints.fixed_reward.luck", defaultValue = "50")
+	public static int SHOPPOINTS_FIXED_REWARD_LUCK;
+	
+	@Property(key = "gameserver.custom.shoppoints.fixed_reward.max", defaultValue = "1")
+	public static int SHOPPOINTS_FIXED_REWARD_MAX;
+	
+	@Property(key = "gameserver.custom.shoppoints.fixed_reward.min", defaultValue = "1")
+	public static int SHOPPOINTS_FIXED_REWARD_MIN;
+	
+	@Property(key = "gameserver.custom.shoppoints.legendary.luck", defaultValue = "50")
+	public static int SHOPPOINTS_LEGENDARY_LUCK;
+	
+	@Property(key = "gameserver.custom.shoppoints.legendary.max", defaultValue = "1")
+	public static int SHOPPOINTS_LEGENDARY_MAX;
+	
+	@Property(key = "gameserver.custom.shoppoints.legendary.min", defaultValue = "1")
+	public static int SHOPPOINTS_LEGENDARY_MIN;
+	
+	@Property(key = "gameserver.custom.shoppoints.hero.luck", defaultValue = "50")
+	public static int SHOPPOINTS_HERO_LUCK;
+	
+	@Property(key = "gameserver.custom.shoppoints.hero.max", defaultValue = "1")
+	public static int SHOPPOINTS_HERO_MAX;
+	
+	@Property(key = "gameserver.custom.shoppoints.hero.min", defaultValue = "1")
+	public static int SHOPPOINTS_HERO_MIN;
+	
+	@Property(key = "gameserver.custom.shoppoints.elite.luck", defaultValue = "50")
+	public static int SHOPPOINTS_ELITE_LUCK;
+	
+	@Property(key = "gameserver.custom.shoppoints.elite.max", defaultValue = "1")
+	public static int SHOPPOINTS_ELITE_MAX;
+	
+	@Property(key = "gameserver.custom.shoppoints.elite.min", defaultValue = "1")
+	public static int SHOPPOINTS_ELITE_MIN;
+	
+	@Property(key = "gameserver.custom.shoppoints.normal.luck", defaultValue = "50")
+	public static int SHOPPOINTS_NORMAL_LUCK;
+	
+	@Property(key = "gameserver.custom.shoppoints.normal.max", defaultValue = "1")
+	public static int SHOPPOINTS_NORMAL_MAX;
+	
+	@Property(key = "gameserver.custom.shoppoints.normal.min", defaultValue = "1")
+	public static int SHOPPOINTS_NORMAL_MIN;
+	
 	@Property(key = "gameserver.custom.shoppoints.npcs", defaultValue = "")
 	public static String SHOP_NPC;
 	

@@ -21,6 +21,7 @@ import org.slf4j.LoggerFactory;
 
 import com.aionemu.gameserver.ai2.event.AIEventType;
 import com.aionemu.gameserver.ai2.poll.AIQuestion;
+import com.aionemu.gameserver.configs.custom.CustomDrop;
 import com.aionemu.gameserver.configs.custom.CustomFun;
 import com.aionemu.gameserver.custom.CustomPlayerRank;
 import com.aionemu.gameserver.dataholders.DataManager;
@@ -186,8 +187,10 @@ public class NpcController extends CreatureController<Npc> {
 		}
 		
 		// Custom DropShopPoint
-		DropShopPoint d = new DropShopPoint(getOwner());
-		d.callNpcShopPointRewardForPlayer();
+		if(CustomDrop.SHOPPOINTS_DROPABLE) {
+			DropShopPoint d = new DropShopPoint(getOwner());
+			d.callNpcShopPointRewardForPlayer();
+		}
 	}
 
 	@Override
