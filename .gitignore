@@ -1,0 +1,14 @@
+.settings
+build
+config/network
+dist
+libs
+sql
+target
+test
+*.*~
+.classpath
+.project
+/*.xml
+/*.bat
+/bin/
