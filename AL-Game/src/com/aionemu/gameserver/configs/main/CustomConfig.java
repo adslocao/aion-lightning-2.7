@@ -348,6 +348,12 @@ public class CustomConfig {
 	
 	@Property(key = "gameserver.faction.bonus.pvp.attack", defaultValue = "1.1")
 	public static float FACTION_BONUS_ATTACK;
+
+	@Property(key = "gameserver.toll.name.en", defaultValue = "Shop point")
+	public static String TOLL_NAME_EN;
+	
+	@Property(key = "gameserver.toll.name.fr", defaultValue = "Point boutique")
+	public static String TOLL_NAME_FR;
 	
 	@Property(key = "gameserver.toll.exchange.price", defaultValue = "500000")
 	public static int TOLL_EXCHANGE_PRICE;

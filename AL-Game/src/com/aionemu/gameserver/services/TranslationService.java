@@ -1,5 +1,6 @@
 package com.aionemu.gameserver.services;
 
+import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 
 public enum TranslationService {
@@ -53,24 +54,24 @@ public enum TranslationService {
 			),
 	// DSP = DropShopPoint service
 	DSP_ERROR_LEVEL_GROUP (
-			"[Loot] Le niveau d'au moins un membre de votre groupe est trop \u00E9lev\u00E9 pour remporter des points boutique.",
-			"[Loot] Level of at least one of your teammates is too high for winning Shop Point."
+			"[Loot] Le niveau d'au moins un membre de votre groupe est trop \u00E9lev\u00E9 pour remporter des %toll.",
+			"[Loot] Level of at least one of your teammates is too high for winning %toll."
 			),
 	DSP_ERROR_LEVEL_PLAYER (
-			"[Loot] Votre niveau est trop \u00E9lev\u00E9 pour remporter des points boutique.",
-			"[Loot] Your level is too high for winning Shop Point."
+			"[Loot] Votre niveau est trop \u00E9lev\u00E9 pour remporter des %toll.",
+			"[Loot] Your level is too high for winning %toll."
 			),
 	DSP_ERROR_ADD_ERROR (
-			"[Loot] Une erreur est survenue lors de l'ajout de vos points boutique. Veuillez contacter un administrateur.",
-			"[Loot] An error has occured when adding your Shop Point. Please contact administrator."
+			"[Loot] Une erreur est survenue lors de l'ajout de vos %toll. Veuillez contacter un administrateur.",
+			"[Loot] An error has occured when adding your %toll. Please contact administrator."
 			),
 	DSP_NO_LUCK_NO_WIN (
-			"[Loot] Dommage ! Vous n'avez pas eu la chance d'obtenir des points boutique sur ce NPC.",
-			"[Loot] Too bad ! You didn't have chance to win Shop Point on this NPC."
+			"[Loot] Dommage ! Vous n'avez pas eu la chance d'obtenir des %toll sur ce NPC.",
+			"[Loot] Too bad ! You didn't have chance to win %toll on this NPC."
 			),
 	DSP_YOU_WIN (
-			"[Loot] F\u00E9licitations ! En tuant ce NPC, vous avez remport\u00E9 %s points boutique !",
-			"[Loot] Congratulations ! By killing this NPC, you win %s Shop Points !"
+			"[Loot] F\u00E9licitations ! En tuant ce NPC, vous avez remport\u00E9 %s %toll !",
+			"[Loot] Congratulations ! By killing this NPC, you win %s %toll !"
 			),
 	// Player command .giveme (for crafting)
 	GIVE_ME_ERROR_ID (
@@ -122,26 +123,26 @@ public enum TranslationService {
 			"D\u00E9fense PvP : +%s",
 			"PvP defence Bonus: +%s"
 			),
-	// Get Chaion with Kinah
-	CHAION_ERROR_KINAH (
-			"[CHAION] Le montant en Kinah n'est pas valide",
-			"[CHAION] Kinah amount is not correct"
+	// Get tolls with Kinah
+	TOLL_ERROR_KINAH (
+			"[TOLL] Le montant en Kinah n'est pas valide",
+			"[TOLL] Kinah amount is not correct"
 			),
-	CHAION_ERROR_NOTENOUGHKINAH (
-			"[CHAION] Nous ne disposez d'assez de Kinah. Un peu de farm, que diable !",
-			"[CHAION] You don't have enough Kinah. Do more farm, omg !"
+	TOLL_ERROR_NOTENOUGHKINAH (
+			"[TOLL] Vous n'avez pas assez de Kinah. Un peu de farm, que diable !",
+			"[TOLL] You don't have enough Kinah. Do more farm, omg !"
 			),
-	CHAION_ERROR_TOLL (
-			"[CHAION] Le montant en Chaion n'est pas valide",
-			"[CHAION] Chaion amount is not correct"
+	TOLL_ERROR_TOLL (
+			"[TOLL] Le montant en %toll n'est pas valide",
+			"[TOLL] %toll amount is not correct"
 			),
-	CHAION_ERROR_COST (
-			"[CHAION] Le montant en Kinah ne correspond pas au montant en Chaion",
-			"[CHAION] Kinah amount does not match with Chaion amount"
+	TOLL_ERROR_COST (
+			"[TOLL] Le montant en Kinah ne correspond pas au montant en %toll",
+			"[TOLL] Kinah amount does not match with %toll amount"
 			),
-	CHAION_SUCCESS (
-			"[CHAION] Vous avez d\u00E9pens\u00E9 %s Kinahs pour obtenir %s Chaion",
-			"[CHAION] You paid %s Kinahs to get %s Chaion"
+	TOLL_SUCCESS (
+			"[TOLL] Vous avez d\u00E9pens\u00E9 %s Kinahs pour obtenir %s %toll",
+			"[TOLL] You paid %s Kinahs to get %s %toll"
 			),
 	// Buff player
 	BUFF_SCROLL_MISSING (
@@ -199,10 +200,16 @@ public enum TranslationService {
 		String enMessage = en;
 		String frMessage = fr;
 		
+		String enTollName = CustomConfig.TOLL_NAME_EN;
+		String frTollName = CustomConfig.TOLL_NAME_FR;
+		
 		for (String param : params) {
 			enMessage = enMessage.replaceFirst("%s", param);
 			frMessage = frMessage.replaceFirst("%s", param);
 		}
+		
+		enMessage = enMessage.replaceFirst("%toll", enTollName);
+		frMessage = frMessage.replaceFirst("%toll", frTollName);
 		
 		String locale = player.getCommonData().getLocale();
 		return locale.contains("en") ? enMessage : frMessage;
