@@ -57,9 +57,11 @@ public class RecursiveAdd{
 	
 	public static final void rewardPlayer(Player player){
 		if(player != null && !player.isInPrison()){
-			String MESSAGE = TranslationService.RECURSIVEADD_MESSAGE.toString(player);
-			PacketSendUtility.sendBrightYellowMessageOnCenter(player, MESSAGE);
-			ItemService.addItem(player, REWARD_ID, REWARD_COUNT);
+			// Send message to player only if inventory is not full
+			if(ItemService.addItem(player, REWARD_ID, REWARD_COUNT) > 0) {
+				String MESSAGE = TranslationService.RECURSIVEADD_MESSAGE.toString(player);
+				PacketSendUtility.sendBrightYellowMessageOnCenter(player, MESSAGE);
+			}
 		}
 	}
 }
