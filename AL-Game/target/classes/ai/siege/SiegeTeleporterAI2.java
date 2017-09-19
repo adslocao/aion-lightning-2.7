@@ -22,6 +22,7 @@ import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_FORTRESS_INFO;
 import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
 
 import ai.GeneralNpcAI2;
@@ -37,6 +38,12 @@ public class SiegeTeleporterAI2 extends GeneralNpcAI2 {
 		canTeleport(false);
 		super.handleDied();
 	}
+	
+	@Override
+	protected void handleDespawned() {
+		canTeleport(false);
+		super.handleDespawned();
+	}
 
 	@Override
 	protected void handleSpawned() {
@@ -48,14 +55,9 @@ public class SiegeTeleporterAI2 extends GeneralNpcAI2 {
 		final int id = ((SiegeNpc) getOwner()).getSiegeId();
 		SiegeService.getInstance().getFortress(id).setCanTeleport(status);
 
-		getPosition().getWorldMapInstance().doOnAllPlayers(new Visitor<Player>() {
-
-			@Override
-			public void visit(Player player) {
-				PacketSendUtility.sendPacket(player, new SM_FORTRESS_INFO(id, status));
-			}
-
-		});
+		for (Player player : World.getInstance().getAllPlayers()) {
+			PacketSendUtility.sendPacket(player, new SM_FORTRESS_INFO(id, status));
+		}
 	}
 
 }

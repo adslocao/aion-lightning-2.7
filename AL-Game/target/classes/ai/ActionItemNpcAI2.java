@@ -61,31 +61,27 @@ public class ActionItemNpcAI2 extends NpcAI2 {
 			@Override
 			public void abort() {
 				player.getController().cancelTask(TaskId.ACTION_ITEM_NPC);
-				PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.END_QUESTLOOT, 0, getObjectId()),
-					true);
-				PacketSendUtility.sendPacket(player, new SM_USE_OBJECT(player.getObjectId(), getObjectId(), getTalkDelay(), 0));
+				PacketSendUtility.broadcastPacket(player,
+						new SM_EMOTION(player, EmotionType.END_QUESTLOOT, 0, getObjectId()), true);
+				PacketSendUtility.sendPacket(player,
+						new SM_USE_OBJECT(player.getObjectId(), getObjectId(), getTalkDelay(), 0));
 			}
 		};
 
 		player.getObserveController().attach(observer);
 		final ActionItemNpc actionItem = player.getActionItemNpc();
-		PacketSendUtility
-			.sendPacket(
-				player,
-				new SM_USE_OBJECT(player.getObjectId(), getObjectId(), actionItem.getTalkDelay(), actionItem
-					.getStartCondition()));
+		PacketSendUtility.sendPacket(player, new SM_USE_OBJECT(player.getObjectId(), getObjectId(),
+				actionItem.getTalkDelay(), actionItem.getStartCondition()));
 		PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.START_QUESTLOOT, 0, getObjectId()),
-			true);
+				true);
 		player.getController().addTask(TaskId.ACTION_ITEM_NPC, ThreadPoolManager.getInstance().schedule(new Runnable() {
 
 			@Override
 			public void run() {
-				PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.END_QUESTLOOT, 0, getObjectId()),
-					true);
-				PacketSendUtility.sendPacket(
-					player,
-					new SM_USE_OBJECT(player.getObjectId(), getObjectId(), actionItem.getTalkDelay(), actionItem
-						.getEndCondition()));
+				PacketSendUtility.broadcastPacket(player,
+						new SM_EMOTION(player, EmotionType.END_QUESTLOOT, 0, getObjectId()), true);
+				PacketSendUtility.sendPacket(player, new SM_USE_OBJECT(player.getObjectId(), getObjectId(),
+						actionItem.getTalkDelay(), actionItem.getEndCondition()));
 				player.getObserveController().removeObserver(observer);
 				handleUseItemFinish(player);
 			}
@@ -93,10 +89,13 @@ public class ActionItemNpcAI2 extends NpcAI2 {
 	}
 
 	protected void handleUseItemFinish(Player player) {
+		if (getOwner().isInInstance())
+			AI2Actions.handleUseItemFinish(this, player);
+
 		SelectDialogResult dialogResult = AI2Actions.selectDialog(this, player, 0, -1);
 		if (!dialogResult.isSuccess())
 			return;
-		
+
 		QuestEnv questEnv = dialogResult.getEnv();
 		if (QuestService.getQuestDrop(getNpcId()).isEmpty())
 			return;
@@ -104,17 +103,16 @@ public class ActionItemNpcAI2 extends NpcAI2 {
 		if (registeredPlayers.isEmpty()) {
 			AI2Actions.scheduleRespawn(this);
 			if (player.isInGroup2()) {
-				registeredPlayers = QuestService.getEachDropMembers(player.getPlayerGroup2(), getNpcId(), questEnv.getQuestId());
+				registeredPlayers = QuestService.getEachDropMembers(player.getPlayerGroup2(), getNpcId(),
+						questEnv.getQuestId());
 				if (registeredPlayers.isEmpty())
 					registeredPlayers.add(player);
-			}
-			else
+			} else
 				registeredPlayers.add(player);
 			AI2Actions.registerDrop(this, player, registeredPlayers);
 			AI2Actions.dieSilently(this, player);
 			DropService.getInstance().requestDropList(player, getObjectId());
-		}
-		else if (registeredPlayers.contains(player)) {
+		} else if (registeredPlayers.contains(player)) {
 			AI2Actions.dieSilently(this, player);
 			DropService.getInstance().requestDropList(player, getObjectId());
 		}

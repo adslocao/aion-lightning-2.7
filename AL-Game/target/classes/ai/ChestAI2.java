@@ -43,6 +43,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 public class ChestAI2 extends ActionItemNpcAI2 {
 
 	private ChestTemplate chestTemplate;
+	private boolean isOpen = false;
 
 	@Override
 	protected void handleDialogStart(final Player player) {
@@ -57,7 +58,11 @@ public class ChestAI2 extends ActionItemNpcAI2 {
 
 	@Override
 	protected void handleUseItemFinish(Player player) {
+		if(isOpen){
+			return;
+		}
 		if (analyzeOpening(player)) {
+			isOpen = true;
 			Collection<Player> players = new HashSet<Player>();
 			if (player.isInGroup2()) {
 				for (Player member : player.getPlayerGroup2().getOnlineMembers()) {
