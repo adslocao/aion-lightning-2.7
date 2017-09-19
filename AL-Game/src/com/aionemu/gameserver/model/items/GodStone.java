@@ -20,6 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.controllers.observer.ActionObserver;
 import com.aionemu.gameserver.controllers.observer.ObserverType;
 import com.aionemu.gameserver.dataholders.DataManager;
@@ -78,7 +79,10 @@ public class GodStone extends ItemStone {
 			int hitCount = 0;
 			@Override
 			public void attack(Creature creature) {
-				if(hitCount > 0){
+				if(CustomConfig.DISABLE_GS_EFFECT) {
+					return;
+				}
+				if(hitCount > 0 && CustomConfig.GS_SECURISED_EFFECT) {
 					// log.info("[GODSTONE] no anoth monster kill for another proc : "+ hitCount);
 					hitCount--;
 					return;

@@ -357,4 +357,10 @@ public class CustomConfig {
 	
 	@Property(key = "gameserver.toll.exchange.price", defaultValue = "500000")
 	public static int TOLL_EXCHANGE_PRICE;
+	
+	@Property(key = "gameserver.gs.disableeffect", defaultValue = "false")
+	public static boolean DISABLE_GS_EFFECT;
+	
+	@Property(key = "gameserver.gs.securisedeffect", defaultValue = "false")
+	public static boolean GS_SECURISED_EFFECT;
 }
