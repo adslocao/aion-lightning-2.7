@@ -4,7 +4,6 @@ config/network
 dist
 libs
 sql
-target
 test
 *.*~
 .classpath
