@@ -8,10 +8,16 @@ import org.slf4j.LoggerFactory;
 
 import com.aionemu.gameserver.configs.custom.RecursiveAddConf;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.TranslationService;
 import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.World;
+
+/**
+ * @author Krunchy
+ * @modified Ferosia
+ */
 
 public class RecursiveAdd{
 	public static Logger _log = LoggerFactory.getLogger(RecursiveAdd.class);
@@ -21,8 +27,6 @@ public class RecursiveAdd{
 	
 	private final static int FREQUENCE = RecursiveAddConf.frequence*60*1000;
 	private final static int INIT_TIME = 5*60*1000;
-
-	private final static String MESSAGE = RecursiveAddConf.message;
 	
 	private static ScheduledFuture<?> _currentScheduledTask = null;
 	
@@ -40,7 +44,8 @@ public class RecursiveAdd{
 			public void run() {
 				try{
 					for(Player pl : World.getInstance().getAllPlayers())
-						rewardPlayer(pl);
+						if(pl.isOnline())
+							rewardPlayer(pl);
 				}
 				catch (Exception ex){
 					_log.warn("Exception on RecursiveAdd");
@@ -50,10 +55,11 @@ public class RecursiveAdd{
 	}
 	
 	
-	public static final void rewardPlayer(Player pl){
-		if(pl != null && !pl.isInPrison()){
-			PacketSendUtility.sendBrightYellowMessageOnCenter(pl, MESSAGE);
-			ItemService.addItem(pl, REWARD_ID, REWARD_COUNT);
+	public static final void rewardPlayer(Player player){
+		if(player != null && !player.isInPrison()){
+			String MESSAGE = TranslationService.RECURSIVEADD_MESSAGE.toString(player);
+			PacketSendUtility.sendBrightYellowMessageOnCenter(player, MESSAGE);
+			ItemService.addItem(player, REWARD_ID, REWARD_COUNT);
 		}
 	}
 }

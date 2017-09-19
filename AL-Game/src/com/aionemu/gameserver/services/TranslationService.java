@@ -181,6 +181,10 @@ public enum TranslationService {
 			"C'est fait, %s. Vous pouvez retourner au combat.",
 			"Done %s. You can now go back to fight."
 			),
+	RECURSIVEADD_MESSAGE (
+			"Votre cube se met \u00E0 trembler. Un objet myst\u00E9rieux y est apparu...",
+			"Your cube start to shake. A mysterious object has appeared..."
+			),
 	;
 	
 	private String fr = "";

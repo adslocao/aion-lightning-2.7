@@ -17,7 +17,4 @@ public class RecursiveAddConf {
 	
 	@Property(key = "gameserver.custom.recursiveAdd.frequence", defaultValue = "1")
 	public static int frequence;
-	
-	@Property(key = "gameserver.custom.recursiveAdd.message", defaultValue = "1")
-	public static String message;
 }

@@ -297,12 +297,14 @@ public class GameServer {
 			});
 		}
 
-		if(RecursiveAddConf.enabled){
+		if(RecursiveAddConf.enabled) {
 			log.info("RecursiveAdd enabled");
 			RecursiveAdd.startRecursiveAddTask();
 		}
-		else
+		else {
 			log.info("RecursiveAdd disabled");
+		}
+		
 		onStartup();
 	}
 
