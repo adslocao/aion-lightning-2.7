@@ -155,7 +155,7 @@ public class CommandService {
 		commands.put("enchant", new CmdEnchant());
 		commands.put("f", new CmdF());
 		commands.put("giveme", new CmdGiveMe());
-		commands.put("getchaion", new CmdGetShopPoint());
+		commands.put("gettoll", new CmdGetShopPoint());
 		commands.put("givemissingskills", new CmdGiveMissingSkills());
 		commands.put("gmlist", new CmdGmList());
 		commands.put("help", new CmdHelp());
