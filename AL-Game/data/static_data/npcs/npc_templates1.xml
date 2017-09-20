@@ -54,7 +54,7 @@
 		</equipment>
 		<bound_radius front="0.3" side="0.42" upper="2.4"/>
 	</npc_template>
-	<npc_template npc_id="270929" level="1" name="veteran high priest" name_id="311138" npc_type="NON_ATTACKABLE" height="2.4" rank="VETERAN" rating="ELITE" race="ASMODIANS" tribe="GUARD" type="GENERAL" ai="recharger" srange="12" adelay="2000" hpgauge="3" talk_distance="8" talk_delay="1">
+	<npc_template npc_id="270929" level="1" name="veteran high priest" name_id="311138" npc_type="NON_ATTACKABLE" height="2.4" rank="VETERAN" rating="ELITE" tribe="GUARD_DARK" type="GENERAL" ai="recharger" srange="12" adelay="2000" hpgauge="3" talk_distance="8" talk_delay="1">
 		<stats maxHp="4962" maxXp="3810" main_hand_attack="48" main_hand_accuracy="187" pdef="100" mresist="187" power="167" evasion="187" accuracy="435" walk_speed="1.419" run_speed="6" run_speed_fight="7"/>
 		<equipment>
 			<item>113600517</item>
