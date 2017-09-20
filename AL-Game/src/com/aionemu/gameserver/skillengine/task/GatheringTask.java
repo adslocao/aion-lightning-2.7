@@ -99,7 +99,7 @@ public class GatheringTask extends AbstractCraftTask {
 		PacketSendUtility.broadcastPacket(requestor, new SM_GATHER_STATUS(requestor.getObjectId(), responder.getObjectId(), 2), true);
 		PacketSendUtility.sendPacket(requestor, SM_SYSTEM_MESSAGE.STR_EXTRACT_GATHER_SUCCESS_1_BASIC(new DescriptionId(material.getNameid())));
 		requestor.getInventory().decreaseByItemId(template.getRequiredItemId(), 1);
-		ItemService.addItem(requestor, material.getItemid(), 2, ITEM_ADD_PREDICATE);
+		ItemService.addItem(requestor, material.getItemid(), 1, ITEM_ADD_PREDICATE);
 		if (requestor.isInInstance()) {
 			requestor.getPosition().getWorldMapInstance().getInstanceHandler().onGather(requestor, (Gatherable) responder);
 		}
