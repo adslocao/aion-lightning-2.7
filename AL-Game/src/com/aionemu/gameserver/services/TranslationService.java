@@ -67,11 +67,11 @@ public enum TranslationService {
 			),
 	DSP_NO_LUCK_NO_WIN (
 			"[Loot] Dommage ! Vous n'avez pas eu la chance d'obtenir des %toll sur ce NPC.",
-			"[Loot] Too bad ! You didn't have chance to win %toll on this NPC."
+			"[Loot] Too bad! You didn't have chance to win %toll on this NPC."
 			),
 	DSP_YOU_WIN (
 			"[Loot] F\u00E9licitations ! En tuant ce NPC, vous avez remport\u00E9 %s %toll !",
-			"[Loot] Congratulations ! By killing this NPC, you win %s %toll !"
+			"[Loot] Congratulations! By killing this NPC, you win %s %toll!"
 			),
 	// Player command .giveme (for crafting)
 	GIVE_ME_ERROR_ID (
@@ -185,6 +185,22 @@ public enum TranslationService {
 	RECURSIVEADD_MESSAGE (
 			"Votre cube se met \u00E0 trembler. Un objet myst\u00E9rieux y est apparu...",
 			"Your cube start to shake. A mysterious object has appeared..."
+			),
+	COIN_FOUNTAIN_START (
+			"La fontaine a bien re\u00E7u votre pr\u00E9sent...",
+			"Fountain get your gift..."
+			),
+	COIN_FOUNTAIN_PLATINUM (
+			"Bien jou\u00E9 ! Vous avez gagn\u00E9 une m\u00E9daille de platine !",
+			"Nice job! You won a platinum medal!"
+			),
+	COIN_FOUNTAIN_GOLD (
+			"Bien jou\u00E9 ! Vous avez gagn\u00E9 deux m\u00E9dailles en or !",
+			"Nice job! You won two gold medals!"
+			),
+	COIN_FOUNTAIN_RUSTED (
+			"Quel dommage ! Vous avez obtenu une m\u00E9daille rouill\u00E9e :(",
+			"Too bad! You won a rusted medal :("
 			),
 	;
 	

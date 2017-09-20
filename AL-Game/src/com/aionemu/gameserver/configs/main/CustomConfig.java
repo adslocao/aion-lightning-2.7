@@ -324,7 +324,6 @@ public class CustomConfig {
 	/**
 	 * Bonus faction
 	 */
-	
 	@Property(key = "gameserver.faction.bonus.applyto", defaultValue = "BALAUR")
 	public static String FACTION_BONUS_TO;
 	
@@ -348,7 +347,10 @@ public class CustomConfig {
 	
 	@Property(key = "gameserver.faction.bonus.pvp.attack", defaultValue = "1.1")
 	public static float FACTION_BONUS_ATTACK;
-
+	
+	/**
+	 * Other customs
+	 */
 	@Property(key = "gameserver.toll.name.en", defaultValue = "Shop point")
 	public static String TOLL_NAME_EN;
 	
@@ -363,4 +365,13 @@ public class CustomConfig {
 	
 	@Property(key = "gameserver.gs.securisedeffect", defaultValue = "false")
 	public static boolean GS_SECURISED_EFFECT;
+	
+	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "90")
+	public static int FOUNTAIN_PLATINUM;
+	
+	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "55")
+	public static int FOUNTAIN_GOLD;
+	
+	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "0")
+	public static int FOUNTAIN_RUSTED;
 }
