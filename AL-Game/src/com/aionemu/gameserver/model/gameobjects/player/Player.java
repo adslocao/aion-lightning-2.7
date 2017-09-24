@@ -118,7 +118,6 @@ public class Player extends Creature {
     /**
 	* Custom
 	**/
-	private boolean isLowXP = false;
 	public static Logger log = LoggerFactory.getLogger(Player.class);
 	
 	private boolean newPlayer = false;
@@ -2207,9 +2206,6 @@ public class Player extends Creature {
 	/**
 	 * Custom
 	 **/
-	public boolean isLowXP() {return isLowXP;}
-	public void setLowXP(boolean isLowXP) {this.isLowXP = isLowXP;}
-
 	public int getEventTeamId() {
 		return eventTeamId;
 	}
