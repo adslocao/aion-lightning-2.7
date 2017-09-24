@@ -52,6 +52,7 @@ public class GeoWorldLoader {
 		DEBUG = debug;
 	}
 
+	@SuppressWarnings("resource")
 	public static Map<String, Spatial> loadMeshs(String fileName) throws IOException {
 		Map<String, Spatial> geoms = new HashMap<String, Spatial>();
 		File geoFile = new File(fileName);
@@ -93,7 +94,8 @@ public class GeoWorldLoader {
 		}
 		return geoms;
 	}
-
+	
+	@SuppressWarnings("resource")
 	public static boolean loadWorld(int worldId, Map<String, Spatial> models, GeoMap map) throws IOException {
 		File geoFile = new File(GEO_DIR + worldId + ".geo");
 		FileChannel roChannel = null;

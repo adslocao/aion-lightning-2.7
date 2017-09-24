@@ -17,7 +17,6 @@
 package instance.abyss;
 
 import com.aionemu.commons.network.util.ThreadPoolManager;
-import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
 import com.aionemu.gameserver.instance.handlers.InstanceID;
 import com.aionemu.gameserver.model.EmotionType;
@@ -30,7 +29,7 @@ import com.aionemu.gameserver.questEngine.QuestEngine;
 import com.aionemu.gameserver.questEngine.model.QuestEnv;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 
-import java.util.List;
+// import java.util.List;
 
 /**
  * @author zhkchi
@@ -262,7 +261,8 @@ public class AbyssalSplinterInstance extends GeneralInstanceHandler {
         spawn(700936, 404.891f, 650.2943f, 439.2548f, (byte) 130);
     }
     /* END Dayshade */
-
+    
+    /*
 	private void deleteNpcs(List<Npc> npcs) {
 		for (Npc npc : npcs) {
 			if (npc != null) {
@@ -270,7 +270,8 @@ public class AbyssalSplinterInstance extends GeneralInstanceHandler {
 			}
 		}
 	}
-
+	
+	
 	private void removeSummoned() {
 		Npc gate1 = getNpc(282014);
 		Npc gate2 = getNpc(282015);
@@ -282,6 +283,7 @@ public class AbyssalSplinterInstance extends GeneralInstanceHandler {
 			deleteNpcs(instance.getNpcs(281904));// Summoned Lapilima
 		}
 	}
+	*/
 
 	private void onFragmentKill() {
 		switch (destroyedFragments) {

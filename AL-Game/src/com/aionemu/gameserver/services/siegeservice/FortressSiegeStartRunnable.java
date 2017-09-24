@@ -1,10 +1,6 @@
 package com.aionemu.gameserver.services.siegeservice;
 
-import com.aionemu.gameserver.configs.main.CustomConfig;
-import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
 import com.aionemu.gameserver.services.SiegeService;
-import com.aionemu.gameserver.world.World;
-import java.util.Collection;
 
 public class FortressSiegeStartRunnable implements Runnable {
 

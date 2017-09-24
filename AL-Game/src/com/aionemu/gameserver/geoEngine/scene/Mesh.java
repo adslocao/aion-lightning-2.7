@@ -149,18 +149,21 @@ public class Mesh {
      * Locks the mesh so it cannot be modified anymore, thus
      * optimizing its data.
      */
-    public void setStatic() {
+    @SuppressWarnings("unchecked")
+	public void setStatic() {
         for (Entry<VertexBuffer> entry : buffers){
             entry.getValue().setUsage(Usage.Static);
         }
     }
 
+    @SuppressWarnings("unchecked")
     public void setStreamed(){
         for (Entry<VertexBuffer> entry : buffers){
             entry.getValue().setUsage(Usage.Stream);
         }
     }
 
+    @SuppressWarnings("unchecked")
     public void setInterleaved(){
         ArrayList<VertexBuffer> vbs = new ArrayList<VertexBuffer>();
         for (Entry<VertexBuffer> entry : buffers){
