@@ -23,6 +23,54 @@ import com.aionemu.commons.configuration.Property;
  */
 public class RateConfig {
 
+	@Property(key = "gameserver.rate.progressive.activate", defaultValue = "false")
+	public static boolean IS_PROGRESSIVE_XP;
+	
+	@Property(key = "gameserver.rate.progressive.stage1.level", defaultValue = "25")
+	public static int PROG_XP_1_LEVEL;
+	
+	@Property(key = "gameserver.rate.progressive.stage2.level", defaultValue = "50")
+	public static int PROG_XP_2_LEVEL;
+	
+	@Property(key = "gameserver.rate.progressive.stage3.level", defaultValue = "55")
+	public static int PROG_XP_3_LEVEL;
+	
+	@Property(key = "gameserver.rate.progressive.xp.stage1.bonus", defaultValue = "4.0")
+	public static float PROG_XP_1_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.xp.stage2.bonus", defaultValue = "3.0")
+	public static float PROG_XP_2_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.xp.stage3.bonus", defaultValue = "2.0")
+	public static float PROG_XP_3_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.xp.stage4.bonus", defaultValue = "1.0")
+	public static float PROG_XP_4_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.groupxp.stage1.bonus", defaultValue = "4.0")
+	public static float PROG_GROUPXP_1_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.groupxp.stage2.bonus", defaultValue = "3.0")
+	public static float PROG_GROUPXP_2_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.groupxp.stage3.bonus", defaultValue = "2.0")
+	public static float PROG_GROUPXP_3_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.groupxp.stage4.bonus", defaultValue = "1.0")
+	public static float PROG_GROUPXP_4_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.questxp.stage1.bonus", defaultValue = "4.0")
+	public static float PROG_QUESTXP_1_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.questxp.stage2.bonus", defaultValue = "3.0")
+	public static float PROG_QUESTXP_2_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.questxp.stage3.bonus", defaultValue = "2.0")
+	public static float PROG_QUESTXP_3_BONUS;
+	
+	@Property(key = "gameserver.rate.progressive.questxp.stage4.bonus", defaultValue = "1.0")
+	public static float PROG_QUESTXP_4_BONUS;
+	
 	/**
 	 * XP Rates - Regular (1), Premium (2), VIP (3)
 	 */

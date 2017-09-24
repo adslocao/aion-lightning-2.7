@@ -18,10 +18,13 @@
 package com.aionemu.gameserver.model.gameobjects.player;
 
 import com.aionemu.gameserver.configs.main.CustomConfig;
+import com.aionemu.gameserver.configs.main.RateConfig;
 import com.aionemu.gameserver.model.stats.container.StatEnum;
 
 /**
  * @author antness
+ * @author Seita
+ * @author Ferosia
  */
 public enum RewardType {
 	// TODO : Add Boolean isEventOn.
@@ -32,22 +35,24 @@ public enum RewardType {
 		@Override
 		public long calcReward(Player player, long reward) {
 			float statRate = player.getGameStats().getStat(StatEnum.BOOST_HUNTING_XP_RATE, 100).getCurrent() / 100f;
+			
 			if(player.getRace().toString().contains(CustomConfig.FACTION_BONUS_TO)) {
 				statRate *= CustomConfig.FACTION_BONUS_HUNT;
 			}
-			if(player.isLowXP() && player.getLevel() <= 55) 
-				return (long) (reward * 3 * statRate);
 			
-			else {
-				if(player.getLevel() <= 25)
-					return (long) (reward * 12 * player.getRates().getXpRate() * statRate);
-				else if(player.getLevel() <= 50)
-					return (long) (reward * 10 * player.getRates().getXpRate() * statRate);
-				else if(player.getLevel() <= 55)
-					return (long) (reward * 8 * player.getRates().getXpRate() * statRate);				
-				else 
-					return (long) (reward * 8 * player.getRates().getXpRate() * statRate);
+			if(!RateConfig.IS_PROGRESSIVE_XP) {
+				return (long) (reward * player.getRates().getXpRate() * statRate);
 			}
+			
+			if(player.getLevel() <= RateConfig.PROG_XP_1_LEVEL)
+				return (long) (reward * RateConfig.PROG_XP_1_BONUS * player.getRates().getXpRate() * statRate);
+			else if(player.getLevel() <= RateConfig.PROG_XP_2_LEVEL)
+				return (long) (reward * RateConfig.PROG_XP_2_BONUS * player.getRates().getXpRate() * statRate);
+			else if(player.getLevel() <= RateConfig.PROG_XP_3_LEVEL)
+				return (long) (reward * RateConfig.PROG_XP_3_BONUS * player.getRates().getXpRate() * statRate);
+			else
+				return (long) (reward * RateConfig.PROG_XP_4_BONUS * player.getRates().getXpRate() * statRate);
+			
 		}
 	},
 	GROUP_HUNTING {
@@ -55,23 +60,24 @@ public enum RewardType {
 		@Override
 		public long calcReward(Player player, long reward) {
 			float statRate = player.getGameStats().getStat(StatEnum.BOOST_GROUP_HUNTING_XP_RATE, 100).getCurrent() / 100f;
+			
 			if(player.getRace().toString().contains(CustomConfig.FACTION_BONUS_TO)) {
 				statRate *= CustomConfig.FACTION_BONUS_HUNT;
 			}
-			if(player.isLowXP() && player.getLevel() <= 55) {
-			return (long) (reward * 10 * statRate);
 			
+			if(!RateConfig.IS_PROGRESSIVE_XP) {
+				return (long) (reward * player.getRates().getGroupXpRate() * statRate);
 			}
-			else {
-				if(player.getLevel() <= 25)
-					return (long) (reward * 15 * player.getRates().getGroupXpRate() * statRate);
-				else if(player.getLevel() <= 50)
-					return (long) (reward * 13 * player.getRates().getGroupXpRate() * statRate);
-				else if(player.getLevel() <= 55)
-					return (long) (reward * 11 * player.getRates().getGroupXpRate() * statRate);				
-				else 
-					return (long) (reward * 11 * player.getRates().getGroupXpRate() * statRate);
-			}
+			
+			if(player.getLevel() <= RateConfig.PROG_XP_1_LEVEL)
+				return (long) (reward * RateConfig.PROG_GROUPXP_1_BONUS * player.getRates().getGroupXpRate() * statRate);
+			else if(player.getLevel() <= RateConfig.PROG_XP_2_LEVEL)
+				return (long) (reward * RateConfig.PROG_GROUPXP_2_BONUS * player.getRates().getGroupXpRate() * statRate);
+			else if(player.getLevel() <= RateConfig.PROG_XP_3_LEVEL)
+				return (long) (reward * RateConfig.PROG_GROUPXP_3_BONUS * player.getRates().getGroupXpRate() * statRate);
+			else
+				return (long) (reward * RateConfig.PROG_GROUPXP_4_BONUS * player.getRates().getGroupXpRate() * statRate);
+			
 		}
 	},
 	PVP_KILL {
@@ -86,23 +92,24 @@ public enum RewardType {
         @Override
 		public long calcReward(Player player, long reward) {
 			float statRate = player.getGameStats().getStat(StatEnum.BOOST_QUEST_XP_RATE, 100).getCurrent() / 100f;
+			
 			if(player.getRace().toString().contains(CustomConfig.FACTION_BONUS_TO)) {
 				statRate *= CustomConfig.FACTION_BONUS_QUEST;
 			}
-			if(player.isLowXP() && player.getLevel() <= 55) {
-				return (long) (reward * 3 * statRate);
-			}
-			else {			
 			
-				if(player.getLevel() <= 25)
-					return (long) (reward * 12 * player.getRates().getQuestXpRate() * statRate);
-				else if(player.getLevel() <= 50)
-					return (long) (reward * 10 * player.getRates().getQuestXpRate() * statRate);
-				else if(player.getLevel() <= 55)
-					return (long) (reward * 8 * player.getRates().getQuestXpRate() * statRate);				
-				else 
-					return (long) (reward * 8 * player.getRates().getQuestXpRate() * statRate);
+			if(!RateConfig.IS_PROGRESSIVE_XP) {
+				return (long) (reward * player.getRates().getQuestXpRate() * statRate);
 			}
+			
+			if(player.getLevel() <= RateConfig.PROG_XP_1_LEVEL)
+				return (long) (reward * RateConfig.PROG_QUESTXP_1_BONUS * player.getRates().getQuestXpRate() * statRate);
+			else if(player.getLevel() <= RateConfig.PROG_XP_2_LEVEL)
+				return (long) (reward * RateConfig.PROG_QUESTXP_2_BONUS * player.getRates().getQuestXpRate() * statRate);
+			else if(player.getLevel() <= RateConfig.PROG_XP_3_LEVEL)
+				return (long) (reward * RateConfig.PROG_QUESTXP_3_BONUS * player.getRates().getQuestXpRate() * statRate);
+			else
+				return (long) (reward * RateConfig.PROG_QUESTXP_4_BONUS * player.getRates().getQuestXpRate() * statRate);
+			
 		}
 	},
 	CRAFTING {
