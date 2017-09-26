@@ -53,35 +53,8 @@ public class CmdShop extends BaseCommand {
 		
 				public void handleRead(ResultSet rset) throws SQLException {
 					// Loop on each result
-					while (rset.next()) {
-						Connection con = null;
-						int nbMail = 0;
-						// SQL to get number of inbox mails for this player 
-						try {
-							con = DatabaseFactory.getConnection();
-							PreparedStatement stmtMail = con.prepareStatement(
-									"SELECT COUNT(*) FROM mail WHERE mail_recipient_id = ?");
-							stmtMail.setInt(1, playerId);
-							ResultSet rsetMail = stmtMail.executeQuery();
-							
-							if(rsetMail.next()){
-								nbMail = rsetMail.getInt(1);
-							}
-							
-							rsetMail.close();
-							stmtMail.close();
-						}
-						catch (Exception e) {
-							String message = TranslationService.GENERAL_ERROR_DB.toString(player);
-							sendCommandMessage(player, message);
-							log.error("[Shop] Could not access mailbox for player: " + playerId + " : " + e.getMessage(), e);
-							return;
-						}
-						finally {
-							DatabaseFactory.close(con);
-						}
-						
-						if (nbMail >= 100) {
+					while (rset.next()) {						
+						if (player.getCommonData().getMailboxLetters() >= 100) {
 							// "Your mailbox is full, unable to receive WebShop items."
 							String message = TranslationService.SHOP_MAILBOX_FULL.toString(player);
 							sendCommandMessage(player, message);
