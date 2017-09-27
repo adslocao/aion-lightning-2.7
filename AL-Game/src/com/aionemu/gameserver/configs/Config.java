@@ -30,6 +30,7 @@ import com.aionemu.gameserver.configs.administration.DeveloperConfig;
 import com.aionemu.gameserver.configs.custom.CustomDrop;
 import com.aionemu.gameserver.configs.custom.CustomFun;
 import com.aionemu.gameserver.configs.custom.RecursiveAddConf;
+import com.aionemu.gameserver.configs.custom.WebShopConf;
 import com.aionemu.gameserver.configs.main.*;
 import com.aionemu.gameserver.configs.network.IPConfig;
 import com.aionemu.gameserver.configs.network.NetworkConfig;
@@ -195,6 +196,8 @@ public class Config {
 			ConfigurableProcessor.process(RecursiveAddConf.class, customProps);
 			log.info("Loading: " + custom + "/customfun.properties");
 			ConfigurableProcessor.process(CustomFun.class, customProps);
+			log.info("Loading: " + custom + "/webshop.properties");
+			ConfigurableProcessor.process(WebShopConf.class, customProps);
 
 		}
 		catch (Exception e) {

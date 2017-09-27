@@ -33,10 +33,12 @@ import com.aionemu.gameserver.command.CmdTeleService;
 import com.aionemu.gameserver.command.CommandService;
 import com.aionemu.gameserver.configs.Config;
 import com.aionemu.gameserver.configs.custom.RecursiveAddConf;
+import com.aionemu.gameserver.configs.custom.WebShopConf;
 import com.aionemu.gameserver.configs.main.*;
 import com.aionemu.gameserver.configs.network.NetworkConfig;
 import com.aionemu.gameserver.dao.PlayerDAO;
 import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.eventengine.EventWebShop;
 import com.aionemu.gameserver.eventengine.RecursiveAdd;
 import com.aionemu.gameserver.instance.InstanceEngine;
 import com.aionemu.gameserver.model.Race;
@@ -298,11 +300,18 @@ public class GameServer {
 		}
 
 		if(RecursiveAddConf.enabled) {
-			log.info("RecursiveAdd enabled");
 			RecursiveAdd.startRecursiveAddTask();
+			log.info("RecursiveAdd started");
 		}
 		else {
 			log.info("RecursiveAdd disabled");
+		}
+		
+		if(WebShopConf.WEBSHOP_ENABLED) {
+			EventWebShop.startEventWebShopTask();
+			log.info("WebShop service started");
+		}else {
+			log.info("WebShop service disabled");
 		}
 		
 		onStartup();
