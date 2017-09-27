@@ -443,6 +443,13 @@ public class World {
 	public Collection<Player> getAllPlayers() {
 		return allPlayers.getAllPlayers();
 	}
+	
+	/**
+	 * @return number of players
+	 */
+	public int countAllPlayers() {
+		return allPlayers.countAllPlayers();
+	}
 
 	/**
 	 * @param visitor

@@ -115,4 +115,8 @@ public class PlayerContainer implements Iterable<Player> {
 	public Collection<Player> getAllPlayers() {
 		return playersById.values();
 	}
+	
+	public int countAllPlayers() {
+		return playersById.size();
+	}
 }
