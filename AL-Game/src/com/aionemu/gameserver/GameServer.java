@@ -271,6 +271,21 @@ public class GameServer {
 		} catch (SQLException e1) {
 			e1.printStackTrace();
 		}
+
+		if(RecursiveAddConf.enabled) {
+			RecursiveAdd.startRecursiveAddTask();
+			log.info("RecursiveAdd started");
+		}
+		else {
+			log.info("RecursiveAdd disabled");
+		}
+		
+		if(WebShopConf.WEBSHOP_ENABLED) {
+			EventWebShop.startEventWebShopTask();
+			log.info("WebShop service started");
+		}else {
+			log.info("WebShop service disabled");
+		}
 		
 		Util.printSection("GameServerLog");
 		log.info("AL Game Server started in " + (System.currentTimeMillis() - start) / 1000 + " seconds.");
@@ -297,21 +312,6 @@ public class GameServer {
 					displayRatios(false);
 				}
 			});
-		}
-
-		if(RecursiveAddConf.enabled) {
-			RecursiveAdd.startRecursiveAddTask();
-			log.info("RecursiveAdd started");
-		}
-		else {
-			log.info("RecursiveAdd disabled");
-		}
-		
-		if(WebShopConf.WEBSHOP_ENABLED) {
-			EventWebShop.startEventWebShopTask();
-			log.info("WebShop service started");
-		}else {
-			log.info("WebShop service disabled");
 		}
 		
 		onStartup();
