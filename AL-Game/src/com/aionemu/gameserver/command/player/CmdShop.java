@@ -54,7 +54,7 @@ public class CmdShop extends BaseCommand {
 				public void handleRead(ResultSet rset) throws SQLException {
 					// Loop on each result
 					while (rset.next()) {						
-						if (player.getCommonData().getMailboxLetters() >= 100) {
+						if (!player.getMailbox().haveFreeSlots()) {
 							// "Your mailbox is full, unable to receive WebShop items."
 							String message = TranslationService.SHOP_MAILBOX_FULL.toString(player);
 							sendCommandMessage(player, message);
@@ -92,6 +92,7 @@ public class CmdShop extends BaseCommand {
 									else {
 										qtySend = qtyLeft;
 									}
+									// TODO: if(!player.getMailbox().haveFreeSlots()) => create new pending shop transaction
 									SystemMailService.getInstance().sendMail(
 											"WebShop", playerName, itemTemplate.getName(), yourCommand + 
 											// One mail was not enough, please check your mails
