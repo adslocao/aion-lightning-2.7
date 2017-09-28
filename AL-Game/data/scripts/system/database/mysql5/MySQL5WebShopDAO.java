@@ -34,7 +34,7 @@ public class MySQL5WebShopDAO extends WebShopDAO {
 	@Override
 	public void checkAllPendingShopItem() {
 		try {
-			log.warn("A new instance of SELECT_ALL_QUERY has been called");
+			// log.warn("A new instance of SELECT_ALL_QUERY has been called");
 			DB.select(SELECT_ALL_QUERY, new ParamReadStH() {
 
 				@Override
@@ -48,7 +48,10 @@ public class MySQL5WebShopDAO extends WebShopDAO {
 						if(player == null)
 							continue;
 						
-						if(player.getCommonData().getMailboxLetters() >= 100) {
+						if(player.getMailbox() == null) // If a shop is pending and player is currently login
+							continue;
+						
+						if(!player.getMailbox().haveFreeSlots()) {
 							// "Your mailbox is full, unable to receive WebShop items."
 							String message = TranslationService.SHOP_MAILBOX_FULL.toString(player);
 							sendCommandMessage(player, message);
@@ -135,6 +138,7 @@ public class MySQL5WebShopDAO extends WebShopDAO {
 					else {
 						qtySend = qtyLeft;
 					}
+					// TODO: if(!player.getMailbox().haveFreeSlots()) => create new pending shop transaction
 					SystemMailService.getInstance().sendMail(
 							"WebShop", playerName, itemTemplate.getName(), yourCommand + 
 							// One mail was not enough, please check your mails
