@@ -381,7 +381,7 @@ public class StatFunctions {
 				}
 				
 				// TODO move to controller
-				if (weapon.getItemTemplate().getWeaponType() == WeaponType.BOW)
+				if (weapon.getItemTemplate().getWeaponType() == WeaponType.BOW && !CustomConfig.DISABLE_USE_OF_ARROW)
 					equipment.useArrow();
 			}
 			else {// if hand attack 

@@ -374,4 +374,7 @@ public class CustomConfig {
 	
 	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "0")
 	public static int FOUNTAIN_RUSTED;
+	
+	@Property(key = "gameserver.stats.physical.disableuseofarrow", defaultValue = "false")
+	public static boolean DISABLE_USE_OF_ARROW;
 }
