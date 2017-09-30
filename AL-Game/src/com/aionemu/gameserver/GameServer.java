@@ -283,7 +283,8 @@ public class GameServer {
 		if(WebShopConf.WEBSHOP_ENABLED) {
 			EventWebShop.startEventWebShopTask();
 			log.info("WebShop service started");
-		}else {
+		}
+		else {
 			log.info("WebShop service disabled");
 		}
 		
