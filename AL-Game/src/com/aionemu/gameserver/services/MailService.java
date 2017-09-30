@@ -41,6 +41,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_DELETE_ITEM;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_MAIL_SERVICE;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.item.ItemFactory;
+import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.utils.audit.AuditLogger;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
@@ -278,12 +279,16 @@ public class MailService {
 				if (attachedItem == null)
 					return;
 				if (player.getInventory().isFull()) {
-					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_FULL_INVENTORY);
+					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_WAREHOUSE_FULL_INVENTORY);
 					return;
 				}
+				/*
 				player.getInventory().add(attachedItem);
 				if (!DAOManager.getDAO(InventoryDAO.class).store(attachedItem, player.getObjectId()))
 					return;
+				*/
+				// TODO: check if there is no consequence with this method
+				ItemService.addItem(player, attachedItem.getItemId(), attachedItem.getItemCount());
 
 				PacketSendUtility.sendPacket(player, new SM_MAIL_SERVICE(letterId, attachmentType));
 				letter.removeAttachedItem();
