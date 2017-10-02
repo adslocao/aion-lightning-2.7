@@ -313,7 +313,7 @@ public class CustomConfig {
 	public static boolean BOOST_AP_NEW_PLAYER;
 	
 	@Property(key = "gameserver.boost.ap.newplayertime", defaultValue = "30")
-	public static long BOOST_AP_NEW_PLAYER_TIMME;
+	public static long BOOST_AP_NEW_PLAYER_TIME;
 	
 	@Property(key = "gameserver.boost.ap.newplayerRatio", defaultValue = "2")
 	public static long BOOST_AP_NEW_PLAYER_RATIO;

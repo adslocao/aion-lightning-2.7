@@ -174,21 +174,22 @@ public final class PlayerEnterWorldService {
 		}, delay);
 	}
 	
-	private static void getBoostAPnewPlayer(Player p){
-		long createDate =  DAOManager.getDAO(PlayerDAO.class).getCreationTime(p.getObjectId());
-		long newbieTime = CustomConfig.BOOST_AP_NEW_PLAYER_TIMME * 24 * 60 * 60 * 1000; // millisecond
+	private static void getBoostAPnewPlayer(Player player){
+		long createDate =  DAOManager.getDAO(PlayerDAO.class).getCreationTime(player.getObjectId());
+		long newbieTime = CustomConfig.BOOST_AP_NEW_PLAYER_TIME * 24 * 60 * 60 * 1000; // millisecond
 		long creatSince = System.currentTimeMillis() - createDate;
+		float bonus = CustomConfig.BOOST_AP_NEW_PLAYER_RATIO;
+		long timeLeft = newbieTime - creatSince;
 
 		if(creatSince > newbieTime){
 			return;
 		}
 
-		PacketSendUtility.sendYellowMessage(p, "-----------------------------");
-		PacketSendUtility.sendYellowMessage(p, "Bonus nouveau joueur actif: AP x2");
-		PacketSendUtility.sendYellowMessage(p, "-----------------------------");
-		p.setNewPlayer(true);
+		String message = TranslationService.NEW_PLAYER_BONUS_AP.toString(player, String.valueOf(bonus), String.valueOf(timeLeft / 86400000));
+		PacketSendUtility.sendBrightYellowMessage(player, message);
+		player.setNewPlayer(true);
 	}
-
+	
 	/**
 	 * @param client
 	 * @param objectId
@@ -338,7 +339,8 @@ public final class PlayerEnterWorldService {
 				PacketSendUtility.sendWhiteMessage(player, TranslationService.DFB_LOGIN_DEFENSE.toString(player, formatBonus(CustomConfig.FACTION_BONUS_DEFENSE)));
 			}
 			
-			getBoostAPnewPlayer(player);
+			if(CustomConfig.BOOST_AP_NEW_PLAYER)
+				getBoostAPnewPlayer(player);
 
 			if (player.isGM()) {
 				if (AdminConfig.INVULNERABLE_GM_CONNECTION || AdminConfig.INVISIBLE_GM_CONNECTION

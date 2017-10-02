@@ -202,6 +202,10 @@ public enum TranslationService {
 			"Quel dommage ! Vous avez obtenu une m\u00E9daille rouill\u00E9e :(",
 			"Too bad! You won a rusted medal :("
 			),
+	NEW_PLAYER_BONUS_AP (
+			"Vous \u00EAtes nouveau sur le serveur, vous b\u00E9n\u00E9ficiez d'un bonus AP x%s pendant encore %s jour(s)",
+			"You're a newbie on this server, you get an AP bonus x%s for another %s day(s)"
+			),
 	;
 	
 	private String fr = "";
