@@ -228,7 +228,13 @@ public enum TranslationService {
 		frMessage = frMessage.replaceFirst("%toll", frTollName);
 		
 		String locale = player.getCommonData().getLocale();
-		return locale.contains("en") ? enMessage : frMessage;
+		
+		if(locale.contains("en"))
+			return enMessage;
+		else if(locale.contains("fr"))
+			return frMessage;
+		else
+			return enMessage;
 	}
 	
 }
