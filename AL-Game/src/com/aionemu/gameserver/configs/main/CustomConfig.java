@@ -365,14 +365,17 @@ public class CustomConfig {
 	
 	@Property(key = "gameserver.gs.securisedeffect", defaultValue = "false")
 	public static boolean GS_SECURISED_EFFECT;
+
+	@Property(key = "gameserver.ai.balaurea.fountains.enable", defaultValue = "false")
+	public static boolean ENABLE_BALAUREA_FOUNTAIN_AI;
 	
 	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "90")
 	public static int FOUNTAIN_PLATINUM;
 	
-	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "55")
+	@Property(key = "gameserver.rnd.fountain.getgold", defaultValue = "55")
 	public static int FOUNTAIN_GOLD;
 	
-	@Property(key = "gameserver.rnd.fountain.getplatinum", defaultValue = "0")
+	@Property(key = "gameserver.rnd.fountain.getrusted", defaultValue = "0")
 	public static int FOUNTAIN_RUSTED;
 	
 	@Property(key = "gameserver.stats.physical.disableuseofarrow", defaultValue = "false")
