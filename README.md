@@ -2,7 +2,8 @@
 
 This project is for people that are looking for an old school emulator for Aion. It is based on first version of Aion Lightning 2.7 (from october 2011) and has been used in 2 different private servers.
 If you played on these old school servers and think you can maker better place to play Aion 2.7, please feel free to download this emulator and install it on your own server, and try to satisfy this trully pest community :-)
-Please NOTE: I'm still here, I'm waiting for some people to get interest in this project. I'll have a look on this GitHub depot every day in 2017 and 2018, so do not hesitate to like it and fork it, I'll answer all your issues/request when you have some. Show me this project is interesting you, I'll show you I'm still working on it ;)
+
+Please NOTE: I'm still here, I'm waiting for some people to get interest in this project. I'll have a look on this GitHub depot every day in 2018, so do not hesitate to like it and fork it, I'll answer all your issues/request when you have some. Show me this project is interesting you, I'll show you I'm still working on it ;)
 
 ## Getting Started
 
