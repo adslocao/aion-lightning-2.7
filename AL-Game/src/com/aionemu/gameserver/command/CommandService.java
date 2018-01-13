@@ -169,7 +169,7 @@ public class CommandService {
 		commands.put("questrestart", new CmdQuestrestart());
 		commands.put("remodel", new CmdRemodel());
 		commands.put("reskin", new CmdReskin());
-		commands.put("shop", new CmdShop());
+		commands.put("shop", new CmdShop()); // Warning! Requires additional table. See sql/updates/addWebShop.sql
 		commands.put("toll", new CmdToll());
 //		commands.put("Tvt2", new CmdTvt2());
 		commands.put("find", new CmdFind());

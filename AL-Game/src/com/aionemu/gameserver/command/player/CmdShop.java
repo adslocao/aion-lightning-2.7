@@ -20,6 +20,7 @@ import com.aionemu.gameserver.services.SystemMailService;
 
 /**
  * @author Ferosia
+ * Warning! Requires additional table. See sql/updates/addWebShop.sql
  */
 
 public class CmdShop extends BaseCommand {
