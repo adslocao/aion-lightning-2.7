@@ -240,7 +240,7 @@ CREATE TABLE IF NOT EXISTS `player_quests` (
   `quest_vars2` int(10) unsigned NOT NULL default '0',
   `complete_count` int(3) unsigned NOT NULL default '0',
   `next_repeat_time` timestamp NULL default NULL,
-  `reward`  smallint(3) NULL,
+  `reward` smallint(3) NULL,
   `complete_time` TIMESTAMP NULL DEFAULT NULL,
   PRIMARY KEY (`player_id`,`quest_id`),
   FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
@@ -961,17 +961,7 @@ CREATE TABLE IF NOT EXISTS `customRank` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*
--- player_create was used to control time between two character creation
-*/
-/*
--- CREATE TABLE IF NOT EXISTS `player_create` (
-  -- `account_id` int(11) NOT NULL,
-  -- `edate` datetime NOT NULL,
-  -- PRIMARY KEY (`account_id`)
--- ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-*/
-/*
---- Table teleport used for ?
+--- Table teleport used for Admin command TeleService
 */
 
 CREATE TABLE IF NOT EXISTS `teleport` (
@@ -984,3 +974,13 @@ CREATE TABLE IF NOT EXISTS `teleport` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `UNIQUE` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Table structure for `account_locale`
+--
+
+CREATE TABLE IF NOT EXISTS `account_locale` (
+  `account_id` int(11) NOT NULL,
+  `locale` varchar(2) NOT NULL,
+  PRIMARY KEY (`account_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
