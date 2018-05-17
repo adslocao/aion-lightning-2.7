@@ -124,4 +124,8 @@ public abstract class AbstractInteractionTask {
 	public boolean validateParticipants() {
 		return requestor != null;
 	}
+	
+	public void setInterval(int interval) {
+		this.interval = interval;
+	}
 }

@@ -115,6 +115,9 @@ public class CraftService {
 		int skillLvlDiff = player.getSkillList().getSkillLevel(skillId) - recipeTemplate.getSkillpoint();
 		player.setCraftingTask(new CraftingTask(player, (StaticObject) target, recipeTemplate, skillLvlDiff));
 		
+		if(skillId == 40009)
+			player.getCraftingTask().setInterval(850);
+		
 		player.getCraftingTask().start();
 	}
 
