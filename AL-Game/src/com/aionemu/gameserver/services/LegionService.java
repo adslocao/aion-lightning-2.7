@@ -1487,6 +1487,15 @@ public class LegionService {
 		} else
 			return false;
 	}
+	
+	/**
+	 * Send update packet to all legion members when player change map
+	 * @param player
+	 */
+	public void onPlayerChangeMap(Player player) {
+		Legion legion = player.getLegion();
+		PacketSendUtility.broadcastPacketToLegion(legion, new SM_LEGION_UPDATE_MEMBER(player, 0, ""));
+	}
 
 	/**
 	 * @param player

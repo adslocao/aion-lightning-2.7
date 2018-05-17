@@ -26,6 +26,7 @@ import com.aionemu.gameserver.network.aion.AionConnection.State;
 import com.aionemu.gameserver.network.aion.serverpackets.*;
 import com.aionemu.gameserver.questEngine.QuestEngine;
 import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.services.LegionService;
 import com.aionemu.gameserver.services.SerialKillerService;
 import com.aionemu.gameserver.services.WeatherService;
 import com.aionemu.gameserver.spawnengine.InstanceRiftSpawnManager;
@@ -104,6 +105,9 @@ public class CM_LEVEL_READY extends AionClientPacket {
 		Pet pet = activePlayer.getPet();
 		if (pet != null)
 			World.getInstance().spawn(pet);
+		
+		if (activePlayer.isLegionMember())
+			LegionService.getInstance().onPlayerChangeMap(activePlayer);
 	}
 
 }
