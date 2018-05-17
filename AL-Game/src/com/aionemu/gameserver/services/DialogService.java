@@ -20,7 +20,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.aionemu.gameserver.configs.administration.AdminConfig;
-import com.aionemu.gameserver.configs.custom.CustomFun;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.Race;
@@ -53,7 +52,6 @@ import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.restrictions.RestrictionsManager;
 import com.aionemu.gameserver.services.instance.DredgionService2;
 import com.aionemu.gameserver.services.item.ItemChargeService;
-import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.services.teleport.PortalService;
 import com.aionemu.gameserver.services.teleport.TeleportService;
 import com.aionemu.gameserver.services.trade.PricesService;
@@ -116,11 +114,6 @@ public class DialogService {
 				break;
 			}
 			case 4: { // stigma
-				if(CustomFun.FULFILL_STIGMA_SHARD)
-				{
-					long shardCount = player.getInventory().getItemCountByItemId(141000001);
-					ItemService.addItem(player, 141000001, 10000 - shardCount);
-				}
 				PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(targetObjectId, 1));
 				break;
 			}
