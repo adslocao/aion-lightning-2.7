@@ -29,6 +29,7 @@ import com.aionemu.gameserver.services.item.ItemPacketService.ItemUpdateType;
 public class LegionWarehouse extends Storage {
 
 	private Legion legion;
+	private int curentWhUser;
 
 	public LegionWarehouse(Legion legion) {
 		super(StorageType.LEGION_WAREHOUSE);
@@ -128,5 +129,12 @@ public class LegionWarehouse extends Storage {
 	public void setOwner(Player player) {
 		throw new UnsupportedOperationException("LWH doesnt have owner");
 	}
+	
+	public void setWhUser(int curentWhUser) {
+		this.curentWhUser = curentWhUser;
+	}
 
+	public int getWhUser() {
+		return curentWhUser;
+	}
 }

@@ -20,6 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.aionemu.gameserver.configs.administration.AdminConfig;
+import com.aionemu.gameserver.configs.custom.CustomFun;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.Race;
@@ -29,6 +30,8 @@ import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.player.RequestResponseHandler;
+import com.aionemu.gameserver.model.team.legion.Legion;
+import com.aionemu.gameserver.model.team.legion.LegionWarehouse;
 import com.aionemu.gameserver.model.templates.portal.PortalTemplate;
 import com.aionemu.gameserver.model.templates.teleport.TeleportLocation;
 import com.aionemu.gameserver.model.templates.teleport.TeleporterTemplate;
@@ -50,6 +53,7 @@ import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.restrictions.RestrictionsManager;
 import com.aionemu.gameserver.services.instance.DredgionService2;
 import com.aionemu.gameserver.services.item.ItemChargeService;
+import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.services.teleport.PortalService;
 import com.aionemu.gameserver.services.teleport.TeleportService;
 import com.aionemu.gameserver.services.trade.PricesService;
@@ -62,6 +66,22 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 public class DialogService {
 
 	private static final Logger log = LoggerFactory.getLogger(DialogService.class);
+	
+	public static void onCloseDialog(Npc npc, Player player) {
+		switch (npc.getObjectTemplate().getTitleId()) {
+			case 350409:
+			case 315073:
+				PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(npc.getObjectId(), 0));
+				Legion legion = player.getLegion();
+				if (legion != null) {
+					LegionWarehouse lwh = player.getLegion().getLegionWarehouse();
+					if (lwh.getWhUser() == player.getObjectId()) {
+						lwh.setWhUser(0);
+					}
+				}
+				break;
+		}
+	}
 
 	public static void onDialogSelect(int dialogId, final Player player, Npc npc, int questId, int extendedRewardIndex) {
 
@@ -76,6 +96,7 @@ public class DialogService {
 		}
 
 		int targetObjectId = npc.getObjectId();
+		int titleId = npc.getObjectTemplate().getTitleId();
 
 		switch (dialogId) {
 			case 2: {
@@ -95,6 +116,11 @@ public class DialogService {
 				break;
 			}
 			case 4: { // stigma
+				if(CustomFun.FULFILL_STIGMA_SHARD)
+				{
+					long shardCount = player.getInventory().getItemCountByItemId(141000001);
+					ItemService.addItem(player, 141000001, 10000 - shardCount);
+				}
 				PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(targetObjectId, 1));
 				break;
 			}
@@ -287,7 +313,14 @@ public class DialogService {
 				break;
 			}
 			case 48: { // legion warehouse (2.5)
-				LegionService.getInstance().openLegionWarehouse(player);
+				//PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(targetObjectId, 26));
+				switch (titleId) {
+					case 350409:
+					case 315073:
+						//LegionService.getInstance().openLegionWarehouse(player);
+						LegionService.getInstance().openLegionWarehouse(player, npc);
+						break;
+				}
 				break;
 			}
 			case 51: { // WTF??? Quest dialog packet (2.5)
@@ -403,8 +436,7 @@ public class DialogService {
 			}
 			case 10000: {
 				if (questId == 0) {
-                                    
-                                    // generic npc reply (most are teleporters)
+                    // generic npc reply (most are teleporters)
 					PortalTemplate portalTemplate = DataManager.PORTAL_DATA.getPortalTemplate(npc.getNpcId());
 					TeleporterTemplate template = DataManager.TELEPORTER_DATA.getTeleporterTemplate(npc.getNpcId());
 					if (template != null) {
@@ -417,9 +449,7 @@ public class DialogService {
 									(tribe.equals(TribeClass.FIELD_OBJECT_DARK) && race.equals(Race.ELYOS))) {
 								return;
 							}
-                                                      
-                                                            TeleportService.teleport(template, loc.getLocId(), player);
-							
+                            TeleportService.teleport(template, loc.getLocId(), player);
 						}
 					}
 					else if (portalTemplate != null) {
@@ -448,17 +478,17 @@ public class DialogService {
 				}
 				break;
 			}
-                        case 10002:
-                        {
-                            switch (npc.getNpcId())
-                            {
-                                
-                                default:{
-                                       PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(targetObjectId, dialogId, questId));
-                                }
-                            }
-                            
-                        }
+            case 10002:
+            {
+                switch (npc.getNpcId())
+                {
+                    
+                    default:{
+                           PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(targetObjectId, dialogId, questId));
+                    }
+                }
+                
+            }
 			default: {
 				if (questId > 0) {
 					PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(targetObjectId, dialogId, questId));

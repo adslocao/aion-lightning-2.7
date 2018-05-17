@@ -21,6 +21,7 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map.Entry;
 
 import javolution.util.FastList;
@@ -71,6 +72,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_WAREHOUSE_INFO;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.collections.ListSplitter;
 import com.aionemu.gameserver.utils.idfactory.IDFactory;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.container.LegionContainer;
@@ -942,20 +944,27 @@ public class LegionService {
 		}
 		return legionMembers;
 	}
-
+	
 	/**
 	 * @param activePlayer
 	 */
-	public void openLegionWarehouse(Player activePlayer) {
-		if (legionRestrictions.canOpenWarehouse(activePlayer)) {
-			// TODO: ADD WAREHOUSE EXPAND TO LEGION!!!
-			// TODO send splitted wh packets ?
-			PacketSendUtility.sendPacket(activePlayer, new SM_DIALOG_WINDOW(activePlayer.getObjectId(), 26));
-			PacketSendUtility.sendPacket(activePlayer, new SM_LEGION_EDIT(0x04, activePlayer.getLegion()));//kinah
-
-			int whLvl = activePlayer.getLegion().getWarehouseLevel();
-			PacketSendUtility.sendPacket(activePlayer, new SM_WAREHOUSE_INFO(activePlayer.getLegion().getLegionWarehouse().getItems(), StorageType.LEGION_WAREHOUSE.getId(), whLvl, true, activePlayer));
-			PacketSendUtility.sendPacket(activePlayer, new SM_WAREHOUSE_INFO(null, StorageType.LEGION_WAREHOUSE.getId(), whLvl, false, activePlayer));
+	public void openLegionWarehouse(Player player, Npc npc) {
+		if (legionRestrictions.canOpenWarehouse(player)) {
+			LegionWhUpdate(player);
+			PacketSendUtility.sendPacket(player, new SM_LEGION_EDIT(0x04, player.getLegion()));//kinah
+			int whLvl = player.getLegion().getWarehouseLevel();
+			List<Item> items = player.getLegion().getLegionWarehouse().getItems();
+			int storageId = StorageType.LEGION_WAREHOUSE.getId();
+			boolean isEmpty = items.isEmpty();
+			if (!isEmpty) {
+				ListSplitter<Item> splitter = new ListSplitter<Item>(items, 10);
+				while (!splitter.isLast()) {
+					PacketSendUtility.sendPacket(player, new SM_WAREHOUSE_INFO(splitter.getNext(),
+									storageId, whLvl, splitter.isFirst(), player));
+				}
+			}
+			PacketSendUtility.sendPacket(player, new SM_WAREHOUSE_INFO(null, storageId, whLvl, isEmpty, player));
+			PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(npc.getObjectId(), 25));
 		}
 	}
 
@@ -1023,7 +1032,7 @@ public class LegionService {
 					}
 				}
 				catch (Exception ex) {
-					log.error("Exception during periodic update of legion ranking " + ex.getMessage());
+					log.error("Exception during periodic update of legion ranking " + ex.getMessage() + ": " + legion.getLegionName());
 				}
 
 				legionsUpdated++;
