@@ -54,27 +54,29 @@
 	
 	
 	<!-- Bind Points Asmodians -->
+	<!-- Not used -->
+	<bind_point name="Dark" npcid="700062" price="-1"/>
 	<!-- Pandaemonium -->
 	<bind_point name="Pandaemonium" npcid="700257" price="1540"/>
 	
 	<!-- Ishalgen -->
-	<bind_point name="Aldelle Village" npcid="700062" price="100"/>
-	<bind_point name="Anturoon Crossing" npcid="700063" price="100"/>
+	<bind_point name="Aldelle Village" npcid="700063" price="100"/>
+	<bind_point name="Anturoon Crossing" npcid="700064" price="3740"/>
 	
 	<!-- Altgard -->
-	<bind_point name="Altgard Fortress" npcid="700231" price="1100"/>
+	<bind_point name="Altgard Fortress" npcid="700065" price="4050"/>
 	<bind_point name="Basfelt Village" npcid="700232" price="1540"/>
 	<bind_point name="Heart Of Impetusium" npcid="700297" price="1980"/>
 	<bind_point name="Altgard Observatory" npcid="700823" price="2180"/>
 	<bind_point name="Trader Berth" npcid="700824" price="2580"/>
 	
 	<!-- Morheim -->
-	<bind_point name="Morheim Ice Fortress" npcid="700064" price="3740"/>
-	<bind_point name="Desert Garrison" npcid="700065" price="4050"/>
+	<bind_point name="Morheim Ice Fortress" npcid="700231" price="1100"/>
+	<bind_point name="Kellans Cabin" npcid="700258" price="2970"/>
 	<bind_point name="Alsig Village" npcid="700066" price="5470"/>
 	<bind_point name="Slag Bulwark" npcid="700067" price="6050"/>
 	<bind_point name="Morheim Observatory" npcid="700068" price="7900"/>
-	<bind_point name="Kellans Cabin" npcid="700213" price="8570"/>
+	<bind_point name="Desert Garrison" npcid="700213" price="8570"/>
 	<bind_point name="Halabana Outpost" npcid="700261" price="9780"/>
 	
 	<!-- Beluslan -->
@@ -86,8 +88,7 @@
 	<bind_point name="Kidorun Campsite" npcid="700825" price="7860"/>
 	
 	<!-- Brusthonin -->
-	<bind_point name="DF2a_Camp" npcid="700344" price="2136"/><!-- Settlers Campsite -->
-	<bind_point name="Settlers Campsite" npcid="700258" price="2970"/>
+	<bind_point name="Settlers Campsite" npcid="700344" price="2136"/>
 	<bind_point name="Baltasar Hill Village" npcid="700259" price="3500"/>
 	<bind_point name="BuBu Village" npcid="700260" price="4750"/>
 	<bind_point name="Edge Of Forment" npcid="730284" price="5750"/>
