@@ -178,7 +178,12 @@ public class PrivateStoreService {
 						store.removeItem(storeItem.getItemObjId());
 					
 				  // Log the trade
-					log.info("[PRIVATE STORE] > [Seller: " + seller.getName() + "] sold [Item: " + item.getItemId() + "][Amount: " + item.getItemCount() + "] to [Buyer: " + buyer.getName() + "] for [Price: " + price + "]");
+					log.info("[PRIVATE STORE] > [Seller: " + seller.getName() + "] sold "
+							+ "[Item: " + item.getItemId() + "]"
+							+ "[Amount: " + tradeItem.getCount() + "] to "
+							+ "[Buyer: " + buyer.getName() + "] for "
+							+ "[Price: " + storeItem.getPrice() + "] each and "
+							+ "[Total price: " + storeItem.getPrice() * tradeItem.getCount());
 				}
 			}
 			// Decrease kinah for buyer and Increase kinah for seller

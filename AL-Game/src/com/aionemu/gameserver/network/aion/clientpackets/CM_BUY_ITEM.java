@@ -43,7 +43,7 @@ public class CM_BUY_ITEM extends AionClientPacket {
 	private static final Logger log = LoggerFactory.getLogger(CM_BUY_ITEM.class);
 	
 	private int sellerObjId;
-	private int unk1;
+	private int tradeActionId;
 	private int amount;
 	private int itemId;
 	private long count;
@@ -59,7 +59,7 @@ public class CM_BUY_ITEM extends AionClientPacket {
 	protected void readImpl() {
 		Player player = getConnection().getActivePlayer();
 		sellerObjId = readD();
-		unk1 = readH();
+		tradeActionId = readH();
 		amount = readH(); // total no of items
 
 		if (amount < 0 || amount > 36) {
@@ -67,7 +67,7 @@ public class CM_BUY_ITEM extends AionClientPacket {
 			AuditLogger.info(player, "Player might be abusing CM_BUY_ITEM amount: " + amount);
 			return;
 		}
-		if (unk1 == 2) {
+		if (tradeActionId == 2) {
 			repurchaseList = new RepurchaseList(sellerObjId);
 		}
 		else {
@@ -79,20 +79,25 @@ public class CM_BUY_ITEM extends AionClientPacket {
 			count = readQ();
 
 			// prevent exploit packets
-			if (count < 1 || itemId <= 0 || itemId == 190000073 || itemId == 190000074 || count > 20000) {
+			if (count < 0 || (itemId <= 0 && tradeActionId != 0) || itemId == 190000073 || itemId == 190000074 || count > 20000) {
 				isAudit = true;
 					AuditLogger.info(player, "Player might be abusing CM_BUY_ITEM item: " + itemId + " count: " + count);
 				break;
 			}
 
-			if (unk1 == 13 || unk1 == 14 || unk1 == 15) {
-				tradeList.addBuyItem(itemId, count);
-			}
-			else if (unk1 == 0 || unk1 == 1) {
-				tradeList.addSellItem(itemId, count);
-			}
-			else if (unk1 == 2) {
-				repurchaseList.addRepurchaseItem(player, itemId, count);
+			switch(tradeActionId) {
+				case 0://private store
+				case 1://sell to shop
+					tradeList.addSellItem(itemId, count);
+					break;
+				case 2://repurchase
+					repurchaseList.addRepurchaseItem(player, itemId, count);
+					break;
+				case 13://buy from shop
+				case 14://buy from abyss shop
+				case 15://buy from reward shop
+					tradeList.addBuyItem(itemId, count);
+					break;
 			}
 		}
 	}
@@ -103,9 +108,13 @@ public class CM_BUY_ITEM extends AionClientPacket {
 	@Override
 	protected void runImpl() {
 		Player player = getConnection().getActivePlayer();
-		VisibleObject target = player.getTarget();
 
-		if (isAudit || player == null || target == null)
+		if (isAudit || player == null)
+			return;
+		
+		VisibleObject target = player.getTarget();
+		
+		if (target == null)
 			return;
 
 		if (target.getObjectId() != sellerObjId) {
@@ -113,37 +122,37 @@ public class CM_BUY_ITEM extends AionClientPacket {
 			return;
 		}
 
-		switch (unk1) {
-			case 0:
+		switch (tradeActionId) {
+			case 0://private store
 				Player targetPlayer = (Player) World.getInstance().findVisibleObject(sellerObjId);
 				PrivateStoreService.sellStoreItem(targetPlayer, player, tradeList);
 				break;
-			case 1:
+			case 1://sell to shop
 				TradeService.performSellToShop(player, tradeList);
 				break;
-			case 2:
+			case 2://repurchase
 				RepurchaseService.getInstance().repurchaseFromShop(player, repurchaseList);
 				break;
-			case 13:
+			case 13://buy from shop
 				Npc npc = (Npc) World.getInstance().findVisibleObject(sellerObjId);
 				TradeListTemplate tlist = DataManager.TRADE_LIST_DATA.getTradeListTemplate(npc.getNpcId());
 				if (tlist.getTradeNpcType() == TradeNpcType.NORMAL)
 					TradeService.performBuyFromShop(player, tradeList);
 				break;
-			case 14:
+			case 14://buy from abyss shop
 				Npc npc1 = (Npc) World.getInstance().findVisibleObject(sellerObjId);
 				TradeListTemplate tlist1 = DataManager.TRADE_LIST_DATA.getTradeListTemplate(npc1.getNpcId());
 				if (tlist1.getTradeNpcType() == TradeNpcType.ABYSS)
 					TradeService.performBuyFromAbyssShop(player, tradeList);
 				break;
-			case 15:
+			case 15://buy from reward shop
 				Npc npc2 = (Npc) World.getInstance().findVisibleObject(sellerObjId);
 				TradeListTemplate tlist2 = DataManager.TRADE_LIST_DATA.getTradeListTemplate(npc2.getNpcId());
 				if (tlist2.getTradeNpcType() == TradeNpcType.REWARD)
 					TradeService.performBuyFromRewardShop(player, tradeList);
 				break;
 			default:
-				log.info(String.format("Unhandle shop action unk1: %d", unk1));
+				log.info(String.format("Unhandle shop action unk1: %d", tradeActionId));
 				break;
 		}
 	}
