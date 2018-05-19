@@ -148,9 +148,6 @@ public class ExchangeService {
 			PacketSendUtility.sendPacket(activePlayer, new SM_EXCHANGE_ADD_KINAH(countToAdd, 0));
 			PacketSendUtility.sendPacket(partner, new SM_EXCHANGE_ADD_KINAH(countToAdd, 1));
 			currentExchange.addKinah(countToAdd);
-			if(LoggingConfig.LOG_PLAYER_EXCHANGE)
-				log.info("[PLAYER EXCHANGE] > [Player: " + activePlayer.getName() + "] exchanged [Item: 182400001" + 
-				(LoggingConfig.ENABLE_ADVANCED_LOGGING ? "] [Item Name: Kinah]" : "]")  + " [Count: " + countToAdd + "] with [Partner: " + partner.getName() + "]");
 		}
 	}
 
@@ -221,12 +218,6 @@ public class ExchangeService {
 
 		PacketSendUtility.sendPacket(activePlayer, new SM_EXCHANGE_ADD_ITEM(0, exchangeItem.getItem(), activePlayer));
 		PacketSendUtility.sendPacket(partner, new SM_EXCHANGE_ADD_ITEM(1, exchangeItem.getItem(), partner));
-
-		Item exchangedItem = exchangeItem.getItem();
-		
-		if(LoggingConfig.LOG_PLAYER_EXCHANGE)
-			log.info("[PLAYER EXCHANGE] > [Player: " + activePlayer.getName() + "] exchanged [Item: " + exchangedItem.getItemId() +
-			(LoggingConfig.ENABLE_ADVANCED_LOGGING ? "] [Item Name: " + exchangedItem.getItemName() + "]" : "]") + " [Count: " + exchangeItem.getItemCount() + " with [Partner: " + partner.getName() + "]");
 	}
 
 	/**
@@ -278,7 +269,6 @@ public class ExchangeService {
 	 * @param currentPartner
 	 */
 	private void performTrade(Player activePlayer, Player currentPartner) {
-		// TODO message here
 		// TODO release item id if return
 		if (!validateExchange(activePlayer, currentPartner)) {
 			cleanupExchanges(activePlayer, currentPartner);
@@ -301,7 +291,32 @@ public class ExchangeService {
 
 		putItemToInventory(currentPartner, exchange1, exchange2);
 		putItemToInventory(activePlayer, exchange2, exchange1);
-
+		
+		if(LoggingConfig.LOG_PLAYER_EXCHANGE) {
+			//TODO: improve the code here 
+			for (ExchangeItem exchangeItem : exchange1.getItems().values()) {
+				Item itemToPut = exchangeItem.getItem();
+				log.info("[PLAYER EXCHANGE] > [Player: " + activePlayer.getName() + "] exchanged "
+						+ "[Item: " + itemToPut.getItemId() 
+						+ (LoggingConfig.ENABLE_ADVANCED_LOGGING ? "] [Item Name: " + itemToPut.getItemName() + "]" : "]") 
+						+ " [Count: " + exchangeItem.getItemCount() + " with [Partner: " + currentPartner.getName() + "]");
+			}
+			for (ExchangeItem exchangeItem : exchange2.getItems().values()) {
+				Item itemToPut = exchangeItem.getItem();
+				log.info("[PLAYER EXCHANGE] > [Player: " + currentPartner.getName() + "] exchanged "
+						+ "[Item: " + itemToPut.getItemId() 
+						+ (LoggingConfig.ENABLE_ADVANCED_LOGGING ? "] [Item Name: " + itemToPut.getItemName() + "]" : "]") 
+						+ " [Count: " + exchangeItem.getItemCount() + " with [Partner: " + activePlayer.getName() + "]");
+			}
+			long kinahToExchange = exchange1.getKinahCount() + exchange2.getKinahCount();
+			if (kinahToExchange > 0) {
+				log.info("[PLAYER EXCHANGE] > [Player: " + activePlayer.getName() + "] exchanged " + exchange1.getKinahCount()
+						+ " kinahs with " + currentPartner.getName());
+				log.info("[PLAYER EXCHANGE] > [Player: " + currentPartner.getName() + "] exchanged " + exchange2.getKinahCount()
+						+ " kinahs with " + activePlayer.getName());
+			}
+		}
+		
 		saveManager.add(new ExchangeOpSaveTask(exchange1.getActiveplayer().getObjectId(), exchange2.getActiveplayer()
 			.getObjectId(), exchange1.getItemsToUpdate(), exchange2.getItemsToUpdate()));
 	}
