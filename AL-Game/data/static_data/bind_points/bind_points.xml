@@ -86,6 +86,7 @@
 	<bind_point name="Kidorun Campsite" npcid="700825" price="7860"/>
 	
 	<!-- Brusthonin -->
+	<bind_point name="DF2a_Camp" npcid="700344" price="2136"/><!-- Settlers Campsite -->
 	<bind_point name="Settlers Campsite" npcid="700258" price="2970"/>
 	<bind_point name="Baltasar Hill Village" npcid="700259" price="3500"/>
 	<bind_point name="BuBu Village" npcid="700260" price="4750"/>
